@@ -245,8 +245,6 @@ def main():
 
     fig.update_layout(
         showlegend=False,
-        legend_borderwidth=1.5,
-        xaxis_rangeslider_visible=False,
         width=1080,
         height=1920,
         font_family="Quicksand",
@@ -396,8 +394,6 @@ def main2():
 
     fig.update_layout(
         showlegend=False,
-        legend_borderwidth=1.5,
-        xaxis_rangeslider_visible=False,
         width=1080,
         height=1920,
         font_family="Quicksand",
