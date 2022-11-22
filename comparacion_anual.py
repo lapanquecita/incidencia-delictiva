@@ -12,14 +12,14 @@ import pandas as pd
 import plotly.graph_objects as go
 
 
-# EL primer año que se desea comparar
+# El primer año que se desea comparar
 AÑO1 = 2021
 
 # El segundo año que se desea comparar
 AÑO2 = 2022
 
 # El mes que se desea comparar (la primera letra debe ir en mayúscula)
-MES = "Julio"
+MES = "Octubre"
 
 # La entidad que se desea comparar (México para comparar todo el país)
 ENTIDAD = "México"
@@ -75,7 +75,7 @@ def main():
                     f"<b>{AÑO2} ↓</b>",
                     "<b>Cambio</b>"
                 ],
-                font_color="white",
+                font_color="#FFFFFF",
                 fill_color="#827717",
                 align="center",
                 height=28
@@ -87,7 +87,7 @@ def main():
                     final[AÑO2],
                     final["texto"]
                 ],
-                fill_color=["#112B3C", "#112B3C", "#112B3C", final["color"]],
+                fill_color=["#041C32", "#041C32", "#041C32", final["color"]],
                 height=28,
                 align=["left", "center", "center"]
             )
@@ -101,7 +101,7 @@ def main():
         width=920,
         height=1705,
         font_family="Quicksand",
-        font_color="white",
+        font_color="#FFFFFF",
         font_size=16,
         margin_t=50,
         margin_l=40,
@@ -111,7 +111,7 @@ def main():
         title_y=0.988,
         title_font_size=20,
         title_text=f"Comparación de delitos reportados en {ENTIDAD} durante {MES.lower()} de los años {AÑO1} y {AÑO2}",
-        paper_bgcolor="#205375",
+        paper_bgcolor="#04293A",
         annotations=[
             dict(
                 x=0.015,
@@ -183,8 +183,8 @@ def main2():
                     f"<b>{AÑO2} ↓</b>",
                     "<b>Cambio</b>"
                 ],
-                font_color="white",
-                fill_color="#ab47bc",
+                font_color="#FFFFFF",
+                fill_color="#ad1457",
                 align="center",
                 height=28
             ),
@@ -195,7 +195,7 @@ def main2():
                     final[AÑO2],
                     final["texto"]
                 ],
-                fill_color=["#112B3C", "#112B3C", "#112B3C", final["color"]],
+                fill_color=["#041C32", "#041C32", "#041C32", final["color"]],
                 height=28,
                 align=["left", "center", "center"]
             )
@@ -206,7 +206,7 @@ def main2():
         width=920,
         height=2265,
         font_family="Quicksand",
-        font_color="white",
+        font_color="#FFFFFF",
         font_size=16,
         margin_t=50,
         margin_l=40,
@@ -216,7 +216,7 @@ def main2():
         title_y=0.992,
         title_font_size=20,
         title_text=f"Comparación de delitos reportados en {ENTIDAD} durante {MES.lower()} de los años {AÑO1} y {AÑO2}",
-        paper_bgcolor="#205375",
+        paper_bgcolor="#04293A",
         annotations=[
             dict(
                 x=0.015,
@@ -258,7 +258,7 @@ def format_text(x):
     if x["diff"] > 0:
         return "+{:,.0f} <sup>+{:,.2f}%</sup>".format(x["diff"], x["change"])
     else:
-        return"{:,.0f} <sup>{:,.2f}%</sup>".format(x["diff"], x["change"])
+        return "{:,.0f} <sup>{:,.2f}%</sup>".format(x["diff"], x["change"])
 
 
 def set_color(x):
