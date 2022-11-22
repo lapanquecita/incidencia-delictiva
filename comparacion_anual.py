@@ -76,6 +76,7 @@ def main():
                     "<b>Cambio</b>"
                 ],
                 font_color="#FFFFFF",
+                line_width=0.75,
                 fill_color="#827717",
                 align="center",
                 height=28
@@ -87,6 +88,7 @@ def main():
                     final[AÑO2],
                     final["texto"]
                 ],
+                line_width=0.75,
                 fill_color=["#041C32", "#041C32", "#041C32", final["color"]],
                 height=28,
                 align=["left", "center", "center"]
@@ -184,6 +186,7 @@ def main2():
                     "<b>Cambio</b>"
                 ],
                 font_color="#FFFFFF",
+                line_width=0.75,
                 fill_color="#ad1457",
                 align="center",
                 height=28
@@ -195,6 +198,7 @@ def main2():
                     final[AÑO2],
                     final["texto"]
                 ],
+                line_width=0.75,
                 fill_color=["#041C32", "#041C32", "#041C32", final["color"]],
                 height=28,
                 align=["left", "center", "center"]
