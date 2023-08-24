@@ -13,21 +13,25 @@ import plotly.graph_objects as go
 
 
 # El primer año que se desea comparar
-AÑO1 = 2021
+AÑO1 = 2022
 
 # El segundo año que se desea comparar
-AÑO2 = 2022
+AÑO2 = 2023
 
 # El mes que se desea comparar (la primera letra debe ir en mayúscula)
-MES = "Octubre"
+MES = "Julio"
 
 # La entidad que se desea comparar (México para comparar todo el país)
 ENTIDAD = "México"
 
+# Fecha para mostrar en la fuente.
+FUENTE_FECHA = "(agosto 2023)"
+
 
 def main():
 
-    df = pd.read_csv("./delitos.csv", encoding="latin-1")
+    # Cargamos el dataset de delitos esttales.
+    df = pd.read_csv("./estatal.csv", encoding="latin-1")
 
     # Si la entidad es México entonces se calcula a nivel nacional
     # de lo contrario se calcula a nivel estatal
@@ -77,9 +81,8 @@ def main():
                 ],
                 font_color="#FFFFFF",
                 line_width=0.75,
-                fill_color="#827717",
+                fill_color="#116D6E",
                 align="center",
-                height=28
             ),
             cells=dict(
                 values=[
@@ -89,8 +92,7 @@ def main():
                     final["texto"]
                 ],
                 line_width=0.75,
-                fill_color=["#041C32", "#041C32", "#041C32", final["color"]],
-                height=28,
+                fill_color=["#321E1E", "#321E1E", "#321E1E", final["color"]],
                 align=["left", "center", "center"]
             )
         )
@@ -101,8 +103,8 @@ def main():
         legend_borderwidth=1.5,
         xaxis_rangeslider_visible=False,
         width=920,
-        height=1705,
-        font_family="Quicksand",
+        height=1670,
+        font_family="Lato",
         font_color="#FFFFFF",
         font_size=16,
         margin_t=50,
@@ -113,14 +115,14 @@ def main():
         title_y=0.988,
         title_font_size=20,
         title_text=f"Comparación de delitos reportados en {ENTIDAD} durante {MES.lower()} de los años {AÑO1} y {AÑO2}",
-        paper_bgcolor="#04293A",
+        paper_bgcolor="#4E3636",
         annotations=[
             dict(
                 x=0.015,
                 y=0.005,
                 xanchor="left",
                 yanchor="top",
-                text="Fuente: SESNSP"
+                text=f"Fuente: SESNSP {FUENTE_FECHA}"
             ),
             dict(
                 x=1.015,
@@ -132,12 +134,13 @@ def main():
         ]
     )
 
-    fig.write_image("./2.png")
+    fig.write_image("./comparacion_tipo_delitos.png")
 
 
 def main2():
 
-    df = pd.read_csv("./delitos.csv", encoding="latin-1")
+    # Cargamos el dataset de delitos esttales.
+    df = pd.read_csv("./estatal.csv", encoding="latin-1")
 
     # Si la entidad es México entonces se calcula a nivel nacional
     # de lo contrario se calcula a nivel estatal
@@ -189,7 +192,6 @@ def main2():
                 line_width=0.75,
                 fill_color="#ad1457",
                 align="center",
-                height=28
             ),
             cells=dict(
                 values=[
@@ -200,7 +202,6 @@ def main2():
                 ],
                 line_width=0.75,
                 fill_color=["#041C32", "#041C32", "#041C32", final["color"]],
-                height=28,
                 align=["left", "center", "center"]
             )
         )
@@ -208,8 +209,8 @@ def main2():
 
     fig.update_layout(
         width=920,
-        height=2265,
-        font_family="Quicksand",
+        height=2220,
+        font_family="Lato",
         font_color="#FFFFFF",
         font_size=16,
         margin_t=50,
@@ -224,14 +225,14 @@ def main2():
         annotations=[
             dict(
                 x=0.015,
-                y=0.002,
+                y=0.005,
                 xanchor="left",
                 yanchor="top",
-                text="Fuente: SESNSP"
+                text=f"Fuente: SESNSP {FUENTE_FECHA}"
             ),
             dict(
                 x=1.015,
-                y=0.002,
+                y=0.005,
                 xanchor="right",
                 yanchor="top",
                 text="🧁 @lapanquecita"
@@ -239,7 +240,7 @@ def main2():
         ]
     )
 
-    fig.write_image("./3.png")
+    fig.write_image("./comparacion_subtipo_delitos.png")
 
 
 def format_text(x):
@@ -270,18 +271,18 @@ def set_color(x):
     Con esta función definimos que color de fondo tendrá la celda del cambio porcentual
     """
 
-    # Verde para los delitos que se redujeron
+    # Rojo para los delitos que aumentaron
     if x > 0:
-        return "#b71c1c"
-    # rojo para los delitos que aumentaron
+        return "#8B0000"
+    # Verde para los delitos que se redujeron
     elif x < 0:
-        return "#2e7d32"
+        return "#1b5e20"
     # Azul para los que se mantuvieron igual
     else:
-        return "#1976d2"
+        return "#084177"
 
 
 if __name__ == "__main__":
 
     main()
-    main2()
+    # main2()
