@@ -25,13 +25,13 @@ DELITOS = [
 ]
 
 # esta constante es usada para definir el último mes.
-MES_ACTUAL = "2023-07-01"
+MES_ACTUAL = "2023-08-01"
 
 # El mes que se mostrará en el título.
-MES = "julio"
+MES = "agosto"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "agosto"
+MES_FUENTE = "septiembre"
 
 
 def main():
@@ -75,8 +75,14 @@ def main():
     for fila in range(4):
         for columna in range(3):
 
+            # Filtramos el dataset con el delito seleccionado.
+            temp_df = df[df["delito"] == DELITOS[index]].copy()
+
+            # Creamos el promedio móvil.
+            temp_df["movil"] = temp_df["total"].rolling(12).mean()
+
             # Escogemos los últimos 13 meses del delito seleccionado.
-            temp_df = df[df["delito"] == DELITOS[index]][-13:].copy()
+            temp_df = temp_df[-13:]
 
             # Creamos la columna de fecha usando la abreviación y el año en formato corto.
             temp_df["fecha"] = temp_df.index.map(
@@ -85,8 +91,8 @@ def main():
             # Para nuestra gráfica sparkline solo el primer y el último punto
             # tendrán una marca. Aquí definimos eso.
             tamaño_marca = [0 for _ in range(len(temp_df))]
-            tamaño_marca[0] = 20
-            tamaño_marca[-1] = 20
+            tamaño_marca[0] = 16
+            tamaño_marca[-1] = 16
 
             # El siguiente grupo de variables van a ser usadas para
             # definir la posición de los textos, así como los colores.
@@ -144,12 +150,15 @@ def main():
 
             # Estas variables serán usadas para la anotación de cada sparkline.
             diferencia = ultimo_valor - primer_valor
-            cambio_porcentual = (ultimo_valor - primer_valor) / primer_valor * 100
+            cambio_porcentual = (
+                ultimo_valor - primer_valor) / primer_valor * 100
 
             if diferencia > 0:
-                totales.append(f"<b>+{diferencia:,}</b><br>+{cambio_porcentual:,.2f}%")
+                totales.append(
+                    f"<b>+{diferencia:,}</b><br>+{cambio_porcentual:,.2f}%")
             else:
-                totales.append(f"<b>{diferencia:,}</b><br>{cambio_porcentual:,.2f}%")
+                totales.append(
+                    f"<b>{diferencia:,}</b><br>{cambio_porcentual:,.2f}%")
 
             # Creamos nuestro sparkline.
             fig.add_trace(
@@ -159,16 +168,29 @@ def main():
                     text=textos,
                     mode="markers+lines+text",
                     textposition=text_pos,
-                    textfont_size=18,
+                    textfont_size=16,
                     marker_color=color,
                     marker_opacity=1.0,
                     marker_size=tamaño_marca,
                     marker_line_width=0,
-                    line_width=4,
+                    line_width=3.5,
                     line_shape="spline",
                     line_smoothing=1.0,
                 ),
-                row=fila+1, col=columna+1)
+                row=fila+1, col=columna+1
+            )
+
+            # Agregamos el promedio móvil.
+            fig.add_trace(
+                go.Scatter(
+                    x=temp_df["fecha"],
+                    y=temp_df["movil"],
+                    mode="lines",
+                    line_width=3.5,
+                    line_color="hsla(255, 100, 100, 0.8)",
+                ),
+                row=fila+1, col=columna+1
+            )
 
             index += 1
 
@@ -223,13 +245,13 @@ def main():
     # Estas listas guardaran las coordenadas X y Y de nuestras anotaciones.
     anotaciones_x = list()
     anotaciones_y = list()
-    
+
     # Esta lista representa la posición de las anotaciones dentro de cada gráfica.
     posiciones = [
-        "bottom", "top", "top",
+        "bottom", "bottom", "bottom",
         "top", "top",  "top",
         "bottom", "top", "bottom",
-        "bottom", "top", "bottom"
+        "bottom", "bottom", "bottom"
     ]
 
     # Lo que haremos se puede considerar como un hack.
@@ -237,7 +259,7 @@ def main():
     # Lo que haremos es modificar estos títulos y extraer sus coordenadas
     # para usarlas en nuestras propias anotaciones.
     for annotation in fig["layout"]["annotations"]:
-        
+
         # Ajustamos un poco la posición Y de los títulos y le cambiamos el tamaño de texto.
         annotation["y"] += 0.005
         annotation["font"]["size"] = 24
@@ -294,7 +316,7 @@ def main():
         yanchor="top",
         yref="paper",
         font_size=22,
-        text="(un registro de delito puede tener más de una víctima)"
+        text="(Un registro de delito puede tener más de una víctima. Se incluye la tendencia anual para cada delito.)"
     )
 
     fig.add_annotation(
