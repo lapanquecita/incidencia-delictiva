@@ -208,7 +208,7 @@ def main():
     )
 
     fig.update_yaxes(
-        title_text="Delitos registrados al mes",
+        title_text="Delitos registrados mensualmente",
         separatethousands=True,
         tickfont_size=14,
         ticks="outside",
@@ -316,7 +316,7 @@ def main():
         yanchor="top",
         yref="paper",
         font_size=22,
-        text="(Un registro de delito puede tener más de una víctima. Se incluye la tendencia anual para cada delito.)"
+        text="(Un registro de delito puede tener más de una víctima. Se incluye el promedio móvil de los últimos 12 meses.)"
     )
 
     fig.add_annotation(
