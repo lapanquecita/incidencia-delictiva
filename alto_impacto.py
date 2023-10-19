@@ -25,13 +25,13 @@ DELITOS = [
 ]
 
 # esta constante es usada para definir el último mes.
-MES_ACTUAL = "2023-08-01"
+MES_ACTUAL = "2023-09-01"
 
 # El mes que se mostrará en el título.
-MES = "agosto"
+MES = "septiembre"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "septiembre"
+MES_FUENTE = "octubre"
 
 
 def main():
@@ -96,10 +96,10 @@ def main():
 
             # El siguiente grupo de variables van a ser usadas para
             # definir la posición de los textos, así como los colores.
-            primer_valor = temp_df["total"][0]
-            segundo_valor = temp_df["total"][1]
-            penultimo_valor = temp_df["total"][-2]
-            ultimo_valor = temp_df["total"][-1]
+            primer_valor = temp_df["total"].iloc[0]
+            segundo_valor = temp_df["total"].iloc[1]
+            penultimo_valor = temp_df["total"].iloc[-2]
+            ultimo_valor = temp_df["total"].iloc[-1]
 
             valor_maximo = temp_df["total"].max()
             valor_minimo = temp_df["total"].min()
@@ -250,7 +250,7 @@ def main():
     posiciones = [
         "bottom", "bottom", "bottom",
         "top", "top",  "top",
-        "bottom", "top", "bottom",
+        "top", "top", "bottom",
         "bottom", "bottom", "bottom"
     ]
 
