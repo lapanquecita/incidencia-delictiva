@@ -1,14 +1,18 @@
 """
+
 Este script convierte los datasets del SESNSP a series de tiempo.
 Lo cual los hace más fáciles de utilizar.
+
+Fuente:
+https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva
+
 """
 
-import numpy as np
 import csv
 from datetime import date
 
+import numpy as np
 import pandas as pd
-
 
 # Este diccionario será usado para crear las fechas.
 MESES = {
@@ -33,7 +37,7 @@ def convert_to_timeseries(file):
     data_list = [["isodate", "entidad", "delito", "total"]]
 
     # Cargamos el dataset con codificación latin-1.
-    df = pd.read_csv(f"./{file}.csv", encoding="latin-1")
+    df = pd.read_csv(f"./data/{file}.csv", encoding="latin-1")
 
     # Obtenemos una lista de todos los subtipos de delitos.
     delitos = df["Subtipo de delito"].unique().tolist()
@@ -79,11 +83,52 @@ def convert_to_timeseries(file):
                     )
 
     # Guardamos el archivo final con un prefijo.
-    with open(f"./timeseries_{file}.csv", "w", encoding="utf-8", newline="") as csv_file:
+    with open(f"./data/timeseries_{file}.csv", "w", encoding="utf-8", newline="") as csv_file:
         csv.writer(csv_file).writerows(data_list)
+
+
+def municipios_to_timeseries():
+    """
+    Genera series de tiempo para cada municipio y subtipo de delito.
+    En lugar de ser mensual, es anual.
+
+    Esta función es similar a la anterior, pero las diferencias ameritan
+    tener su propia función.
+    """
+
+    # Cargamos el dataset de municipios con codificación latin-1.
+    df = pd.read_csv("./data/municipal.csv", encoding="latin-1")
+
+    # Arreglamos la clave del municipio.
+    df["Cve. Municipio"] = df["Cve. Municipio"].astype(str).str.zfill(5)
+
+    # Esta lista de meses será usada para calcular el total anual.
+    meses = [item for item in MESES.keys()]
+
+    # Calculamos los totales anuales de cada delito.
+    df["total"] = df[meses].sum(axis=1)
+
+    # Agrupamos las columnas.
+    df = df.groupby(["Año", "Cve. Municipio", "Subtipo de delito"]).sum(
+        numeric_only=True)
+
+    # Reseteamos el índice y renombramos las columnas.
+    df.reset_index(names=["año", "cve_municipio",
+                   "delito", "total"], inplace=True)
+
+    # Reordenamos las columnas
+    df = df[["año", "cve_municipio", "delito", "total"]]
+
+    # Convertimos el total a int.
+    df["total"] = df["total"].astype(int)
+
+    # Guardamos el nuevo archivo .csv
+    df.to_csv("./data/timeseries_municipal.csv",
+              index=False, encoding="utf-8", chunksize=200000)
 
 
 if __name__ == "__main__":
 
     convert_to_timeseries("victimas")
     convert_to_timeseries("estatal")
+    municipios_to_timeseries()
