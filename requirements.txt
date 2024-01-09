@@ -1,4 +1,5 @@
 kaleido
 numpy
 pandas
+pillow
 plotly
