@@ -25,13 +25,13 @@ DELITOS = [
 ]
 
 # esta constante es usada para definir el último mes.
-MES_ACTUAL = "2023-09-01"
+MES_ACTUAL = "2023-11-01"
 
 # El mes que se mostrará en el título.
-MES = "septiembre"
+MES = "diciembre"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "octubre"
+MES_FUENTE = "enero"
 
 
 def main():
@@ -45,7 +45,7 @@ def main():
 
     # Cargamos el dataset de series de tiempo estatal y definimos la columna índice.
     df = pd.read_csv(
-        "./timeseries_estatal.csv",
+        "./data/timeseries_estatal.csv",
         parse_dates=["isodate"],
         index_col="isodate"
     )
@@ -248,7 +248,7 @@ def main():
 
     # Esta lista representa la posición de las anotaciones dentro de cada gráfica.
     posiciones = [
-        "bottom", "bottom", "bottom",
+        "top", "bottom", "bottom",
         "top", "top",  "top",
         "top", "top", "bottom",
         "bottom", "bottom", "bottom"
@@ -304,7 +304,7 @@ def main():
         y=-0.095,
         yanchor="bottom",
         yref="paper",
-        text=f"Fuente: SESNSP ({MES_FUENTE} 2023)",
+        text=f"Fuente: SESNSP ({MES_FUENTE} 2024)",
         font_size=20,
     )
 
