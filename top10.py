@@ -290,7 +290,7 @@ def main(tipo, año):
         font_family="Montserrat",
         font_color="white",
         font_size=18,
-        title_text=f"Las 10 entidades de México con <b>{titulo}</b> incidencia delictiva por tipo de delito durante el {año}<br>*(un registro puede tener más de una víctima)",
+        title_text=f"Las 10 entidades de México con <b>{titulo}</b> incidencia delictiva por tipo de delito durante el {año}<br>(un registro puede tener más de una víctima)",
         title_x=0.5,
         title_y=0.98,
         margin_t=90,
