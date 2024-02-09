@@ -41589,7 +41589,7 @@ isodate,entidad,delito,total
 2022-08-01,Nacional,Homicidio doloso,2615
 2022-09-01,Nacional,Homicidio doloso,2649
 2022-10-01,Nacional,Homicidio doloso,2770
-2022-11-01,Nacional,Homicidio doloso,2351
+2022-11-01,Nacional,Homicidio doloso,2353
 2022-12-01,Nacional,Homicidio doloso,2529
 2022-01-01,Nacional,Homicidio culposo,1539
 2022-02-01,Nacional,Homicidio culposo,1352
@@ -41637,7 +41637,7 @@ isodate,entidad,delito,total
 2022-08-01,Nacional,Feminicidio,75
 2022-09-01,Nacional,Feminicidio,80
 2022-10-01,Nacional,Feminicidio,86
-2022-11-01,Nacional,Feminicidio,81
+2022-11-01,Nacional,Feminicidio,79
 2022-12-01,Nacional,Feminicidio,77
 2022-01-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1104
 2022-02-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,995
@@ -41646,7 +41646,7 @@ isodate,entidad,delito,total
 2022-05-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1414
 2022-06-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1312
 2022-07-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1330
-2022-08-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1388
+2022-08-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1389
 2022-09-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1300
 2022-10-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1397
 2022-11-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1217
@@ -43266,7 +43266,7 @@ isodate,entidad,delito,total
 2022-05-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,120
 2022-06-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,102
 2022-07-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,121
-2022-08-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,93
+2022-08-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,94
 2022-09-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,107
 2022-10-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,106
 2022-11-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,96
@@ -45189,7 +45189,7 @@ isodate,entidad,delito,total
 2022-08-01,Oaxaca,Homicidio doloso,114
 2022-09-01,Oaxaca,Homicidio doloso,74
 2022-10-01,Oaxaca,Homicidio doloso,104
-2022-11-01,Oaxaca,Homicidio doloso,65
+2022-11-01,Oaxaca,Homicidio doloso,67
 2022-12-01,Oaxaca,Homicidio doloso,86
 2022-01-01,Oaxaca,Homicidio culposo,85
 2022-02-01,Oaxaca,Homicidio culposo,63
@@ -45237,7 +45237,7 @@ isodate,entidad,delito,total
 2022-08-01,Oaxaca,Feminicidio,4
 2022-09-01,Oaxaca,Feminicidio,4
 2022-10-01,Oaxaca,Feminicidio,5
-2022-11-01,Oaxaca,Feminicidio,3
+2022-11-01,Oaxaca,Feminicidio,1
 2022-12-01,Oaxaca,Feminicidio,1
 2022-01-01,Oaxaca,Otros delitos que atentan contra la vida y la integridad corporal,25
 2022-02-01,Oaxaca,Otros delitos que atentan contra la vida y la integridad corporal,14
@@ -47522,87 +47522,87 @@ isodate,entidad,delito,total
 2023-01-01,Nacional,Homicidio doloso,2600
 2023-02-01,Nacional,Homicidio doloso,2285
 2023-03-01,Nacional,Homicidio doloso,2602
-2023-04-01,Nacional,Homicidio doloso,2440
-2023-05-01,Nacional,Homicidio doloso,2662
-2023-06-01,Nacional,Homicidio doloso,2541
-2023-07-01,Nacional,Homicidio doloso,2465
+2023-04-01,Nacional,Homicidio doloso,2441
+2023-05-01,Nacional,Homicidio doloso,2663
+2023-06-01,Nacional,Homicidio doloso,2542
+2023-07-01,Nacional,Homicidio doloso,2467
 2023-08-01,Nacional,Homicidio doloso,2482
 2023-09-01,Nacional,Homicidio doloso,2524
 2023-10-01,Nacional,Homicidio doloso,2403
-2023-11-01,Nacional,Homicidio doloso,2350
-2023-12-01,Nacional,Homicidio doloso,0
+2023-11-01,Nacional,Homicidio doloso,2351
+2023-12-01,Nacional,Homicidio doloso,2315
 2023-01-01,Nacional,Homicidio culposo,1633
 2023-02-01,Nacional,Homicidio culposo,1474
 2023-03-01,Nacional,Homicidio culposo,1736
 2023-04-01,Nacional,Homicidio culposo,1619
 2023-05-01,Nacional,Homicidio culposo,1669
-2023-06-01,Nacional,Homicidio culposo,1687
+2023-06-01,Nacional,Homicidio culposo,1688
 2023-07-01,Nacional,Homicidio culposo,1664
 2023-08-01,Nacional,Homicidio culposo,1671
-2023-09-01,Nacional,Homicidio culposo,1433
+2023-09-01,Nacional,Homicidio culposo,1432
 2023-10-01,Nacional,Homicidio culposo,1481
-2023-11-01,Nacional,Homicidio culposo,1450
-2023-12-01,Nacional,Homicidio culposo,0
+2023-11-01,Nacional,Homicidio culposo,1451
+2023-12-01,Nacional,Homicidio culposo,1734
 2023-01-01,Nacional,Lesiones dolosas,14022
-2023-02-01,Nacional,Lesiones dolosas,14048
+2023-02-01,Nacional,Lesiones dolosas,14047
 2023-03-01,Nacional,Lesiones dolosas,17027
 2023-04-01,Nacional,Lesiones dolosas,15190
-2023-05-01,Nacional,Lesiones dolosas,16753
-2023-06-01,Nacional,Lesiones dolosas,17862
-2023-07-01,Nacional,Lesiones dolosas,14987
-2023-08-01,Nacional,Lesiones dolosas,14725
-2023-09-01,Nacional,Lesiones dolosas,16189
-2023-10-01,Nacional,Lesiones dolosas,15832
-2023-11-01,Nacional,Lesiones dolosas,14430
-2023-12-01,Nacional,Lesiones dolosas,0
+2023-05-01,Nacional,Lesiones dolosas,16752
+2023-06-01,Nacional,Lesiones dolosas,17864
+2023-07-01,Nacional,Lesiones dolosas,14988
+2023-08-01,Nacional,Lesiones dolosas,14727
+2023-09-01,Nacional,Lesiones dolosas,16191
+2023-10-01,Nacional,Lesiones dolosas,15829
+2023-11-01,Nacional,Lesiones dolosas,14431
+2023-12-01,Nacional,Lesiones dolosas,13208
 2023-01-01,Nacional,Lesiones culposas,5587
-2023-02-01,Nacional,Lesiones culposas,5497
+2023-02-01,Nacional,Lesiones culposas,5498
 2023-03-01,Nacional,Lesiones culposas,6156
 2023-04-01,Nacional,Lesiones culposas,5817
 2023-05-01,Nacional,Lesiones culposas,6042
-2023-06-01,Nacional,Lesiones culposas,6184
+2023-06-01,Nacional,Lesiones culposas,6182
 2023-07-01,Nacional,Lesiones culposas,5912
-2023-08-01,Nacional,Lesiones culposas,5713
+2023-08-01,Nacional,Lesiones culposas,5714
 2023-09-01,Nacional,Lesiones culposas,5838
 2023-10-01,Nacional,Lesiones culposas,6191
-2023-11-01,Nacional,Lesiones culposas,5985
-2023-12-01,Nacional,Lesiones culposas,0
+2023-11-01,Nacional,Lesiones culposas,5984
+2023-12-01,Nacional,Lesiones culposas,5810
 2023-01-01,Nacional,Feminicidio,75
 2023-02-01,Nacional,Feminicidio,77
 2023-03-01,Nacional,Feminicidio,87
 2023-04-01,Nacional,Feminicidio,64
 2023-05-01,Nacional,Feminicidio,66
-2023-06-01,Nacional,Feminicidio,83
+2023-06-01,Nacional,Feminicidio,82
 2023-07-01,Nacional,Feminicidio,73
 2023-08-01,Nacional,Feminicidio,70
 2023-09-01,Nacional,Feminicidio,53
 2023-10-01,Nacional,Feminicidio,67
 2023-11-01,Nacional,Feminicidio,72
-2023-12-01,Nacional,Feminicidio,0
+2023-12-01,Nacional,Feminicidio,62
 2023-01-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1225
 2023-02-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1119
 2023-03-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1492
 2023-04-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1289
-2023-05-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1475
+2023-05-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1474
 2023-06-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1660
-2023-07-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1371
-2023-08-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1397
+2023-07-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1369
+2023-08-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1396
 2023-09-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1361
-2023-10-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1446
+2023-10-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1444
 2023-11-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1409
-2023-12-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Nacional,Otros delitos que atentan contra la vida y la integridad corporal,1245
 2023-01-01,Nacional,Secuestro,46
 2023-02-01,Nacional,Secuestro,68
 2023-03-01,Nacional,Secuestro,62
 2023-04-01,Nacional,Secuestro,73
-2023-05-01,Nacional,Secuestro,44
+2023-05-01,Nacional,Secuestro,45
 2023-06-01,Nacional,Secuestro,78
-2023-07-01,Nacional,Secuestro,100
-2023-08-01,Nacional,Secuestro,55
+2023-07-01,Nacional,Secuestro,101
+2023-08-01,Nacional,Secuestro,56
 2023-09-01,Nacional,Secuestro,100
-2023-10-01,Nacional,Secuestro,49
-2023-11-01,Nacional,Secuestro,52
-2023-12-01,Nacional,Secuestro,0
+2023-10-01,Nacional,Secuestro,51
+2023-11-01,Nacional,Secuestro,55
+2023-12-01,Nacional,Secuestro,71
 2023-01-01,Nacional,Tráfico de menores,0
 2023-02-01,Nacional,Tráfico de menores,1
 2023-03-01,Nacional,Tráfico de menores,5
@@ -47626,19 +47626,19 @@ isodate,entidad,delito,total
 2023-09-01,Nacional,Rapto,9
 2023-10-01,Nacional,Rapto,8
 2023-11-01,Nacional,Rapto,6
-2023-12-01,Nacional,Rapto,0
+2023-12-01,Nacional,Rapto,7
 2023-01-01,Nacional,Otros delitos que atentan contra la libertad personal,2754
 2023-02-01,Nacional,Otros delitos que atentan contra la libertad personal,2370
 2023-03-01,Nacional,Otros delitos que atentan contra la libertad personal,2908
 2023-04-01,Nacional,Otros delitos que atentan contra la libertad personal,2726
 2023-05-01,Nacional,Otros delitos que atentan contra la libertad personal,2793
 2023-06-01,Nacional,Otros delitos que atentan contra la libertad personal,3075
-2023-07-01,Nacional,Otros delitos que atentan contra la libertad personal,2838
+2023-07-01,Nacional,Otros delitos que atentan contra la libertad personal,2837
 2023-08-01,Nacional,Otros delitos que atentan contra la libertad personal,3059
 2023-09-01,Nacional,Otros delitos que atentan contra la libertad personal,3094
 2023-10-01,Nacional,Otros delitos que atentan contra la libertad personal,2839
-2023-11-01,Nacional,Otros delitos que atentan contra la libertad personal,2781
-2023-12-01,Nacional,Otros delitos que atentan contra la libertad personal,0
+2023-11-01,Nacional,Otros delitos que atentan contra la libertad personal,2782
+2023-12-01,Nacional,Otros delitos que atentan contra la libertad personal,2415
 2023-01-01,Nacional,Extorsión,841
 2023-02-01,Nacional,Extorsión,823
 2023-03-01,Nacional,Extorsión,946
@@ -47648,9 +47648,9 @@ isodate,entidad,delito,total
 2023-07-01,Nacional,Extorsión,1023
 2023-08-01,Nacional,Extorsión,1099
 2023-09-01,Nacional,Extorsión,933
-2023-10-01,Nacional,Extorsión,886
-2023-11-01,Nacional,Extorsión,908
-2023-12-01,Nacional,Extorsión,0
+2023-10-01,Nacional,Extorsión,888
+2023-11-01,Nacional,Extorsión,906
+2023-12-01,Nacional,Extorsión,716
 2023-01-01,Nacional,Corrupción de menores,230
 2023-02-01,Nacional,Corrupción de menores,239
 2023-03-01,Nacional,Corrupción de menores,308
@@ -47662,7 +47662,7 @@ isodate,entidad,delito,total
 2023-09-01,Nacional,Corrupción de menores,286
 2023-10-01,Nacional,Corrupción de menores,248
 2023-11-01,Nacional,Corrupción de menores,266
-2023-12-01,Nacional,Corrupción de menores,0
+2023-12-01,Nacional,Corrupción de menores,178
 2023-01-01,Nacional,Trata de personas,102
 2023-02-01,Nacional,Trata de personas,50
 2023-03-01,Nacional,Trata de personas,63
@@ -47673,8 +47673,8 @@ isodate,entidad,delito,total
 2023-08-01,Nacional,Trata de personas,88
 2023-09-01,Nacional,Trata de personas,61
 2023-10-01,Nacional,Trata de personas,76
-2023-11-01,Nacional,Trata de personas,35
-2023-12-01,Nacional,Trata de personas,0
+2023-11-01,Nacional,Trata de personas,37
+2023-12-01,Nacional,Trata de personas,37
 2023-01-01,Nacional,Otros delitos contra la sociedad,414
 2023-02-01,Nacional,Otros delitos contra la sociedad,554
 2023-03-01,Nacional,Otros delitos contra la sociedad,1141
@@ -47686,7 +47686,7 @@ isodate,entidad,delito,total
 2023-09-01,Nacional,Otros delitos contra la sociedad,521
 2023-10-01,Nacional,Otros delitos contra la sociedad,559
 2023-11-01,Nacional,Otros delitos contra la sociedad,486
-2023-12-01,Nacional,Otros delitos contra la sociedad,0
+2023-12-01,Nacional,Otros delitos contra la sociedad,421
 2023-01-01,Nacional,Aborto,81
 2023-02-01,Nacional,Aborto,74
 2023-03-01,Nacional,Aborto,85
@@ -47698,7 +47698,7 @@ isodate,entidad,delito,total
 2023-09-01,Nacional,Aborto,67
 2023-10-01,Nacional,Aborto,56
 2023-11-01,Nacional,Aborto,67
-2023-12-01,Nacional,Aborto,0
+2023-12-01,Nacional,Aborto,62
 2023-01-01,Aguascalientes,Homicidio doloso,5
 2023-02-01,Aguascalientes,Homicidio doloso,9
 2023-03-01,Aguascalientes,Homicidio doloso,16
@@ -47710,7 +47710,7 @@ isodate,entidad,delito,total
 2023-09-01,Aguascalientes,Homicidio doloso,7
 2023-10-01,Aguascalientes,Homicidio doloso,4
 2023-11-01,Aguascalientes,Homicidio doloso,12
-2023-12-01,Aguascalientes,Homicidio doloso,0
+2023-12-01,Aguascalientes,Homicidio doloso,9
 2023-01-01,Aguascalientes,Homicidio culposo,18
 2023-02-01,Aguascalientes,Homicidio culposo,12
 2023-03-01,Aguascalientes,Homicidio culposo,14
@@ -47722,7 +47722,7 @@ isodate,entidad,delito,total
 2023-09-01,Aguascalientes,Homicidio culposo,14
 2023-10-01,Aguascalientes,Homicidio culposo,11
 2023-11-01,Aguascalientes,Homicidio culposo,14
-2023-12-01,Aguascalientes,Homicidio culposo,0
+2023-12-01,Aguascalientes,Homicidio culposo,20
 2023-01-01,Aguascalientes,Lesiones dolosas,266
 2023-02-01,Aguascalientes,Lesiones dolosas,293
 2023-03-01,Aguascalientes,Lesiones dolosas,343
@@ -47734,7 +47734,7 @@ isodate,entidad,delito,total
 2023-09-01,Aguascalientes,Lesiones dolosas,296
 2023-10-01,Aguascalientes,Lesiones dolosas,314
 2023-11-01,Aguascalientes,Lesiones dolosas,261
-2023-12-01,Aguascalientes,Lesiones dolosas,0
+2023-12-01,Aguascalientes,Lesiones dolosas,251
 2023-01-01,Aguascalientes,Lesiones culposas,99
 2023-02-01,Aguascalientes,Lesiones culposas,89
 2023-03-01,Aguascalientes,Lesiones culposas,98
@@ -47746,7 +47746,7 @@ isodate,entidad,delito,total
 2023-09-01,Aguascalientes,Lesiones culposas,111
 2023-10-01,Aguascalientes,Lesiones culposas,96
 2023-11-01,Aguascalientes,Lesiones culposas,90
-2023-12-01,Aguascalientes,Lesiones culposas,0
+2023-12-01,Aguascalientes,Lesiones culposas,95
 2023-01-01,Aguascalientes,Feminicidio,0
 2023-02-01,Aguascalientes,Feminicidio,0
 2023-03-01,Aguascalientes,Feminicidio,1
@@ -47770,7 +47770,7 @@ isodate,entidad,delito,total
 2023-09-01,Aguascalientes,Otros delitos que atentan contra la vida y la integridad corporal,1
 2023-10-01,Aguascalientes,Otros delitos que atentan contra la vida y la integridad corporal,2
 2023-11-01,Aguascalientes,Otros delitos que atentan contra la vida y la integridad corporal,1
-2023-12-01,Aguascalientes,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Aguascalientes,Otros delitos que atentan contra la vida y la integridad corporal,6
 2023-01-01,Aguascalientes,Secuestro,0
 2023-02-01,Aguascalientes,Secuestro,0
 2023-03-01,Aguascalientes,Secuestro,0
@@ -47782,7 +47782,7 @@ isodate,entidad,delito,total
 2023-09-01,Aguascalientes,Secuestro,0
 2023-10-01,Aguascalientes,Secuestro,0
 2023-11-01,Aguascalientes,Secuestro,0
-2023-12-01,Aguascalientes,Secuestro,0
+2023-12-01,Aguascalientes,Secuestro,1
 2023-01-01,Aguascalientes,Tráfico de menores,0
 2023-02-01,Aguascalientes,Tráfico de menores,0
 2023-03-01,Aguascalientes,Tráfico de menores,0
@@ -47818,7 +47818,7 @@ isodate,entidad,delito,total
 2023-09-01,Aguascalientes,Otros delitos que atentan contra la libertad personal,26
 2023-10-01,Aguascalientes,Otros delitos que atentan contra la libertad personal,38
 2023-11-01,Aguascalientes,Otros delitos que atentan contra la libertad personal,36
-2023-12-01,Aguascalientes,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Aguascalientes,Otros delitos que atentan contra la libertad personal,30
 2023-01-01,Aguascalientes,Extorsión,17
 2023-02-01,Aguascalientes,Extorsión,9
 2023-03-01,Aguascalientes,Extorsión,7
@@ -47830,7 +47830,7 @@ isodate,entidad,delito,total
 2023-09-01,Aguascalientes,Extorsión,12
 2023-10-01,Aguascalientes,Extorsión,19
 2023-11-01,Aguascalientes,Extorsión,14
-2023-12-01,Aguascalientes,Extorsión,0
+2023-12-01,Aguascalientes,Extorsión,6
 2023-01-01,Aguascalientes,Corrupción de menores,3
 2023-02-01,Aguascalientes,Corrupción de menores,7
 2023-03-01,Aguascalientes,Corrupción de menores,5
@@ -47842,7 +47842,7 @@ isodate,entidad,delito,total
 2023-09-01,Aguascalientes,Corrupción de menores,7
 2023-10-01,Aguascalientes,Corrupción de menores,7
 2023-11-01,Aguascalientes,Corrupción de menores,4
-2023-12-01,Aguascalientes,Corrupción de menores,0
+2023-12-01,Aguascalientes,Corrupción de menores,3
 2023-01-01,Aguascalientes,Trata de personas,0
 2023-02-01,Aguascalientes,Trata de personas,0
 2023-03-01,Aguascalientes,Trata de personas,0
@@ -47890,7 +47890,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California,Homicidio doloso,204
 2023-10-01,Baja California,Homicidio doloso,215
 2023-11-01,Baja California,Homicidio doloso,207
-2023-12-01,Baja California,Homicidio doloso,0
+2023-12-01,Baja California,Homicidio doloso,185
 2023-01-01,Baja California,Homicidio culposo,39
 2023-02-01,Baja California,Homicidio culposo,29
 2023-03-01,Baja California,Homicidio culposo,40
@@ -47902,7 +47902,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California,Homicidio culposo,45
 2023-10-01,Baja California,Homicidio culposo,48
 2023-11-01,Baja California,Homicidio culposo,34
-2023-12-01,Baja California,Homicidio culposo,0
+2023-12-01,Baja California,Homicidio culposo,42
 2023-01-01,Baja California,Lesiones dolosas,446
 2023-02-01,Baja California,Lesiones dolosas,473
 2023-03-01,Baja California,Lesiones dolosas,571
@@ -47914,7 +47914,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California,Lesiones dolosas,698
 2023-10-01,Baja California,Lesiones dolosas,726
 2023-11-01,Baja California,Lesiones dolosas,551
-2023-12-01,Baja California,Lesiones dolosas,0
+2023-12-01,Baja California,Lesiones dolosas,576
 2023-01-01,Baja California,Lesiones culposas,222
 2023-02-01,Baja California,Lesiones culposas,222
 2023-03-01,Baja California,Lesiones culposas,201
@@ -47926,7 +47926,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California,Lesiones culposas,299
 2023-10-01,Baja California,Lesiones culposas,403
 2023-11-01,Baja California,Lesiones culposas,383
-2023-12-01,Baja California,Lesiones culposas,0
+2023-12-01,Baja California,Lesiones culposas,352
 2023-01-01,Baja California,Feminicidio,3
 2023-02-01,Baja California,Feminicidio,2
 2023-03-01,Baja California,Feminicidio,2
@@ -47938,7 +47938,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California,Feminicidio,2
 2023-10-01,Baja California,Feminicidio,0
 2023-11-01,Baja California,Feminicidio,1
-2023-12-01,Baja California,Feminicidio,0
+2023-12-01,Baja California,Feminicidio,2
 2023-01-01,Baja California,Otros delitos que atentan contra la vida y la integridad corporal,180
 2023-02-01,Baja California,Otros delitos que atentan contra la vida y la integridad corporal,194
 2023-03-01,Baja California,Otros delitos que atentan contra la vida y la integridad corporal,236
@@ -47950,19 +47950,19 @@ isodate,entidad,delito,total
 2023-09-01,Baja California,Otros delitos que atentan contra la vida y la integridad corporal,268
 2023-10-01,Baja California,Otros delitos que atentan contra la vida y la integridad corporal,273
 2023-11-01,Baja California,Otros delitos que atentan contra la vida y la integridad corporal,266
-2023-12-01,Baja California,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Baja California,Otros delitos que atentan contra la vida y la integridad corporal,248
 2023-01-01,Baja California,Secuestro,2
 2023-02-01,Baja California,Secuestro,1
 2023-03-01,Baja California,Secuestro,1
 2023-04-01,Baja California,Secuestro,0
-2023-05-01,Baja California,Secuestro,2
+2023-05-01,Baja California,Secuestro,3
 2023-06-01,Baja California,Secuestro,0
 2023-07-01,Baja California,Secuestro,1
 2023-08-01,Baja California,Secuestro,1
 2023-09-01,Baja California,Secuestro,0
 2023-10-01,Baja California,Secuestro,0
 2023-11-01,Baja California,Secuestro,1
-2023-12-01,Baja California,Secuestro,0
+2023-12-01,Baja California,Secuestro,1
 2023-01-01,Baja California,Tráfico de menores,0
 2023-02-01,Baja California,Tráfico de menores,0
 2023-03-01,Baja California,Tráfico de menores,0
@@ -47998,7 +47998,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California,Otros delitos que atentan contra la libertad personal,425
 2023-10-01,Baja California,Otros delitos que atentan contra la libertad personal,432
 2023-11-01,Baja California,Otros delitos que atentan contra la libertad personal,456
-2023-12-01,Baja California,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Baja California,Otros delitos que atentan contra la libertad personal,348
 2023-01-01,Baja California,Extorsión,6
 2023-02-01,Baja California,Extorsión,12
 2023-03-01,Baja California,Extorsión,10
@@ -48008,9 +48008,9 @@ isodate,entidad,delito,total
 2023-07-01,Baja California,Extorsión,10
 2023-08-01,Baja California,Extorsión,7
 2023-09-01,Baja California,Extorsión,9
-2023-10-01,Baja California,Extorsión,3
+2023-10-01,Baja California,Extorsión,5
 2023-11-01,Baja California,Extorsión,10
-2023-12-01,Baja California,Extorsión,0
+2023-12-01,Baja California,Extorsión,4
 2023-01-01,Baja California,Corrupción de menores,68
 2023-02-01,Baja California,Corrupción de menores,53
 2023-03-01,Baja California,Corrupción de menores,74
@@ -48022,7 +48022,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California,Corrupción de menores,58
 2023-10-01,Baja California,Corrupción de menores,46
 2023-11-01,Baja California,Corrupción de menores,48
-2023-12-01,Baja California,Corrupción de menores,0
+2023-12-01,Baja California,Corrupción de menores,38
 2023-01-01,Baja California,Trata de personas,12
 2023-02-01,Baja California,Trata de personas,4
 2023-03-01,Baja California,Trata de personas,6
@@ -48046,7 +48046,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California,Otros delitos contra la sociedad,11
 2023-10-01,Baja California,Otros delitos contra la sociedad,12
 2023-11-01,Baja California,Otros delitos contra la sociedad,8
-2023-12-01,Baja California,Otros delitos contra la sociedad,0
+2023-12-01,Baja California,Otros delitos contra la sociedad,1
 2023-01-01,Baja California,Aborto,1
 2023-02-01,Baja California,Aborto,3
 2023-03-01,Baja California,Aborto,3
@@ -48058,7 +48058,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California,Aborto,6
 2023-10-01,Baja California,Aborto,5
 2023-11-01,Baja California,Aborto,3
-2023-12-01,Baja California,Aborto,0
+2023-12-01,Baja California,Aborto,2
 2023-01-01,Baja California Sur,Homicidio doloso,3
 2023-02-01,Baja California Sur,Homicidio doloso,1
 2023-03-01,Baja California Sur,Homicidio doloso,5
@@ -48070,7 +48070,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California Sur,Homicidio doloso,1
 2023-10-01,Baja California Sur,Homicidio doloso,1
 2023-11-01,Baja California Sur,Homicidio doloso,0
-2023-12-01,Baja California Sur,Homicidio doloso,0
+2023-12-01,Baja California Sur,Homicidio doloso,5
 2023-01-01,Baja California Sur,Homicidio culposo,8
 2023-02-01,Baja California Sur,Homicidio culposo,9
 2023-03-01,Baja California Sur,Homicidio culposo,5
@@ -48082,7 +48082,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California Sur,Homicidio culposo,10
 2023-10-01,Baja California Sur,Homicidio culposo,3
 2023-11-01,Baja California Sur,Homicidio culposo,12
-2023-12-01,Baja California Sur,Homicidio culposo,0
+2023-12-01,Baja California Sur,Homicidio culposo,13
 2023-01-01,Baja California Sur,Lesiones dolosas,114
 2023-02-01,Baja California Sur,Lesiones dolosas,107
 2023-03-01,Baja California Sur,Lesiones dolosas,169
@@ -48094,7 +48094,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California Sur,Lesiones dolosas,146
 2023-10-01,Baja California Sur,Lesiones dolosas,165
 2023-11-01,Baja California Sur,Lesiones dolosas,143
-2023-12-01,Baja California Sur,Lesiones dolosas,0
+2023-12-01,Baja California Sur,Lesiones dolosas,122
 2023-01-01,Baja California Sur,Lesiones culposas,39
 2023-02-01,Baja California Sur,Lesiones culposas,50
 2023-03-01,Baja California Sur,Lesiones culposas,46
@@ -48106,7 +48106,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California Sur,Lesiones culposas,56
 2023-10-01,Baja California Sur,Lesiones culposas,57
 2023-11-01,Baja California Sur,Lesiones culposas,76
-2023-12-01,Baja California Sur,Lesiones culposas,0
+2023-12-01,Baja California Sur,Lesiones culposas,61
 2023-01-01,Baja California Sur,Feminicidio,0
 2023-02-01,Baja California Sur,Feminicidio,0
 2023-03-01,Baja California Sur,Feminicidio,1
@@ -48130,7 +48130,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California Sur,Otros delitos que atentan contra la vida y la integridad corporal,23
 2023-10-01,Baja California Sur,Otros delitos que atentan contra la vida y la integridad corporal,15
 2023-11-01,Baja California Sur,Otros delitos que atentan contra la vida y la integridad corporal,14
-2023-12-01,Baja California Sur,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Baja California Sur,Otros delitos que atentan contra la vida y la integridad corporal,20
 2023-01-01,Baja California Sur,Secuestro,0
 2023-02-01,Baja California Sur,Secuestro,0
 2023-03-01,Baja California Sur,Secuestro,0
@@ -48178,7 +48178,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California Sur,Otros delitos que atentan contra la libertad personal,16
 2023-10-01,Baja California Sur,Otros delitos que atentan contra la libertad personal,11
 2023-11-01,Baja California Sur,Otros delitos que atentan contra la libertad personal,13
-2023-12-01,Baja California Sur,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Baja California Sur,Otros delitos que atentan contra la libertad personal,6
 2023-01-01,Baja California Sur,Extorsión,13
 2023-02-01,Baja California Sur,Extorsión,15
 2023-03-01,Baja California Sur,Extorsión,15
@@ -48190,7 +48190,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California Sur,Extorsión,7
 2023-10-01,Baja California Sur,Extorsión,3
 2023-11-01,Baja California Sur,Extorsión,1
-2023-12-01,Baja California Sur,Extorsión,0
+2023-12-01,Baja California Sur,Extorsión,1
 2023-01-01,Baja California Sur,Corrupción de menores,5
 2023-02-01,Baja California Sur,Corrupción de menores,4
 2023-03-01,Baja California Sur,Corrupción de menores,8
@@ -48202,7 +48202,7 @@ isodate,entidad,delito,total
 2023-09-01,Baja California Sur,Corrupción de menores,10
 2023-10-01,Baja California Sur,Corrupción de menores,5
 2023-11-01,Baja California Sur,Corrupción de menores,4
-2023-12-01,Baja California Sur,Corrupción de menores,0
+2023-12-01,Baja California Sur,Corrupción de menores,4
 2023-01-01,Baja California Sur,Trata de personas,0
 2023-02-01,Baja California Sur,Trata de personas,0
 2023-03-01,Baja California Sur,Trata de personas,0
@@ -48250,7 +48250,7 @@ isodate,entidad,delito,total
 2023-09-01,Campeche,Homicidio doloso,7
 2023-10-01,Campeche,Homicidio doloso,10
 2023-11-01,Campeche,Homicidio doloso,10
-2023-12-01,Campeche,Homicidio doloso,0
+2023-12-01,Campeche,Homicidio doloso,4
 2023-01-01,Campeche,Homicidio culposo,17
 2023-02-01,Campeche,Homicidio culposo,4
 2023-03-01,Campeche,Homicidio culposo,21
@@ -48262,7 +48262,7 @@ isodate,entidad,delito,total
 2023-09-01,Campeche,Homicidio culposo,11
 2023-10-01,Campeche,Homicidio culposo,11
 2023-11-01,Campeche,Homicidio culposo,6
-2023-12-01,Campeche,Homicidio culposo,0
+2023-12-01,Campeche,Homicidio culposo,23
 2023-01-01,Campeche,Lesiones dolosas,246
 2023-02-01,Campeche,Lesiones dolosas,240
 2023-03-01,Campeche,Lesiones dolosas,324
@@ -48274,7 +48274,7 @@ isodate,entidad,delito,total
 2023-09-01,Campeche,Lesiones dolosas,230
 2023-10-01,Campeche,Lesiones dolosas,236
 2023-11-01,Campeche,Lesiones dolosas,211
-2023-12-01,Campeche,Lesiones dolosas,0
+2023-12-01,Campeche,Lesiones dolosas,228
 2023-01-01,Campeche,Lesiones culposas,142
 2023-02-01,Campeche,Lesiones culposas,126
 2023-03-01,Campeche,Lesiones culposas,169
@@ -48286,7 +48286,7 @@ isodate,entidad,delito,total
 2023-09-01,Campeche,Lesiones culposas,77
 2023-10-01,Campeche,Lesiones culposas,92
 2023-11-01,Campeche,Lesiones culposas,71
-2023-12-01,Campeche,Lesiones culposas,0
+2023-12-01,Campeche,Lesiones culposas,114
 2023-01-01,Campeche,Feminicidio,0
 2023-02-01,Campeche,Feminicidio,1
 2023-03-01,Campeche,Feminicidio,1
@@ -48310,7 +48310,7 @@ isodate,entidad,delito,total
 2023-09-01,Campeche,Otros delitos que atentan contra la vida y la integridad corporal,18
 2023-10-01,Campeche,Otros delitos que atentan contra la vida y la integridad corporal,26
 2023-11-01,Campeche,Otros delitos que atentan contra la vida y la integridad corporal,36
-2023-12-01,Campeche,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Campeche,Otros delitos que atentan contra la vida y la integridad corporal,20
 2023-01-01,Campeche,Secuestro,0
 2023-02-01,Campeche,Secuestro,0
 2023-03-01,Campeche,Secuestro,0
@@ -48358,7 +48358,7 @@ isodate,entidad,delito,total
 2023-09-01,Campeche,Otros delitos que atentan contra la libertad personal,30
 2023-10-01,Campeche,Otros delitos que atentan contra la libertad personal,29
 2023-11-01,Campeche,Otros delitos que atentan contra la libertad personal,13
-2023-12-01,Campeche,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Campeche,Otros delitos que atentan contra la libertad personal,33
 2023-01-01,Campeche,Extorsión,5
 2023-02-01,Campeche,Extorsión,5
 2023-03-01,Campeche,Extorsión,8
@@ -48370,7 +48370,7 @@ isodate,entidad,delito,total
 2023-09-01,Campeche,Extorsión,8
 2023-10-01,Campeche,Extorsión,6
 2023-11-01,Campeche,Extorsión,8
-2023-12-01,Campeche,Extorsión,0
+2023-12-01,Campeche,Extorsión,6
 2023-01-01,Campeche,Corrupción de menores,0
 2023-02-01,Campeche,Corrupción de menores,6
 2023-03-01,Campeche,Corrupción de menores,6
@@ -48382,7 +48382,7 @@ isodate,entidad,delito,total
 2023-09-01,Campeche,Corrupción de menores,1
 2023-10-01,Campeche,Corrupción de menores,1
 2023-11-01,Campeche,Corrupción de menores,8
-2023-12-01,Campeche,Corrupción de menores,0
+2023-12-01,Campeche,Corrupción de menores,2
 2023-01-01,Campeche,Trata de personas,0
 2023-02-01,Campeche,Trata de personas,0
 2023-03-01,Campeche,Trata de personas,0
@@ -48430,7 +48430,7 @@ isodate,entidad,delito,total
 2023-09-01,Coahuila de Zaragoza,Homicidio doloso,14
 2023-10-01,Coahuila de Zaragoza,Homicidio doloso,12
 2023-11-01,Coahuila de Zaragoza,Homicidio doloso,10
-2023-12-01,Coahuila de Zaragoza,Homicidio doloso,0
+2023-12-01,Coahuila de Zaragoza,Homicidio doloso,3
 2023-01-01,Coahuila de Zaragoza,Homicidio culposo,29
 2023-02-01,Coahuila de Zaragoza,Homicidio culposo,35
 2023-03-01,Coahuila de Zaragoza,Homicidio culposo,36
@@ -48442,7 +48442,7 @@ isodate,entidad,delito,total
 2023-09-01,Coahuila de Zaragoza,Homicidio culposo,18
 2023-10-01,Coahuila de Zaragoza,Homicidio culposo,18
 2023-11-01,Coahuila de Zaragoza,Homicidio culposo,21
-2023-12-01,Coahuila de Zaragoza,Homicidio culposo,0
+2023-12-01,Coahuila de Zaragoza,Homicidio culposo,41
 2023-01-01,Coahuila de Zaragoza,Lesiones dolosas,304
 2023-02-01,Coahuila de Zaragoza,Lesiones dolosas,327
 2023-03-01,Coahuila de Zaragoza,Lesiones dolosas,495
@@ -48454,7 +48454,7 @@ isodate,entidad,delito,total
 2023-09-01,Coahuila de Zaragoza,Lesiones dolosas,495
 2023-10-01,Coahuila de Zaragoza,Lesiones dolosas,324
 2023-11-01,Coahuila de Zaragoza,Lesiones dolosas,365
-2023-12-01,Coahuila de Zaragoza,Lesiones dolosas,0
+2023-12-01,Coahuila de Zaragoza,Lesiones dolosas,360
 2023-01-01,Coahuila de Zaragoza,Lesiones culposas,72
 2023-02-01,Coahuila de Zaragoza,Lesiones culposas,90
 2023-03-01,Coahuila de Zaragoza,Lesiones culposas,146
@@ -48466,7 +48466,7 @@ isodate,entidad,delito,total
 2023-09-01,Coahuila de Zaragoza,Lesiones culposas,138
 2023-10-01,Coahuila de Zaragoza,Lesiones culposas,93
 2023-11-01,Coahuila de Zaragoza,Lesiones culposas,88
-2023-12-01,Coahuila de Zaragoza,Lesiones culposas,0
+2023-12-01,Coahuila de Zaragoza,Lesiones culposas,130
 2023-01-01,Coahuila de Zaragoza,Feminicidio,0
 2023-02-01,Coahuila de Zaragoza,Feminicidio,1
 2023-03-01,Coahuila de Zaragoza,Feminicidio,1
@@ -48478,7 +48478,7 @@ isodate,entidad,delito,total
 2023-09-01,Coahuila de Zaragoza,Feminicidio,1
 2023-10-01,Coahuila de Zaragoza,Feminicidio,0
 2023-11-01,Coahuila de Zaragoza,Feminicidio,1
-2023-12-01,Coahuila de Zaragoza,Feminicidio,0
+2023-12-01,Coahuila de Zaragoza,Feminicidio,1
 2023-01-01,Coahuila de Zaragoza,Otros delitos que atentan contra la vida y la integridad corporal,3
 2023-02-01,Coahuila de Zaragoza,Otros delitos que atentan contra la vida y la integridad corporal,5
 2023-03-01,Coahuila de Zaragoza,Otros delitos que atentan contra la vida y la integridad corporal,5
@@ -48490,7 +48490,7 @@ isodate,entidad,delito,total
 2023-09-01,Coahuila de Zaragoza,Otros delitos que atentan contra la vida y la integridad corporal,2
 2023-10-01,Coahuila de Zaragoza,Otros delitos que atentan contra la vida y la integridad corporal,2
 2023-11-01,Coahuila de Zaragoza,Otros delitos que atentan contra la vida y la integridad corporal,0
-2023-12-01,Coahuila de Zaragoza,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Coahuila de Zaragoza,Otros delitos que atentan contra la vida y la integridad corporal,3
 2023-01-01,Coahuila de Zaragoza,Secuestro,0
 2023-02-01,Coahuila de Zaragoza,Secuestro,0
 2023-03-01,Coahuila de Zaragoza,Secuestro,1
@@ -48538,7 +48538,7 @@ isodate,entidad,delito,total
 2023-09-01,Coahuila de Zaragoza,Otros delitos que atentan contra la libertad personal,39
 2023-10-01,Coahuila de Zaragoza,Otros delitos que atentan contra la libertad personal,28
 2023-11-01,Coahuila de Zaragoza,Otros delitos que atentan contra la libertad personal,27
-2023-12-01,Coahuila de Zaragoza,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Coahuila de Zaragoza,Otros delitos que atentan contra la libertad personal,32
 2023-01-01,Coahuila de Zaragoza,Extorsión,4
 2023-02-01,Coahuila de Zaragoza,Extorsión,1
 2023-03-01,Coahuila de Zaragoza,Extorsión,1
@@ -48550,7 +48550,7 @@ isodate,entidad,delito,total
 2023-09-01,Coahuila de Zaragoza,Extorsión,2
 2023-10-01,Coahuila de Zaragoza,Extorsión,8
 2023-11-01,Coahuila de Zaragoza,Extorsión,1
-2023-12-01,Coahuila de Zaragoza,Extorsión,0
+2023-12-01,Coahuila de Zaragoza,Extorsión,2
 2023-01-01,Coahuila de Zaragoza,Corrupción de menores,4
 2023-02-01,Coahuila de Zaragoza,Corrupción de menores,2
 2023-03-01,Coahuila de Zaragoza,Corrupción de menores,6
@@ -48562,7 +48562,7 @@ isodate,entidad,delito,total
 2023-09-01,Coahuila de Zaragoza,Corrupción de menores,1
 2023-10-01,Coahuila de Zaragoza,Corrupción de menores,2
 2023-11-01,Coahuila de Zaragoza,Corrupción de menores,0
-2023-12-01,Coahuila de Zaragoza,Corrupción de menores,0
+2023-12-01,Coahuila de Zaragoza,Corrupción de menores,1
 2023-01-01,Coahuila de Zaragoza,Trata de personas,1
 2023-02-01,Coahuila de Zaragoza,Trata de personas,0
 2023-03-01,Coahuila de Zaragoza,Trata de personas,1
@@ -48610,7 +48610,7 @@ isodate,entidad,delito,total
 2023-09-01,Colima,Homicidio doloso,89
 2023-10-01,Colima,Homicidio doloso,68
 2023-11-01,Colima,Homicidio doloso,79
-2023-12-01,Colima,Homicidio doloso,0
+2023-12-01,Colima,Homicidio doloso,76
 2023-01-01,Colima,Homicidio culposo,11
 2023-02-01,Colima,Homicidio culposo,10
 2023-03-01,Colima,Homicidio culposo,12
@@ -48622,7 +48622,7 @@ isodate,entidad,delito,total
 2023-09-01,Colima,Homicidio culposo,7
 2023-10-01,Colima,Homicidio culposo,12
 2023-11-01,Colima,Homicidio culposo,16
-2023-12-01,Colima,Homicidio culposo,0
+2023-12-01,Colima,Homicidio culposo,8
 2023-01-01,Colima,Lesiones dolosas,115
 2023-02-01,Colima,Lesiones dolosas,83
 2023-03-01,Colima,Lesiones dolosas,97
@@ -48634,7 +48634,7 @@ isodate,entidad,delito,total
 2023-09-01,Colima,Lesiones dolosas,83
 2023-10-01,Colima,Lesiones dolosas,84
 2023-11-01,Colima,Lesiones dolosas,88
-2023-12-01,Colima,Lesiones dolosas,0
+2023-12-01,Colima,Lesiones dolosas,95
 2023-01-01,Colima,Lesiones culposas,64
 2023-02-01,Colima,Lesiones culposas,68
 2023-03-01,Colima,Lesiones culposas,73
@@ -48646,7 +48646,7 @@ isodate,entidad,delito,total
 2023-09-01,Colima,Lesiones culposas,60
 2023-10-01,Colima,Lesiones culposas,58
 2023-11-01,Colima,Lesiones culposas,71
-2023-12-01,Colima,Lesiones culposas,0
+2023-12-01,Colima,Lesiones culposas,75
 2023-01-01,Colima,Feminicidio,2
 2023-02-01,Colima,Feminicidio,0
 2023-03-01,Colima,Feminicidio,2
@@ -48658,7 +48658,7 @@ isodate,entidad,delito,total
 2023-09-01,Colima,Feminicidio,2
 2023-10-01,Colima,Feminicidio,1
 2023-11-01,Colima,Feminicidio,2
-2023-12-01,Colima,Feminicidio,0
+2023-12-01,Colima,Feminicidio,3
 2023-01-01,Colima,Otros delitos que atentan contra la vida y la integridad corporal,0
 2023-02-01,Colima,Otros delitos que atentan contra la vida y la integridad corporal,0
 2023-03-01,Colima,Otros delitos que atentan contra la vida y la integridad corporal,0
@@ -48718,7 +48718,7 @@ isodate,entidad,delito,total
 2023-09-01,Colima,Otros delitos que atentan contra la libertad personal,32
 2023-10-01,Colima,Otros delitos que atentan contra la libertad personal,21
 2023-11-01,Colima,Otros delitos que atentan contra la libertad personal,32
-2023-12-01,Colima,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Colima,Otros delitos que atentan contra la libertad personal,19
 2023-01-01,Colima,Extorsión,7
 2023-02-01,Colima,Extorsión,0
 2023-03-01,Colima,Extorsión,18
@@ -48730,7 +48730,7 @@ isodate,entidad,delito,total
 2023-09-01,Colima,Extorsión,16
 2023-10-01,Colima,Extorsión,9
 2023-11-01,Colima,Extorsión,13
-2023-12-01,Colima,Extorsión,0
+2023-12-01,Colima,Extorsión,18
 2023-01-01,Colima,Corrupción de menores,3
 2023-02-01,Colima,Corrupción de menores,1
 2023-03-01,Colima,Corrupción de menores,3
@@ -48742,7 +48742,7 @@ isodate,entidad,delito,total
 2023-09-01,Colima,Corrupción de menores,2
 2023-10-01,Colima,Corrupción de menores,6
 2023-11-01,Colima,Corrupción de menores,1
-2023-12-01,Colima,Corrupción de menores,0
+2023-12-01,Colima,Corrupción de menores,1
 2023-01-01,Colima,Trata de personas,0
 2023-02-01,Colima,Trata de personas,0
 2023-03-01,Colima,Trata de personas,0
@@ -48753,7 +48753,7 @@ isodate,entidad,delito,total
 2023-08-01,Colima,Trata de personas,0
 2023-09-01,Colima,Trata de personas,0
 2023-10-01,Colima,Trata de personas,0
-2023-11-01,Colima,Trata de personas,1
+2023-11-01,Colima,Trata de personas,3
 2023-12-01,Colima,Trata de personas,0
 2023-01-01,Colima,Otros delitos contra la sociedad,18
 2023-02-01,Colima,Otros delitos contra la sociedad,7
@@ -48766,7 +48766,7 @@ isodate,entidad,delito,total
 2023-09-01,Colima,Otros delitos contra la sociedad,9
 2023-10-01,Colima,Otros delitos contra la sociedad,10
 2023-11-01,Colima,Otros delitos contra la sociedad,10
-2023-12-01,Colima,Otros delitos contra la sociedad,0
+2023-12-01,Colima,Otros delitos contra la sociedad,5
 2023-01-01,Colima,Aborto,1
 2023-02-01,Colima,Aborto,0
 2023-03-01,Colima,Aborto,0
@@ -48790,7 +48790,7 @@ isodate,entidad,delito,total
 2023-09-01,Chiapas,Homicidio doloso,47
 2023-10-01,Chiapas,Homicidio doloso,69
 2023-11-01,Chiapas,Homicidio doloso,53
-2023-12-01,Chiapas,Homicidio doloso,0
+2023-12-01,Chiapas,Homicidio doloso,54
 2023-01-01,Chiapas,Homicidio culposo,74
 2023-02-01,Chiapas,Homicidio culposo,75
 2023-03-01,Chiapas,Homicidio culposo,107
@@ -48802,7 +48802,7 @@ isodate,entidad,delito,total
 2023-09-01,Chiapas,Homicidio culposo,49
 2023-10-01,Chiapas,Homicidio culposo,84
 2023-11-01,Chiapas,Homicidio culposo,62
-2023-12-01,Chiapas,Homicidio culposo,0
+2023-12-01,Chiapas,Homicidio culposo,64
 2023-01-01,Chiapas,Lesiones dolosas,90
 2023-02-01,Chiapas,Lesiones dolosas,127
 2023-03-01,Chiapas,Lesiones dolosas,134
@@ -48814,7 +48814,7 @@ isodate,entidad,delito,total
 2023-09-01,Chiapas,Lesiones dolosas,63
 2023-10-01,Chiapas,Lesiones dolosas,73
 2023-11-01,Chiapas,Lesiones dolosas,93
-2023-12-01,Chiapas,Lesiones dolosas,0
+2023-12-01,Chiapas,Lesiones dolosas,72
 2023-01-01,Chiapas,Lesiones culposas,101
 2023-02-01,Chiapas,Lesiones culposas,95
 2023-03-01,Chiapas,Lesiones culposas,108
@@ -48826,7 +48826,7 @@ isodate,entidad,delito,total
 2023-09-01,Chiapas,Lesiones culposas,61
 2023-10-01,Chiapas,Lesiones culposas,87
 2023-11-01,Chiapas,Lesiones culposas,68
-2023-12-01,Chiapas,Lesiones culposas,0
+2023-12-01,Chiapas,Lesiones culposas,76
 2023-01-01,Chiapas,Feminicidio,1
 2023-02-01,Chiapas,Feminicidio,5
 2023-03-01,Chiapas,Feminicidio,4
@@ -48838,7 +48838,7 @@ isodate,entidad,delito,total
 2023-09-01,Chiapas,Feminicidio,1
 2023-10-01,Chiapas,Feminicidio,2
 2023-11-01,Chiapas,Feminicidio,7
-2023-12-01,Chiapas,Feminicidio,0
+2023-12-01,Chiapas,Feminicidio,1
 2023-01-01,Chiapas,Otros delitos que atentan contra la vida y la integridad corporal,14
 2023-02-01,Chiapas,Otros delitos que atentan contra la vida y la integridad corporal,10
 2023-03-01,Chiapas,Otros delitos que atentan contra la vida y la integridad corporal,10
@@ -48850,7 +48850,7 @@ isodate,entidad,delito,total
 2023-09-01,Chiapas,Otros delitos que atentan contra la vida y la integridad corporal,6
 2023-10-01,Chiapas,Otros delitos que atentan contra la vida y la integridad corporal,15
 2023-11-01,Chiapas,Otros delitos que atentan contra la vida y la integridad corporal,14
-2023-12-01,Chiapas,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Chiapas,Otros delitos que atentan contra la vida y la integridad corporal,5
 2023-01-01,Chiapas,Secuestro,1
 2023-02-01,Chiapas,Secuestro,0
 2023-03-01,Chiapas,Secuestro,2
@@ -48861,8 +48861,8 @@ isodate,entidad,delito,total
 2023-08-01,Chiapas,Secuestro,1
 2023-09-01,Chiapas,Secuestro,3
 2023-10-01,Chiapas,Secuestro,9
-2023-11-01,Chiapas,Secuestro,0
-2023-12-01,Chiapas,Secuestro,0
+2023-11-01,Chiapas,Secuestro,3
+2023-12-01,Chiapas,Secuestro,3
 2023-01-01,Chiapas,Tráfico de menores,0
 2023-02-01,Chiapas,Tráfico de menores,0
 2023-03-01,Chiapas,Tráfico de menores,0
@@ -48898,7 +48898,7 @@ isodate,entidad,delito,total
 2023-09-01,Chiapas,Otros delitos que atentan contra la libertad personal,11
 2023-10-01,Chiapas,Otros delitos que atentan contra la libertad personal,20
 2023-11-01,Chiapas,Otros delitos que atentan contra la libertad personal,21
-2023-12-01,Chiapas,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Chiapas,Otros delitos que atentan contra la libertad personal,23
 2023-01-01,Chiapas,Extorsión,1
 2023-02-01,Chiapas,Extorsión,2
 2023-03-01,Chiapas,Extorsión,1
@@ -48909,8 +48909,8 @@ isodate,entidad,delito,total
 2023-08-01,Chiapas,Extorsión,1
 2023-09-01,Chiapas,Extorsión,0
 2023-10-01,Chiapas,Extorsión,5
-2023-11-01,Chiapas,Extorsión,6
-2023-12-01,Chiapas,Extorsión,0
+2023-11-01,Chiapas,Extorsión,3
+2023-12-01,Chiapas,Extorsión,2
 2023-01-01,Chiapas,Corrupción de menores,1
 2023-02-01,Chiapas,Corrupción de menores,1
 2023-03-01,Chiapas,Corrupción de menores,1
@@ -48922,7 +48922,7 @@ isodate,entidad,delito,total
 2023-09-01,Chiapas,Corrupción de menores,1
 2023-10-01,Chiapas,Corrupción de menores,1
 2023-11-01,Chiapas,Corrupción de menores,0
-2023-12-01,Chiapas,Corrupción de menores,0
+2023-12-01,Chiapas,Corrupción de menores,3
 2023-01-01,Chiapas,Trata de personas,1
 2023-02-01,Chiapas,Trata de personas,2
 2023-03-01,Chiapas,Trata de personas,1
@@ -48946,7 +48946,7 @@ isodate,entidad,delito,total
 2023-09-01,Chiapas,Otros delitos contra la sociedad,6
 2023-10-01,Chiapas,Otros delitos contra la sociedad,11
 2023-11-01,Chiapas,Otros delitos contra la sociedad,9
-2023-12-01,Chiapas,Otros delitos contra la sociedad,0
+2023-12-01,Chiapas,Otros delitos contra la sociedad,7
 2023-01-01,Chiapas,Aborto,0
 2023-02-01,Chiapas,Aborto,0
 2023-03-01,Chiapas,Aborto,0
@@ -48970,7 +48970,7 @@ isodate,entidad,delito,total
 2023-09-01,Chihuahua,Homicidio doloso,183
 2023-10-01,Chihuahua,Homicidio doloso,153
 2023-11-01,Chihuahua,Homicidio doloso,162
-2023-12-01,Chihuahua,Homicidio doloso,0
+2023-12-01,Chihuahua,Homicidio doloso,159
 2023-01-01,Chihuahua,Homicidio culposo,31
 2023-02-01,Chihuahua,Homicidio culposo,20
 2023-03-01,Chihuahua,Homicidio culposo,25
@@ -48982,7 +48982,7 @@ isodate,entidad,delito,total
 2023-09-01,Chihuahua,Homicidio culposo,32
 2023-10-01,Chihuahua,Homicidio culposo,34
 2023-11-01,Chihuahua,Homicidio culposo,20
-2023-12-01,Chihuahua,Homicidio culposo,0
+2023-12-01,Chihuahua,Homicidio culposo,40
 2023-01-01,Chihuahua,Lesiones dolosas,311
 2023-02-01,Chihuahua,Lesiones dolosas,355
 2023-03-01,Chihuahua,Lesiones dolosas,429
@@ -48994,7 +48994,7 @@ isodate,entidad,delito,total
 2023-09-01,Chihuahua,Lesiones dolosas,539
 2023-10-01,Chihuahua,Lesiones dolosas,459
 2023-11-01,Chihuahua,Lesiones dolosas,389
-2023-12-01,Chihuahua,Lesiones dolosas,0
+2023-12-01,Chihuahua,Lesiones dolosas,353
 2023-01-01,Chihuahua,Lesiones culposas,202
 2023-02-01,Chihuahua,Lesiones culposas,247
 2023-03-01,Chihuahua,Lesiones culposas,227
@@ -49006,7 +49006,7 @@ isodate,entidad,delito,total
 2023-09-01,Chihuahua,Lesiones culposas,261
 2023-10-01,Chihuahua,Lesiones culposas,228
 2023-11-01,Chihuahua,Lesiones culposas,216
-2023-12-01,Chihuahua,Lesiones culposas,0
+2023-12-01,Chihuahua,Lesiones culposas,236
 2023-01-01,Chihuahua,Feminicidio,4
 2023-02-01,Chihuahua,Feminicidio,2
 2023-03-01,Chihuahua,Feminicidio,6
@@ -49018,7 +49018,7 @@ isodate,entidad,delito,total
 2023-09-01,Chihuahua,Feminicidio,3
 2023-10-01,Chihuahua,Feminicidio,4
 2023-11-01,Chihuahua,Feminicidio,3
-2023-12-01,Chihuahua,Feminicidio,0
+2023-12-01,Chihuahua,Feminicidio,6
 2023-01-01,Chihuahua,Otros delitos que atentan contra la vida y la integridad corporal,47
 2023-02-01,Chihuahua,Otros delitos que atentan contra la vida y la integridad corporal,32
 2023-03-01,Chihuahua,Otros delitos que atentan contra la vida y la integridad corporal,48
@@ -49030,7 +49030,7 @@ isodate,entidad,delito,total
 2023-09-01,Chihuahua,Otros delitos que atentan contra la vida y la integridad corporal,50
 2023-10-01,Chihuahua,Otros delitos que atentan contra la vida y la integridad corporal,46
 2023-11-01,Chihuahua,Otros delitos que atentan contra la vida y la integridad corporal,51
-2023-12-01,Chihuahua,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Chihuahua,Otros delitos que atentan contra la vida y la integridad corporal,42
 2023-01-01,Chihuahua,Secuestro,7
 2023-02-01,Chihuahua,Secuestro,0
 2023-03-01,Chihuahua,Secuestro,11
@@ -49042,7 +49042,7 @@ isodate,entidad,delito,total
 2023-09-01,Chihuahua,Secuestro,35
 2023-10-01,Chihuahua,Secuestro,11
 2023-11-01,Chihuahua,Secuestro,13
-2023-12-01,Chihuahua,Secuestro,0
+2023-12-01,Chihuahua,Secuestro,22
 2023-01-01,Chihuahua,Tráfico de menores,0
 2023-02-01,Chihuahua,Tráfico de menores,0
 2023-03-01,Chihuahua,Tráfico de menores,0
@@ -49078,7 +49078,7 @@ isodate,entidad,delito,total
 2023-09-01,Chihuahua,Otros delitos que atentan contra la libertad personal,107
 2023-10-01,Chihuahua,Otros delitos que atentan contra la libertad personal,106
 2023-11-01,Chihuahua,Otros delitos que atentan contra la libertad personal,98
-2023-12-01,Chihuahua,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Chihuahua,Otros delitos que atentan contra la libertad personal,83
 2023-01-01,Chihuahua,Extorsión,0
 2023-02-01,Chihuahua,Extorsión,0
 2023-03-01,Chihuahua,Extorsión,1
@@ -49102,7 +49102,7 @@ isodate,entidad,delito,total
 2023-09-01,Chihuahua,Corrupción de menores,9
 2023-10-01,Chihuahua,Corrupción de menores,10
 2023-11-01,Chihuahua,Corrupción de menores,15
-2023-12-01,Chihuahua,Corrupción de menores,0
+2023-12-01,Chihuahua,Corrupción de menores,3
 2023-01-01,Chihuahua,Trata de personas,1
 2023-02-01,Chihuahua,Trata de personas,0
 2023-03-01,Chihuahua,Trata de personas,1
@@ -49114,7 +49114,7 @@ isodate,entidad,delito,total
 2023-09-01,Chihuahua,Trata de personas,5
 2023-10-01,Chihuahua,Trata de personas,5
 2023-11-01,Chihuahua,Trata de personas,0
-2023-12-01,Chihuahua,Trata de personas,0
+2023-12-01,Chihuahua,Trata de personas,2
 2023-01-01,Chihuahua,Otros delitos contra la sociedad,0
 2023-02-01,Chihuahua,Otros delitos contra la sociedad,6
 2023-03-01,Chihuahua,Otros delitos contra la sociedad,7
@@ -49126,7 +49126,7 @@ isodate,entidad,delito,total
 2023-09-01,Chihuahua,Otros delitos contra la sociedad,10
 2023-10-01,Chihuahua,Otros delitos contra la sociedad,5
 2023-11-01,Chihuahua,Otros delitos contra la sociedad,7
-2023-12-01,Chihuahua,Otros delitos contra la sociedad,0
+2023-12-01,Chihuahua,Otros delitos contra la sociedad,9
 2023-01-01,Chihuahua,Aborto,1
 2023-02-01,Chihuahua,Aborto,0
 2023-03-01,Chihuahua,Aborto,1
@@ -49138,19 +49138,19 @@ isodate,entidad,delito,total
 2023-09-01,Chihuahua,Aborto,2
 2023-10-01,Chihuahua,Aborto,0
 2023-11-01,Chihuahua,Aborto,2
-2023-12-01,Chihuahua,Aborto,0
+2023-12-01,Chihuahua,Aborto,1
 2023-01-01,Ciudad de México,Homicidio doloso,72
 2023-02-01,Ciudad de México,Homicidio doloso,59
 2023-03-01,Ciudad de México,Homicidio doloso,97
 2023-04-01,Ciudad de México,Homicidio doloso,66
 2023-05-01,Ciudad de México,Homicidio doloso,76
 2023-06-01,Ciudad de México,Homicidio doloso,82
-2023-07-01,Ciudad de México,Homicidio doloso,68
+2023-07-01,Ciudad de México,Homicidio doloso,69
 2023-08-01,Ciudad de México,Homicidio doloso,67
 2023-09-01,Ciudad de México,Homicidio doloso,60
 2023-10-01,Ciudad de México,Homicidio doloso,70
-2023-11-01,Ciudad de México,Homicidio doloso,70
-2023-12-01,Ciudad de México,Homicidio doloso,0
+2023-11-01,Ciudad de México,Homicidio doloso,71
+2023-12-01,Ciudad de México,Homicidio doloso,82
 2023-01-01,Ciudad de México,Homicidio culposo,48
 2023-02-01,Ciudad de México,Homicidio culposo,60
 2023-03-01,Ciudad de México,Homicidio culposo,45
@@ -49162,7 +49162,7 @@ isodate,entidad,delito,total
 2023-09-01,Ciudad de México,Homicidio culposo,45
 2023-10-01,Ciudad de México,Homicidio culposo,65
 2023-11-01,Ciudad de México,Homicidio culposo,76
-2023-12-01,Ciudad de México,Homicidio culposo,0
+2023-12-01,Ciudad de México,Homicidio culposo,79
 2023-01-01,Ciudad de México,Lesiones dolosas,420
 2023-02-01,Ciudad de México,Lesiones dolosas,422
 2023-03-01,Ciudad de México,Lesiones dolosas,521
@@ -49174,7 +49174,7 @@ isodate,entidad,delito,total
 2023-09-01,Ciudad de México,Lesiones dolosas,509
 2023-10-01,Ciudad de México,Lesiones dolosas,590
 2023-11-01,Ciudad de México,Lesiones dolosas,508
-2023-12-01,Ciudad de México,Lesiones dolosas,0
+2023-12-01,Ciudad de México,Lesiones dolosas,433
 2023-01-01,Ciudad de México,Lesiones culposas,425
 2023-02-01,Ciudad de México,Lesiones culposas,426
 2023-03-01,Ciudad de México,Lesiones culposas,517
@@ -49186,7 +49186,7 @@ isodate,entidad,delito,total
 2023-09-01,Ciudad de México,Lesiones culposas,438
 2023-10-01,Ciudad de México,Lesiones culposas,523
 2023-11-01,Ciudad de México,Lesiones culposas,494
-2023-12-01,Ciudad de México,Lesiones culposas,0
+2023-12-01,Ciudad de México,Lesiones culposas,508
 2023-01-01,Ciudad de México,Feminicidio,6
 2023-02-01,Ciudad de México,Feminicidio,6
 2023-03-01,Ciudad de México,Feminicidio,5
@@ -49198,7 +49198,7 @@ isodate,entidad,delito,total
 2023-09-01,Ciudad de México,Feminicidio,3
 2023-10-01,Ciudad de México,Feminicidio,5
 2023-11-01,Ciudad de México,Feminicidio,4
-2023-12-01,Ciudad de México,Feminicidio,0
+2023-12-01,Ciudad de México,Feminicidio,4
 2023-01-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,79
 2023-02-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,65
 2023-03-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,100
@@ -49210,19 +49210,19 @@ isodate,entidad,delito,total
 2023-09-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,101
 2023-10-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,108
 2023-11-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,95
-2023-12-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,101
 2023-01-01,Ciudad de México,Secuestro,1
 2023-02-01,Ciudad de México,Secuestro,39
 2023-03-01,Ciudad de México,Secuestro,3
 2023-04-01,Ciudad de México,Secuestro,3
 2023-05-01,Ciudad de México,Secuestro,2
 2023-06-01,Ciudad de México,Secuestro,4
-2023-07-01,Ciudad de México,Secuestro,2
-2023-08-01,Ciudad de México,Secuestro,1
+2023-07-01,Ciudad de México,Secuestro,3
+2023-08-01,Ciudad de México,Secuestro,2
 2023-09-01,Ciudad de México,Secuestro,6
-2023-10-01,Ciudad de México,Secuestro,1
+2023-10-01,Ciudad de México,Secuestro,3
 2023-11-01,Ciudad de México,Secuestro,1
-2023-12-01,Ciudad de México,Secuestro,0
+2023-12-01,Ciudad de México,Secuestro,1
 2023-01-01,Ciudad de México,Tráfico de menores,0
 2023-02-01,Ciudad de México,Tráfico de menores,0
 2023-03-01,Ciudad de México,Tráfico de menores,1
@@ -49246,19 +49246,19 @@ isodate,entidad,delito,total
 2023-09-01,Ciudad de México,Rapto,1
 2023-10-01,Ciudad de México,Rapto,0
 2023-11-01,Ciudad de México,Rapto,0
-2023-12-01,Ciudad de México,Rapto,0
+2023-12-01,Ciudad de México,Rapto,1
 2023-01-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,167
 2023-02-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,139
 2023-03-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,169
 2023-04-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,129
 2023-05-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,157
 2023-06-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,163
-2023-07-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,158
+2023-07-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,157
 2023-08-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,170
 2023-09-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,178
 2023-10-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,207
 2023-11-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,132
-2023-12-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Ciudad de México,Otros delitos que atentan contra la libertad personal,135
 2023-01-01,Ciudad de México,Extorsión,42
 2023-02-01,Ciudad de México,Extorsión,44
 2023-03-01,Ciudad de México,Extorsión,45
@@ -49270,7 +49270,7 @@ isodate,entidad,delito,total
 2023-09-01,Ciudad de México,Extorsión,71
 2023-10-01,Ciudad de México,Extorsión,35
 2023-11-01,Ciudad de México,Extorsión,38
-2023-12-01,Ciudad de México,Extorsión,0
+2023-12-01,Ciudad de México,Extorsión,22
 2023-01-01,Ciudad de México,Corrupción de menores,10
 2023-02-01,Ciudad de México,Corrupción de menores,24
 2023-03-01,Ciudad de México,Corrupción de menores,37
@@ -49282,7 +49282,7 @@ isodate,entidad,delito,total
 2023-09-01,Ciudad de México,Corrupción de menores,27
 2023-10-01,Ciudad de México,Corrupción de menores,26
 2023-11-01,Ciudad de México,Corrupción de menores,27
-2023-12-01,Ciudad de México,Corrupción de menores,0
+2023-12-01,Ciudad de México,Corrupción de menores,17
 2023-01-01,Ciudad de México,Trata de personas,12
 2023-02-01,Ciudad de México,Trata de personas,7
 2023-03-01,Ciudad de México,Trata de personas,9
@@ -49294,7 +49294,7 @@ isodate,entidad,delito,total
 2023-09-01,Ciudad de México,Trata de personas,16
 2023-10-01,Ciudad de México,Trata de personas,14
 2023-11-01,Ciudad de México,Trata de personas,11
-2023-12-01,Ciudad de México,Trata de personas,0
+2023-12-01,Ciudad de México,Trata de personas,10
 2023-01-01,Ciudad de México,Otros delitos contra la sociedad,112
 2023-02-01,Ciudad de México,Otros delitos contra la sociedad,140
 2023-03-01,Ciudad de México,Otros delitos contra la sociedad,534
@@ -49306,7 +49306,7 @@ isodate,entidad,delito,total
 2023-09-01,Ciudad de México,Otros delitos contra la sociedad,156
 2023-10-01,Ciudad de México,Otros delitos contra la sociedad,165
 2023-11-01,Ciudad de México,Otros delitos contra la sociedad,168
-2023-12-01,Ciudad de México,Otros delitos contra la sociedad,0
+2023-12-01,Ciudad de México,Otros delitos contra la sociedad,169
 2023-01-01,Ciudad de México,Aborto,36
 2023-02-01,Ciudad de México,Aborto,18
 2023-03-01,Ciudad de México,Aborto,19
@@ -49318,7 +49318,7 @@ isodate,entidad,delito,total
 2023-09-01,Ciudad de México,Aborto,11
 2023-10-01,Ciudad de México,Aborto,17
 2023-11-01,Ciudad de México,Aborto,24
-2023-12-01,Ciudad de México,Aborto,0
+2023-12-01,Ciudad de México,Aborto,25
 2023-01-01,Durango,Homicidio doloso,10
 2023-02-01,Durango,Homicidio doloso,9
 2023-03-01,Durango,Homicidio doloso,10
@@ -49330,7 +49330,7 @@ isodate,entidad,delito,total
 2023-09-01,Durango,Homicidio doloso,5
 2023-10-01,Durango,Homicidio doloso,3
 2023-11-01,Durango,Homicidio doloso,2
-2023-12-01,Durango,Homicidio doloso,0
+2023-12-01,Durango,Homicidio doloso,6
 2023-01-01,Durango,Homicidio culposo,19
 2023-02-01,Durango,Homicidio culposo,19
 2023-03-01,Durango,Homicidio culposo,18
@@ -49342,7 +49342,7 @@ isodate,entidad,delito,total
 2023-09-01,Durango,Homicidio culposo,31
 2023-10-01,Durango,Homicidio culposo,19
 2023-11-01,Durango,Homicidio culposo,23
-2023-12-01,Durango,Homicidio culposo,0
+2023-12-01,Durango,Homicidio culposo,21
 2023-01-01,Durango,Lesiones dolosas,186
 2023-02-01,Durango,Lesiones dolosas,180
 2023-03-01,Durango,Lesiones dolosas,205
@@ -49354,7 +49354,7 @@ isodate,entidad,delito,total
 2023-09-01,Durango,Lesiones dolosas,207
 2023-10-01,Durango,Lesiones dolosas,187
 2023-11-01,Durango,Lesiones dolosas,159
-2023-12-01,Durango,Lesiones dolosas,0
+2023-12-01,Durango,Lesiones dolosas,113
 2023-01-01,Durango,Lesiones culposas,88
 2023-02-01,Durango,Lesiones culposas,127
 2023-03-01,Durango,Lesiones culposas,136
@@ -49366,7 +49366,7 @@ isodate,entidad,delito,total
 2023-09-01,Durango,Lesiones culposas,100
 2023-10-01,Durango,Lesiones culposas,118
 2023-11-01,Durango,Lesiones culposas,140
-2023-12-01,Durango,Lesiones culposas,0
+2023-12-01,Durango,Lesiones culposas,145
 2023-01-01,Durango,Feminicidio,1
 2023-02-01,Durango,Feminicidio,2
 2023-03-01,Durango,Feminicidio,1
@@ -49378,7 +49378,7 @@ isodate,entidad,delito,total
 2023-09-01,Durango,Feminicidio,1
 2023-10-01,Durango,Feminicidio,0
 2023-11-01,Durango,Feminicidio,3
-2023-12-01,Durango,Feminicidio,0
+2023-12-01,Durango,Feminicidio,1
 2023-01-01,Durango,Otros delitos que atentan contra la vida y la integridad corporal,3
 2023-02-01,Durango,Otros delitos que atentan contra la vida y la integridad corporal,0
 2023-03-01,Durango,Otros delitos que atentan contra la vida y la integridad corporal,0
@@ -49390,7 +49390,7 @@ isodate,entidad,delito,total
 2023-09-01,Durango,Otros delitos que atentan contra la vida y la integridad corporal,0
 2023-10-01,Durango,Otros delitos que atentan contra la vida y la integridad corporal,3
 2023-11-01,Durango,Otros delitos que atentan contra la vida y la integridad corporal,1
-2023-12-01,Durango,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Durango,Otros delitos que atentan contra la vida y la integridad corporal,4
 2023-01-01,Durango,Secuestro,0
 2023-02-01,Durango,Secuestro,0
 2023-03-01,Durango,Secuestro,0
@@ -49438,7 +49438,7 @@ isodate,entidad,delito,total
 2023-09-01,Durango,Otros delitos que atentan contra la libertad personal,6
 2023-10-01,Durango,Otros delitos que atentan contra la libertad personal,5
 2023-11-01,Durango,Otros delitos que atentan contra la libertad personal,10
-2023-12-01,Durango,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Durango,Otros delitos que atentan contra la libertad personal,3
 2023-01-01,Durango,Extorsión,3
 2023-02-01,Durango,Extorsión,5
 2023-03-01,Durango,Extorsión,6
@@ -49450,7 +49450,7 @@ isodate,entidad,delito,total
 2023-09-01,Durango,Extorsión,2
 2023-10-01,Durango,Extorsión,1
 2023-11-01,Durango,Extorsión,3
-2023-12-01,Durango,Extorsión,0
+2023-12-01,Durango,Extorsión,1
 2023-01-01,Durango,Corrupción de menores,0
 2023-02-01,Durango,Corrupción de menores,0
 2023-03-01,Durango,Corrupción de menores,0
@@ -49510,7 +49510,7 @@ isodate,entidad,delito,total
 2023-09-01,Guanajuato,Homicidio doloso,274
 2023-10-01,Guanajuato,Homicidio doloso,246
 2023-11-01,Guanajuato,Homicidio doloso,207
-2023-12-01,Guanajuato,Homicidio doloso,0
+2023-12-01,Guanajuato,Homicidio doloso,229
 2023-01-01,Guanajuato,Homicidio culposo,216
 2023-02-01,Guanajuato,Homicidio culposo,122
 2023-03-01,Guanajuato,Homicidio culposo,210
@@ -49522,7 +49522,7 @@ isodate,entidad,delito,total
 2023-09-01,Guanajuato,Homicidio culposo,103
 2023-10-01,Guanajuato,Homicidio culposo,99
 2023-11-01,Guanajuato,Homicidio culposo,106
-2023-12-01,Guanajuato,Homicidio culposo,0
+2023-12-01,Guanajuato,Homicidio culposo,119
 2023-01-01,Guanajuato,Lesiones dolosas,1351
 2023-02-01,Guanajuato,Lesiones dolosas,1354
 2023-03-01,Guanajuato,Lesiones dolosas,1695
@@ -49534,7 +49534,7 @@ isodate,entidad,delito,total
 2023-09-01,Guanajuato,Lesiones dolosas,1679
 2023-10-01,Guanajuato,Lesiones dolosas,1580
 2023-11-01,Guanajuato,Lesiones dolosas,1691
-2023-12-01,Guanajuato,Lesiones dolosas,0
+2023-12-01,Guanajuato,Lesiones dolosas,1447
 2023-01-01,Guanajuato,Lesiones culposas,7
 2023-02-01,Guanajuato,Lesiones culposas,4
 2023-03-01,Guanajuato,Lesiones culposas,1
@@ -49546,7 +49546,7 @@ isodate,entidad,delito,total
 2023-09-01,Guanajuato,Lesiones culposas,5
 2023-10-01,Guanajuato,Lesiones culposas,8
 2023-11-01,Guanajuato,Lesiones culposas,5
-2023-12-01,Guanajuato,Lesiones culposas,0
+2023-12-01,Guanajuato,Lesiones culposas,7
 2023-01-01,Guanajuato,Feminicidio,0
 2023-02-01,Guanajuato,Feminicidio,1
 2023-03-01,Guanajuato,Feminicidio,2
@@ -49558,7 +49558,7 @@ isodate,entidad,delito,total
 2023-09-01,Guanajuato,Feminicidio,1
 2023-10-01,Guanajuato,Feminicidio,5
 2023-11-01,Guanajuato,Feminicidio,3
-2023-12-01,Guanajuato,Feminicidio,0
+2023-12-01,Guanajuato,Feminicidio,5
 2023-01-01,Guanajuato,Otros delitos que atentan contra la vida y la integridad corporal,142
 2023-02-01,Guanajuato,Otros delitos que atentan contra la vida y la integridad corporal,68
 2023-03-01,Guanajuato,Otros delitos que atentan contra la vida y la integridad corporal,141
@@ -49570,7 +49570,7 @@ isodate,entidad,delito,total
 2023-09-01,Guanajuato,Otros delitos que atentan contra la vida y la integridad corporal,148
 2023-10-01,Guanajuato,Otros delitos que atentan contra la vida y la integridad corporal,164
 2023-11-01,Guanajuato,Otros delitos que atentan contra la vida y la integridad corporal,214
-2023-12-01,Guanajuato,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Guanajuato,Otros delitos que atentan contra la vida y la integridad corporal,117
 2023-01-01,Guanajuato,Secuestro,1
 2023-02-01,Guanajuato,Secuestro,1
 2023-03-01,Guanajuato,Secuestro,0
@@ -49582,7 +49582,7 @@ isodate,entidad,delito,total
 2023-09-01,Guanajuato,Secuestro,0
 2023-10-01,Guanajuato,Secuestro,0
 2023-11-01,Guanajuato,Secuestro,0
-2023-12-01,Guanajuato,Secuestro,0
+2023-12-01,Guanajuato,Secuestro,2
 2023-01-01,Guanajuato,Tráfico de menores,0
 2023-02-01,Guanajuato,Tráfico de menores,0
 2023-03-01,Guanajuato,Tráfico de menores,3
@@ -49630,7 +49630,7 @@ isodate,entidad,delito,total
 2023-09-01,Guanajuato,Extorsión,96
 2023-10-01,Guanajuato,Extorsión,101
 2023-11-01,Guanajuato,Extorsión,80
-2023-12-01,Guanajuato,Extorsión,0
+2023-12-01,Guanajuato,Extorsión,80
 2023-01-01,Guanajuato,Corrupción de menores,38
 2023-02-01,Guanajuato,Corrupción de menores,40
 2023-03-01,Guanajuato,Corrupción de menores,48
@@ -49642,7 +49642,7 @@ isodate,entidad,delito,total
 2023-09-01,Guanajuato,Corrupción de menores,37
 2023-10-01,Guanajuato,Corrupción de menores,35
 2023-11-01,Guanajuato,Corrupción de menores,49
-2023-12-01,Guanajuato,Corrupción de menores,0
+2023-12-01,Guanajuato,Corrupción de menores,19
 2023-01-01,Guanajuato,Trata de personas,0
 2023-02-01,Guanajuato,Trata de personas,0
 2023-03-01,Guanajuato,Trata de personas,0
@@ -49678,7 +49678,7 @@ isodate,entidad,delito,total
 2023-09-01,Guanajuato,Aborto,2
 2023-10-01,Guanajuato,Aborto,2
 2023-11-01,Guanajuato,Aborto,1
-2023-12-01,Guanajuato,Aborto,0
+2023-12-01,Guanajuato,Aborto,2
 2023-01-01,Guerrero,Homicidio doloso,151
 2023-02-01,Guerrero,Homicidio doloso,121
 2023-03-01,Guerrero,Homicidio doloso,133
@@ -49690,7 +49690,7 @@ isodate,entidad,delito,total
 2023-09-01,Guerrero,Homicidio doloso,163
 2023-10-01,Guerrero,Homicidio doloso,131
 2023-11-01,Guerrero,Homicidio doloso,145
-2023-12-01,Guerrero,Homicidio doloso,0
+2023-12-01,Guerrero,Homicidio doloso,133
 2023-01-01,Guerrero,Homicidio culposo,37
 2023-02-01,Guerrero,Homicidio culposo,56
 2023-03-01,Guerrero,Homicidio culposo,29
@@ -49702,7 +49702,7 @@ isodate,entidad,delito,total
 2023-09-01,Guerrero,Homicidio culposo,29
 2023-10-01,Guerrero,Homicidio culposo,36
 2023-11-01,Guerrero,Homicidio culposo,45
-2023-12-01,Guerrero,Homicidio culposo,0
+2023-12-01,Guerrero,Homicidio culposo,35
 2023-01-01,Guerrero,Lesiones dolosas,272
 2023-02-01,Guerrero,Lesiones dolosas,249
 2023-03-01,Guerrero,Lesiones dolosas,306
@@ -49714,7 +49714,7 @@ isodate,entidad,delito,total
 2023-09-01,Guerrero,Lesiones dolosas,247
 2023-10-01,Guerrero,Lesiones dolosas,218
 2023-11-01,Guerrero,Lesiones dolosas,249
-2023-12-01,Guerrero,Lesiones dolosas,0
+2023-12-01,Guerrero,Lesiones dolosas,224
 2023-01-01,Guerrero,Lesiones culposas,106
 2023-02-01,Guerrero,Lesiones culposas,105
 2023-03-01,Guerrero,Lesiones culposas,112
@@ -49726,7 +49726,7 @@ isodate,entidad,delito,total
 2023-09-01,Guerrero,Lesiones culposas,75
 2023-10-01,Guerrero,Lesiones culposas,80
 2023-11-01,Guerrero,Lesiones culposas,74
-2023-12-01,Guerrero,Lesiones culposas,0
+2023-12-01,Guerrero,Lesiones culposas,92
 2023-01-01,Guerrero,Feminicidio,1
 2023-02-01,Guerrero,Feminicidio,3
 2023-03-01,Guerrero,Feminicidio,0
@@ -49750,7 +49750,7 @@ isodate,entidad,delito,total
 2023-09-01,Guerrero,Otros delitos que atentan contra la vida y la integridad corporal,3
 2023-10-01,Guerrero,Otros delitos que atentan contra la vida y la integridad corporal,5
 2023-11-01,Guerrero,Otros delitos que atentan contra la vida y la integridad corporal,4
-2023-12-01,Guerrero,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Guerrero,Otros delitos que atentan contra la vida y la integridad corporal,2
 2023-01-01,Guerrero,Secuestro,0
 2023-02-01,Guerrero,Secuestro,0
 2023-03-01,Guerrero,Secuestro,3
@@ -49762,7 +49762,7 @@ isodate,entidad,delito,total
 2023-09-01,Guerrero,Secuestro,0
 2023-10-01,Guerrero,Secuestro,1
 2023-11-01,Guerrero,Secuestro,1
-2023-12-01,Guerrero,Secuestro,0
+2023-12-01,Guerrero,Secuestro,6
 2023-01-01,Guerrero,Tráfico de menores,0
 2023-02-01,Guerrero,Tráfico de menores,0
 2023-03-01,Guerrero,Tráfico de menores,0
@@ -49798,7 +49798,7 @@ isodate,entidad,delito,total
 2023-09-01,Guerrero,Otros delitos que atentan contra la libertad personal,52
 2023-10-01,Guerrero,Otros delitos que atentan contra la libertad personal,32
 2023-11-01,Guerrero,Otros delitos que atentan contra la libertad personal,37
-2023-12-01,Guerrero,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Guerrero,Otros delitos que atentan contra la libertad personal,26
 2023-01-01,Guerrero,Extorsión,14
 2023-02-01,Guerrero,Extorsión,12
 2023-03-01,Guerrero,Extorsión,8
@@ -49810,7 +49810,7 @@ isodate,entidad,delito,total
 2023-09-01,Guerrero,Extorsión,14
 2023-10-01,Guerrero,Extorsión,6
 2023-11-01,Guerrero,Extorsión,6
-2023-12-01,Guerrero,Extorsión,0
+2023-12-01,Guerrero,Extorsión,10
 2023-01-01,Guerrero,Corrupción de menores,1
 2023-02-01,Guerrero,Corrupción de menores,0
 2023-03-01,Guerrero,Corrupción de menores,1
@@ -49870,7 +49870,7 @@ isodate,entidad,delito,total
 2023-09-01,Hidalgo,Homicidio doloso,23
 2023-10-01,Hidalgo,Homicidio doloso,24
 2023-11-01,Hidalgo,Homicidio doloso,18
-2023-12-01,Hidalgo,Homicidio doloso,0
+2023-12-01,Hidalgo,Homicidio doloso,16
 2023-01-01,Hidalgo,Homicidio culposo,16
 2023-02-01,Hidalgo,Homicidio culposo,17
 2023-03-01,Hidalgo,Homicidio culposo,17
@@ -49882,7 +49882,7 @@ isodate,entidad,delito,total
 2023-09-01,Hidalgo,Homicidio culposo,9
 2023-10-01,Hidalgo,Homicidio culposo,14
 2023-11-01,Hidalgo,Homicidio culposo,13
-2023-12-01,Hidalgo,Homicidio culposo,0
+2023-12-01,Hidalgo,Homicidio culposo,15
 2023-01-01,Hidalgo,Lesiones dolosas,296
 2023-02-01,Hidalgo,Lesiones dolosas,268
 2023-03-01,Hidalgo,Lesiones dolosas,329
@@ -49894,7 +49894,7 @@ isodate,entidad,delito,total
 2023-09-01,Hidalgo,Lesiones dolosas,377
 2023-10-01,Hidalgo,Lesiones dolosas,302
 2023-11-01,Hidalgo,Lesiones dolosas,334
-2023-12-01,Hidalgo,Lesiones dolosas,0
+2023-12-01,Hidalgo,Lesiones dolosas,212
 2023-01-01,Hidalgo,Lesiones culposas,210
 2023-02-01,Hidalgo,Lesiones culposas,205
 2023-03-01,Hidalgo,Lesiones culposas,208
@@ -49906,7 +49906,7 @@ isodate,entidad,delito,total
 2023-09-01,Hidalgo,Lesiones culposas,266
 2023-10-01,Hidalgo,Lesiones culposas,225
 2023-11-01,Hidalgo,Lesiones culposas,306
-2023-12-01,Hidalgo,Lesiones culposas,0
+2023-12-01,Hidalgo,Lesiones culposas,214
 2023-01-01,Hidalgo,Feminicidio,3
 2023-02-01,Hidalgo,Feminicidio,1
 2023-03-01,Hidalgo,Feminicidio,2
@@ -49918,7 +49918,7 @@ isodate,entidad,delito,total
 2023-09-01,Hidalgo,Feminicidio,3
 2023-10-01,Hidalgo,Feminicidio,1
 2023-11-01,Hidalgo,Feminicidio,0
-2023-12-01,Hidalgo,Feminicidio,0
+2023-12-01,Hidalgo,Feminicidio,1
 2023-01-01,Hidalgo,Otros delitos que atentan contra la vida y la integridad corporal,23
 2023-02-01,Hidalgo,Otros delitos que atentan contra la vida y la integridad corporal,6
 2023-03-01,Hidalgo,Otros delitos que atentan contra la vida y la integridad corporal,19
@@ -49930,7 +49930,7 @@ isodate,entidad,delito,total
 2023-09-01,Hidalgo,Otros delitos que atentan contra la vida y la integridad corporal,15
 2023-10-01,Hidalgo,Otros delitos que atentan contra la vida y la integridad corporal,15
 2023-11-01,Hidalgo,Otros delitos que atentan contra la vida y la integridad corporal,20
-2023-12-01,Hidalgo,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Hidalgo,Otros delitos que atentan contra la vida y la integridad corporal,10
 2023-01-01,Hidalgo,Secuestro,1
 2023-02-01,Hidalgo,Secuestro,2
 2023-03-01,Hidalgo,Secuestro,1
@@ -49978,7 +49978,7 @@ isodate,entidad,delito,total
 2023-09-01,Hidalgo,Otros delitos que atentan contra la libertad personal,191
 2023-10-01,Hidalgo,Otros delitos que atentan contra la libertad personal,150
 2023-11-01,Hidalgo,Otros delitos que atentan contra la libertad personal,172
-2023-12-01,Hidalgo,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Hidalgo,Otros delitos que atentan contra la libertad personal,97
 2023-01-01,Hidalgo,Extorsión,37
 2023-02-01,Hidalgo,Extorsión,19
 2023-03-01,Hidalgo,Extorsión,28
@@ -49990,7 +49990,7 @@ isodate,entidad,delito,total
 2023-09-01,Hidalgo,Extorsión,39
 2023-10-01,Hidalgo,Extorsión,27
 2023-11-01,Hidalgo,Extorsión,40
-2023-12-01,Hidalgo,Extorsión,0
+2023-12-01,Hidalgo,Extorsión,10
 2023-01-01,Hidalgo,Corrupción de menores,8
 2023-02-01,Hidalgo,Corrupción de menores,8
 2023-03-01,Hidalgo,Corrupción de menores,5
@@ -50002,7 +50002,7 @@ isodate,entidad,delito,total
 2023-09-01,Hidalgo,Corrupción de menores,5
 2023-10-01,Hidalgo,Corrupción de menores,3
 2023-11-01,Hidalgo,Corrupción de menores,5
-2023-12-01,Hidalgo,Corrupción de menores,0
+2023-12-01,Hidalgo,Corrupción de menores,4
 2023-01-01,Hidalgo,Trata de personas,1
 2023-02-01,Hidalgo,Trata de personas,0
 2023-03-01,Hidalgo,Trata de personas,2
@@ -50014,7 +50014,7 @@ isodate,entidad,delito,total
 2023-09-01,Hidalgo,Trata de personas,2
 2023-10-01,Hidalgo,Trata de personas,0
 2023-11-01,Hidalgo,Trata de personas,1
-2023-12-01,Hidalgo,Trata de personas,0
+2023-12-01,Hidalgo,Trata de personas,1
 2023-01-01,Hidalgo,Otros delitos contra la sociedad,2
 2023-02-01,Hidalgo,Otros delitos contra la sociedad,1
 2023-03-01,Hidalgo,Otros delitos contra la sociedad,1
@@ -50026,7 +50026,7 @@ isodate,entidad,delito,total
 2023-09-01,Hidalgo,Otros delitos contra la sociedad,3
 2023-10-01,Hidalgo,Otros delitos contra la sociedad,1
 2023-11-01,Hidalgo,Otros delitos contra la sociedad,0
-2023-12-01,Hidalgo,Otros delitos contra la sociedad,0
+2023-12-01,Hidalgo,Otros delitos contra la sociedad,2
 2023-01-01,Hidalgo,Aborto,0
 2023-02-01,Hidalgo,Aborto,2
 2023-03-01,Hidalgo,Aborto,0
@@ -50045,12 +50045,12 @@ isodate,entidad,delito,total
 2023-04-01,Jalisco,Homicidio doloso,151
 2023-05-01,Jalisco,Homicidio doloso,213
 2023-06-01,Jalisco,Homicidio doloso,205
-2023-07-01,Jalisco,Homicidio doloso,136
+2023-07-01,Jalisco,Homicidio doloso,137
 2023-08-01,Jalisco,Homicidio doloso,119
 2023-09-01,Jalisco,Homicidio doloso,160
 2023-10-01,Jalisco,Homicidio doloso,145
 2023-11-01,Jalisco,Homicidio doloso,152
-2023-12-01,Jalisco,Homicidio doloso,0
+2023-12-01,Jalisco,Homicidio doloso,147
 2023-01-01,Jalisco,Homicidio culposo,134
 2023-02-01,Jalisco,Homicidio culposo,91
 2023-03-01,Jalisco,Homicidio culposo,128
@@ -50062,7 +50062,7 @@ isodate,entidad,delito,total
 2023-09-01,Jalisco,Homicidio culposo,93
 2023-10-01,Jalisco,Homicidio culposo,98
 2023-11-01,Jalisco,Homicidio culposo,69
-2023-12-01,Jalisco,Homicidio culposo,0
+2023-12-01,Jalisco,Homicidio culposo,104
 2023-01-01,Jalisco,Lesiones dolosas,685
 2023-02-01,Jalisco,Lesiones dolosas,684
 2023-03-01,Jalisco,Lesiones dolosas,820
@@ -50074,7 +50074,7 @@ isodate,entidad,delito,total
 2023-09-01,Jalisco,Lesiones dolosas,805
 2023-10-01,Jalisco,Lesiones dolosas,750
 2023-11-01,Jalisco,Lesiones dolosas,753
-2023-12-01,Jalisco,Lesiones dolosas,0
+2023-12-01,Jalisco,Lesiones dolosas,723
 2023-01-01,Jalisco,Lesiones culposas,479
 2023-02-01,Jalisco,Lesiones culposas,394
 2023-03-01,Jalisco,Lesiones culposas,496
@@ -50086,7 +50086,7 @@ isodate,entidad,delito,total
 2023-09-01,Jalisco,Lesiones culposas,447
 2023-10-01,Jalisco,Lesiones culposas,501
 2023-11-01,Jalisco,Lesiones culposas,517
-2023-12-01,Jalisco,Lesiones culposas,0
+2023-12-01,Jalisco,Lesiones culposas,513
 2023-01-01,Jalisco,Feminicidio,6
 2023-02-01,Jalisco,Feminicidio,4
 2023-03-01,Jalisco,Feminicidio,0
@@ -50098,7 +50098,7 @@ isodate,entidad,delito,total
 2023-09-01,Jalisco,Feminicidio,2
 2023-10-01,Jalisco,Feminicidio,3
 2023-11-01,Jalisco,Feminicidio,4
-2023-12-01,Jalisco,Feminicidio,0
+2023-12-01,Jalisco,Feminicidio,1
 2023-01-01,Jalisco,Otros delitos que atentan contra la vida y la integridad corporal,0
 2023-02-01,Jalisco,Otros delitos que atentan contra la vida y la integridad corporal,0
 2023-03-01,Jalisco,Otros delitos que atentan contra la vida y la integridad corporal,0
@@ -50122,7 +50122,7 @@ isodate,entidad,delito,total
 2023-09-01,Jalisco,Secuestro,2
 2023-10-01,Jalisco,Secuestro,0
 2023-11-01,Jalisco,Secuestro,5
-2023-12-01,Jalisco,Secuestro,0
+2023-12-01,Jalisco,Secuestro,1
 2023-01-01,Jalisco,Tráfico de menores,0
 2023-02-01,Jalisco,Tráfico de menores,0
 2023-03-01,Jalisco,Tráfico de menores,0
@@ -50158,7 +50158,7 @@ isodate,entidad,delito,total
 2023-09-01,Jalisco,Otros delitos que atentan contra la libertad personal,114
 2023-10-01,Jalisco,Otros delitos que atentan contra la libertad personal,103
 2023-11-01,Jalisco,Otros delitos que atentan contra la libertad personal,104
-2023-12-01,Jalisco,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Jalisco,Otros delitos que atentan contra la libertad personal,76
 2023-01-01,Jalisco,Extorsión,48
 2023-02-01,Jalisco,Extorsión,62
 2023-03-01,Jalisco,Extorsión,63
@@ -50170,7 +50170,7 @@ isodate,entidad,delito,total
 2023-09-01,Jalisco,Extorsión,58
 2023-10-01,Jalisco,Extorsión,54
 2023-11-01,Jalisco,Extorsión,62
-2023-12-01,Jalisco,Extorsión,0
+2023-12-01,Jalisco,Extorsión,26
 2023-01-01,Jalisco,Corrupción de menores,5
 2023-02-01,Jalisco,Corrupción de menores,18
 2023-03-01,Jalisco,Corrupción de menores,14
@@ -50182,7 +50182,7 @@ isodate,entidad,delito,total
 2023-09-01,Jalisco,Corrupción de menores,13
 2023-10-01,Jalisco,Corrupción de menores,16
 2023-11-01,Jalisco,Corrupción de menores,11
-2023-12-01,Jalisco,Corrupción de menores,0
+2023-12-01,Jalisco,Corrupción de menores,12
 2023-01-01,Jalisco,Trata de personas,1
 2023-02-01,Jalisco,Trata de personas,0
 2023-03-01,Jalisco,Trata de personas,0
@@ -50218,7 +50218,7 @@ isodate,entidad,delito,total
 2023-09-01,Jalisco,Aborto,1
 2023-10-01,Jalisco,Aborto,0
 2023-11-01,Jalisco,Aborto,1
-2023-12-01,Jalisco,Aborto,0
+2023-12-01,Jalisco,Aborto,1
 2023-01-01,México,Homicidio doloso,264
 2023-02-01,México,Homicidio doloso,220
 2023-03-01,México,Homicidio doloso,202
@@ -50230,7 +50230,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Homicidio doloso,240
 2023-10-01,México,Homicidio doloso,200
 2023-11-01,México,Homicidio doloso,204
-2023-12-01,México,Homicidio doloso,0
+2023-12-01,México,Homicidio doloso,171
 2023-01-01,México,Homicidio culposo,118
 2023-02-01,México,Homicidio culposo,133
 2023-03-01,México,Homicidio culposo,133
@@ -50242,7 +50242,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Homicidio culposo,119
 2023-10-01,México,Homicidio culposo,140
 2023-11-01,México,Homicidio culposo,134
-2023-12-01,México,Homicidio culposo,0
+2023-12-01,México,Homicidio culposo,166
 2023-01-01,México,Lesiones dolosas,4015
 2023-02-01,México,Lesiones dolosas,4243
 2023-03-01,México,Lesiones dolosas,4941
@@ -50254,7 +50254,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Lesiones dolosas,4584
 2023-10-01,México,Lesiones dolosas,4603
 2023-11-01,México,Lesiones dolosas,4189
-2023-12-01,México,Lesiones dolosas,0
+2023-12-01,México,Lesiones dolosas,3853
 2023-01-01,México,Lesiones culposas,1251
 2023-02-01,México,Lesiones culposas,1272
 2023-03-01,México,Lesiones culposas,1291
@@ -50266,7 +50266,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Lesiones culposas,1300
 2023-10-01,México,Lesiones culposas,1366
 2023-11-01,México,Lesiones culposas,1332
-2023-12-01,México,Lesiones culposas,0
+2023-12-01,México,Lesiones culposas,1173
 2023-01-01,México,Feminicidio,7
 2023-02-01,México,Feminicidio,11
 2023-03-01,México,Feminicidio,7
@@ -50278,7 +50278,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Feminicidio,8
 2023-10-01,México,Feminicidio,8
 2023-11-01,México,Feminicidio,6
-2023-12-01,México,Feminicidio,0
+2023-12-01,México,Feminicidio,3
 2023-01-01,México,Otros delitos que atentan contra la vida y la integridad corporal,127
 2023-02-01,México,Otros delitos que atentan contra la vida y la integridad corporal,138
 2023-03-01,México,Otros delitos que atentan contra la vida y la integridad corporal,143
@@ -50290,7 +50290,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Otros delitos que atentan contra la vida y la integridad corporal,132
 2023-10-01,México,Otros delitos que atentan contra la vida y la integridad corporal,120
 2023-11-01,México,Otros delitos que atentan contra la vida y la integridad corporal,141
-2023-12-01,México,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,México,Otros delitos que atentan contra la vida y la integridad corporal,116
 2023-01-01,México,Secuestro,8
 2023-02-01,México,Secuestro,7
 2023-03-01,México,Secuestro,10
@@ -50302,7 +50302,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Secuestro,11
 2023-10-01,México,Secuestro,3
 2023-11-01,México,Secuestro,8
-2023-12-01,México,Secuestro,0
+2023-12-01,México,Secuestro,7
 2023-01-01,México,Tráfico de menores,0
 2023-02-01,México,Tráfico de menores,0
 2023-03-01,México,Tráfico de menores,0
@@ -50338,7 +50338,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Otros delitos que atentan contra la libertad personal,707
 2023-10-01,México,Otros delitos que atentan contra la libertad personal,607
 2023-11-01,México,Otros delitos que atentan contra la libertad personal,660
-2023-12-01,México,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,México,Otros delitos que atentan contra la libertad personal,584
 2023-01-01,México,Extorsión,336
 2023-02-01,México,Extorsión,306
 2023-03-01,México,Extorsión,337
@@ -50350,7 +50350,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Extorsión,272
 2023-10-01,México,Extorsión,336
 2023-11-01,México,Extorsión,336
-2023-12-01,México,Extorsión,0
+2023-12-01,México,Extorsión,287
 2023-01-01,México,Corrupción de menores,11
 2023-02-01,México,Corrupción de menores,13
 2023-03-01,México,Corrupción de menores,12
@@ -50362,7 +50362,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Corrupción de menores,11
 2023-10-01,México,Corrupción de menores,10
 2023-11-01,México,Corrupción de menores,7
-2023-12-01,México,Corrupción de menores,0
+2023-12-01,México,Corrupción de menores,4
 2023-01-01,México,Trata de personas,13
 2023-02-01,México,Trata de personas,15
 2023-03-01,México,Trata de personas,10
@@ -50374,7 +50374,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Trata de personas,3
 2023-10-01,México,Trata de personas,24
 2023-11-01,México,Trata de personas,7
-2023-12-01,México,Trata de personas,0
+2023-12-01,México,Trata de personas,6
 2023-01-01,México,Otros delitos contra la sociedad,122
 2023-02-01,México,Otros delitos contra la sociedad,225
 2023-03-01,México,Otros delitos contra la sociedad,346
@@ -50386,7 +50386,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Otros delitos contra la sociedad,188
 2023-10-01,México,Otros delitos contra la sociedad,181
 2023-11-01,México,Otros delitos contra la sociedad,137
-2023-12-01,México,Otros delitos contra la sociedad,0
+2023-12-01,México,Otros delitos contra la sociedad,98
 2023-01-01,México,Aborto,10
 2023-02-01,México,Aborto,14
 2023-03-01,México,Aborto,16
@@ -50398,7 +50398,7 @@ isodate,entidad,delito,total
 2023-09-01,México,Aborto,14
 2023-10-01,México,Aborto,6
 2023-11-01,México,Aborto,12
-2023-12-01,México,Aborto,0
+2023-12-01,México,Aborto,7
 2023-01-01,Michoacán de Ocampo,Homicidio doloso,147
 2023-02-01,Michoacán de Ocampo,Homicidio doloso,140
 2023-03-01,Michoacán de Ocampo,Homicidio doloso,156
@@ -50410,7 +50410,7 @@ isodate,entidad,delito,total
 2023-09-01,Michoacán de Ocampo,Homicidio doloso,129
 2023-10-01,Michoacán de Ocampo,Homicidio doloso,139
 2023-11-01,Michoacán de Ocampo,Homicidio doloso,128
-2023-12-01,Michoacán de Ocampo,Homicidio doloso,0
+2023-12-01,Michoacán de Ocampo,Homicidio doloso,146
 2023-01-01,Michoacán de Ocampo,Homicidio culposo,76
 2023-02-01,Michoacán de Ocampo,Homicidio culposo,115
 2023-03-01,Michoacán de Ocampo,Homicidio culposo,126
@@ -50422,7 +50422,7 @@ isodate,entidad,delito,total
 2023-09-01,Michoacán de Ocampo,Homicidio culposo,112
 2023-10-01,Michoacán de Ocampo,Homicidio culposo,103
 2023-11-01,Michoacán de Ocampo,Homicidio culposo,122
-2023-12-01,Michoacán de Ocampo,Homicidio culposo,0
+2023-12-01,Michoacán de Ocampo,Homicidio culposo,180
 2023-01-01,Michoacán de Ocampo,Lesiones dolosas,558
 2023-02-01,Michoacán de Ocampo,Lesiones dolosas,552
 2023-03-01,Michoacán de Ocampo,Lesiones dolosas,644
@@ -50434,7 +50434,7 @@ isodate,entidad,delito,total
 2023-09-01,Michoacán de Ocampo,Lesiones dolosas,611
 2023-10-01,Michoacán de Ocampo,Lesiones dolosas,611
 2023-11-01,Michoacán de Ocampo,Lesiones dolosas,566
-2023-12-01,Michoacán de Ocampo,Lesiones dolosas,0
+2023-12-01,Michoacán de Ocampo,Lesiones dolosas,519
 2023-01-01,Michoacán de Ocampo,Lesiones culposas,103
 2023-02-01,Michoacán de Ocampo,Lesiones culposas,105
 2023-03-01,Michoacán de Ocampo,Lesiones culposas,124
@@ -50446,7 +50446,7 @@ isodate,entidad,delito,total
 2023-09-01,Michoacán de Ocampo,Lesiones culposas,86
 2023-10-01,Michoacán de Ocampo,Lesiones culposas,106
 2023-11-01,Michoacán de Ocampo,Lesiones culposas,138
-2023-12-01,Michoacán de Ocampo,Lesiones culposas,0
+2023-12-01,Michoacán de Ocampo,Lesiones culposas,116
 2023-01-01,Michoacán de Ocampo,Feminicidio,1
 2023-02-01,Michoacán de Ocampo,Feminicidio,2
 2023-03-01,Michoacán de Ocampo,Feminicidio,4
@@ -50458,7 +50458,7 @@ isodate,entidad,delito,total
 2023-09-01,Michoacán de Ocampo,Feminicidio,0
 2023-10-01,Michoacán de Ocampo,Feminicidio,1
 2023-11-01,Michoacán de Ocampo,Feminicidio,2
-2023-12-01,Michoacán de Ocampo,Feminicidio,0
+2023-12-01,Michoacán de Ocampo,Feminicidio,2
 2023-01-01,Michoacán de Ocampo,Otros delitos que atentan contra la vida y la integridad corporal,30
 2023-02-01,Michoacán de Ocampo,Otros delitos que atentan contra la vida y la integridad corporal,32
 2023-03-01,Michoacán de Ocampo,Otros delitos que atentan contra la vida y la integridad corporal,50
@@ -50470,7 +50470,7 @@ isodate,entidad,delito,total
 2023-09-01,Michoacán de Ocampo,Otros delitos que atentan contra la vida y la integridad corporal,34
 2023-10-01,Michoacán de Ocampo,Otros delitos que atentan contra la vida y la integridad corporal,33
 2023-11-01,Michoacán de Ocampo,Otros delitos que atentan contra la vida y la integridad corporal,35
-2023-12-01,Michoacán de Ocampo,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Michoacán de Ocampo,Otros delitos que atentan contra la vida y la integridad corporal,29
 2023-01-01,Michoacán de Ocampo,Secuestro,0
 2023-02-01,Michoacán de Ocampo,Secuestro,2
 2023-03-01,Michoacán de Ocampo,Secuestro,1
@@ -50518,7 +50518,7 @@ isodate,entidad,delito,total
 2023-09-01,Michoacán de Ocampo,Otros delitos que atentan contra la libertad personal,31
 2023-10-01,Michoacán de Ocampo,Otros delitos que atentan contra la libertad personal,36
 2023-11-01,Michoacán de Ocampo,Otros delitos que atentan contra la libertad personal,30
-2023-12-01,Michoacán de Ocampo,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Michoacán de Ocampo,Otros delitos que atentan contra la libertad personal,36
 2023-01-01,Michoacán de Ocampo,Extorsión,3
 2023-02-01,Michoacán de Ocampo,Extorsión,7
 2023-03-01,Michoacán de Ocampo,Extorsión,20
@@ -50530,7 +50530,7 @@ isodate,entidad,delito,total
 2023-09-01,Michoacán de Ocampo,Extorsión,24
 2023-10-01,Michoacán de Ocampo,Extorsión,20
 2023-11-01,Michoacán de Ocampo,Extorsión,19
-2023-12-01,Michoacán de Ocampo,Extorsión,0
+2023-12-01,Michoacán de Ocampo,Extorsión,20
 2023-01-01,Michoacán de Ocampo,Corrupción de menores,2
 2023-02-01,Michoacán de Ocampo,Corrupción de menores,0
 2023-03-01,Michoacán de Ocampo,Corrupción de menores,1
@@ -50542,7 +50542,7 @@ isodate,entidad,delito,total
 2023-09-01,Michoacán de Ocampo,Corrupción de menores,5
 2023-10-01,Michoacán de Ocampo,Corrupción de menores,3
 2023-11-01,Michoacán de Ocampo,Corrupción de menores,3
-2023-12-01,Michoacán de Ocampo,Corrupción de menores,0
+2023-12-01,Michoacán de Ocampo,Corrupción de menores,2
 2023-01-01,Michoacán de Ocampo,Trata de personas,0
 2023-02-01,Michoacán de Ocampo,Trata de personas,1
 2023-03-01,Michoacán de Ocampo,Trata de personas,0
@@ -50554,7 +50554,7 @@ isodate,entidad,delito,total
 2023-09-01,Michoacán de Ocampo,Trata de personas,2
 2023-10-01,Michoacán de Ocampo,Trata de personas,0
 2023-11-01,Michoacán de Ocampo,Trata de personas,0
-2023-12-01,Michoacán de Ocampo,Trata de personas,0
+2023-12-01,Michoacán de Ocampo,Trata de personas,1
 2023-01-01,Michoacán de Ocampo,Otros delitos contra la sociedad,0
 2023-02-01,Michoacán de Ocampo,Otros delitos contra la sociedad,1
 2023-03-01,Michoacán de Ocampo,Otros delitos contra la sociedad,0
@@ -50566,7 +50566,7 @@ isodate,entidad,delito,total
 2023-09-01,Michoacán de Ocampo,Otros delitos contra la sociedad,1
 2023-10-01,Michoacán de Ocampo,Otros delitos contra la sociedad,0
 2023-11-01,Michoacán de Ocampo,Otros delitos contra la sociedad,0
-2023-12-01,Michoacán de Ocampo,Otros delitos contra la sociedad,0
+2023-12-01,Michoacán de Ocampo,Otros delitos contra la sociedad,1
 2023-01-01,Michoacán de Ocampo,Aborto,1
 2023-02-01,Michoacán de Ocampo,Aborto,1
 2023-03-01,Michoacán de Ocampo,Aborto,3
@@ -50578,7 +50578,7 @@ isodate,entidad,delito,total
 2023-09-01,Michoacán de Ocampo,Aborto,2
 2023-10-01,Michoacán de Ocampo,Aborto,4
 2023-11-01,Michoacán de Ocampo,Aborto,2
-2023-12-01,Michoacán de Ocampo,Aborto,0
+2023-12-01,Michoacán de Ocampo,Aborto,1
 2023-01-01,Morelos,Homicidio doloso,117
 2023-02-01,Morelos,Homicidio doloso,97
 2023-03-01,Morelos,Homicidio doloso,134
@@ -50590,7 +50590,7 @@ isodate,entidad,delito,total
 2023-09-01,Morelos,Homicidio doloso,134
 2023-10-01,Morelos,Homicidio doloso,152
 2023-11-01,Morelos,Homicidio doloso,129
-2023-12-01,Morelos,Homicidio doloso,0
+2023-12-01,Morelos,Homicidio doloso,140
 2023-01-01,Morelos,Homicidio culposo,22
 2023-02-01,Morelos,Homicidio culposo,37
 2023-03-01,Morelos,Homicidio culposo,27
@@ -50602,7 +50602,7 @@ isodate,entidad,delito,total
 2023-09-01,Morelos,Homicidio culposo,26
 2023-10-01,Morelos,Homicidio culposo,18
 2023-11-01,Morelos,Homicidio culposo,28
-2023-12-01,Morelos,Homicidio culposo,0
+2023-12-01,Morelos,Homicidio culposo,19
 2023-01-01,Morelos,Lesiones dolosas,101
 2023-02-01,Morelos,Lesiones dolosas,70
 2023-03-01,Morelos,Lesiones dolosas,76
@@ -50614,7 +50614,7 @@ isodate,entidad,delito,total
 2023-09-01,Morelos,Lesiones dolosas,67
 2023-10-01,Morelos,Lesiones dolosas,65
 2023-11-01,Morelos,Lesiones dolosas,66
-2023-12-01,Morelos,Lesiones dolosas,0
+2023-12-01,Morelos,Lesiones dolosas,50
 2023-01-01,Morelos,Lesiones culposas,281
 2023-02-01,Morelos,Lesiones culposas,245
 2023-03-01,Morelos,Lesiones culposas,345
@@ -50626,7 +50626,7 @@ isodate,entidad,delito,total
 2023-09-01,Morelos,Lesiones culposas,267
 2023-10-01,Morelos,Lesiones culposas,259
 2023-11-01,Morelos,Lesiones culposas,263
-2023-12-01,Morelos,Lesiones culposas,0
+2023-12-01,Morelos,Lesiones culposas,257
 2023-01-01,Morelos,Feminicidio,2
 2023-02-01,Morelos,Feminicidio,4
 2023-03-01,Morelos,Feminicidio,2
@@ -50638,7 +50638,7 @@ isodate,entidad,delito,total
 2023-09-01,Morelos,Feminicidio,4
 2023-10-01,Morelos,Feminicidio,2
 2023-11-01,Morelos,Feminicidio,3
-2023-12-01,Morelos,Feminicidio,0
+2023-12-01,Morelos,Feminicidio,3
 2023-01-01,Morelos,Otros delitos que atentan contra la vida y la integridad corporal,51
 2023-02-01,Morelos,Otros delitos que atentan contra la vida y la integridad corporal,57
 2023-03-01,Morelos,Otros delitos que atentan contra la vida y la integridad corporal,79
@@ -50650,7 +50650,7 @@ isodate,entidad,delito,total
 2023-09-01,Morelos,Otros delitos que atentan contra la vida y la integridad corporal,58
 2023-10-01,Morelos,Otros delitos que atentan contra la vida y la integridad corporal,77
 2023-11-01,Morelos,Otros delitos que atentan contra la vida y la integridad corporal,63
-2023-12-01,Morelos,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Morelos,Otros delitos que atentan contra la vida y la integridad corporal,45
 2023-01-01,Morelos,Secuestro,4
 2023-02-01,Morelos,Secuestro,1
 2023-03-01,Morelos,Secuestro,3
@@ -50662,7 +50662,7 @@ isodate,entidad,delito,total
 2023-09-01,Morelos,Secuestro,3
 2023-10-01,Morelos,Secuestro,2
 2023-11-01,Morelos,Secuestro,2
-2023-12-01,Morelos,Secuestro,0
+2023-12-01,Morelos,Secuestro,2
 2023-01-01,Morelos,Tráfico de menores,0
 2023-02-01,Morelos,Tráfico de menores,0
 2023-03-01,Morelos,Tráfico de menores,0
@@ -50698,7 +50698,7 @@ isodate,entidad,delito,total
 2023-09-01,Morelos,Otros delitos que atentan contra la libertad personal,21
 2023-10-01,Morelos,Otros delitos que atentan contra la libertad personal,23
 2023-11-01,Morelos,Otros delitos que atentan contra la libertad personal,18
-2023-12-01,Morelos,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Morelos,Otros delitos que atentan contra la libertad personal,17
 2023-01-01,Morelos,Extorsión,10
 2023-02-01,Morelos,Extorsión,15
 2023-03-01,Morelos,Extorsión,20
@@ -50710,7 +50710,7 @@ isodate,entidad,delito,total
 2023-09-01,Morelos,Extorsión,18
 2023-10-01,Morelos,Extorsión,26
 2023-11-01,Morelos,Extorsión,38
-2023-12-01,Morelos,Extorsión,0
+2023-12-01,Morelos,Extorsión,22
 2023-01-01,Morelos,Corrupción de menores,6
 2023-02-01,Morelos,Corrupción de menores,8
 2023-03-01,Morelos,Corrupción de menores,4
@@ -50722,7 +50722,7 @@ isodate,entidad,delito,total
 2023-09-01,Morelos,Corrupción de menores,3
 2023-10-01,Morelos,Corrupción de menores,3
 2023-11-01,Morelos,Corrupción de menores,3
-2023-12-01,Morelos,Corrupción de menores,0
+2023-12-01,Morelos,Corrupción de menores,3
 2023-01-01,Morelos,Trata de personas,0
 2023-02-01,Morelos,Trata de personas,0
 2023-03-01,Morelos,Trata de personas,0
@@ -50746,7 +50746,7 @@ isodate,entidad,delito,total
 2023-09-01,Morelos,Otros delitos contra la sociedad,0
 2023-10-01,Morelos,Otros delitos contra la sociedad,3
 2023-11-01,Morelos,Otros delitos contra la sociedad,4
-2023-12-01,Morelos,Otros delitos contra la sociedad,0
+2023-12-01,Morelos,Otros delitos contra la sociedad,1
 2023-01-01,Morelos,Aborto,0
 2023-02-01,Morelos,Aborto,0
 2023-03-01,Morelos,Aborto,0
@@ -50770,7 +50770,7 @@ isodate,entidad,delito,total
 2023-09-01,Nayarit,Homicidio doloso,7
 2023-10-01,Nayarit,Homicidio doloso,12
 2023-11-01,Nayarit,Homicidio doloso,7
-2023-12-01,Nayarit,Homicidio doloso,0
+2023-12-01,Nayarit,Homicidio doloso,13
 2023-01-01,Nayarit,Homicidio culposo,30
 2023-02-01,Nayarit,Homicidio culposo,10
 2023-03-01,Nayarit,Homicidio culposo,22
@@ -50782,7 +50782,7 @@ isodate,entidad,delito,total
 2023-09-01,Nayarit,Homicidio culposo,26
 2023-10-01,Nayarit,Homicidio culposo,13
 2023-11-01,Nayarit,Homicidio culposo,17
-2023-12-01,Nayarit,Homicidio culposo,0
+2023-12-01,Nayarit,Homicidio culposo,31
 2023-01-01,Nayarit,Lesiones dolosas,75
 2023-02-01,Nayarit,Lesiones dolosas,70
 2023-03-01,Nayarit,Lesiones dolosas,49
@@ -50794,7 +50794,7 @@ isodate,entidad,delito,total
 2023-09-01,Nayarit,Lesiones dolosas,93
 2023-10-01,Nayarit,Lesiones dolosas,100
 2023-11-01,Nayarit,Lesiones dolosas,83
-2023-12-01,Nayarit,Lesiones dolosas,0
+2023-12-01,Nayarit,Lesiones dolosas,49
 2023-01-01,Nayarit,Lesiones culposas,38
 2023-02-01,Nayarit,Lesiones culposas,26
 2023-03-01,Nayarit,Lesiones culposas,31
@@ -50806,7 +50806,7 @@ isodate,entidad,delito,total
 2023-09-01,Nayarit,Lesiones culposas,49
 2023-10-01,Nayarit,Lesiones culposas,57
 2023-11-01,Nayarit,Lesiones culposas,23
-2023-12-01,Nayarit,Lesiones culposas,0
+2023-12-01,Nayarit,Lesiones culposas,29
 2023-01-01,Nayarit,Feminicidio,2
 2023-02-01,Nayarit,Feminicidio,0
 2023-03-01,Nayarit,Feminicidio,2
@@ -50830,7 +50830,7 @@ isodate,entidad,delito,total
 2023-09-01,Nayarit,Otros delitos que atentan contra la vida y la integridad corporal,0
 2023-10-01,Nayarit,Otros delitos que atentan contra la vida y la integridad corporal,0
 2023-11-01,Nayarit,Otros delitos que atentan contra la vida y la integridad corporal,1
-2023-12-01,Nayarit,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Nayarit,Otros delitos que atentan contra la vida y la integridad corporal,2
 2023-01-01,Nayarit,Secuestro,0
 2023-02-01,Nayarit,Secuestro,1
 2023-03-01,Nayarit,Secuestro,0
@@ -50842,7 +50842,7 @@ isodate,entidad,delito,total
 2023-09-01,Nayarit,Secuestro,0
 2023-10-01,Nayarit,Secuestro,1
 2023-11-01,Nayarit,Secuestro,0
-2023-12-01,Nayarit,Secuestro,0
+2023-12-01,Nayarit,Secuestro,1
 2023-01-01,Nayarit,Tráfico de menores,0
 2023-02-01,Nayarit,Tráfico de menores,0
 2023-03-01,Nayarit,Tráfico de menores,0
@@ -50878,7 +50878,7 @@ isodate,entidad,delito,total
 2023-09-01,Nayarit,Otros delitos que atentan contra la libertad personal,7
 2023-10-01,Nayarit,Otros delitos que atentan contra la libertad personal,1
 2023-11-01,Nayarit,Otros delitos que atentan contra la libertad personal,6
-2023-12-01,Nayarit,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Nayarit,Otros delitos que atentan contra la libertad personal,7
 2023-01-01,Nayarit,Extorsión,2
 2023-02-01,Nayarit,Extorsión,0
 2023-03-01,Nayarit,Extorsión,6
@@ -50890,7 +50890,7 @@ isodate,entidad,delito,total
 2023-09-01,Nayarit,Extorsión,3
 2023-10-01,Nayarit,Extorsión,6
 2023-11-01,Nayarit,Extorsión,2
-2023-12-01,Nayarit,Extorsión,0
+2023-12-01,Nayarit,Extorsión,1
 2023-01-01,Nayarit,Corrupción de menores,3
 2023-02-01,Nayarit,Corrupción de menores,3
 2023-03-01,Nayarit,Corrupción de menores,1
@@ -50902,7 +50902,7 @@ isodate,entidad,delito,total
 2023-09-01,Nayarit,Corrupción de menores,5
 2023-10-01,Nayarit,Corrupción de menores,3
 2023-11-01,Nayarit,Corrupción de menores,3
-2023-12-01,Nayarit,Corrupción de menores,0
+2023-12-01,Nayarit,Corrupción de menores,3
 2023-01-01,Nayarit,Trata de personas,0
 2023-02-01,Nayarit,Trata de personas,0
 2023-03-01,Nayarit,Trata de personas,0
@@ -50950,7 +50950,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Homicidio doloso,136
 2023-10-01,Nuevo León,Homicidio doloso,113
 2023-11-01,Nuevo León,Homicidio doloso,127
-2023-12-01,Nuevo León,Homicidio doloso,0
+2023-12-01,Nuevo León,Homicidio doloso,120
 2023-01-01,Nuevo León,Homicidio culposo,69
 2023-02-01,Nuevo León,Homicidio culposo,56
 2023-03-01,Nuevo León,Homicidio culposo,54
@@ -50962,7 +50962,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Homicidio culposo,39
 2023-10-01,Nuevo León,Homicidio culposo,58
 2023-11-01,Nuevo León,Homicidio culposo,56
-2023-12-01,Nuevo León,Homicidio culposo,0
+2023-12-01,Nuevo León,Homicidio culposo,49
 2023-01-01,Nuevo León,Lesiones dolosas,584
 2023-02-01,Nuevo León,Lesiones dolosas,524
 2023-03-01,Nuevo León,Lesiones dolosas,668
@@ -50974,7 +50974,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Lesiones dolosas,612
 2023-10-01,Nuevo León,Lesiones dolosas,578
 2023-11-01,Nuevo León,Lesiones dolosas,480
-2023-12-01,Nuevo León,Lesiones dolosas,0
+2023-12-01,Nuevo León,Lesiones dolosas,421
 2023-01-01,Nuevo León,Lesiones culposas,310
 2023-02-01,Nuevo León,Lesiones culposas,273
 2023-03-01,Nuevo León,Lesiones culposas,297
@@ -50986,7 +50986,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Lesiones culposas,292
 2023-10-01,Nuevo León,Lesiones culposas,274
 2023-11-01,Nuevo León,Lesiones culposas,191
-2023-12-01,Nuevo León,Lesiones culposas,0
+2023-12-01,Nuevo León,Lesiones culposas,226
 2023-01-01,Nuevo León,Feminicidio,4
 2023-02-01,Nuevo León,Feminicidio,5
 2023-03-01,Nuevo León,Feminicidio,8
@@ -50998,7 +50998,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Feminicidio,4
 2023-10-01,Nuevo León,Feminicidio,5
 2023-11-01,Nuevo León,Feminicidio,5
-2023-12-01,Nuevo León,Feminicidio,0
+2023-12-01,Nuevo León,Feminicidio,9
 2023-01-01,Nuevo León,Otros delitos que atentan contra la vida y la integridad corporal,34
 2023-02-01,Nuevo León,Otros delitos que atentan contra la vida y la integridad corporal,35
 2023-03-01,Nuevo León,Otros delitos que atentan contra la vida y la integridad corporal,34
@@ -51010,7 +51010,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Otros delitos que atentan contra la vida y la integridad corporal,50
 2023-10-01,Nuevo León,Otros delitos que atentan contra la vida y la integridad corporal,37
 2023-11-01,Nuevo León,Otros delitos que atentan contra la vida y la integridad corporal,30
-2023-12-01,Nuevo León,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Nuevo León,Otros delitos que atentan contra la vida y la integridad corporal,23
 2023-01-01,Nuevo León,Secuestro,2
 2023-02-01,Nuevo León,Secuestro,1
 2023-03-01,Nuevo León,Secuestro,4
@@ -51022,7 +51022,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Secuestro,2
 2023-10-01,Nuevo León,Secuestro,0
 2023-11-01,Nuevo León,Secuestro,2
-2023-12-01,Nuevo León,Secuestro,0
+2023-12-01,Nuevo León,Secuestro,5
 2023-01-01,Nuevo León,Tráfico de menores,0
 2023-02-01,Nuevo León,Tráfico de menores,0
 2023-03-01,Nuevo León,Tráfico de menores,0
@@ -51046,7 +51046,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Rapto,8
 2023-10-01,Nuevo León,Rapto,8
 2023-11-01,Nuevo León,Rapto,6
-2023-12-01,Nuevo León,Rapto,0
+2023-12-01,Nuevo León,Rapto,6
 2023-01-01,Nuevo León,Otros delitos que atentan contra la libertad personal,333
 2023-02-01,Nuevo León,Otros delitos que atentan contra la libertad personal,254
 2023-03-01,Nuevo León,Otros delitos que atentan contra la libertad personal,291
@@ -51058,7 +51058,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Otros delitos que atentan contra la libertad personal,308
 2023-10-01,Nuevo León,Otros delitos que atentan contra la libertad personal,278
 2023-11-01,Nuevo León,Otros delitos que atentan contra la libertad personal,257
-2023-12-01,Nuevo León,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Nuevo León,Otros delitos que atentan contra la libertad personal,222
 2023-01-01,Nuevo León,Extorsión,59
 2023-02-01,Nuevo León,Extorsión,63
 2023-03-01,Nuevo León,Extorsión,69
@@ -51070,7 +51070,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Extorsión,91
 2023-10-01,Nuevo León,Extorsión,66
 2023-11-01,Nuevo León,Extorsión,78
-2023-12-01,Nuevo León,Extorsión,0
+2023-12-01,Nuevo León,Extorsión,66
 2023-01-01,Nuevo León,Corrupción de menores,25
 2023-02-01,Nuevo León,Corrupción de menores,18
 2023-03-01,Nuevo León,Corrupción de menores,16
@@ -51082,7 +51082,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Corrupción de menores,38
 2023-10-01,Nuevo León,Corrupción de menores,23
 2023-11-01,Nuevo León,Corrupción de menores,28
-2023-12-01,Nuevo León,Corrupción de menores,0
+2023-12-01,Nuevo León,Corrupción de menores,18
 2023-01-01,Nuevo León,Trata de personas,5
 2023-02-01,Nuevo León,Trata de personas,4
 2023-03-01,Nuevo León,Trata de personas,4
@@ -51094,7 +51094,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Trata de personas,1
 2023-10-01,Nuevo León,Trata de personas,5
 2023-11-01,Nuevo León,Trata de personas,0
-2023-12-01,Nuevo León,Trata de personas,0
+2023-12-01,Nuevo León,Trata de personas,2
 2023-01-01,Nuevo León,Otros delitos contra la sociedad,0
 2023-02-01,Nuevo León,Otros delitos contra la sociedad,0
 2023-03-01,Nuevo León,Otros delitos contra la sociedad,0
@@ -51106,7 +51106,7 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Otros delitos contra la sociedad,0
 2023-10-01,Nuevo León,Otros delitos contra la sociedad,1
 2023-11-01,Nuevo León,Otros delitos contra la sociedad,1
-2023-12-01,Nuevo León,Otros delitos contra la sociedad,0
+2023-12-01,Nuevo León,Otros delitos contra la sociedad,1
 2023-01-01,Nuevo León,Aborto,10
 2023-02-01,Nuevo León,Aborto,12
 2023-03-01,Nuevo León,Aborto,17
@@ -51118,19 +51118,19 @@ isodate,entidad,delito,total
 2023-09-01,Nuevo León,Aborto,12
 2023-10-01,Nuevo León,Aborto,11
 2023-11-01,Nuevo León,Aborto,9
-2023-12-01,Nuevo León,Aborto,0
+2023-12-01,Nuevo León,Aborto,11
 2023-01-01,Oaxaca,Homicidio doloso,83
 2023-02-01,Oaxaca,Homicidio doloso,81
 2023-03-01,Oaxaca,Homicidio doloso,64
 2023-04-01,Oaxaca,Homicidio doloso,72
-2023-05-01,Oaxaca,Homicidio doloso,87
+2023-05-01,Oaxaca,Homicidio doloso,88
 2023-06-01,Oaxaca,Homicidio doloso,104
 2023-07-01,Oaxaca,Homicidio doloso,67
 2023-08-01,Oaxaca,Homicidio doloso,89
 2023-09-01,Oaxaca,Homicidio doloso,78
 2023-10-01,Oaxaca,Homicidio doloso,81
 2023-11-01,Oaxaca,Homicidio doloso,95
-2023-12-01,Oaxaca,Homicidio doloso,0
+2023-12-01,Oaxaca,Homicidio doloso,69
 2023-01-01,Oaxaca,Homicidio culposo,100
 2023-02-01,Oaxaca,Homicidio culposo,128
 2023-03-01,Oaxaca,Homicidio culposo,134
@@ -51142,19 +51142,19 @@ isodate,entidad,delito,total
 2023-09-01,Oaxaca,Homicidio culposo,104
 2023-10-01,Oaxaca,Homicidio culposo,114
 2023-11-01,Oaxaca,Homicidio culposo,90
-2023-12-01,Oaxaca,Homicidio culposo,0
+2023-12-01,Oaxaca,Homicidio culposo,101
 2023-01-01,Oaxaca,Lesiones dolosas,374
 2023-02-01,Oaxaca,Lesiones dolosas,351
 2023-03-01,Oaxaca,Lesiones dolosas,441
 2023-04-01,Oaxaca,Lesiones dolosas,387
-2023-05-01,Oaxaca,Lesiones dolosas,416
+2023-05-01,Oaxaca,Lesiones dolosas,415
 2023-06-01,Oaxaca,Lesiones dolosas,309
 2023-07-01,Oaxaca,Lesiones dolosas,325
 2023-08-01,Oaxaca,Lesiones dolosas,350
 2023-09-01,Oaxaca,Lesiones dolosas,335
 2023-10-01,Oaxaca,Lesiones dolosas,342
 2023-11-01,Oaxaca,Lesiones dolosas,315
-2023-12-01,Oaxaca,Lesiones dolosas,0
+2023-12-01,Oaxaca,Lesiones dolosas,319
 2023-01-01,Oaxaca,Lesiones culposas,141
 2023-02-01,Oaxaca,Lesiones culposas,131
 2023-03-01,Oaxaca,Lesiones culposas,156
@@ -51166,7 +51166,7 @@ isodate,entidad,delito,total
 2023-09-01,Oaxaca,Lesiones culposas,119
 2023-10-01,Oaxaca,Lesiones culposas,128
 2023-11-01,Oaxaca,Lesiones culposas,120
-2023-12-01,Oaxaca,Lesiones culposas,0
+2023-12-01,Oaxaca,Lesiones culposas,152
 2023-01-01,Oaxaca,Feminicidio,12
 2023-02-01,Oaxaca,Feminicidio,6
 2023-03-01,Oaxaca,Feminicidio,5
@@ -51178,7 +51178,7 @@ isodate,entidad,delito,total
 2023-09-01,Oaxaca,Feminicidio,1
 2023-10-01,Oaxaca,Feminicidio,1
 2023-11-01,Oaxaca,Feminicidio,1
-2023-12-01,Oaxaca,Feminicidio,0
+2023-12-01,Oaxaca,Feminicidio,2
 2023-01-01,Oaxaca,Otros delitos que atentan contra la vida y la integridad corporal,22
 2023-02-01,Oaxaca,Otros delitos que atentan contra la vida y la integridad corporal,61
 2023-03-01,Oaxaca,Otros delitos que atentan contra la vida y la integridad corporal,43
@@ -51190,7 +51190,7 @@ isodate,entidad,delito,total
 2023-09-01,Oaxaca,Otros delitos que atentan contra la vida y la integridad corporal,26
 2023-10-01,Oaxaca,Otros delitos que atentan contra la vida y la integridad corporal,45
 2023-11-01,Oaxaca,Otros delitos que atentan contra la vida y la integridad corporal,29
-2023-12-01,Oaxaca,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Oaxaca,Otros delitos que atentan contra la vida y la integridad corporal,30
 2023-01-01,Oaxaca,Secuestro,5
 2023-02-01,Oaxaca,Secuestro,5
 2023-03-01,Oaxaca,Secuestro,3
@@ -51238,7 +51238,7 @@ isodate,entidad,delito,total
 2023-09-01,Oaxaca,Otros delitos que atentan contra la libertad personal,24
 2023-10-01,Oaxaca,Otros delitos que atentan contra la libertad personal,32
 2023-11-01,Oaxaca,Otros delitos que atentan contra la libertad personal,13
-2023-12-01,Oaxaca,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Oaxaca,Otros delitos que atentan contra la libertad personal,27
 2023-01-01,Oaxaca,Extorsión,9
 2023-02-01,Oaxaca,Extorsión,15
 2023-03-01,Oaxaca,Extorsión,12
@@ -51250,7 +51250,7 @@ isodate,entidad,delito,total
 2023-09-01,Oaxaca,Extorsión,25
 2023-10-01,Oaxaca,Extorsión,14
 2023-11-01,Oaxaca,Extorsión,3
-2023-12-01,Oaxaca,Extorsión,0
+2023-12-01,Oaxaca,Extorsión,6
 2023-01-01,Oaxaca,Corrupción de menores,4
 2023-02-01,Oaxaca,Corrupción de menores,3
 2023-03-01,Oaxaca,Corrupción de menores,1
@@ -51262,7 +51262,7 @@ isodate,entidad,delito,total
 2023-09-01,Oaxaca,Corrupción de menores,4
 2023-10-01,Oaxaca,Corrupción de menores,3
 2023-11-01,Oaxaca,Corrupción de menores,4
-2023-12-01,Oaxaca,Corrupción de menores,0
+2023-12-01,Oaxaca,Corrupción de menores,2
 2023-01-01,Oaxaca,Trata de personas,1
 2023-02-01,Oaxaca,Trata de personas,0
 2023-03-01,Oaxaca,Trata de personas,1
@@ -51274,7 +51274,7 @@ isodate,entidad,delito,total
 2023-09-01,Oaxaca,Trata de personas,1
 2023-10-01,Oaxaca,Trata de personas,3
 2023-11-01,Oaxaca,Trata de personas,1
-2023-12-01,Oaxaca,Trata de personas,0
+2023-12-01,Oaxaca,Trata de personas,1
 2023-01-01,Oaxaca,Otros delitos contra la sociedad,60
 2023-02-01,Oaxaca,Otros delitos contra la sociedad,66
 2023-03-01,Oaxaca,Otros delitos contra la sociedad,74
@@ -51286,7 +51286,7 @@ isodate,entidad,delito,total
 2023-09-01,Oaxaca,Otros delitos contra la sociedad,65
 2023-10-01,Oaxaca,Otros delitos contra la sociedad,61
 2023-11-01,Oaxaca,Otros delitos contra la sociedad,58
-2023-12-01,Oaxaca,Otros delitos contra la sociedad,0
+2023-12-01,Oaxaca,Otros delitos contra la sociedad,48
 2023-01-01,Oaxaca,Aborto,2
 2023-02-01,Oaxaca,Aborto,3
 2023-03-01,Oaxaca,Aborto,2
@@ -51310,7 +51310,7 @@ isodate,entidad,delito,total
 2023-09-01,Puebla,Homicidio doloso,88
 2023-10-01,Puebla,Homicidio doloso,83
 2023-11-01,Puebla,Homicidio doloso,78
-2023-12-01,Puebla,Homicidio doloso,0
+2023-12-01,Puebla,Homicidio doloso,73
 2023-01-01,Puebla,Homicidio culposo,41
 2023-02-01,Puebla,Homicidio culposo,21
 2023-03-01,Puebla,Homicidio culposo,29
@@ -51322,7 +51322,7 @@ isodate,entidad,delito,total
 2023-09-01,Puebla,Homicidio culposo,38
 2023-10-01,Puebla,Homicidio culposo,20
 2023-11-01,Puebla,Homicidio culposo,55
-2023-12-01,Puebla,Homicidio culposo,0
+2023-12-01,Puebla,Homicidio culposo,42
 2023-01-01,Puebla,Lesiones dolosas,497
 2023-02-01,Puebla,Lesiones dolosas,466
 2023-03-01,Puebla,Lesiones dolosas,593
@@ -51334,7 +51334,7 @@ isodate,entidad,delito,total
 2023-09-01,Puebla,Lesiones dolosas,483
 2023-10-01,Puebla,Lesiones dolosas,460
 2023-11-01,Puebla,Lesiones dolosas,403
-2023-12-01,Puebla,Lesiones dolosas,0
+2023-12-01,Puebla,Lesiones dolosas,420
 2023-01-01,Puebla,Lesiones culposas,87
 2023-02-01,Puebla,Lesiones culposas,92
 2023-03-01,Puebla,Lesiones culposas,111
@@ -51346,7 +51346,7 @@ isodate,entidad,delito,total
 2023-09-01,Puebla,Lesiones culposas,98
 2023-10-01,Puebla,Lesiones culposas,99
 2023-11-01,Puebla,Lesiones culposas,85
-2023-12-01,Puebla,Lesiones culposas,0
+2023-12-01,Puebla,Lesiones culposas,93
 2023-01-01,Puebla,Feminicidio,1
 2023-02-01,Puebla,Feminicidio,2
 2023-03-01,Puebla,Feminicidio,5
@@ -51358,7 +51358,7 @@ isodate,entidad,delito,total
 2023-09-01,Puebla,Feminicidio,0
 2023-10-01,Puebla,Feminicidio,6
 2023-11-01,Puebla,Feminicidio,2
-2023-12-01,Puebla,Feminicidio,0
+2023-12-01,Puebla,Feminicidio,4
 2023-01-01,Puebla,Otros delitos que atentan contra la vida y la integridad corporal,13
 2023-02-01,Puebla,Otros delitos que atentan contra la vida y la integridad corporal,20
 2023-03-01,Puebla,Otros delitos que atentan contra la vida y la integridad corporal,35
@@ -51370,7 +51370,7 @@ isodate,entidad,delito,total
 2023-09-01,Puebla,Otros delitos que atentan contra la vida y la integridad corporal,26
 2023-10-01,Puebla,Otros delitos que atentan contra la vida y la integridad corporal,28
 2023-11-01,Puebla,Otros delitos que atentan contra la vida y la integridad corporal,31
-2023-12-01,Puebla,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Puebla,Otros delitos que atentan contra la vida y la integridad corporal,24
 2023-01-01,Puebla,Secuestro,0
 2023-02-01,Puebla,Secuestro,2
 2023-03-01,Puebla,Secuestro,2
@@ -51382,7 +51382,7 @@ isodate,entidad,delito,total
 2023-09-01,Puebla,Secuestro,0
 2023-10-01,Puebla,Secuestro,3
 2023-11-01,Puebla,Secuestro,1
-2023-12-01,Puebla,Secuestro,0
+2023-12-01,Puebla,Secuestro,1
 2023-01-01,Puebla,Tráfico de menores,0
 2023-02-01,Puebla,Tráfico de menores,0
 2023-03-01,Puebla,Tráfico de menores,0
@@ -51418,7 +51418,7 @@ isodate,entidad,delito,total
 2023-09-01,Puebla,Otros delitos que atentan contra la libertad personal,19
 2023-10-01,Puebla,Otros delitos que atentan contra la libertad personal,18
 2023-11-01,Puebla,Otros delitos que atentan contra la libertad personal,25
-2023-12-01,Puebla,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Puebla,Otros delitos que atentan contra la libertad personal,13
 2023-01-01,Puebla,Extorsión,10
 2023-02-01,Puebla,Extorsión,12
 2023-03-01,Puebla,Extorsión,13
@@ -51430,7 +51430,7 @@ isodate,entidad,delito,total
 2023-09-01,Puebla,Extorsión,6
 2023-10-01,Puebla,Extorsión,10
 2023-11-01,Puebla,Extorsión,8
-2023-12-01,Puebla,Extorsión,0
+2023-12-01,Puebla,Extorsión,7
 2023-01-01,Puebla,Corrupción de menores,1
 2023-02-01,Puebla,Corrupción de menores,2
 2023-03-01,Puebla,Corrupción de menores,3
@@ -51442,7 +51442,7 @@ isodate,entidad,delito,total
 2023-09-01,Puebla,Corrupción de menores,10
 2023-10-01,Puebla,Corrupción de menores,0
 2023-11-01,Puebla,Corrupción de menores,6
-2023-12-01,Puebla,Corrupción de menores,0
+2023-12-01,Puebla,Corrupción de menores,1
 2023-01-01,Puebla,Trata de personas,3
 2023-02-01,Puebla,Trata de personas,8
 2023-03-01,Puebla,Trata de personas,11
@@ -51454,7 +51454,7 @@ isodate,entidad,delito,total
 2023-09-01,Puebla,Trata de personas,7
 2023-10-01,Puebla,Trata de personas,4
 2023-11-01,Puebla,Trata de personas,3
-2023-12-01,Puebla,Trata de personas,0
+2023-12-01,Puebla,Trata de personas,5
 2023-01-01,Puebla,Otros delitos contra la sociedad,39
 2023-02-01,Puebla,Otros delitos contra la sociedad,37
 2023-03-01,Puebla,Otros delitos contra la sociedad,69
@@ -51466,7 +51466,7 @@ isodate,entidad,delito,total
 2023-09-01,Puebla,Otros delitos contra la sociedad,31
 2023-10-01,Puebla,Otros delitos contra la sociedad,54
 2023-11-01,Puebla,Otros delitos contra la sociedad,36
-2023-12-01,Puebla,Otros delitos contra la sociedad,0
+2023-12-01,Puebla,Otros delitos contra la sociedad,36
 2023-01-01,Puebla,Aborto,0
 2023-02-01,Puebla,Aborto,0
 2023-03-01,Puebla,Aborto,1
@@ -51482,7 +51482,7 @@ isodate,entidad,delito,total
 2023-01-01,Querétaro,Homicidio doloso,15
 2023-02-01,Querétaro,Homicidio doloso,9
 2023-03-01,Querétaro,Homicidio doloso,17
-2023-04-01,Querétaro,Homicidio doloso,20
+2023-04-01,Querétaro,Homicidio doloso,21
 2023-05-01,Querétaro,Homicidio doloso,17
 2023-06-01,Querétaro,Homicidio doloso,22
 2023-07-01,Querétaro,Homicidio doloso,16
@@ -51490,43 +51490,43 @@ isodate,entidad,delito,total
 2023-09-01,Querétaro,Homicidio doloso,14
 2023-10-01,Querétaro,Homicidio doloso,19
 2023-11-01,Querétaro,Homicidio doloso,8
-2023-12-01,Querétaro,Homicidio doloso,0
+2023-12-01,Querétaro,Homicidio doloso,21
 2023-01-01,Querétaro,Homicidio culposo,24
 2023-02-01,Querétaro,Homicidio culposo,22
 2023-03-01,Querétaro,Homicidio culposo,28
 2023-04-01,Querétaro,Homicidio culposo,40
 2023-05-01,Querétaro,Homicidio culposo,30
-2023-06-01,Querétaro,Homicidio culposo,33
+2023-06-01,Querétaro,Homicidio culposo,34
 2023-07-01,Querétaro,Homicidio culposo,32
 2023-08-01,Querétaro,Homicidio culposo,34
-2023-09-01,Querétaro,Homicidio culposo,34
+2023-09-01,Querétaro,Homicidio culposo,33
 2023-10-01,Querétaro,Homicidio culposo,39
 2023-11-01,Querétaro,Homicidio culposo,30
-2023-12-01,Querétaro,Homicidio culposo,0
+2023-12-01,Querétaro,Homicidio culposo,45
 2023-01-01,Querétaro,Lesiones dolosas,445
-2023-02-01,Querétaro,Lesiones dolosas,430
+2023-02-01,Querétaro,Lesiones dolosas,429
 2023-03-01,Querétaro,Lesiones dolosas,531
 2023-04-01,Querétaro,Lesiones dolosas,525
 2023-05-01,Querétaro,Lesiones dolosas,588
-2023-06-01,Querétaro,Lesiones dolosas,541
-2023-07-01,Querétaro,Lesiones dolosas,468
-2023-08-01,Querétaro,Lesiones dolosas,462
-2023-09-01,Querétaro,Lesiones dolosas,486
-2023-10-01,Querétaro,Lesiones dolosas,467
+2023-06-01,Querétaro,Lesiones dolosas,543
+2023-07-01,Querétaro,Lesiones dolosas,469
+2023-08-01,Querétaro,Lesiones dolosas,464
+2023-09-01,Querétaro,Lesiones dolosas,488
+2023-10-01,Querétaro,Lesiones dolosas,464
 2023-11-01,Querétaro,Lesiones dolosas,384
-2023-12-01,Querétaro,Lesiones dolosas,0
+2023-12-01,Querétaro,Lesiones dolosas,390
 2023-01-01,Querétaro,Lesiones culposas,97
-2023-02-01,Querétaro,Lesiones culposas,130
+2023-02-01,Querétaro,Lesiones culposas,131
 2023-03-01,Querétaro,Lesiones culposas,155
 2023-04-01,Querétaro,Lesiones culposas,112
 2023-05-01,Querétaro,Lesiones culposas,133
-2023-06-01,Querétaro,Lesiones culposas,144
+2023-06-01,Querétaro,Lesiones culposas,142
 2023-07-01,Querétaro,Lesiones culposas,118
-2023-08-01,Querétaro,Lesiones culposas,130
+2023-08-01,Querétaro,Lesiones culposas,131
 2023-09-01,Querétaro,Lesiones culposas,120
 2023-10-01,Querétaro,Lesiones culposas,123
 2023-11-01,Querétaro,Lesiones culposas,116
-2023-12-01,Querétaro,Lesiones culposas,0
+2023-12-01,Querétaro,Lesiones culposas,97
 2023-01-01,Querétaro,Feminicidio,1
 2023-02-01,Querétaro,Feminicidio,0
 2023-03-01,Querétaro,Feminicidio,2
@@ -51543,14 +51543,14 @@ isodate,entidad,delito,total
 2023-02-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,91
 2023-03-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,117
 2023-04-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,88
-2023-05-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,117
+2023-05-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,116
 2023-06-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,130
-2023-07-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,121
-2023-08-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,101
+2023-07-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,119
+2023-08-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,100
 2023-09-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,82
-2023-10-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,113
+2023-10-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,111
 2023-11-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,92
-2023-12-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,95
 2023-01-01,Querétaro,Secuestro,1
 2023-02-01,Querétaro,Secuestro,0
 2023-03-01,Querétaro,Secuestro,1
@@ -51598,7 +51598,7 @@ isodate,entidad,delito,total
 2023-09-01,Querétaro,Otros delitos que atentan contra la libertad personal,29
 2023-10-01,Querétaro,Otros delitos que atentan contra la libertad personal,21
 2023-11-01,Querétaro,Otros delitos que atentan contra la libertad personal,28
-2023-12-01,Querétaro,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Querétaro,Otros delitos que atentan contra la libertad personal,20
 2023-01-01,Querétaro,Extorsión,18
 2023-02-01,Querétaro,Extorsión,15
 2023-03-01,Querétaro,Extorsión,25
@@ -51610,7 +51610,7 @@ isodate,entidad,delito,total
 2023-09-01,Querétaro,Extorsión,19
 2023-10-01,Querétaro,Extorsión,12
 2023-11-01,Querétaro,Extorsión,14
-2023-12-01,Querétaro,Extorsión,0
+2023-12-01,Querétaro,Extorsión,6
 2023-01-01,Querétaro,Corrupción de menores,0
 2023-02-01,Querétaro,Corrupción de menores,0
 2023-03-01,Querétaro,Corrupción de menores,0
@@ -51646,7 +51646,7 @@ isodate,entidad,delito,total
 2023-09-01,Querétaro,Otros delitos contra la sociedad,24
 2023-10-01,Querétaro,Otros delitos contra la sociedad,26
 2023-11-01,Querétaro,Otros delitos contra la sociedad,27
-2023-12-01,Querétaro,Otros delitos contra la sociedad,0
+2023-12-01,Querétaro,Otros delitos contra la sociedad,27
 2023-01-01,Querétaro,Aborto,4
 2023-02-01,Querétaro,Aborto,3
 2023-03-01,Querétaro,Aborto,4
@@ -51658,7 +51658,7 @@ isodate,entidad,delito,total
 2023-09-01,Querétaro,Aborto,4
 2023-10-01,Querétaro,Aborto,2
 2023-11-01,Querétaro,Aborto,4
-2023-12-01,Querétaro,Aborto,0
+2023-12-01,Querétaro,Aborto,2
 2023-01-01,Quintana Roo,Homicidio doloso,55
 2023-02-01,Quintana Roo,Homicidio doloso,60
 2023-03-01,Quintana Roo,Homicidio doloso,57
@@ -51670,7 +51670,7 @@ isodate,entidad,delito,total
 2023-09-01,Quintana Roo,Homicidio doloso,49
 2023-10-01,Quintana Roo,Homicidio doloso,65
 2023-11-01,Quintana Roo,Homicidio doloso,65
-2023-12-01,Quintana Roo,Homicidio doloso,0
+2023-12-01,Quintana Roo,Homicidio doloso,60
 2023-01-01,Quintana Roo,Homicidio culposo,89
 2023-02-01,Quintana Roo,Homicidio culposo,82
 2023-03-01,Quintana Roo,Homicidio culposo,105
@@ -51682,7 +51682,7 @@ isodate,entidad,delito,total
 2023-09-01,Quintana Roo,Homicidio culposo,98
 2023-10-01,Quintana Roo,Homicidio culposo,77
 2023-11-01,Quintana Roo,Homicidio culposo,75
-2023-12-01,Quintana Roo,Homicidio culposo,0
+2023-12-01,Quintana Roo,Homicidio culposo,88
 2023-01-01,Quintana Roo,Lesiones dolosas,270
 2023-02-01,Quintana Roo,Lesiones dolosas,240
 2023-03-01,Quintana Roo,Lesiones dolosas,265
@@ -51694,7 +51694,7 @@ isodate,entidad,delito,total
 2023-09-01,Quintana Roo,Lesiones dolosas,273
 2023-10-01,Quintana Roo,Lesiones dolosas,312
 2023-11-01,Quintana Roo,Lesiones dolosas,257
-2023-12-01,Quintana Roo,Lesiones dolosas,0
+2023-12-01,Quintana Roo,Lesiones dolosas,237
 2023-01-01,Quintana Roo,Lesiones culposas,230
 2023-02-01,Quintana Roo,Lesiones culposas,222
 2023-03-01,Quintana Roo,Lesiones culposas,270
@@ -51706,7 +51706,7 @@ isodate,entidad,delito,total
 2023-09-01,Quintana Roo,Lesiones culposas,194
 2023-10-01,Quintana Roo,Lesiones culposas,223
 2023-11-01,Quintana Roo,Lesiones culposas,209
-2023-12-01,Quintana Roo,Lesiones culposas,0
+2023-12-01,Quintana Roo,Lesiones culposas,221
 2023-01-01,Quintana Roo,Feminicidio,1
 2023-02-01,Quintana Roo,Feminicidio,3
 2023-03-01,Quintana Roo,Feminicidio,1
@@ -51718,7 +51718,7 @@ isodate,entidad,delito,total
 2023-09-01,Quintana Roo,Feminicidio,1
 2023-10-01,Quintana Roo,Feminicidio,1
 2023-11-01,Quintana Roo,Feminicidio,2
-2023-12-01,Quintana Roo,Feminicidio,0
+2023-12-01,Quintana Roo,Feminicidio,1
 2023-01-01,Quintana Roo,Otros delitos que atentan contra la vida y la integridad corporal,28
 2023-02-01,Quintana Roo,Otros delitos que atentan contra la vida y la integridad corporal,19
 2023-03-01,Quintana Roo,Otros delitos que atentan contra la vida y la integridad corporal,44
@@ -51730,7 +51730,7 @@ isodate,entidad,delito,total
 2023-09-01,Quintana Roo,Otros delitos que atentan contra la vida y la integridad corporal,34
 2023-10-01,Quintana Roo,Otros delitos que atentan contra la vida y la integridad corporal,49
 2023-11-01,Quintana Roo,Otros delitos que atentan contra la vida y la integridad corporal,28
-2023-12-01,Quintana Roo,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Quintana Roo,Otros delitos que atentan contra la vida y la integridad corporal,41
 2023-01-01,Quintana Roo,Secuestro,0
 2023-02-01,Quintana Roo,Secuestro,0
 2023-03-01,Quintana Roo,Secuestro,0
@@ -51742,7 +51742,7 @@ isodate,entidad,delito,total
 2023-09-01,Quintana Roo,Secuestro,0
 2023-10-01,Quintana Roo,Secuestro,0
 2023-11-01,Quintana Roo,Secuestro,1
-2023-12-01,Quintana Roo,Secuestro,0
+2023-12-01,Quintana Roo,Secuestro,4
 2023-01-01,Quintana Roo,Tráfico de menores,0
 2023-02-01,Quintana Roo,Tráfico de menores,0
 2023-03-01,Quintana Roo,Tráfico de menores,0
@@ -51778,7 +51778,7 @@ isodate,entidad,delito,total
 2023-09-01,Quintana Roo,Otros delitos que atentan contra la libertad personal,133
 2023-10-01,Quintana Roo,Otros delitos que atentan contra la libertad personal,103
 2023-11-01,Quintana Roo,Otros delitos que atentan contra la libertad personal,100
-2023-12-01,Quintana Roo,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Quintana Roo,Otros delitos que atentan contra la libertad personal,121
 2023-01-01,Quintana Roo,Extorsión,5
 2023-02-01,Quintana Roo,Extorsión,11
 2023-03-01,Quintana Roo,Extorsión,4
@@ -51790,7 +51790,7 @@ isodate,entidad,delito,total
 2023-09-01,Quintana Roo,Extorsión,17
 2023-10-01,Quintana Roo,Extorsión,15
 2023-11-01,Quintana Roo,Extorsión,14
-2023-12-01,Quintana Roo,Extorsión,0
+2023-12-01,Quintana Roo,Extorsión,13
 2023-01-01,Quintana Roo,Corrupción de menores,4
 2023-02-01,Quintana Roo,Corrupción de menores,7
 2023-03-01,Quintana Roo,Corrupción de menores,9
@@ -51802,7 +51802,7 @@ isodate,entidad,delito,total
 2023-09-01,Quintana Roo,Corrupción de menores,10
 2023-10-01,Quintana Roo,Corrupción de menores,10
 2023-11-01,Quintana Roo,Corrupción de menores,15
-2023-12-01,Quintana Roo,Corrupción de menores,0
+2023-12-01,Quintana Roo,Corrupción de menores,9
 2023-01-01,Quintana Roo,Trata de personas,6
 2023-02-01,Quintana Roo,Trata de personas,5
 2023-03-01,Quintana Roo,Trata de personas,6
@@ -51814,7 +51814,7 @@ isodate,entidad,delito,total
 2023-09-01,Quintana Roo,Trata de personas,5
 2023-10-01,Quintana Roo,Trata de personas,9
 2023-11-01,Quintana Roo,Trata de personas,4
-2023-12-01,Quintana Roo,Trata de personas,0
+2023-12-01,Quintana Roo,Trata de personas,7
 2023-01-01,Quintana Roo,Otros delitos contra la sociedad,0
 2023-02-01,Quintana Roo,Otros delitos contra la sociedad,1
 2023-03-01,Quintana Roo,Otros delitos contra la sociedad,0
@@ -51850,7 +51850,7 @@ isodate,entidad,delito,total
 2023-09-01,San Luis Potosí,Homicidio doloso,43
 2023-10-01,San Luis Potosí,Homicidio doloso,39
 2023-11-01,San Luis Potosí,Homicidio doloso,33
-2023-12-01,San Luis Potosí,Homicidio doloso,0
+2023-12-01,San Luis Potosí,Homicidio doloso,35
 2023-01-01,San Luis Potosí,Homicidio culposo,22
 2023-02-01,San Luis Potosí,Homicidio culposo,20
 2023-03-01,San Luis Potosí,Homicidio culposo,31
@@ -51862,7 +51862,7 @@ isodate,entidad,delito,total
 2023-09-01,San Luis Potosí,Homicidio culposo,28
 2023-10-01,San Luis Potosí,Homicidio culposo,23
 2023-11-01,San Luis Potosí,Homicidio culposo,24
-2023-12-01,San Luis Potosí,Homicidio culposo,0
+2023-12-01,San Luis Potosí,Homicidio culposo,25
 2023-01-01,San Luis Potosí,Lesiones dolosas,347
 2023-02-01,San Luis Potosí,Lesiones dolosas,315
 2023-03-01,San Luis Potosí,Lesiones dolosas,376
@@ -51874,7 +51874,7 @@ isodate,entidad,delito,total
 2023-09-01,San Luis Potosí,Lesiones dolosas,370
 2023-10-01,San Luis Potosí,Lesiones dolosas,386
 2023-11-01,San Luis Potosí,Lesiones dolosas,295
-2023-12-01,San Luis Potosí,Lesiones dolosas,0
+2023-12-01,San Luis Potosí,Lesiones dolosas,292
 2023-01-01,San Luis Potosí,Lesiones culposas,61
 2023-02-01,San Luis Potosí,Lesiones culposas,49
 2023-03-01,San Luis Potosí,Lesiones culposas,55
@@ -51886,7 +51886,7 @@ isodate,entidad,delito,total
 2023-09-01,San Luis Potosí,Lesiones culposas,87
 2023-10-01,San Luis Potosí,Lesiones culposas,71
 2023-11-01,San Luis Potosí,Lesiones culposas,75
-2023-12-01,San Luis Potosí,Lesiones culposas,0
+2023-12-01,San Luis Potosí,Lesiones culposas,52
 2023-01-01,San Luis Potosí,Feminicidio,0
 2023-02-01,San Luis Potosí,Feminicidio,3
 2023-03-01,San Luis Potosí,Feminicidio,2
@@ -51910,7 +51910,7 @@ isodate,entidad,delito,total
 2023-09-01,San Luis Potosí,Otros delitos que atentan contra la vida y la integridad corporal,23
 2023-10-01,San Luis Potosí,Otros delitos que atentan contra la vida y la integridad corporal,17
 2023-11-01,San Luis Potosí,Otros delitos que atentan contra la vida y la integridad corporal,20
-2023-12-01,San Luis Potosí,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,San Luis Potosí,Otros delitos que atentan contra la vida y la integridad corporal,16
 2023-01-01,San Luis Potosí,Secuestro,1
 2023-02-01,San Luis Potosí,Secuestro,0
 2023-03-01,San Luis Potosí,Secuestro,0
@@ -51922,7 +51922,7 @@ isodate,entidad,delito,total
 2023-09-01,San Luis Potosí,Secuestro,1
 2023-10-01,San Luis Potosí,Secuestro,0
 2023-11-01,San Luis Potosí,Secuestro,0
-2023-12-01,San Luis Potosí,Secuestro,0
+2023-12-01,San Luis Potosí,Secuestro,2
 2023-01-01,San Luis Potosí,Tráfico de menores,0
 2023-02-01,San Luis Potosí,Tráfico de menores,1
 2023-03-01,San Luis Potosí,Tráfico de menores,0
@@ -51958,7 +51958,7 @@ isodate,entidad,delito,total
 2023-09-01,San Luis Potosí,Otros delitos que atentan contra la libertad personal,52
 2023-10-01,San Luis Potosí,Otros delitos que atentan contra la libertad personal,52
 2023-11-01,San Luis Potosí,Otros delitos que atentan contra la libertad personal,46
-2023-12-01,San Luis Potosí,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,San Luis Potosí,Otros delitos que atentan contra la libertad personal,54
 2023-01-01,San Luis Potosí,Extorsión,9
 2023-02-01,San Luis Potosí,Extorsión,11
 2023-03-01,San Luis Potosí,Extorsión,13
@@ -51970,7 +51970,7 @@ isodate,entidad,delito,total
 2023-09-01,San Luis Potosí,Extorsión,6
 2023-10-01,San Luis Potosí,Extorsión,9
 2023-11-01,San Luis Potosí,Extorsión,13
-2023-12-01,San Luis Potosí,Extorsión,0
+2023-12-01,San Luis Potosí,Extorsión,5
 2023-01-01,San Luis Potosí,Corrupción de menores,1
 2023-02-01,San Luis Potosí,Corrupción de menores,2
 2023-03-01,San Luis Potosí,Corrupción de menores,2
@@ -51982,7 +51982,7 @@ isodate,entidad,delito,total
 2023-09-01,San Luis Potosí,Corrupción de menores,2
 2023-10-01,San Luis Potosí,Corrupción de menores,3
 2023-11-01,San Luis Potosí,Corrupción de menores,1
-2023-12-01,San Luis Potosí,Corrupción de menores,0
+2023-12-01,San Luis Potosí,Corrupción de menores,1
 2023-01-01,San Luis Potosí,Trata de personas,0
 2023-02-01,San Luis Potosí,Trata de personas,1
 2023-03-01,San Luis Potosí,Trata de personas,2
@@ -52018,7 +52018,7 @@ isodate,entidad,delito,total
 2023-09-01,San Luis Potosí,Aborto,1
 2023-10-01,San Luis Potosí,Aborto,0
 2023-11-01,San Luis Potosí,Aborto,2
-2023-12-01,San Luis Potosí,Aborto,0
+2023-12-01,San Luis Potosí,Aborto,3
 2023-01-01,Sinaloa,Homicidio doloso,46
 2023-02-01,Sinaloa,Homicidio doloso,33
 2023-03-01,Sinaloa,Homicidio doloso,57
@@ -52030,7 +52030,7 @@ isodate,entidad,delito,total
 2023-09-01,Sinaloa,Homicidio doloso,50
 2023-10-01,Sinaloa,Homicidio doloso,32
 2023-11-01,Sinaloa,Homicidio doloso,33
-2023-12-01,Sinaloa,Homicidio doloso,0
+2023-12-01,Sinaloa,Homicidio doloso,48
 2023-01-01,Sinaloa,Homicidio culposo,64
 2023-02-01,Sinaloa,Homicidio culposo,51
 2023-03-01,Sinaloa,Homicidio culposo,60
@@ -52042,7 +52042,7 @@ isodate,entidad,delito,total
 2023-09-01,Sinaloa,Homicidio culposo,58
 2023-10-01,Sinaloa,Homicidio culposo,43
 2023-11-01,Sinaloa,Homicidio culposo,52
-2023-12-01,Sinaloa,Homicidio culposo,0
+2023-12-01,Sinaloa,Homicidio culposo,67
 2023-01-01,Sinaloa,Lesiones dolosas,279
 2023-02-01,Sinaloa,Lesiones dolosas,240
 2023-03-01,Sinaloa,Lesiones dolosas,329
@@ -52054,7 +52054,7 @@ isodate,entidad,delito,total
 2023-09-01,Sinaloa,Lesiones dolosas,336
 2023-10-01,Sinaloa,Lesiones dolosas,307
 2023-11-01,Sinaloa,Lesiones dolosas,274
-2023-12-01,Sinaloa,Lesiones dolosas,0
+2023-12-01,Sinaloa,Lesiones dolosas,267
 2023-01-01,Sinaloa,Lesiones culposas,97
 2023-02-01,Sinaloa,Lesiones culposas,85
 2023-03-01,Sinaloa,Lesiones culposas,102
@@ -52066,7 +52066,7 @@ isodate,entidad,delito,total
 2023-09-01,Sinaloa,Lesiones culposas,87
 2023-10-01,Sinaloa,Lesiones culposas,101
 2023-11-01,Sinaloa,Lesiones culposas,100
-2023-12-01,Sinaloa,Lesiones culposas,0
+2023-12-01,Sinaloa,Lesiones culposas,87
 2023-01-01,Sinaloa,Feminicidio,2
 2023-02-01,Sinaloa,Feminicidio,1
 2023-03-01,Sinaloa,Feminicidio,2
@@ -52078,7 +52078,7 @@ isodate,entidad,delito,total
 2023-09-01,Sinaloa,Feminicidio,0
 2023-10-01,Sinaloa,Feminicidio,8
 2023-11-01,Sinaloa,Feminicidio,3
-2023-12-01,Sinaloa,Feminicidio,0
+2023-12-01,Sinaloa,Feminicidio,1
 2023-01-01,Sinaloa,Otros delitos que atentan contra la vida y la integridad corporal,47
 2023-02-01,Sinaloa,Otros delitos que atentan contra la vida y la integridad corporal,61
 2023-03-01,Sinaloa,Otros delitos que atentan contra la vida y la integridad corporal,77
@@ -52090,7 +52090,7 @@ isodate,entidad,delito,total
 2023-09-01,Sinaloa,Otros delitos que atentan contra la vida y la integridad corporal,80
 2023-10-01,Sinaloa,Otros delitos que atentan contra la vida y la integridad corporal,82
 2023-11-01,Sinaloa,Otros delitos que atentan contra la vida y la integridad corporal,45
-2023-12-01,Sinaloa,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Sinaloa,Otros delitos que atentan contra la vida y la integridad corporal,47
 2023-01-01,Sinaloa,Secuestro,0
 2023-02-01,Sinaloa,Secuestro,0
 2023-03-01,Sinaloa,Secuestro,0
@@ -52138,7 +52138,7 @@ isodate,entidad,delito,total
 2023-09-01,Sinaloa,Otros delitos que atentan contra la libertad personal,106
 2023-10-01,Sinaloa,Otros delitos que atentan contra la libertad personal,103
 2023-11-01,Sinaloa,Otros delitos que atentan contra la libertad personal,100
-2023-12-01,Sinaloa,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Sinaloa,Otros delitos que atentan contra la libertad personal,97
 2023-01-01,Sinaloa,Extorsión,2
 2023-02-01,Sinaloa,Extorsión,3
 2023-03-01,Sinaloa,Extorsión,1
@@ -52150,7 +52150,7 @@ isodate,entidad,delito,total
 2023-09-01,Sinaloa,Extorsión,5
 2023-10-01,Sinaloa,Extorsión,5
 2023-11-01,Sinaloa,Extorsión,4
-2023-12-01,Sinaloa,Extorsión,0
+2023-12-01,Sinaloa,Extorsión,6
 2023-01-01,Sinaloa,Corrupción de menores,2
 2023-02-01,Sinaloa,Corrupción de menores,0
 2023-03-01,Sinaloa,Corrupción de menores,16
@@ -52162,7 +52162,7 @@ isodate,entidad,delito,total
 2023-09-01,Sinaloa,Corrupción de menores,4
 2023-10-01,Sinaloa,Corrupción de menores,8
 2023-11-01,Sinaloa,Corrupción de menores,3
-2023-12-01,Sinaloa,Corrupción de menores,0
+2023-12-01,Sinaloa,Corrupción de menores,7
 2023-01-01,Sinaloa,Trata de personas,43
 2023-02-01,Sinaloa,Trata de personas,1
 2023-03-01,Sinaloa,Trata de personas,0
@@ -52174,7 +52174,7 @@ isodate,entidad,delito,total
 2023-09-01,Sinaloa,Trata de personas,0
 2023-10-01,Sinaloa,Trata de personas,0
 2023-11-01,Sinaloa,Trata de personas,0
-2023-12-01,Sinaloa,Trata de personas,0
+2023-12-01,Sinaloa,Trata de personas,1
 2023-01-01,Sinaloa,Otros delitos contra la sociedad,7
 2023-02-01,Sinaloa,Otros delitos contra la sociedad,4
 2023-03-01,Sinaloa,Otros delitos contra la sociedad,5
@@ -52186,7 +52186,7 @@ isodate,entidad,delito,total
 2023-09-01,Sinaloa,Otros delitos contra la sociedad,4
 2023-10-01,Sinaloa,Otros delitos contra la sociedad,13
 2023-11-01,Sinaloa,Otros delitos contra la sociedad,7
-2023-12-01,Sinaloa,Otros delitos contra la sociedad,0
+2023-12-01,Sinaloa,Otros delitos contra la sociedad,4
 2023-01-01,Sinaloa,Aborto,0
 2023-02-01,Sinaloa,Aborto,0
 2023-03-01,Sinaloa,Aborto,0
@@ -52210,7 +52210,7 @@ isodate,entidad,delito,total
 2023-09-01,Sonora,Homicidio doloso,99
 2023-10-01,Sonora,Homicidio doloso,112
 2023-11-01,Sonora,Homicidio doloso,110
-2023-12-01,Sonora,Homicidio doloso,0
+2023-12-01,Sonora,Homicidio doloso,128
 2023-01-01,Sonora,Homicidio culposo,30
 2023-02-01,Sonora,Homicidio culposo,25
 2023-03-01,Sonora,Homicidio culposo,29
@@ -52222,7 +52222,7 @@ isodate,entidad,delito,total
 2023-09-01,Sonora,Homicidio culposo,25
 2023-10-01,Sonora,Homicidio culposo,16
 2023-11-01,Sonora,Homicidio culposo,22
-2023-12-01,Sonora,Homicidio culposo,0
+2023-12-01,Sonora,Homicidio culposo,25
 2023-01-01,Sonora,Lesiones dolosas,146
 2023-02-01,Sonora,Lesiones dolosas,162
 2023-03-01,Sonora,Lesiones dolosas,174
@@ -52234,7 +52234,7 @@ isodate,entidad,delito,total
 2023-09-01,Sonora,Lesiones dolosas,132
 2023-10-01,Sonora,Lesiones dolosas,163
 2023-11-01,Sonora,Lesiones dolosas,172
-2023-12-01,Sonora,Lesiones dolosas,0
+2023-12-01,Sonora,Lesiones dolosas,88
 2023-01-01,Sonora,Lesiones culposas,95
 2023-02-01,Sonora,Lesiones culposas,115
 2023-03-01,Sonora,Lesiones culposas,119
@@ -52246,7 +52246,7 @@ isodate,entidad,delito,total
 2023-09-01,Sonora,Lesiones culposas,103
 2023-10-01,Sonora,Lesiones culposas,140
 2023-11-01,Sonora,Lesiones culposas,122
-2023-12-01,Sonora,Lesiones culposas,0
+2023-12-01,Sonora,Lesiones culposas,109
 2023-01-01,Sonora,Feminicidio,4
 2023-02-01,Sonora,Feminicidio,1
 2023-03-01,Sonora,Feminicidio,3
@@ -52258,7 +52258,7 @@ isodate,entidad,delito,total
 2023-09-01,Sonora,Feminicidio,0
 2023-10-01,Sonora,Feminicidio,2
 2023-11-01,Sonora,Feminicidio,4
-2023-12-01,Sonora,Feminicidio,0
+2023-12-01,Sonora,Feminicidio,6
 2023-01-01,Sonora,Otros delitos que atentan contra la vida y la integridad corporal,34
 2023-02-01,Sonora,Otros delitos que atentan contra la vida y la integridad corporal,25
 2023-03-01,Sonora,Otros delitos que atentan contra la vida y la integridad corporal,32
@@ -52270,7 +52270,7 @@ isodate,entidad,delito,total
 2023-09-01,Sonora,Otros delitos que atentan contra la vida y la integridad corporal,36
 2023-10-01,Sonora,Otros delitos que atentan contra la vida y la integridad corporal,37
 2023-11-01,Sonora,Otros delitos que atentan contra la vida y la integridad corporal,41
-2023-12-01,Sonora,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Sonora,Otros delitos que atentan contra la vida y la integridad corporal,70
 2023-01-01,Sonora,Secuestro,1
 2023-02-01,Sonora,Secuestro,0
 2023-03-01,Sonora,Secuestro,3
@@ -52282,7 +52282,7 @@ isodate,entidad,delito,total
 2023-09-01,Sonora,Secuestro,10
 2023-10-01,Sonora,Secuestro,1
 2023-11-01,Sonora,Secuestro,1
-2023-12-01,Sonora,Secuestro,0
+2023-12-01,Sonora,Secuestro,8
 2023-01-01,Sonora,Tráfico de menores,0
 2023-02-01,Sonora,Tráfico de menores,0
 2023-03-01,Sonora,Tráfico de menores,0
@@ -52318,7 +52318,7 @@ isodate,entidad,delito,total
 2023-09-01,Sonora,Otros delitos que atentan contra la libertad personal,43
 2023-10-01,Sonora,Otros delitos que atentan contra la libertad personal,58
 2023-11-01,Sonora,Otros delitos que atentan contra la libertad personal,56
-2023-12-01,Sonora,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Sonora,Otros delitos que atentan contra la libertad personal,47
 2023-01-01,Sonora,Extorsión,5
 2023-02-01,Sonora,Extorsión,9
 2023-03-01,Sonora,Extorsión,4
@@ -52330,7 +52330,7 @@ isodate,entidad,delito,total
 2023-09-01,Sonora,Extorsión,4
 2023-10-01,Sonora,Extorsión,2
 2023-11-01,Sonora,Extorsión,11
-2023-12-01,Sonora,Extorsión,0
+2023-12-01,Sonora,Extorsión,3
 2023-01-01,Sonora,Corrupción de menores,2
 2023-02-01,Sonora,Corrupción de menores,7
 2023-03-01,Sonora,Corrupción de menores,4
@@ -52342,7 +52342,7 @@ isodate,entidad,delito,total
 2023-09-01,Sonora,Corrupción de menores,4
 2023-10-01,Sonora,Corrupción de menores,15
 2023-11-01,Sonora,Corrupción de menores,8
-2023-12-01,Sonora,Corrupción de menores,0
+2023-12-01,Sonora,Corrupción de menores,14
 2023-01-01,Sonora,Trata de personas,0
 2023-02-01,Sonora,Trata de personas,0
 2023-03-01,Sonora,Trata de personas,0
@@ -52366,7 +52366,7 @@ isodate,entidad,delito,total
 2023-09-01,Sonora,Otros delitos contra la sociedad,12
 2023-10-01,Sonora,Otros delitos contra la sociedad,14
 2023-11-01,Sonora,Otros delitos contra la sociedad,13
-2023-12-01,Sonora,Otros delitos contra la sociedad,0
+2023-12-01,Sonora,Otros delitos contra la sociedad,12
 2023-01-01,Sonora,Aborto,1
 2023-02-01,Sonora,Aborto,0
 2023-03-01,Sonora,Aborto,3
@@ -52390,7 +52390,7 @@ isodate,entidad,delito,total
 2023-09-01,Tabasco,Homicidio doloso,24
 2023-10-01,Tabasco,Homicidio doloso,21
 2023-11-01,Tabasco,Homicidio doloso,18
-2023-12-01,Tabasco,Homicidio doloso,0
+2023-12-01,Tabasco,Homicidio doloso,27
 2023-01-01,Tabasco,Homicidio culposo,36
 2023-02-01,Tabasco,Homicidio culposo,42
 2023-03-01,Tabasco,Homicidio culposo,51
@@ -52402,7 +52402,7 @@ isodate,entidad,delito,total
 2023-09-01,Tabasco,Homicidio culposo,35
 2023-10-01,Tabasco,Homicidio culposo,51
 2023-11-01,Tabasco,Homicidio culposo,41
-2023-12-01,Tabasco,Homicidio culposo,0
+2023-12-01,Tabasco,Homicidio culposo,59
 2023-01-01,Tabasco,Lesiones dolosas,349
 2023-02-01,Tabasco,Lesiones dolosas,276
 2023-03-01,Tabasco,Lesiones dolosas,376
@@ -52414,7 +52414,7 @@ isodate,entidad,delito,total
 2023-09-01,Tabasco,Lesiones dolosas,297
 2023-10-01,Tabasco,Lesiones dolosas,302
 2023-11-01,Tabasco,Lesiones dolosas,220
-2023-12-01,Tabasco,Lesiones dolosas,0
+2023-12-01,Tabasco,Lesiones dolosas,259
 2023-01-01,Tabasco,Lesiones culposas,85
 2023-02-01,Tabasco,Lesiones culposas,81
 2023-03-01,Tabasco,Lesiones culposas,98
@@ -52426,7 +52426,7 @@ isodate,entidad,delito,total
 2023-09-01,Tabasco,Lesiones culposas,104
 2023-10-01,Tabasco,Lesiones culposas,88
 2023-11-01,Tabasco,Lesiones culposas,83
-2023-12-01,Tabasco,Lesiones culposas,0
+2023-12-01,Tabasco,Lesiones culposas,91
 2023-01-01,Tabasco,Feminicidio,2
 2023-02-01,Tabasco,Feminicidio,2
 2023-03-01,Tabasco,Feminicidio,3
@@ -52438,7 +52438,7 @@ isodate,entidad,delito,total
 2023-09-01,Tabasco,Feminicidio,1
 2023-10-01,Tabasco,Feminicidio,1
 2023-11-01,Tabasco,Feminicidio,3
-2023-12-01,Tabasco,Feminicidio,0
+2023-12-01,Tabasco,Feminicidio,1
 2023-01-01,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,68
 2023-02-01,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,57
 2023-03-01,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,53
@@ -52450,7 +52450,7 @@ isodate,entidad,delito,total
 2023-09-01,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,75
 2023-10-01,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,62
 2023-11-01,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,53
-2023-12-01,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,53
 2023-01-01,Tabasco,Secuestro,1
 2023-02-01,Tabasco,Secuestro,0
 2023-03-01,Tabasco,Secuestro,1
@@ -52498,7 +52498,7 @@ isodate,entidad,delito,total
 2023-09-01,Tabasco,Otros delitos que atentan contra la libertad personal,52
 2023-10-01,Tabasco,Otros delitos que atentan contra la libertad personal,36
 2023-11-01,Tabasco,Otros delitos que atentan contra la libertad personal,31
-2023-12-01,Tabasco,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Tabasco,Otros delitos que atentan contra la libertad personal,25
 2023-01-01,Tabasco,Extorsión,8
 2023-02-01,Tabasco,Extorsión,5
 2023-03-01,Tabasco,Extorsión,14
@@ -52510,7 +52510,7 @@ isodate,entidad,delito,total
 2023-09-01,Tabasco,Extorsión,13
 2023-10-01,Tabasco,Extorsión,8
 2023-11-01,Tabasco,Extorsión,12
-2023-12-01,Tabasco,Extorsión,0
+2023-12-01,Tabasco,Extorsión,10
 2023-01-01,Tabasco,Corrupción de menores,5
 2023-02-01,Tabasco,Corrupción de menores,4
 2023-03-01,Tabasco,Corrupción de menores,3
@@ -52522,7 +52522,7 @@ isodate,entidad,delito,total
 2023-09-01,Tabasco,Corrupción de menores,6
 2023-10-01,Tabasco,Corrupción de menores,4
 2023-11-01,Tabasco,Corrupción de menores,4
-2023-12-01,Tabasco,Corrupción de menores,0
+2023-12-01,Tabasco,Corrupción de menores,1
 2023-01-01,Tabasco,Trata de personas,0
 2023-02-01,Tabasco,Trata de personas,0
 2023-03-01,Tabasco,Trata de personas,0
@@ -52564,13 +52564,13 @@ isodate,entidad,delito,total
 2023-03-01,Tamaulipas,Homicidio doloso,36
 2023-04-01,Tamaulipas,Homicidio doloso,41
 2023-05-01,Tamaulipas,Homicidio doloso,59
-2023-06-01,Tamaulipas,Homicidio doloso,55
+2023-06-01,Tamaulipas,Homicidio doloso,56
 2023-07-01,Tamaulipas,Homicidio doloso,29
 2023-08-01,Tamaulipas,Homicidio doloso,44
 2023-09-01,Tamaulipas,Homicidio doloso,34
 2023-10-01,Tamaulipas,Homicidio doloso,35
 2023-11-01,Tamaulipas,Homicidio doloso,34
-2023-12-01,Tamaulipas,Homicidio doloso,0
+2023-12-01,Tamaulipas,Homicidio doloso,39
 2023-01-01,Tamaulipas,Homicidio culposo,73
 2023-02-01,Tamaulipas,Homicidio culposo,60
 2023-03-01,Tamaulipas,Homicidio culposo,57
@@ -52582,7 +52582,7 @@ isodate,entidad,delito,total
 2023-09-01,Tamaulipas,Homicidio culposo,71
 2023-10-01,Tamaulipas,Homicidio culposo,79
 2023-11-01,Tamaulipas,Homicidio culposo,59
-2023-12-01,Tamaulipas,Homicidio culposo,0
+2023-12-01,Tamaulipas,Homicidio culposo,67
 2023-01-01,Tamaulipas,Lesiones dolosas,191
 2023-02-01,Tamaulipas,Lesiones dolosas,187
 2023-03-01,Tamaulipas,Lesiones dolosas,265
@@ -52594,7 +52594,7 @@ isodate,entidad,delito,total
 2023-09-01,Tamaulipas,Lesiones dolosas,254
 2023-10-01,Tamaulipas,Lesiones dolosas,263
 2023-11-01,Tamaulipas,Lesiones dolosas,158
-2023-12-01,Tamaulipas,Lesiones dolosas,0
+2023-12-01,Tamaulipas,Lesiones dolosas,161
 2023-01-01,Tamaulipas,Lesiones culposas,158
 2023-02-01,Tamaulipas,Lesiones culposas,118
 2023-03-01,Tamaulipas,Lesiones culposas,127
@@ -52606,19 +52606,19 @@ isodate,entidad,delito,total
 2023-09-01,Tamaulipas,Lesiones culposas,152
 2023-10-01,Tamaulipas,Lesiones culposas,146
 2023-11-01,Tamaulipas,Lesiones culposas,152
-2023-12-01,Tamaulipas,Lesiones culposas,0
+2023-12-01,Tamaulipas,Lesiones culposas,124
 2023-01-01,Tamaulipas,Feminicidio,0
 2023-02-01,Tamaulipas,Feminicidio,1
 2023-03-01,Tamaulipas,Feminicidio,1
 2023-04-01,Tamaulipas,Feminicidio,1
 2023-05-01,Tamaulipas,Feminicidio,1
-2023-06-01,Tamaulipas,Feminicidio,6
+2023-06-01,Tamaulipas,Feminicidio,5
 2023-07-01,Tamaulipas,Feminicidio,1
 2023-08-01,Tamaulipas,Feminicidio,1
 2023-09-01,Tamaulipas,Feminicidio,2
 2023-10-01,Tamaulipas,Feminicidio,2
 2023-11-01,Tamaulipas,Feminicidio,2
-2023-12-01,Tamaulipas,Feminicidio,0
+2023-12-01,Tamaulipas,Feminicidio,1
 2023-01-01,Tamaulipas,Otros delitos que atentan contra la vida y la integridad corporal,27
 2023-02-01,Tamaulipas,Otros delitos que atentan contra la vida y la integridad corporal,22
 2023-03-01,Tamaulipas,Otros delitos que atentan contra la vida y la integridad corporal,35
@@ -52630,7 +52630,7 @@ isodate,entidad,delito,total
 2023-09-01,Tamaulipas,Otros delitos que atentan contra la vida y la integridad corporal,19
 2023-10-01,Tamaulipas,Otros delitos que atentan contra la vida y la integridad corporal,19
 2023-11-01,Tamaulipas,Otros delitos que atentan contra la vida y la integridad corporal,25
-2023-12-01,Tamaulipas,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Tamaulipas,Otros delitos que atentan contra la vida y la integridad corporal,21
 2023-01-01,Tamaulipas,Secuestro,4
 2023-02-01,Tamaulipas,Secuestro,0
 2023-03-01,Tamaulipas,Secuestro,5
@@ -52642,7 +52642,7 @@ isodate,entidad,delito,total
 2023-09-01,Tamaulipas,Secuestro,0
 2023-10-01,Tamaulipas,Secuestro,0
 2023-11-01,Tamaulipas,Secuestro,0
-2023-12-01,Tamaulipas,Secuestro,0
+2023-12-01,Tamaulipas,Secuestro,2
 2023-01-01,Tamaulipas,Tráfico de menores,0
 2023-02-01,Tamaulipas,Tráfico de menores,0
 2023-03-01,Tamaulipas,Tráfico de menores,0
@@ -52678,7 +52678,7 @@ isodate,entidad,delito,total
 2023-09-01,Tamaulipas,Otros delitos que atentan contra la libertad personal,49
 2023-10-01,Tamaulipas,Otros delitos que atentan contra la libertad personal,70
 2023-11-01,Tamaulipas,Otros delitos que atentan contra la libertad personal,71
-2023-12-01,Tamaulipas,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Tamaulipas,Otros delitos que atentan contra la libertad personal,50
 2023-01-01,Tamaulipas,Extorsión,11
 2023-02-01,Tamaulipas,Extorsión,8
 2023-03-01,Tamaulipas,Extorsión,9
@@ -52690,7 +52690,7 @@ isodate,entidad,delito,total
 2023-09-01,Tamaulipas,Extorsión,7
 2023-10-01,Tamaulipas,Extorsión,7
 2023-11-01,Tamaulipas,Extorsión,5
-2023-12-01,Tamaulipas,Extorsión,0
+2023-12-01,Tamaulipas,Extorsión,7
 2023-01-01,Tamaulipas,Corrupción de menores,1
 2023-02-01,Tamaulipas,Corrupción de menores,1
 2023-03-01,Tamaulipas,Corrupción de menores,3
@@ -52702,7 +52702,7 @@ isodate,entidad,delito,total
 2023-09-01,Tamaulipas,Corrupción de menores,5
 2023-10-01,Tamaulipas,Corrupción de menores,0
 2023-11-01,Tamaulipas,Corrupción de menores,2
-2023-12-01,Tamaulipas,Corrupción de menores,0
+2023-12-01,Tamaulipas,Corrupción de menores,2
 2023-01-01,Tamaulipas,Trata de personas,0
 2023-02-01,Tamaulipas,Trata de personas,1
 2023-03-01,Tamaulipas,Trata de personas,1
@@ -52738,7 +52738,7 @@ isodate,entidad,delito,total
 2023-09-01,Tamaulipas,Aborto,1
 2023-10-01,Tamaulipas,Aborto,4
 2023-11-01,Tamaulipas,Aborto,4
-2023-12-01,Tamaulipas,Aborto,0
+2023-12-01,Tamaulipas,Aborto,2
 2023-01-01,Tlaxcala,Homicidio doloso,4
 2023-02-01,Tlaxcala,Homicidio doloso,10
 2023-03-01,Tlaxcala,Homicidio doloso,17
@@ -52750,7 +52750,7 @@ isodate,entidad,delito,total
 2023-09-01,Tlaxcala,Homicidio doloso,7
 2023-10-01,Tlaxcala,Homicidio doloso,6
 2023-11-01,Tlaxcala,Homicidio doloso,3
-2023-12-01,Tlaxcala,Homicidio doloso,0
+2023-12-01,Tlaxcala,Homicidio doloso,11
 2023-01-01,Tlaxcala,Homicidio culposo,5
 2023-02-01,Tlaxcala,Homicidio culposo,2
 2023-03-01,Tlaxcala,Homicidio culposo,1
@@ -52762,7 +52762,7 @@ isodate,entidad,delito,total
 2023-09-01,Tlaxcala,Homicidio culposo,3
 2023-10-01,Tlaxcala,Homicidio culposo,3
 2023-11-01,Tlaxcala,Homicidio culposo,7
-2023-12-01,Tlaxcala,Homicidio culposo,0
+2023-12-01,Tlaxcala,Homicidio culposo,1
 2023-01-01,Tlaxcala,Lesiones dolosas,4
 2023-02-01,Tlaxcala,Lesiones dolosas,9
 2023-03-01,Tlaxcala,Lesiones dolosas,7
@@ -52774,7 +52774,7 @@ isodate,entidad,delito,total
 2023-09-01,Tlaxcala,Lesiones dolosas,4
 2023-10-01,Tlaxcala,Lesiones dolosas,6
 2023-11-01,Tlaxcala,Lesiones dolosas,6
-2023-12-01,Tlaxcala,Lesiones dolosas,0
+2023-12-01,Tlaxcala,Lesiones dolosas,9
 2023-01-01,Tlaxcala,Lesiones culposas,5
 2023-02-01,Tlaxcala,Lesiones culposas,16
 2023-03-01,Tlaxcala,Lesiones culposas,8
@@ -52786,7 +52786,7 @@ isodate,entidad,delito,total
 2023-09-01,Tlaxcala,Lesiones culposas,16
 2023-10-01,Tlaxcala,Lesiones culposas,10
 2023-11-01,Tlaxcala,Lesiones culposas,5
-2023-12-01,Tlaxcala,Lesiones culposas,0
+2023-12-01,Tlaxcala,Lesiones culposas,10
 2023-01-01,Tlaxcala,Feminicidio,0
 2023-02-01,Tlaxcala,Feminicidio,2
 2023-03-01,Tlaxcala,Feminicidio,1
@@ -52798,7 +52798,7 @@ isodate,entidad,delito,total
 2023-09-01,Tlaxcala,Feminicidio,2
 2023-10-01,Tlaxcala,Feminicidio,2
 2023-11-01,Tlaxcala,Feminicidio,1
-2023-12-01,Tlaxcala,Feminicidio,0
+2023-12-01,Tlaxcala,Feminicidio,1
 2023-01-01,Tlaxcala,Otros delitos que atentan contra la vida y la integridad corporal,0
 2023-02-01,Tlaxcala,Otros delitos que atentan contra la vida y la integridad corporal,0
 2023-03-01,Tlaxcala,Otros delitos que atentan contra la vida y la integridad corporal,1
@@ -52930,7 +52930,7 @@ isodate,entidad,delito,total
 2023-09-01,Veracruz de Ignacio de la Llave,Homicidio doloso,81
 2023-10-01,Veracruz de Ignacio de la Llave,Homicidio doloso,81
 2023-11-01,Veracruz de Ignacio de la Llave,Homicidio doloso,72
-2023-12-01,Veracruz de Ignacio de la Llave,Homicidio doloso,0
+2023-12-01,Veracruz de Ignacio de la Llave,Homicidio doloso,56
 2023-01-01,Veracruz de Ignacio de la Llave,Homicidio culposo,92
 2023-02-01,Veracruz de Ignacio de la Llave,Homicidio culposo,77
 2023-03-01,Veracruz de Ignacio de la Llave,Homicidio culposo,89
@@ -52942,7 +52942,7 @@ isodate,entidad,delito,total
 2023-09-01,Veracruz de Ignacio de la Llave,Homicidio culposo,89
 2023-10-01,Veracruz de Ignacio de la Llave,Homicidio culposo,96
 2023-11-01,Veracruz de Ignacio de la Llave,Homicidio culposo,89
-2023-12-01,Veracruz de Ignacio de la Llave,Homicidio culposo,0
+2023-12-01,Veracruz de Ignacio de la Llave,Homicidio culposo,93
 2023-01-01,Veracruz de Ignacio de la Llave,Lesiones dolosas,516
 2023-02-01,Veracruz de Ignacio de la Llave,Lesiones dolosas,582
 2023-03-01,Veracruz de Ignacio de la Llave,Lesiones dolosas,679
@@ -52954,7 +52954,7 @@ isodate,entidad,delito,total
 2023-09-01,Veracruz de Ignacio de la Llave,Lesiones dolosas,680
 2023-10-01,Veracruz de Ignacio de la Llave,Lesiones dolosas,682
 2023-11-01,Veracruz de Ignacio de la Llave,Lesiones dolosas,628
-2023-12-01,Veracruz de Ignacio de la Llave,Lesiones dolosas,0
+2023-12-01,Veracruz de Ignacio de la Llave,Lesiones dolosas,542
 2023-01-01,Veracruz de Ignacio de la Llave,Lesiones culposas,230
 2023-02-01,Veracruz de Ignacio de la Llave,Lesiones culposas,229
 2023-03-01,Veracruz de Ignacio de la Llave,Lesiones culposas,266
@@ -52966,7 +52966,7 @@ isodate,entidad,delito,total
 2023-09-01,Veracruz de Ignacio de la Llave,Lesiones culposas,252
 2023-10-01,Veracruz de Ignacio de la Llave,Lesiones culposas,302
 2023-11-01,Veracruz de Ignacio de la Llave,Lesiones culposas,234
-2023-12-01,Veracruz de Ignacio de la Llave,Lesiones culposas,0
+2023-12-01,Veracruz de Ignacio de la Llave,Lesiones culposas,211
 2023-01-01,Veracruz de Ignacio de la Llave,Feminicidio,7
 2023-02-01,Veracruz de Ignacio de la Llave,Feminicidio,4
 2023-03-01,Veracruz de Ignacio de la Llave,Feminicidio,8
@@ -52978,7 +52978,7 @@ isodate,entidad,delito,total
 2023-09-01,Veracruz de Ignacio de la Llave,Feminicidio,2
 2023-10-01,Veracruz de Ignacio de la Llave,Feminicidio,1
 2023-11-01,Veracruz de Ignacio de la Llave,Feminicidio,2
-2023-12-01,Veracruz de Ignacio de la Llave,Feminicidio,0
+2023-12-01,Veracruz de Ignacio de la Llave,Feminicidio,2
 2023-01-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la vida y la integridad corporal,18
 2023-02-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la vida y la integridad corporal,16
 2023-03-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la vida y la integridad corporal,10
@@ -52990,7 +52990,7 @@ isodate,entidad,delito,total
 2023-09-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la vida y la integridad corporal,11
 2023-10-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la vida y la integridad corporal,19
 2023-11-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la vida y la integridad corporal,23
-2023-12-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la vida y la integridad corporal,16
 2023-01-01,Veracruz de Ignacio de la Llave,Secuestro,2
 2023-02-01,Veracruz de Ignacio de la Llave,Secuestro,1
 2023-03-01,Veracruz de Ignacio de la Llave,Secuestro,4
@@ -53002,7 +53002,7 @@ isodate,entidad,delito,total
 2023-09-01,Veracruz de Ignacio de la Llave,Secuestro,2
 2023-10-01,Veracruz de Ignacio de la Llave,Secuestro,4
 2023-11-01,Veracruz de Ignacio de la Llave,Secuestro,4
-2023-12-01,Veracruz de Ignacio de la Llave,Secuestro,0
+2023-12-01,Veracruz de Ignacio de la Llave,Secuestro,1
 2023-01-01,Veracruz de Ignacio de la Llave,Tráfico de menores,0
 2023-02-01,Veracruz de Ignacio de la Llave,Tráfico de menores,0
 2023-03-01,Veracruz de Ignacio de la Llave,Tráfico de menores,0
@@ -53038,7 +53038,7 @@ isodate,entidad,delito,total
 2023-09-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la libertad personal,195
 2023-10-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la libertad personal,160
 2023-11-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la libertad personal,132
-2023-12-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la libertad personal,136
 2023-01-01,Veracruz de Ignacio de la Llave,Extorsión,75
 2023-02-01,Veracruz de Ignacio de la Llave,Extorsión,77
 2023-03-01,Veracruz de Ignacio de la Llave,Extorsión,84
@@ -53050,7 +53050,7 @@ isodate,entidad,delito,total
 2023-09-01,Veracruz de Ignacio de la Llave,Extorsión,76
 2023-10-01,Veracruz de Ignacio de la Llave,Extorsión,60
 2023-11-01,Veracruz de Ignacio de la Llave,Extorsión,61
-2023-12-01,Veracruz de Ignacio de la Llave,Extorsión,0
+2023-12-01,Veracruz de Ignacio de la Llave,Extorsión,62
 2023-01-01,Veracruz de Ignacio de la Llave,Corrupción de menores,3
 2023-02-01,Veracruz de Ignacio de la Llave,Corrupción de menores,2
 2023-03-01,Veracruz de Ignacio de la Llave,Corrupción de menores,2
@@ -53062,7 +53062,7 @@ isodate,entidad,delito,total
 2023-09-01,Veracruz de Ignacio de la Llave,Corrupción de menores,5
 2023-10-01,Veracruz de Ignacio de la Llave,Corrupción de menores,3
 2023-11-01,Veracruz de Ignacio de la Llave,Corrupción de menores,2
-2023-12-01,Veracruz de Ignacio de la Llave,Corrupción de menores,0
+2023-12-01,Veracruz de Ignacio de la Llave,Corrupción de menores,3
 2023-01-01,Veracruz de Ignacio de la Llave,Trata de personas,0
 2023-02-01,Veracruz de Ignacio de la Llave,Trata de personas,0
 2023-03-01,Veracruz de Ignacio de la Llave,Trata de personas,0
@@ -53098,7 +53098,7 @@ isodate,entidad,delito,total
 2023-09-01,Veracruz de Ignacio de la Llave,Aborto,4
 2023-10-01,Veracruz de Ignacio de la Llave,Aborto,1
 2023-11-01,Veracruz de Ignacio de la Llave,Aborto,1
-2023-12-01,Veracruz de Ignacio de la Llave,Aborto,0
+2023-12-01,Veracruz de Ignacio de la Llave,Aborto,5
 2023-01-01,Yucatán,Homicidio doloso,2
 2023-02-01,Yucatán,Homicidio doloso,2
 2023-03-01,Yucatán,Homicidio doloso,2
@@ -53110,7 +53110,7 @@ isodate,entidad,delito,total
 2023-09-01,Yucatán,Homicidio doloso,3
 2023-10-01,Yucatán,Homicidio doloso,1
 2023-11-01,Yucatán,Homicidio doloso,2
-2023-12-01,Yucatán,Homicidio doloso,0
+2023-12-01,Yucatán,Homicidio doloso,3
 2023-01-01,Yucatán,Homicidio culposo,13
 2023-02-01,Yucatán,Homicidio culposo,12
 2023-03-01,Yucatán,Homicidio culposo,16
@@ -53122,7 +53122,7 @@ isodate,entidad,delito,total
 2023-09-01,Yucatán,Homicidio culposo,11
 2023-10-01,Yucatán,Homicidio culposo,9
 2023-11-01,Yucatán,Homicidio culposo,8
-2023-12-01,Yucatán,Homicidio culposo,0
+2023-12-01,Yucatán,Homicidio culposo,14
 2023-01-01,Yucatán,Lesiones dolosas,21
 2023-02-01,Yucatán,Lesiones dolosas,4
 2023-03-01,Yucatán,Lesiones dolosas,14
@@ -53134,7 +53134,7 @@ isodate,entidad,delito,total
 2023-09-01,Yucatán,Lesiones dolosas,12
 2023-10-01,Yucatán,Lesiones dolosas,14
 2023-11-01,Yucatán,Lesiones dolosas,14
-2023-12-01,Yucatán,Lesiones dolosas,0
+2023-12-01,Yucatán,Lesiones dolosas,12
 2023-01-01,Yucatán,Lesiones culposas,3
 2023-02-01,Yucatán,Lesiones culposas,4
 2023-03-01,Yucatán,Lesiones culposas,2
@@ -53146,7 +53146,7 @@ isodate,entidad,delito,total
 2023-09-01,Yucatán,Lesiones culposas,1
 2023-10-01,Yucatán,Lesiones culposas,9
 2023-11-01,Yucatán,Lesiones culposas,12
-2023-12-01,Yucatán,Lesiones culposas,0
+2023-12-01,Yucatán,Lesiones culposas,6
 2023-01-01,Yucatán,Feminicidio,1
 2023-02-01,Yucatán,Feminicidio,1
 2023-03-01,Yucatán,Feminicidio,2
@@ -53170,7 +53170,7 @@ isodate,entidad,delito,total
 2023-09-01,Yucatán,Otros delitos que atentan contra la vida y la integridad corporal,10
 2023-10-01,Yucatán,Otros delitos que atentan contra la vida y la integridad corporal,10
 2023-11-01,Yucatán,Otros delitos que atentan contra la vida y la integridad corporal,10
-2023-12-01,Yucatán,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Yucatán,Otros delitos que atentan contra la vida y la integridad corporal,11
 2023-01-01,Yucatán,Secuestro,0
 2023-02-01,Yucatán,Secuestro,0
 2023-03-01,Yucatán,Secuestro,0
@@ -53218,7 +53218,7 @@ isodate,entidad,delito,total
 2023-09-01,Yucatán,Otros delitos que atentan contra la libertad personal,2
 2023-10-01,Yucatán,Otros delitos que atentan contra la libertad personal,0
 2023-11-01,Yucatán,Otros delitos que atentan contra la libertad personal,0
-2023-12-01,Yucatán,Otros delitos que atentan contra la libertad personal,0
+2023-12-01,Yucatán,Otros delitos que atentan contra la libertad personal,2
 2023-01-01,Yucatán,Extorsión,2
 2023-02-01,Yucatán,Extorsión,1
 2023-03-01,Yucatán,Extorsión,0
@@ -53230,7 +53230,7 @@ isodate,entidad,delito,total
 2023-09-01,Yucatán,Extorsión,3
 2023-10-01,Yucatán,Extorsión,0
 2023-11-01,Yucatán,Extorsión,0
-2023-12-01,Yucatán,Extorsión,0
+2023-12-01,Yucatán,Extorsión,1
 2023-01-01,Yucatán,Corrupción de menores,1
 2023-02-01,Yucatán,Corrupción de menores,1
 2023-03-01,Yucatán,Corrupción de menores,0
@@ -53290,7 +53290,7 @@ isodate,entidad,delito,total
 2023-09-01,Zacatecas,Homicidio doloso,71
 2023-10-01,Zacatecas,Homicidio doloso,61
 2023-11-01,Zacatecas,Homicidio doloso,77
-2023-12-01,Zacatecas,Homicidio doloso,0
+2023-12-01,Zacatecas,Homicidio doloso,47
 2023-01-01,Zacatecas,Homicidio culposo,32
 2023-02-01,Zacatecas,Homicidio culposo,22
 2023-03-01,Zacatecas,Homicidio culposo,37
@@ -53301,8 +53301,8 @@ isodate,entidad,delito,total
 2023-08-01,Zacatecas,Homicidio culposo,26
 2023-09-01,Zacatecas,Homicidio culposo,21
 2023-10-01,Zacatecas,Homicidio culposo,27
-2023-11-01,Zacatecas,Homicidio culposo,24
-2023-12-01,Zacatecas,Homicidio culposo,0
+2023-11-01,Zacatecas,Homicidio culposo,25
+2023-12-01,Zacatecas,Homicidio culposo,38
 2023-01-01,Zacatecas,Lesiones dolosas,148
 2023-02-01,Zacatecas,Lesiones dolosas,165
 2023-03-01,Zacatecas,Lesiones dolosas,161
@@ -53313,8 +53313,8 @@ isodate,entidad,delito,total
 2023-08-01,Zacatecas,Lesiones dolosas,86
 2023-09-01,Zacatecas,Lesiones dolosas,186
 2023-10-01,Zacatecas,Lesiones dolosas,163
-2023-11-01,Zacatecas,Lesiones dolosas,125
-2023-12-01,Zacatecas,Lesiones dolosas,0
+2023-11-01,Zacatecas,Lesiones dolosas,126
+2023-12-01,Zacatecas,Lesiones dolosas,111
 2023-01-01,Zacatecas,Lesiones culposas,59
 2023-02-01,Zacatecas,Lesiones culposas,56
 2023-03-01,Zacatecas,Lesiones culposas,61
@@ -53325,8 +53325,8 @@ isodate,entidad,delito,total
 2023-08-01,Zacatecas,Lesiones culposas,100
 2023-09-01,Zacatecas,Lesiones culposas,117
 2023-10-01,Zacatecas,Lesiones culposas,120
-2023-11-01,Zacatecas,Lesiones culposas,126
-2023-12-01,Zacatecas,Lesiones culposas,0
+2023-11-01,Zacatecas,Lesiones culposas,125
+2023-12-01,Zacatecas,Lesiones culposas,138
 2023-01-01,Zacatecas,Feminicidio,1
 2023-02-01,Zacatecas,Feminicidio,1
 2023-03-01,Zacatecas,Feminicidio,1
@@ -53338,7 +53338,7 @@ isodate,entidad,delito,total
 2023-09-01,Zacatecas,Feminicidio,1
 2023-10-01,Zacatecas,Feminicidio,2
 2023-11-01,Zacatecas,Feminicidio,1
-2023-12-01,Zacatecas,Feminicidio,0
+2023-12-01,Zacatecas,Feminicidio,1
 2023-01-01,Zacatecas,Otros delitos que atentan contra la vida y la integridad corporal,26
 2023-02-01,Zacatecas,Otros delitos que atentan contra la vida y la integridad corporal,25
 2023-03-01,Zacatecas,Otros delitos que atentan contra la vida y la integridad corporal,41
@@ -53350,7 +53350,7 @@ isodate,entidad,delito,total
 2023-09-01,Zacatecas,Otros delitos que atentan contra la vida y la integridad corporal,28
 2023-10-01,Zacatecas,Otros delitos que atentan contra la vida y la integridad corporal,23
 2023-11-01,Zacatecas,Otros delitos que atentan contra la vida y la integridad corporal,25
-2023-12-01,Zacatecas,Otros delitos que atentan contra la vida y la integridad corporal,0
+2023-12-01,Zacatecas,Otros delitos que atentan contra la vida y la integridad corporal,28
 2023-01-01,Zacatecas,Secuestro,1
 2023-02-01,Zacatecas,Secuestro,3
 2023-03-01,Zacatecas,Secuestro,1
@@ -53362,7 +53362,7 @@ isodate,entidad,delito,total
 2023-09-01,Zacatecas,Secuestro,0
 2023-10-01,Zacatecas,Secuestro,2
 2023-11-01,Zacatecas,Secuestro,1
-2023-12-01,Zacatecas,Secuestro,0
+2023-12-01,Zacatecas,Secuestro,1
 2023-01-01,Zacatecas,Tráfico de menores,0
 2023-02-01,Zacatecas,Tráfico de menores,0
 2023-03-01,Zacatecas,Tráfico de menores,0
@@ -53397,8 +53397,8 @@ isodate,entidad,delito,total
 2023-08-01,Zacatecas,Otros delitos que atentan contra la libertad personal,76
 2023-09-01,Zacatecas,Otros delitos que atentan contra la libertad personal,89
 2023-10-01,Zacatecas,Otros delitos que atentan contra la libertad personal,59
-2023-11-01,Zacatecas,Otros delitos que atentan contra la libertad personal,57
-2023-12-01,Zacatecas,Otros delitos que atentan contra la libertad personal,0
+2023-11-01,Zacatecas,Otros delitos que atentan contra la libertad personal,58
+2023-12-01,Zacatecas,Otros delitos que atentan contra la libertad personal,46
 2023-01-01,Zacatecas,Extorsión,10
 2023-02-01,Zacatecas,Extorsión,4
 2023-03-01,Zacatecas,Extorsión,12
@@ -53409,8 +53409,8 @@ isodate,entidad,delito,total
 2023-08-01,Zacatecas,Extorsión,2
 2023-09-01,Zacatecas,Extorsión,8
 2023-10-01,Zacatecas,Extorsión,13
-2023-11-01,Zacatecas,Extorsión,7
-2023-12-01,Zacatecas,Extorsión,0
+2023-11-01,Zacatecas,Extorsión,8
+2023-12-01,Zacatecas,Extorsión,6
 2023-01-01,Zacatecas,Corrupción de menores,2
 2023-02-01,Zacatecas,Corrupción de menores,2
 2023-03-01,Zacatecas,Corrupción de menores,10
@@ -53422,7 +53422,7 @@ isodate,entidad,delito,total
 2023-09-01,Zacatecas,Corrupción de menores,3
 2023-10-01,Zacatecas,Corrupción de menores,2
 2023-11-01,Zacatecas,Corrupción de menores,4
-2023-12-01,Zacatecas,Corrupción de menores,0
+2023-12-01,Zacatecas,Corrupción de menores,1
 2023-01-01,Zacatecas,Trata de personas,1
 2023-02-01,Zacatecas,Trata de personas,1
 2023-03-01,Zacatecas,Trata de personas,6
@@ -53434,7 +53434,7 @@ isodate,entidad,delito,total
 2023-09-01,Zacatecas,Trata de personas,3
 2023-10-01,Zacatecas,Trata de personas,4
 2023-11-01,Zacatecas,Trata de personas,2
-2023-12-01,Zacatecas,Trata de personas,0
+2023-12-01,Zacatecas,Trata de personas,1
 2023-01-01,Zacatecas,Otros delitos contra la sociedad,0
 2023-02-01,Zacatecas,Otros delitos contra la sociedad,0
 2023-03-01,Zacatecas,Otros delitos contra la sociedad,0
