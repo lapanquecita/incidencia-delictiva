@@ -25,29 +25,35 @@ DELITOS = [
 ]
 
 # esta constante es usada para definir el último mes.
-MES_ACTUAL = "2023-11-01"
+MES_ACTUAL = "2024-01-01"
 
 # El mes que se mostrará en el título.
-MES = "diciembre"
+MES = "enero"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "enero"
+MES_FUENTE = "febrero"
 
 
 def main():
-
     # Estas abreviaciones serán usadas para el eje horizontal.
     abreviaciones = {
-        1: "Ene", 2: "Feb", 3: "Mar", 4: "Abr",
-        5: "May", 6: "Jun", 7: "Jul", 8: "Ago",
-        9: "Sep", 10: "Oct", 11: "Nov", 12: "Dic"
+        1: "Ene",
+        2: "Feb",
+        3: "Mar",
+        4: "Abr",
+        5: "May",
+        6: "Jun",
+        7: "Jul",
+        8: "Ago",
+        9: "Sep",
+        10: "Oct",
+        11: "Nov",
+        12: "Dic",
     }
 
     # Cargamos el dataset de series de tiempo estatal y definimos la columna índice.
     df = pd.read_csv(
-        "./data/timeseries_estatal.csv",
-        parse_dates=["isodate"],
-        index_col="isodate"
+        "./data/timeseries_estatal.csv", parse_dates=["isodate"], index_col="isodate"
     )
 
     # Filtramos el DataFrame hasta el mes actual y a nivel nacional.
@@ -62,10 +68,11 @@ def main():
 
     # Vamos a necesitar una cuadrícula de 3 columnas por 4 filas.
     fig = make_subplots(
-        rows=4, cols=3,
+        rows=4,
+        cols=3,
         horizontal_spacing=0.08,
         vertical_spacing=0.09,
-        subplot_titles=subtitulos
+        subplot_titles=subtitulos,
     )
 
     # Esta variable la usaremos para saber que delito tomar de nuestra lista.
@@ -74,7 +81,6 @@ def main():
     # iniciamos la iteración sobre las filas y columnas.
     for fila in range(4):
         for columna in range(3):
-
             # Filtramos el dataset con el delito seleccionado.
             temp_df = df[df["delito"] == DELITOS[index]].copy()
 
@@ -86,7 +92,8 @@ def main():
 
             # Creamos la columna de fecha usando la abreviación y el año en formato corto.
             temp_df["fecha"] = temp_df.index.map(
-                lambda x: f"{abreviaciones[x.month]}<br>'{x.year-2000}")
+                lambda x: f"{abreviaciones[x.month]}<br>'{x.year-2000}"
+            )
 
             # Para nuestra gráfica sparkline solo el primer y el último punto
             # tendrán una marca. Aquí definimos eso.
@@ -150,15 +157,12 @@ def main():
 
             # Estas variables serán usadas para la anotación de cada sparkline.
             diferencia = ultimo_valor - primer_valor
-            cambio_porcentual = (
-                ultimo_valor - primer_valor) / primer_valor * 100
+            cambio_porcentual = (ultimo_valor - primer_valor) / primer_valor * 100
 
             if diferencia > 0:
-                totales.append(
-                    f"<b>+{diferencia:,}</b><br>+{cambio_porcentual:,.2f}%")
+                totales.append(f"<b>+{diferencia:,}</b><br>+{cambio_porcentual:,.2f}%")
             else:
-                totales.append(
-                    f"<b>{diferencia:,}</b><br>{cambio_porcentual:,.2f}%")
+                totales.append(f"<b>{diferencia:,}</b><br>{cambio_porcentual:,.2f}%")
 
             # Creamos nuestro sparkline.
             fig.add_trace(
@@ -177,7 +181,8 @@ def main():
                     line_shape="spline",
                     line_smoothing=1.0,
                 ),
-                row=fila+1, col=columna+1
+                row=fila + 1,
+                col=columna + 1,
             )
 
             # Agregamos el promedio móvil.
@@ -189,7 +194,8 @@ def main():
                     line_width=3.5,
                     line_color="hsla(255, 100, 100, 0.8)",
                 ),
-                row=fila+1, col=columna+1
+                row=fila + 1,
+                col=columna + 1,
             )
 
             index += 1
@@ -204,7 +210,7 @@ def main():
         showline=True,
         gridwidth=0.35,
         mirror=True,
-        nticks=15
+        nticks=15,
     )
 
     fig.update_yaxes(
@@ -220,7 +226,7 @@ def main():
         showgrid=True,
         gridwidth=0.35,
         mirror=True,
-        nticks=10
+        nticks=10,
     )
 
     fig.update_layout(
@@ -234,7 +240,7 @@ def main():
         margin_l=110,
         margin_r=40,
         margin_b=120,
-        title_text=f"Reporte de incidencia delictiva en México correspondiente al mes de {MES} del año 2023",
+        title_text=f"Reporte de incidencia delictiva en México correspondiente al mes de {MES} del año 2024",
         title_x=0.5,
         title_y=0.98,
         title_font_size=28,
@@ -248,10 +254,18 @@ def main():
 
     # Esta lista representa la posición de las anotaciones dentro de cada gráfica.
     posiciones = [
-        "top", "bottom", "bottom",
-        "top", "top",  "top",
-        "top", "top", "bottom",
-        "bottom", "bottom", "bottom"
+        "up",
+        "bottom",
+        "top",
+        "top",
+        "top",
+        "top",
+        "top",
+        "bottom",
+        "bottom",
+        "bottom",
+        "bottom",
+        "bottom",
     ]
 
     # Lo que haremos se puede considerar como un hack.
@@ -259,7 +273,6 @@ def main():
     # Lo que haremos es modificar estos títulos y extraer sus coordenadas
     # para usarlas en nuestras propias anotaciones.
     for annotation in fig["layout"]["annotations"]:
-
         # Ajustamos un poco la posición Y de los títulos y le cambiamos el tamaño de texto.
         annotation["y"] += 0.005
         annotation["font"]["size"] = 24
@@ -269,8 +282,9 @@ def main():
         anotaciones_y.append(annotation["y"])
 
     # Ahora que ya tenemos todo lo necesario para nuestras anotaciones, las creamos.
-    for x, y, t, c, p in zip(anotaciones_x, anotaciones_y, totales, colores, posiciones):
-
+    for x, y, t, c, p in zip(
+        anotaciones_x, anotaciones_y, totales, colores, posiciones
+    ):
         # Esto pondrá la anotación en la parte izquierda de cada gráfica.
         x -= 0.125
 
@@ -316,7 +330,7 @@ def main():
         yanchor="top",
         yref="paper",
         font_size=22,
-        text="(Un registro de delito puede tener más de una víctima. Se incluye el promedio móvil de los últimos 12 meses.)"
+        text="(Un registro de delito puede tener más de una víctima. Se incluye el promedio móvil de los últimos 12 meses.)",
     )
 
     fig.add_annotation(
@@ -345,5 +359,4 @@ def main():
 
 
 if __name__ == "__main__":
-
     main()
