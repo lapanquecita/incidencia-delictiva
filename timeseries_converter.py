@@ -27,12 +27,11 @@ MESES = {
     "Septiembre": 9,
     "Octubre": 10,
     "Noviembre": 11,
-    "Diciembre": 12
+    "Diciembre": 12,
 }
 
 
 def convert_to_timeseries(file):
-
     # Iniciamos nuestra lista con la cabecera.
     data_list = [["isodate", "entidad", "delito", "total"]]
 
@@ -50,40 +49,31 @@ def convert_to_timeseries(file):
 
     # iteramos sobre cada año en nuestro dataset.
     for year in df["Año"].unique():
-
         # Iteramos sobre cada entidad.
         for entidad in entidades:
-
             # Si la entidad es 'Nacional' hacemos otro tipo de filtrado.
             if entidad == "Nacional":
                 temp_df = df[df["Año"] == year]
             else:
-                temp_df = df[(df["Año"] == year) & (
-                    df["Entidad"] == entidad)]
+                temp_df = df[(df["Año"] == year) & (df["Entidad"] == entidad)]
 
             # Agrupamos el DataFrame por subtipo de delito.
-            temp_df = temp_df.groupby(
-                "Subtipo de delito").sum(numeric_only=True)
+            temp_df = temp_df.groupby("Subtipo de delito").sum(numeric_only=True)
 
             # Iteramos sobre cada subtipo de delito.
             for delito in delitos:
-
                 # iteramos sobre cada mes.
                 for k, v in MESES.items():
-
                     # Finalmente armamos el registro con todos los valores
                     # que estamos iterando.
                     data_list.append(
-                        [
-                            date(year, v, 1),
-                            entidad,
-                            delito,
-                            int(temp_df.loc[delito, k])
-                        ]
+                        [date(year, v, 1), entidad, delito, int(temp_df.loc[delito, k])]
                     )
 
     # Guardamos el archivo final con un prefijo.
-    with open(f"./data/timeseries_{file}.csv", "w", encoding="utf-8", newline="") as csv_file:
+    with open(
+        f"./data/timeseries_{file}.csv", "w", encoding="utf-8", newline=""
+    ) as csv_file:
         csv.writer(csv_file).writerows(data_list)
 
 
@@ -110,11 +100,11 @@ def municipios_to_timeseries():
 
     # Agrupamos las columnas.
     df = df.groupby(["Año", "Cve. Municipio", "Subtipo de delito"]).sum(
-        numeric_only=True)
+        numeric_only=True
+    )
 
     # Reseteamos el índice y renombramos las columnas.
-    df.reset_index(names=["año", "cve_municipio",
-                   "delito", "total"], inplace=True)
+    df.reset_index(names=["año", "cve_municipio", "delito", "total"], inplace=True)
 
     # Reordenamos las columnas
     df = df[["año", "cve_municipio", "delito", "total"]]
@@ -123,12 +113,15 @@ def municipios_to_timeseries():
     df["total"] = df["total"].astype(int)
 
     # Guardamos el nuevo archivo .csv
-    df.to_csv("./data/timeseries_municipal.csv",
-              index=False, encoding="utf-8", chunksize=200000)
+    df.to_csv(
+        "./data/timeseries_municipal.csv",
+        index=False,
+        encoding="utf-8",
+        chunksize=200000,
+    )
 
 
 if __name__ == "__main__":
-
     convert_to_timeseries("victimas")
     convert_to_timeseries("estatal")
     municipios_to_timeseries()

@@ -351,7 +351,7 @@ def main():
         y=-0.095,
         yanchor="bottom",
         yref="paper",
-        text="🧁 @lapanquecita",
+        text="🧁 @lapankecita",
         font_size=20,
     )
 

@@ -10,6 +10,9 @@ import plotly.graph_objects as go
 from textwrap import wrap
 
 
+# La fecha en la que los datos fueron recopilados.
+FECHA_FUENTE = "febrero 2024"
+
 ENTIDADES = {
     1: "Aguascalientes",
     2: "Baja California",
@@ -42,7 +45,7 @@ ENTIDADES = {
     29: "Tlaxcala",
     30: "Veracruz",
     31: "Yucatán",
-    32: "Zacatecas"
+    32: "Zacatecas",
 }
 
 
@@ -130,11 +133,11 @@ MESES = [
     "Septiembre",
     "Octubre",
     "Noviembre",
-    "Diciembre"
+    "Diciembre",
 ]
 
 DELITOS = [
-    ["Homicidio doloso", "Feminicidio"],    
+    ["Homicidio doloso", "Feminicidio"],
     ["Secuestro"],
     ["Extorsión"],
     ["Lesiones dolosas"],
@@ -153,7 +156,7 @@ DELITOS = [
 def main(tipo, año):
     """
     Crea una gráfica con el top 10 o bottom 10 de incidencia deliactiva por entidad.
-    
+
     Parameters
     ----------
     tipo : str
@@ -161,7 +164,7 @@ def main(tipo, año):
 
     año : int
         El año que nos interesa graficar.
-    
+
     """
 
     # Cargamos el dataset de población total por entidad.
@@ -176,13 +179,13 @@ def main(tipo, año):
             "Coahuila de Zaragoza": "Coahuila",
             "México": "Estado de México",
             "Michoacán de Ocampo": "Michoacán",
-            "Veracruz de Ignacio de la Llave": "Veracruz"
+            "Veracruz de Ignacio de la Llave": "Veracruz",
         }
     )
 
     # Cargamos el dataset de incidencia delictiva estatal.
     df = pd.read_csv("./data/estatal.csv", encoding="latin-1")
-    
+
     # Filtramos los registros para el año de nuestro interés.
     df = df[df["Año"] == año]
 
@@ -199,13 +202,14 @@ def main(tipo, año):
 
     # Iteramos sobre los delitos que nos interesan
     for item in DELITOS:
-
         # Creamos un DataFrame con el delito o delitos.
         temp_df = df[df["Subtipo de delito"].isin(item)]
 
         # Agrupamos el DataFrame por entidad y solo nos quedamos con la columna del total por año.
-        temp_df = temp_df[["Clave_Ent", "total"]].groupby("Clave_Ent").sum(numeric_only=True)
-        
+        temp_df = (
+            temp_df[["Clave_Ent", "total"]].groupby("Clave_Ent").sum(numeric_only=True)
+        )
+
         # Este es el total nacional, el cual será usado para las etiquetas.
         total = temp_df["total"].sum()
 
@@ -223,7 +227,7 @@ def main(tipo, año):
         if tipo == "top":
             temp_df = temp_df.sort_values("tasa", ascending=False).head(10)
         elif tipo == "bottom":
-            temp_df = temp_df.sort_values("tasa", ascending=True).head(10)      
+            temp_df = temp_df.sort_values("tasa", ascending=True).head(10)
 
         # Reseteamos el indice, ya que necesitamos valores del 0 al 6
         temp_df.reset_index(inplace=True)
@@ -266,7 +270,7 @@ def main(tipo, año):
         showline=True,
         mirror=True,
         showgrid=False,
-        nticks=0
+        nticks=0,
     )
 
     fig.update_yaxes(
@@ -280,7 +284,7 @@ def main(tipo, año):
         showline=True,
         mirror=True,
         showgrid=False,
-        nticks=0
+        nticks=0,
     )
 
     fig.update_layout(
@@ -308,7 +312,7 @@ def main(tipo, año):
                 y=-0.05,
                 yanchor="bottom",
                 yref="paper",
-                text="Fuente: SESNSP (enero 2024)"
+                text=f"Fuente: SESNSP ({FECHA_FUENTE})",
             ),
             dict(
                 x=0.55,
@@ -317,7 +321,7 @@ def main(tipo, año):
                 y=-0.05,
                 yanchor="bottom",
                 yref="paper",
-                text="Incidencia delictiva ajustada por cada 100k habitantes"
+                text="Incidencia delictiva ajustada por cada 100k habitantes",
             ),
             dict(
                 x=1.01,
@@ -326,14 +330,13 @@ def main(tipo, año):
                 y=-0.05,
                 yanchor="bottom",
                 yref="paper",
-                text="🧁 @lapanquecita"
-            )
-        ]
+                text="🧁 @lapanquecita",
+            ),
+        ],
     )
 
     # El nombre del archivo depende del tipo de orden.
     fig.write_image(f"./{tipo}_10.png")
-
 
 
 def formatear_texto(x):
@@ -345,7 +348,7 @@ def formatear_texto(x):
 
     abreviacion = ABREVIACIONES[x["Clave_Ent"]]
 
-    if x["tasa"] <10:
+    if x["tasa"] < 10:
         return f"{x['tasa']:,.2f}<br>{abreviacion}"
     elif x["tasa"] >= 100:
         return f"{x['tasa']:,.0f}<br>{abreviacion}"
@@ -354,6 +357,5 @@ def formatear_texto(x):
 
 
 if __name__ == "__main__":
-
     main("top", 2023)
     main("bottom", 2023)
