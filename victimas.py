@@ -125,7 +125,7 @@ def tendencia(delito):
     )
 
     fig.update_yaxes(
-        title="Tasa bruta por cada 100k habitantes",
+        title="Tasa bruta por cada 100,000 habitantes",
         range=[0, df["tasa"].max() * 1.12],
         ticks="outside",
         separatethousands=True,
@@ -184,7 +184,7 @@ def tendencia(delito):
                 yref="paper",
                 xanchor="center",
                 yanchor="top",
-                text="Año de registro del homicidio",
+                text="Año de registro del delito",
             ),
             dict(
                 x=1.01,
