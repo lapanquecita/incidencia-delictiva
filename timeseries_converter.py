@@ -11,7 +11,6 @@ https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-deli
 import csv
 from datetime import date
 
-import numpy as np
 import pandas as pd
 
 # Este diccionario será usado para crear las fechas.
