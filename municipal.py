@@ -227,7 +227,7 @@ def crear_mapa(año, delito):
     # Agregamos las anotaciones correspondientes.
     fig.update_layout(
         showlegend=False,
-        font_family="Lato",
+        font_family="Montserrat",
         font_color="#FFFFFF",
         margin_t=50,
         margin_r=100,
@@ -562,5 +562,5 @@ def absolutos_municipios(año, delito):
 
 if __name__ == "__main__":
     crear_mapa(2023, "Extorsión")
-    # tasa_municipios(2023, "Extorsión")
-    # absolutos_municipios(2023, "Extorsión")
+    tasa_municipios(2023, "Extorsión")
+    absolutos_municipios(2023, "Extorsión")
