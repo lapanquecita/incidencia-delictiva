@@ -35,7 +35,7 @@ def convert_to_timeseries(file):
     data_list = [["isodate", "entidad", "delito", "total"]]
 
     # Cargamos el dataset con codificación latin-1.
-    df = pd.read_csv(f"./data/{file}.csv", encoding="latin-1")
+    df = pd.read_csv(f"./data/{file}.csv", encoding="latin-1", thousands=",")
 
     # Obtenemos una lista de todos los subtipos de delitos.
     delitos = df["Subtipo de delito"].unique().tolist()
@@ -86,7 +86,7 @@ def municipios_to_timeseries():
     """
 
     # Cargamos el dataset de municipios con codificación latin-1.
-    df = pd.read_csv("./data/municipal.csv", encoding="latin-1")
+    df = pd.read_csv("./data/municipal.csv", encoding="latin-1", thousands=",")
 
     # Arreglamos la clave del municipio.
     df["Cve. Municipio"] = df["Cve. Municipio"].astype(str).str.zfill(5)

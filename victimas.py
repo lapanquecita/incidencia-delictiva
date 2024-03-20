@@ -695,9 +695,239 @@ def crear_mapa(año, delito):
     os.remove("./2.png")
 
 
+def plot_sexo(año, delito):
+    """
+    Crea una gráfica de barras normalizada con la
+    distribución del delito por sexo de la víctima.
+
+    Parameters
+    ----------
+    año : int
+        El año de nuestro interés
+
+    delito : str
+        El nombre del delito que se desea graficar.
+
+    """
+
+    # Cargamos el dataset de víctimas.
+    df = pd.read_csv("./data/victimas.csv", encoding="latin-1")
+
+    # Filtramos por el delito que nos interesa.
+    df = df[df["Subtipo de delito"] == delito]
+
+    # Seleccionamos los registros del año de nuestro interés.
+    df = df[df["Año"] == año]
+
+    # CAlculamos el total anual.
+    df["Total"] = df[MESES].sum(axis=1)
+
+    # Transformamos el DataFrame para que
+    # el índice sean las entidades y el sexo las columnas.
+    df = df.pivot_table(
+        index="Entidad",
+        columns="Sexo",
+        values="Total",
+        aggfunc="sum",
+        fill_value=0,
+    )
+
+    # Renombramos algunos estados a sus nombres comunes.
+    df = df.rename(
+        index={
+            "Coahuila de Zaragoza": "Coahuila",
+            "México": "Estado de México",
+            "Michoacán de Ocampo": "Michoacán",
+            "Veracruz de Ignacio de la Llave": "Veracruz",
+        }
+    )
+
+    # Calculamos de nuevo el total, esto será usado
+    # para calcular los porcentajes.
+    df["Total"] = df.sum(axis=1)
+    
+    # Agregamos la fila para los datos a nivel nacional.
+    df.loc["<b>Nacional</b>"] = df.sum(axis=0)
+
+    # Calculamos los porcentajes para cada sexo.
+    df["perc_hombre"] = df["Hombre"] / df["Total"] * 100
+    df["perc_mujer"] = df["Mujer"] / df["Total"] * 100
+    df["perc_no_identificado"] = df["No identificado"] / df["Total"] * 100
+
+    # Creamos los textos para cada entidad.
+    df["text_hombre"] = df.apply(
+        lambda x: format_text(x["perc_hombre"], x["Hombre"]),
+        axis=1,
+    )
+
+    df["text_mujer"] = df.apply(
+        lambda x: format_text(x["perc_mujer"], x["Mujer"]),
+        axis=1,
+    )
+
+    df["text_no_identificado"] = df.apply(
+        lambda x: format_text(x["perc_no_identificado"], x["No identificado"]),
+        axis=1,
+    )
+
+    # Ordenamos de mayor a menor proporción de hombres violentados.
+    df.sort_values(["perc_hombre", "perc_mujer"], ascending=False, inplace=True)
+
+    
+    # Para crear una gráfica de barras normalizada solo
+    # necesitamos que los valores sumen 100.
+    # En este caso son 3 gráficas de barrs horizontales apiladas.
+    fig = go.Figure()
+
+    fig.add_trace(
+        go.Bar(
+            y=df.index,
+            x=df["perc_hombre"],
+            text=df["text_hombre"],
+            name="Hombre",
+            textposition="inside",
+            orientation="h",
+            marker_color="#3366CC",
+            marker_line_width=0,
+            textfont_family="Oswald",
+            textfont_size=40,
+        )
+    )
+
+    fig.add_trace(
+        go.Bar(
+            y=df.index,
+            x=df["perc_mujer"],
+            text=df["text_mujer"],
+            name="Mujer",
+            textposition="inside",
+            orientation="h",
+            marker_color="#d81b60",
+            marker_line_width=0,
+            textfont_family="Oswald",
+            textfont_size=40,
+        )
+    )
+
+    fig.add_trace(
+        go.Bar(
+            y=df.index,
+            x=df["perc_no_identificado"],
+            text=df["text_no_identificado"],
+            name="No identificado",
+            textposition="inside",
+            orientation="h",
+            marker_color="#7b1fa2",
+            marker_line_width=0,
+            textfont_family="Oswald",
+            textfont_size=40,
+        )
+    )
+
+    # Nos aseguramos que el rango sea de 0 a 100.
+    fig.update_xaxes(
+        range=[0, 100],
+        ticksuffix="%",
+        ticks="outside",
+        separatethousands=True,
+        ticklen=10,
+        zeroline=False,
+        title_standoff=15,
+        tickcolor="#FFFFFF",
+        linewidth=2,
+        showline=True,
+        showgrid=False,
+        mirror=True,
+        nticks=15,
+    )
+
+    fig.update_yaxes(
+        autorange="reversed",
+        tickfont_size=14,
+        ticks="outside",
+        separatethousands=True,
+        ticklen=10,
+        title_standoff=6,
+        tickcolor="#FFFFFF",
+        linewidth=2,
+        showgrid=False,
+        showline=True,
+        mirror=True,
+    )
+
+    fig.update_layout(
+        showlegend=True,
+        legend_orientation="h",
+        legend_traceorder="normal",
+        legend_x=0.5,
+        legend_xanchor="center",
+        legend_y=1.042,
+        legend_yanchor="top",
+        barmode="stack",
+        width=1280,
+        height=1280,
+        font_family="Montserrat",
+        font_color="#FFFFFF",
+        font_size=16,
+        title_text=f"Distribución de víctimas de <b>{delito.lower()}</b> en México durante el {año} por entidad y sexo de la víctima",
+        title_x=0.5,
+        title_y=0.98,
+        margin_t=100,
+        margin_r=40,
+        margin_b=90,
+        margin_l=150,
+        title_font_size=22,
+        paper_bgcolor=PAPER_BHCOLOR,
+        plot_bgcolor=PLOT_BGCOLOR,
+        annotations=[
+            dict(
+                x=0.01,
+                y=-0.07,
+                xref="paper",
+                yref="paper",
+                xanchor="left",
+                yanchor="top",
+                text=f"Fuente: SESNSP ({FECHA_FUENTE})",
+            ),
+            dict(
+                x=0.57,
+                y=-0.07,
+                xref="paper",
+                yref="paper",
+                xanchor="center",
+                yanchor="top",
+                text="Proporción dentro de cada categoría (absolutos)",
+            ),
+            dict(
+                x=1.01,
+                y=-0.07,
+                xref="paper",
+                yref="paper",
+                xanchor="right",
+                yanchor="top",
+                text="🧁 @lapanquecita",
+            ),
+        ],
+    )
+
+    fig.write_image(f"./comparacion_sexo_{año}.png")
+
+
+def format_text(perc, total):
+    """
+    Da formato a los textos de cada barra en
+    la gráfiac de barras normalizada.
+    """
+
+    # Si el porcentaje es 100, no redondeamos.
+    if perc == 100:
+        return f" {perc:,.0f}% ({total:,.0f}) "
+    else:
+        return f" {perc:,.1f}% ({total:,.0f}) "
 
 
 if __name__ == "__main__":
     tendencia("Extorsión")
     comparacion_entidad(2022, 2023, "Extorsión")
     crear_mapa(2023, "Extorsión")
+    plot_sexo(2023, "Extorsión")

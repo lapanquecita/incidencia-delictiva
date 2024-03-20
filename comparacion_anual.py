@@ -29,7 +29,6 @@ FUENTE_FECHA = "(agosto 2023)"
 
 
 def main():
-
     # Cargamos el dataset de delitos esttales.
     df = pd.read_csv("./estatal.csv", encoding="latin-1")
 
@@ -77,7 +76,7 @@ def main():
                     "<b>Tipo de delito</b>",
                     f"<b>{AÑO1}</b>",
                     f"<b>{AÑO2} ↓</b>",
-                    "<b>Cambio</b>"
+                    "<b>Cambio</b>",
                 ],
                 font_color="#FFFFFF",
                 line_width=0.75,
@@ -85,16 +84,11 @@ def main():
                 align="center",
             ),
             cells=dict(
-                values=[
-                    final["nombre"],
-                    final[AÑO1],
-                    final[AÑO2],
-                    final["texto"]
-                ],
+                values=[final["nombre"], final[AÑO1], final[AÑO2], final["texto"]],
                 line_width=0.75,
                 fill_color=["#321E1E", "#321E1E", "#321E1E", final["color"]],
-                align=["left", "center", "center"]
-            )
+                align=["left", "center", "center"],
+            ),
         )
     )
 
@@ -122,23 +116,22 @@ def main():
                 y=0.005,
                 xanchor="left",
                 yanchor="top",
-                text=f"Fuente: SESNSP {FUENTE_FECHA}"
+                text=f"Fuente: SESNSP {FUENTE_FECHA}",
             ),
             dict(
                 x=1.015,
                 y=0.005,
                 xanchor="right",
                 yanchor="top",
-                text="🧁 @lapanquecita"
-            )
-        ]
+                text="🧁 @lapanquecita",
+            ),
+        ],
     )
 
     fig.write_image("./comparacion_tipo_delitos.png")
 
 
 def main2():
-
     # Cargamos el dataset de delitos esttales.
     df = pd.read_csv("./estatal.csv", encoding="latin-1")
 
@@ -186,7 +179,7 @@ def main2():
                     "<b>Subtipo de delito</b>",
                     f"<b>{AÑO1}</b>",
                     f"<b>{AÑO2} ↓</b>",
-                    "<b>Cambio</b>"
+                    "<b>Cambio</b>",
                 ],
                 font_color="#FFFFFF",
                 line_width=0.75,
@@ -194,16 +187,11 @@ def main2():
                 align="center",
             ),
             cells=dict(
-                values=[
-                    final["nombre"],
-                    final[AÑO1],
-                    final[AÑO2],
-                    final["texto"]
-                ],
+                values=[final["nombre"], final[AÑO1], final[AÑO2], final["texto"]],
                 line_width=0.75,
                 fill_color=["#041C32", "#041C32", "#041C32", final["color"]],
-                align=["left", "center", "center"]
-            )
+                align=["left", "center", "center"],
+            ),
         )
     )
 
@@ -228,16 +216,16 @@ def main2():
                 y=0.005,
                 xanchor="left",
                 yanchor="top",
-                text=f"Fuente: SESNSP {FUENTE_FECHA}"
+                text=f"Fuente: SESNSP {FUENTE_FECHA}",
             ),
             dict(
                 x=1.015,
                 y=0.005,
                 xanchor="right",
                 yanchor="top",
-                text="🧁 @lapanquecita"
-            )
-        ]
+                text="🧁 @lapanquecita",
+            ),
+        ],
     )
 
     fig.write_image("./comparacion_subtipo_delitos.png")
@@ -283,6 +271,5 @@ def set_color(x):
 
 
 if __name__ == "__main__":
-
     main()
     # main2()
