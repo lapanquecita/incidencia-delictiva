@@ -465,7 +465,7 @@ def crear_mapa(año, delito):
     # Iteramos sobre las entidades dentro del GeoJSON.
     for item in geojson["features"]:
         # Extraemos el nombre de la entidad.
-        geo = item["properties"]["NOM_ENT"]
+        geo = item["properties"]["NOMGEO"]
 
         # Agregamos el objeto de la entidad y su valor a las listas correspondientes.
         ubicaciones.append(geo)
@@ -478,7 +478,7 @@ def crear_mapa(año, delito):
             geojson=geojson,
             locations=ubicaciones,
             z=valores,
-            featureidkey="properties.NOM_ENT",
+            featureidkey="properties.NOMGEO",
             colorscale="portland",
             colorbar=dict(
                 x=0.03,
