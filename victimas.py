@@ -22,7 +22,7 @@ from plotly.subplots import make_subplots
 # Todas las gráficas de este script
 # van a compartir el mismo esquema de colores.
 PLOT_BGCOLOR = "#171010"
-PAPER_BHCOLOR = "#2B2B2B"
+PAPER_BGCOLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
 FECHA_FUENTE = "febrero 2024"
@@ -165,7 +165,7 @@ def tendencia(delito):
         margin_b=85,
         margin_l=100,
         title_font_size=22,
-        paper_bgcolor=PAPER_BHCOLOR,
+        paper_bgcolor=PAPER_BGCOLOR,
         plot_bgcolor=PLOT_BGCOLOR,
         annotations=[
             dict(
@@ -334,7 +334,7 @@ def comparacion_entidad(primer_año, segundo_año, delito):
         margin_b=80,
         margin_l=200,
         title_font_size=22,
-        paper_bgcolor=PAPER_BHCOLOR,
+        paper_bgcolor=PAPER_BGCOLOR,
         plot_bgcolor=PLOT_BGCOLOR,
         annotations=[
             dict(
@@ -523,7 +523,7 @@ def crear_mapa(año, delito):
         margin_l=40,
         width=1280,
         height=720,
-        paper_bgcolor=PAPER_BHCOLOR,
+        paper_bgcolor=PAPER_BGCOLOR,
         annotations=[
             dict(
                 x=0.5,
@@ -660,7 +660,7 @@ def crear_mapa(año, delito):
         margin_l=40,
         margin_r=40,
         margin_b=0,
-        paper_bgcolor=PAPER_BHCOLOR,
+        paper_bgcolor=PAPER_BGCOLOR,
         annotations=[
             dict(
                 x=0.5,
@@ -877,7 +877,7 @@ def plot_sexo(año, delito):
         margin_b=90,
         margin_l=150,
         title_font_size=22,
-        paper_bgcolor=PAPER_BHCOLOR,
+        paper_bgcolor=PAPER_BGCOLOR,
         plot_bgcolor=PLOT_BGCOLOR,
         annotations=[
             dict(

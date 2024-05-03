@@ -19,7 +19,7 @@ import plotly.graph_objects as go
 # Todas las gráficas de este script
 # van a compartir el mismo esquema de colores.
 PLOT_BGCOLOR = "#171010"
-PAPER_BHCOLOR = "#2B2B2B"
+PAPER_BGCOLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
 FECHA_FUENTE = "febrero 2024"
@@ -235,7 +235,7 @@ def crear_mapa(año, delito):
         margin_l=100,
         width=7680,
         height=4320,
-        paper_bgcolor=PAPER_BHCOLOR,
+        paper_bgcolor=PAPER_BGCOLOR,
         annotations=[
             dict(
                 x=0.5,
@@ -406,7 +406,7 @@ def tasa_municipios(año, delito):
         title_y=0.95,
         title_font_size=26,
         title_text=f"Los 30 municipios de México con la mayor<br><b>tasa bruta</b> de <b>{delito.lower()}</b> durante el {año}",
-        paper_bgcolor=PAPER_BHCOLOR,
+        paper_bgcolor=PAPER_BGCOLOR,
         annotations=[
             dict(
                 x=0.015,
@@ -535,7 +535,7 @@ def absolutos_municipios(año, delito):
         title_y=0.95,
         title_font_size=26,
         title_text=f"Los 30 municipios de México con <br><b>mayor incidencia</b> de <b>{delito.lower()}</b> durante el {año}",
-        paper_bgcolor=PAPER_BHCOLOR,
+        paper_bgcolor=PAPER_BGCOLOR,
         annotations=[
             dict(
                 x=0.015,
