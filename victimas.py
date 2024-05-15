@@ -25,7 +25,7 @@ PLOT_BGCOLOR = "#171010"
 PAPER_BGCOLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "febrero 2024"
+FECHA_FUENTE = "marzo 2024"
 
 
 MESES = [
@@ -57,10 +57,13 @@ def tendencia(delito):
     """
 
     # Cargamos el dataset de la polación total estimada según el CONAPO.
-    pop = pd.read_csv("./assets/poblacion_anual.csv", index_col=0)
+    pop = pd.read_csv("./assets/poblacion.csv")
 
-    # Seleccionamos las cifras a nivel nacional.
-    pop = pop.iloc[0]
+    # Seleccionamos las columnas ed años.
+    pop = pop.iloc[:, 3:]
+
+    # Calculamos la población nacional anual.
+    pop = pop.sum(axis=0)
 
     # Convertimos el índice a int.
     pop.index = pop.index.astype(int)
@@ -387,7 +390,10 @@ def crear_mapa(año, delito):
     """
 
     # Cargamos el dataset de la polación total estimada según el CONAPO.
-    pop = pd.read_csv("./assets/poblacion_anual.csv", index_col=0)
+    pop = pd.read_csv("./assets/poblacion.csv")
+
+    # Calculamos la población total por entidad.
+    pop = pop.groupby("Entidad").sum(numeric_only=True)
 
     # Seleccionamos la población del año de nuestro interés.
     pop = pop[str(año)]
@@ -415,9 +421,6 @@ def crear_mapa(año, delito):
     # Agregamos la población para cada entidad.
     df["poblacion"] = pop
 
-    # Quitamos la fila de 'Nacional'.
-    df.dropna(axis=0, inplace=True)
-
     # Calculamos la tasa por cada 100k habitantes.
     df["tasa"] = df["Todos"] / df["poblacion"] * 100000
 
@@ -436,7 +439,8 @@ def crear_mapa(año, delito):
 
     # Calculamos los valores a nivel nacional para configurar el subtítulo.
     total_nacional = df["Todos"].sum()
-    tasa_nacional = total_nacional / pop.iloc[0] * 100000
+    total_poblacion = df["poblacion"].sum()
+    tasa_nacional = total_nacional / total_poblacion * 100000
     subtitulo = f"Nacional: {tasa_nacional:,.2f} ({total_nacional:,.0f} registros)"
 
     # Determinamos los valores mínimos y máximos para nuestra escala.
@@ -745,7 +749,7 @@ def plot_sexo(año, delito):
     # Calculamos de nuevo el total, esto será usado
     # para calcular los porcentajes.
     df["Total"] = df.sum(axis=1)
-    
+
     # Agregamos la fila para los datos a nivel nacional.
     df.loc["<b>Nacional</b>"] = df.sum(axis=0)
 
@@ -773,7 +777,6 @@ def plot_sexo(año, delito):
     # Ordenamos de mayor a menor proporción de hombres violentados.
     df.sort_values(["perc_hombre", "perc_mujer"], ascending=False, inplace=True)
 
-    
     # Para crear una gráfica de barras normalizada solo
     # necesitamos que los valores sumen 100.
     # En este caso son 3 gráficas de barrs horizontales apiladas.

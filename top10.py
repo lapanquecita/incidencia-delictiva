@@ -168,7 +168,10 @@ def main(tipo, año):
     """
 
     # Cargamos el dataset de población total por entidad.
-    pop = pd.read_csv("./assets/poblacion_anual.csv", index_col=0)
+    pop = pd.read_csv("./assets/poblacion.csv")
+
+    # Calculamos la población total por entidad.
+    pop = pop.groupby("Entidad").sum(numeric_only=True)
 
     # Seleccionamos la población del año que nos interesa.
     pop = pop[str(año)]

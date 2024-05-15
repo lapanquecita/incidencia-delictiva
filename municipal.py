@@ -22,7 +22,7 @@ PLOT_BGCOLOR = "#171010"
 PAPER_BGCOLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "febrero 2024"
+FECHA_FUENTE = "marzo 2024"
 
 
 def crear_mapa(año, delito):
@@ -40,15 +40,14 @@ def crear_mapa(año, delito):
 
     """
 
-    # Los identificadores los vamos a necesitar como cadenas.
-    pop_types = {"clave_entidad": str, "clave_municipio": str}
+    # El índice lo vamos a necesitar como cadena.
+    pop_types = {"CVE": str}
 
     # Cargamos el dataset de población por municipio.
-    pop = pd.read_csv("./assets/poblacion2020.csv", dtype=pop_types)
+    pop = pd.read_csv("./assets/poblacion.csv", dtype=pop_types, index_col=0)
 
-    # El índice será lo que se conoce como el valor CVE.
-    # Compuesto del identificador de entidad + el identificador de municipio.
-    pop.index = pop["clave_entidad"] + pop["clave_municipio"]
+    # Seleccionamos las cifras del año de nuestro interés.
+    pop = pop[str(año)]
 
     types = {"cve_municipio": str}
 
@@ -61,16 +60,13 @@ def crear_mapa(año, delito):
     df = df[df["delito"] == delito]
 
     # Calculamos el total de casos confirmados.
-    total_Registros = df["total"].sum()
+    total_registros = df["total"].sum()
 
     # Calculamos el total de población del año que nos interesa.
-    total_pop = pd.read_csv("./assets/poblacion_anual.csv", index_col=0)
-    total_pop = total_pop.loc["Estados Unidos Mexicanos", str(año)]
+    total_pop = pop.sum()
 
-    # Unimos ambos DataFrames.
-    df = df.join(
-        pop,
-    )
+    # Agregamos las cifras de población.
+    df["poblacion"] = pop
 
     # Calculamos la tasa por cada 100k habitantes.
     df["tasa"] = df["total"] / df["poblacion"] * 100000
@@ -137,7 +133,7 @@ def crear_mapa(año, delito):
         valores.append(value)
 
     # Calculamos los valores para nuestro subtítulo.
-    subtitulo = f"Nacional: {total_Registros / total_pop * 100000:,.1f} ({total_Registros:,.0f} registros)"
+    subtitulo = f"Nacional: {total_registros / total_pop * 100000:,.1f} ({total_registros:,.0f} registros)"
 
     fig = go.Figure()
 
@@ -188,7 +184,7 @@ def crear_mapa(año, delito):
 
     # Iteramos sobre cada entidad dentro de nuestro archivo GeoJSON de México.
     for item in geojson_borde["features"]:
-        geo = item["properties"]["NOM_ENT"]
+        geo = item["properties"]["NOMGEO"]
 
         # Alimentamos las listas creadas anteriormente con la ubicación y su valor per capita.
         ubicaciones_borde.append(geo)
@@ -202,7 +198,7 @@ def crear_mapa(año, delito):
             geojson=geojson_borde,
             locations=ubicaciones_borde,
             z=valores_borde,
-            featureidkey="properties.NOM_ENT",
+            featureidkey="properties.NOMGEO",
             colorscale=["hsla(0, 0, 0, 0)", "hsla(0, 0, 0, 0)"],
             marker_line_color="#FFFFFF",
             marker_line_width=4,
@@ -312,15 +308,27 @@ def tasa_municipios(año, delito):
 
     """
 
-    # Los identificadores los vamos a necesitar como cadenas.
-    pop_types = {"clave_entidad": str, "clave_municipio": str}
+    # El índice lo vamos a necesitar como cadena.
+    pop_types = {"CVE": str}
 
     # Cargamos el dataset de población por municipio.
-    pop = pd.read_csv("./assets/poblacion2020.csv", dtype=pop_types)
+    pop = pd.read_csv("./assets/poblacion.csv", dtype=pop_types, index_col=0)
 
-    # El índice será lo que se conoce como el valor CVE.
-    # Compuesto del identificador de entidad + el identificador de municipio.
-    pop.index = pop["clave_entidad"] + pop["clave_municipio"]
+    # Renombramos algunos estados a sus nombres más comunes.
+    pop["Entidad"] = pop["Entidad"].replace(
+        {
+            "Coahuila de Zaragoza": "Coahuila",
+            "México": "Estado de México",
+            "Michoacán de Ocampo": "Michoacán",
+            "Veracruz de Ignacio de la Llave": "Veracruz",
+        }
+    )
+
+    # Seleccionamos las columnas de nuestro interés.
+    pop = pop[["Entidad", "Municipio", str(año)]]
+
+    # Renombramos las columnas.
+    pop.columns = ["entidad", "municipio", "poblacion"]
 
     # Cargamos el dataset municipal con datos anuales.
     df = pd.read_csv(
@@ -446,15 +454,27 @@ def absolutos_municipios(año, delito):
 
     """
 
-    # Los identificadores los vamos a necesitar como cadenas.
-    pop_types = {"clave_entidad": str, "clave_municipio": str}
+    # El índice lo vamos a necesitar como cadena.
+    pop_types = {"CVE": str}
 
     # Cargamos el dataset de población por municipio.
-    pop = pd.read_csv("./assets/poblacion2020.csv", dtype=pop_types)
+    pop = pd.read_csv("./assets/poblacion.csv", dtype=pop_types, index_col=0)
 
-    # El índice será lo que se conoce como el valor CVE.
-    # Compuesto del identificador de entidad + el identificador de municipio.
-    pop.index = pop["clave_entidad"] + pop["clave_municipio"]
+    # Renombramos algunos estados a sus nombres más comunes.
+    pop["Entidad"] = pop["Entidad"].replace(
+        {
+            "Coahuila de Zaragoza": "Coahuila",
+            "México": "Estado de México",
+            "Michoacán de Ocampo": "Michoacán",
+            "Veracruz de Ignacio de la Llave": "Veracruz",
+        }
+    )
+
+    # Seleccionamos las columnas de nuestro interés.
+    pop = pop[["Entidad", "Municipio", str(año)]]
+
+    # Renombramos las columnas.
+    pop.columns = ["entidad", "municipio", "poblacion"]
 
     # Cargamos el dataset municipal con datos anuales.
     df = pd.read_csv(

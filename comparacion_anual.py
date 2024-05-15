@@ -13,13 +13,13 @@ import plotly.graph_objects as go
 
 
 # El primer año que se desea comparar
-AÑO1 = 2022
+AÑO1 = 2023
 
 # El segundo año que se desea comparar
-AÑO2 = 2023
+AÑO2 = 2024
 
 # El mes que se desea comparar (la primera letra debe ir en mayúscula)
-MES = "Julio"
+MES = "Marzo"
 
 # La entidad que se desea comparar (México para comparar todo el país)
 ENTIDAD = "México"
@@ -30,7 +30,7 @@ FUENTE_FECHA = "(agosto 2023)"
 
 def main():
     # Cargamos el dataset de delitos esttales.
-    df = pd.read_csv("./estatal.csv", encoding="latin-1")
+    df = pd.read_csv("./data/estatal.csv", encoding="latin-1")
 
     # Si la entidad es México entonces se calcula a nivel nacional
     # de lo contrario se calcula a nivel estatal
@@ -133,7 +133,7 @@ def main():
 
 def main2():
     # Cargamos el dataset de delitos esttales.
-    df = pd.read_csv("./estatal.csv", encoding="latin-1")
+    df = pd.read_csv("./data/estatal.csv", encoding="latin-1")
 
     # Si la entidad es México entonces se calcula a nivel nacional
     # de lo contrario se calcula a nivel estatal
@@ -272,4 +272,4 @@ def set_color(x):
 
 if __name__ == "__main__":
     main()
-    # main2()
+    main2()
