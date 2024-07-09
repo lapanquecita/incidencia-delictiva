@@ -24,14 +24,14 @@ DELITOS = [
     "Robo en transporte público colectivo",
 ]
 
-# esta constante es usada para definir el último mes.
-MES_ACTUAL = "2024-01-01"
+# Esta constante es usada para definir el último mes.
+MES_ACTUAL = "2024-06-01"
 
 # El mes que se mostrará en el título.
-MES = "enero"
+MES = "junio"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "febrero"
+MES_FUENTE = "julio"
 
 
 def main():
@@ -256,15 +256,15 @@ def main():
     posiciones = [
         "up",
         "bottom",
-        "top",
-        "top",
-        "top",
-        "top",
-        "top",
         "bottom",
         "bottom",
         "bottom",
         "bottom",
+        "bottom",
+        "top",
+        "bottom",
+        "bottom",
+        "top",
         "bottom",
     ]
 
@@ -351,7 +351,7 @@ def main():
         y=-0.095,
         yanchor="bottom",
         yref="paper",
-        text="🧁 @lapankecita",
+        text="🧁 @lapanquecita",
         font_size=20,
     )
 

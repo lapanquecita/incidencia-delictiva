@@ -120,7 +120,66 @@ def municipios_to_timeseries():
     )
 
 
+def robos_to_timeseries():
+    """
+    Genera series de tiempo para cada tipo de robo por entidad.
+    """
+
+    # Iniciamos nuestra lista con la cabecera.
+    data_list = [["isodate", "entidad", "delito", "modalidad", "total"]]
+
+    # Cargamos el dataset con codificación latin-1.
+    df = pd.read_csv("./data/estatal.csv", encoding="latin-1", thousands=",")
+
+    # Seleccionamos solo los delitos clasificados como robo.
+    df = df[df["Tipo de delito"] == "Robo"]
+
+    # Obtenemos una lista de todas las entidades federativas de México.
+    entidades = df["Entidad"].unique().tolist()
+
+    # Insertamos una entidad para el nivel nacional.
+    entidades.insert(0, "Nacional")
+
+    # iteramos sobre cada año en nuestro dataset.
+    for year in df["Año"].unique():
+        # Iteramos sobre cada entidad.
+        for entidad in entidades:
+            # Si la entidad es 'Nacional' hacemos otro tipo de filtrado.
+            if entidad == "Nacional":
+                temp_df = df[df["Año"] == year]
+            else:
+                temp_df = df[(df["Año"] == year) & (df["Entidad"] == entidad)]
+
+            # Agrupamos el DataFrame por subtipo de delito y modalidad.
+            temp_df = temp_df.groupby(["Subtipo de delito", "Modalidad"]).sum(
+                numeric_only=True
+            )
+
+            # Iteramos sobre cada subtipo de delito.
+            for delito, modalidad in temp_df.index:
+                # iteramos sobre cada mes.
+                for k, v in MESES.items():
+                    # Finalmente armamos el registro con todos los valores
+                    # que estamos iterando.
+                    data_list.append(
+                        [
+                            date(year, v, 1),
+                            entidad,
+                            delito,
+                            modalidad,
+                            int(temp_df.loc[delito, modalidad][k]),
+                        ]
+                    )
+
+    # Guardamos el archivo final con un prefijo.
+    with open(
+        "./data/timeseries_robos.csv", "w", encoding="utf-8", newline=""
+    ) as csv_file:
+        csv.writer(csv_file).writerows(data_list)
+
+
 if __name__ == "__main__":
     convert_to_timeseries("victimas")
     convert_to_timeseries("estatal")
     municipios_to_timeseries()
+    robos_to_timeseries()
