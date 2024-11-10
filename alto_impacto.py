@@ -6,6 +6,7 @@ de mayor interés.
 import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+from statsmodels.tsa.seasonal import STL
 
 
 # Estos son los delitos que nos interesan.
@@ -25,13 +26,13 @@ DELITOS = [
 ]
 
 # Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2024-06-01"
+MES_ACTUAL = "2024-09-01"
 
 # El mes que se mostrará en el título.
-MES = "junio"
+MES = "septiembre"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "julio"
+MES_FUENTE = "octubre"
 
 
 def main():
@@ -84,8 +85,8 @@ def main():
             # Filtramos el dataset con el delito seleccionado.
             temp_df = df[df["delito"] == DELITOS[index]].copy()
 
-            # Creamos el promedio móvil.
-            temp_df["movil"] = temp_df["total"].rolling(12).mean()
+            # Calculamos la tendencia usando STL.
+            temp_df["tendencia"] = STL(temp_df["total"]).fit().trend
 
             # Escogemos los últimos 13 meses del delito seleccionado.
             temp_df = temp_df[-13:]
@@ -189,7 +190,7 @@ def main():
             fig.add_trace(
                 go.Scatter(
                     x=temp_df["fecha"],
-                    y=temp_df["movil"],
+                    y=temp_df["tendencia"],
                     mode="lines",
                     line_width=3.5,
                     line_color="hsla(255, 100, 100, 0.8)",
@@ -254,8 +255,8 @@ def main():
 
     # Esta lista representa la posición de las anotaciones dentro de cada gráfica.
     posiciones = [
-        "up",
         "bottom",
+        "top",
         "bottom",
         "bottom",
         "bottom",
@@ -264,7 +265,7 @@ def main():
         "top",
         "bottom",
         "bottom",
-        "top",
+        "bottom",
         "bottom",
     ]
 
@@ -330,7 +331,7 @@ def main():
         yanchor="top",
         yref="paper",
         font_size=22,
-        text="(Un registro de delito puede tener más de una víctima. Se incluye el promedio móvil de los últimos 12 meses.)",
+        text="(Un registro de delito puede tener más de una víctima. Se incluye la tendencia de los últimos 12 periodos.)",
     )
 
     fig.add_annotation(
