@@ -26,13 +26,13 @@ DELITOS = [
 ]
 
 # Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2024-09-01"
+MES_ACTUAL = "2024-11-01"
 
 # El mes que se mostrará en el título.
-MES = "septiembre"
+MES = "noviembre"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "octubre"
+MES_FUENTE = "diciembre"
 
 
 def main():
@@ -85,11 +85,11 @@ def main():
             # Filtramos el dataset con el delito seleccionado.
             temp_df = df[df["delito"] == DELITOS[index]].copy()
 
-            # Calculamos la tendencia usando STL.
-            temp_df["tendencia"] = STL(temp_df["total"]).fit().trend
-
             # Escogemos los últimos 13 meses del delito seleccionado.
             temp_df = temp_df[-13:]
+
+            # Calculamos la tendencia usando STL.
+            temp_df["tendencia"] = STL(temp_df["total"]).fit().trend
 
             # Creamos la columna de fecha usando la abreviación y el año en formato corto.
             temp_df["fecha"] = temp_df.index.map(
@@ -215,7 +215,7 @@ def main():
     )
 
     fig.update_yaxes(
-        title_text="Delitos registrados mensualmente",
+        title_text="Incidencia mensual",
         separatethousands=True,
         tickfont_size=14,
         ticks="outside",
@@ -255,17 +255,17 @@ def main():
 
     # Esta lista representa la posición de las anotaciones dentro de cada gráfica.
     posiciones = [
+        "top",
         "bottom",
         "top",
         "bottom",
+        "top",
         "bottom",
-        "bottom",
-        "bottom",
-        "bottom",
+        "top",
         "top",
         "bottom",
         "bottom",
-        "bottom",
+        "top",
         "bottom",
     ]
 
