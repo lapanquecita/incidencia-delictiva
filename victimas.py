@@ -132,7 +132,7 @@ def tendencia(delito):
         range=[0, df["tasa"].max() * 1.12],
         ticks="outside",
         separatethousands=True,
-        titlefont_size=18,
+        title_font_size=18,
         tickfont_size=14,
         ticklen=10,
         title_standoff=6,
