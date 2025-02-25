@@ -159,17 +159,33 @@ def robos_to_timeseries():
             for delito, modalidad in temp_df.index:
                 # iteramos sobre cada mes.
                 for k, v in MESES.items():
-                    # Finalmente armamos el registro con todos los valores
-                    # que estamos iterando.
-                    data_list.append(
-                        [
-                            date(year, v, 1),
-                            entidad,
-                            delito,
-                            modalidad,
-                            int(temp_df.loc[delito, modalidad][k]),
-                        ]
-                    )
+                    # Algunos robos tienen submodalidad, por lo tanto
+                    # el factor de violencia se encuentra dentro de esta.
+                    if len(modalidad) > 13:
+                        delito2 = modalidad[:-14]
+                        modalidad2 = modalidad[-13:]
+
+                        data_list.append(
+                            [
+                                date(year, v, 1),
+                                entidad,
+                                delito2,
+                                modalidad2,
+                                int(temp_df.loc[delito, modalidad][k]),
+                            ]
+                        )
+                    else:
+                        # Finalmente armamos el registro con todos los valores
+                        # que estamos iterando.
+                        data_list.append(
+                            [
+                                date(year, v, 1),
+                                entidad,
+                                delito,
+                                modalidad,
+                                int(temp_df.loc[delito, modalidad][k]),
+                            ]
+                        )
 
     # Guardamos el archivo final con un prefijo.
     with open(
