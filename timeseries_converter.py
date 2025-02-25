@@ -8,7 +8,6 @@ https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-deli
 
 """
 
-import csv
 from datetime import date
 
 import pandas as pd
@@ -31,8 +30,21 @@ MESES = {
 
 
 def convert_to_timeseries(file):
-    # Iniciamos nuestra lista con la cabecera.
-    data_list = [["isodate", "entidad", "delito", "total"]]
+    """
+    Transforma el dataset a series de tiempo.
+
+    Parameters
+    ----------
+    file : str
+        El nombre del archivo original.
+
+    """
+
+    # Definimos la cabecera.
+    header = ["isodate", "entidad", "delito", "total"]
+
+    # Iniciamos la lista.
+    data_list = []
 
     # Cargamos el dataset con codificación latin-1.
     df = pd.read_csv(f"./data/{file}.csv", encoding="latin-1", thousands=",")
@@ -70,10 +82,8 @@ def convert_to_timeseries(file):
                     )
 
     # Guardamos el archivo final con un prefijo.
-    with open(
-        f"./data/timeseries_{file}.csv", "w", encoding="utf-8", newline=""
-    ) as csv_file:
-        csv.writer(csv_file).writerows(data_list)
+    final = pd.DataFrame.from_records(data_list, columns=header)
+    final.to_csv(f"./data/timeseries_{file}.csv", index=False, encoding="utf-8")
 
 
 def municipios_to_timeseries():
@@ -125,8 +135,11 @@ def robos_to_timeseries():
     Genera series de tiempo para cada tipo de robo por entidad.
     """
 
-    # Iniciamos nuestra lista con la cabecera.
-    data_list = [["isodate", "entidad", "delito", "modalidad", "total"]]
+    # Definimos la cabecera.
+    header = ["isodate", "entidad", "delito", "modalidad", "total"]
+
+    # Inciamos al lista.
+    data_list = []
 
     # Cargamos el dataset con codificación latin-1.
     df = pd.read_csv("./data/estatal.csv", encoding="latin-1", thousands=",")
@@ -159,43 +172,37 @@ def robos_to_timeseries():
             for delito, modalidad in temp_df.index:
                 # iteramos sobre cada mes.
                 for k, v in MESES.items():
-                    # Algunos robos tienen submodalidad, por lo tanto
-                    # el factor de violencia se encuentra dentro de esta.
-                    if len(modalidad) > 13:
-                        delito2 = modalidad[:-14]
-                        modalidad2 = modalidad[-13:]
-
-                        data_list.append(
-                            [
-                                date(year, v, 1),
-                                entidad,
-                                delito2,
-                                modalidad2,
-                                int(temp_df.loc[delito, modalidad][k]),
-                            ]
-                        )
-                    else:
-                        # Finalmente armamos el registro con todos los valores
-                        # que estamos iterando.
-                        data_list.append(
-                            [
-                                date(year, v, 1),
-                                entidad,
-                                delito,
-                                modalidad,
-                                int(temp_df.loc[delito, modalidad][k]),
-                            ]
-                        )
+                    # Finalmente armamos el registro con todos los valores
+                    # que estamos iterando.
+                    data_list.append(
+                        [
+                            date(year, v, 1),
+                            entidad,
+                            delito,
+                            modalidad,
+                            int(temp_df.loc[delito, modalidad][k]),
+                        ]
+                    )
 
     # Guardamos el archivo final con un prefijo.
-    with open(
-        "./data/timeseries_robos.csv", "w", encoding="utf-8", newline=""
-    ) as csv_file:
-        csv.writer(csv_file).writerows(data_list)
+    final = pd.DataFrame.from_records(data_list, columns=header)
+
+    # Arreglamos los delitos con submodalidad.
+    final["delito"] = final.apply(
+        lambda x: x["modalidad"][:-14] if len(x["modalidad"]) > 13 else x["delito"],
+        axis=1,
+    )
+
+    final["modalidad"] = final["modalidad"].apply(
+        lambda x: x[-13:] if len(x) > 13 else x
+    )
+
+    # Guardamos el archivo final.
+    final.to_csv("./data/timeseries_robos.csv", index=False, encoding="utf-8")
 
 
 if __name__ == "__main__":
-    convert_to_timeseries("victimas")
-    convert_to_timeseries("estatal")
+    # convert_to_timeseries("victimas")
+    # convert_to_timeseries("estatal")
     municipios_to_timeseries()
-    robos_to_timeseries()
+    # robos_to_timeseries()
