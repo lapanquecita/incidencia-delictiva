@@ -26,13 +26,13 @@ DELITOS = [
 ]
 
 # Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2024-11-01"
+MES_ACTUAL = "2025-01-01"
 
 # El mes que se mostrará en el título.
-MES = "noviembre"
+MES = "enero"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "diciembre"
+MES_FUENTE = "febrero"
 
 
 def main():
@@ -241,7 +241,7 @@ def main():
         margin_l=110,
         margin_r=40,
         margin_b=120,
-        title_text=f"Reporte de incidencia delictiva en México correspondiente al mes de {MES} del año 2024",
+        title_text=f"Reporte de incidencia delictiva en México correspondiente al mes de {MES} del año 2025",
         title_x=0.5,
         title_y=0.98,
         title_font_size=28,
@@ -256,16 +256,16 @@ def main():
     # Esta lista representa la posición de las anotaciones dentro de cada gráfica.
     posiciones = [
         "top",
-        "bottom",
-        "top",
-        "bottom",
-        "top",
-        "bottom",
         "top",
         "top",
-        "bottom",
-        "bottom",
         "top",
+        "top",
+        "top",
+        "top",
+        "top",
+        "bottom",
+        "bottom",
+        "bottom",
         "bottom",
     ]
 
@@ -319,7 +319,7 @@ def main():
         y=-0.095,
         yanchor="bottom",
         yref="paper",
-        text=f"Fuente: SESNSP ({MES_FUENTE} 2024)",
+        text=f"Fuente: SESNSP ({MES_FUENTE} 2025)",
         font_size=20,
     )
 
@@ -352,6 +352,7 @@ def main():
         y=-0.095,
         yanchor="bottom",
         yref="paper",
+        
         text="🧁 @lapanquecita",
         font_size=20,
     )
