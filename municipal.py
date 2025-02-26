@@ -22,7 +22,7 @@ PLOT_BGCOLOR = "#171010"
 PAPER_BGCOLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "marzo 2024"
+FECHA_FUENTE = "febrero 2025"
 
 
 def crear_mapa(año, delito):
@@ -83,9 +83,9 @@ def crear_mapa(año, delito):
         f"Media: <b>{df['tasa'].mean():,.1f}</b>",
         f"Mediana: <b>{df['tasa'].median():,.1f}</b>",
         f"DE: <b>{df['tasa'].std():,.1f}</b>",
-        f"25%: <b>{df['tasa'].quantile(.25):,.1f}</b>",
-        f"75%: <b>{df['tasa'].quantile(.75):,.1f}</b>",
-        f"95%: <b>{df['tasa'].quantile(.95):,.1f}</b>",
+        f"25%: <b>{df['tasa'].quantile(0.25):,.1f}</b>",
+        f"75%: <b>{df['tasa'].quantile(0.75):,.1f}</b>",
+        f"95%: <b>{df['tasa'].quantile(0.95):,.1f}</b>",
         f"Máximo: <b>{df['tasa'].max():,.1f}</b>",
     ]
 
@@ -113,27 +113,8 @@ def crear_mapa(año, delito):
     # Cargamos el GeoJSON de municipios de México.
     geojson = json.loads(open("./assets/mexico2020.json", "r", encoding="utf-8").read())
 
-    # Estas listas serán usadas para configurar el mapa Choropleth.
-    ubicaciones = list()
-    valores = list()
-
-    # Iteramos sobre cada municipio e nuestro GeoJSON.
-    for item in geojson["features"]:
-        geo = str(item["properties"]["CVEGEO"])
-
-        # Si el municipio no se encuentra en nuestro DataFrame,
-        # agregamos un valor nulo.
-        try:
-            value = df.loc[geo]["total"]
-        except Exception as _:
-            value = None
-
-        # Agregamos el objeto del municipio y su valor a las listas correspondientes.
-        ubicaciones.append(geo)
-        valores.append(value)
-
     # Calculamos los valores para nuestro subtítulo.
-    subtitulo = f"Nacional: {total_registros / total_pop * 100000:,.1f} ({total_registros:,.0f} registros)"
+    subtitulo = f"Tasa nacional: <b>{total_registros / total_pop * 100000:,.1f}</b> (con <b>{total_registros:,.0f}</b> registros)"
 
     fig = go.Figure()
 
@@ -143,8 +124,8 @@ def crear_mapa(año, delito):
     fig.add_traces(
         go.Choropleth(
             geojson=geojson,
-            locations=ubicaciones,
-            z=valores,
+            locations=df.index,
+            z=df["total"],
             featureidkey="properties.CVEGEO",
             colorscale="aggrnyl",
             marker_line_color="#FFFFFF",
@@ -238,7 +219,7 @@ def crear_mapa(año, delito):
                 y=0.985,
                 xanchor="center",
                 yanchor="top",
-                text=f"Tasas de incidencia de los municipios con registros de <b>{delito.lower()}</b> en México durante el {año}",
+                text=f"Incidencia de <b>{delito.lower()}</b> en México por municipio durante el {año}",
                 font_size=140,
             ),
             dict(
@@ -247,7 +228,7 @@ def crear_mapa(año, delito):
                 textangle=-90,
                 xanchor="center",
                 yanchor="middle",
-                text="Registros por cada 100,000 habitantes",
+                text="Tasa por cada 100,000 habitantes",
                 font_size=100,
             ),
             dict(
@@ -581,6 +562,6 @@ def absolutos_municipios(año, delito):
 
 
 if __name__ == "__main__":
-    crear_mapa(2023, "Extorsión")
-    tasa_municipios(2023, "Extorsión")
-    absolutos_municipios(2023, "Extorsión")
+    crear_mapa(2024, "Extorsión")
+    tasa_municipios(2024, "Extorsión")
+    absolutos_municipios(2024, "Extorsión")
