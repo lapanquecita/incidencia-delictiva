@@ -360,7 +360,7 @@ def tasa_municipios(año, delito):
                 values=[
                     "<b>Pos.</b>",
                     "<b>Municipio, Entidad</b>",
-                    "<b>Total</b>",
+                    "<b>No. Casos</b>",
                     "<b>Tasa 100k habs. ↓</b>",
                 ],
                 font_color="#FFFFFF",
@@ -501,7 +501,7 @@ def absolutos_municipios(año, delito):
                 values=[
                     "<b>Pos.</b>",
                     "<b>Municipio, Entidad</b>",
-                    "<b>Total ↓</b>",
+                    "<b>No. Casos ↓</b>",
                     "<b>Tasa 100k habs.</b>",
                 ],
                 font_color="#FFFFFF",
