@@ -125,7 +125,7 @@ def crear_mapa(año, delito):
         go.Choropleth(
             geojson=geojson,
             locations=df.index,
-            z=df["total"],
+            z=df["tasa"],
             featureidkey="properties.CVEGEO",
             colorscale="aggrnyl",
             marker_line_color="#FFFFFF",
