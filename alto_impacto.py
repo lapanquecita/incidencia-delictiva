@@ -26,13 +26,13 @@ DELITOS = [
 ]
 
 # Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2025-01-01"
+MES_ACTUAL = "2025-03-01"
 
 # El mes que se mostrará en el título.
-MES = "enero"
+MES = "marzo"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "febrero"
+MES_FUENTE = "abril"
 
 
 def main():
@@ -93,7 +93,7 @@ def main():
 
             # Creamos la columna de fecha usando la abreviación y el año en formato corto.
             temp_df["fecha"] = temp_df.index.map(
-                lambda x: f"{abreviaciones[x.month]}<br>'{x.year-2000}"
+                lambda x: f"{abreviaciones[x.month]}<br>'{x.year - 2000}"
             )
 
             # Para nuestra gráfica sparkline solo el primer y el último punto
@@ -173,7 +173,7 @@ def main():
                     text=textos,
                     mode="markers+lines+text",
                     textposition=text_pos,
-                    textfont_size=16,
+                    textfont_size=20,
                     marker_color=color,
                     marker_opacity=1.0,
                     marker_size=tamaño_marca,
@@ -202,30 +202,28 @@ def main():
             index += 1
 
     fig.update_xaxes(
-        tickfont_size=12,
         ticks="outside",
         ticklen=10,
         zeroline=False,
         tickcolor="#FFFFFF",
-        linewidth=1.5,
+        linewidth=2,
         showline=True,
-        gridwidth=0.35,
+        gridwidth=0.5,
         mirror=True,
         nticks=15,
     )
 
     fig.update_yaxes(
         title_text="Incidencia mensual",
-        separatethousands=True,
-        tickfont_size=14,
+        tickformat=".2s",
         ticks="outside",
         ticklen=10,
         zeroline=False,
         tickcolor="#FFFFFF",
-        linewidth=1.5,
+        linewidth=2,
         showline=True,
         showgrid=True,
-        gridwidth=0.35,
+        gridwidth=0.5,
         mirror=True,
         nticks=10,
     )
@@ -233,18 +231,18 @@ def main():
     fig.update_layout(
         font_family="Lato",
         showlegend=False,
-        width=1600,
-        height=1600,
+        width=2000,
+        height=2000,
         font_color="#FFFFFF",
-        font_size=14,
-        margin_t=160,
+        font_size=18,
+        margin_t=200,
         margin_l=110,
         margin_r=40,
-        margin_b=120,
+        margin_b=150,
         title_text=f"Reporte de incidencia delictiva en México correspondiente al mes de {MES} del año 2025",
         title_x=0.5,
         title_y=0.98,
-        title_font_size=28,
+        title_font_size=40,
         plot_bgcolor="#1A1A2E",
         paper_bgcolor="#16213E",
     )
@@ -255,18 +253,18 @@ def main():
 
     # Esta lista representa la posición de las anotaciones dentro de cada gráfica.
     posiciones = [
-        "top",
-        "top",
-        "top",
-        "top",
-        "top",
-        "top",
+        "bottom",
+        "bottom",
         "top",
         "top",
         "bottom",
         "bottom",
         "bottom",
+        "top",
         "bottom",
+        "bottom",
+        "top",
+        "top",
     ]
 
     # Lo que haremos se puede considerar como un hack.
@@ -276,7 +274,7 @@ def main():
     for annotation in fig["layout"]["annotations"]:
         # Ajustamos un poco la posición Y de los títulos y le cambiamos el tamaño de texto.
         annotation["y"] += 0.005
-        annotation["font"]["size"] = 24
+        annotation["font"]["size"] = 28
 
         # Extraemos las coordenadas X y Y.
         anotaciones_x.append(annotation["x"])
@@ -291,9 +289,9 @@ def main():
 
         # Si la posición es 'top', la anotación ira arriba, de lo contraroi irá abajo.
         if p == "top":
-            y -= 0.038
+            y -= 0.036
         else:
-            y -= 0.158
+            y -= 0.154
 
         # Creamos nuestra anotación con el color, texto y coordenadas.
         fig.add_annotation(
@@ -305,10 +303,10 @@ def main():
             yref="paper",
             text=t,
             font_color=c,
-            font_size=18,
+            font_size=22,
             bordercolor=c,
             borderpad=5,
-            borderwidth=1.5,
+            borderwidth=2,
             bgcolor="#1A1A2E",
         )
 
@@ -320,7 +318,7 @@ def main():
         yanchor="bottom",
         yref="paper",
         text=f"Fuente: SESNSP ({MES_FUENTE} 2025)",
-        font_size=20,
+        font_size=24,
     )
 
     fig.add_annotation(
@@ -330,7 +328,7 @@ def main():
         y=1.05,
         yanchor="top",
         yref="paper",
-        font_size=22,
+        font_size=30,
         text="(Un registro de delito puede tener más de una víctima. Se incluye la tendencia de los últimos 12 periodos.)",
     )
 
@@ -342,7 +340,7 @@ def main():
         yanchor="bottom",
         yref="paper",
         text="Se compara el mismo mes respecto al año anterior",
-        font_size=20,
+        font_size=24,
     )
 
     fig.add_annotation(
@@ -352,9 +350,8 @@ def main():
         y=-0.095,
         yanchor="bottom",
         yref="paper",
-        
         text="🧁 @lapanquecita",
-        font_size=20,
+        font_size=24,
     )
 
     fig.write_image("./alto_impacto.png")
