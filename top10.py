@@ -11,7 +11,7 @@ from textwrap import wrap
 
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "febrero 2024"
+FECHA_FUENTE = "mayo 2025"
 
 ENTIDADES = {
     1: "Aguascalientes",
@@ -187,13 +187,15 @@ def main(tipo, año):
     )
 
     # Cargamos el dataset de incidencia delictiva estatal.
-    df = pd.read_csv("./data/estatal.csv", encoding="latin-1")
+    df = pd.read_csv("./data/timeseries_estatal.csv", parse_dates=["PERIODO"])
 
     # Filtramos los registros para el año de nuestro interés.
-    df = df[df["Año"] == año]
+    df = df[df["PERIODO"].dt.year == año]
 
     # Calculamos los totales anuales de cada delito.
-    df["total"] = df[MESES].sum(axis=1)
+    df = df.pivot_table(
+        index="CVE_ENT", columns="DELITO", values="TOTAL", aggfunc="sum", fill_value=0
+    )
 
     # El título depende del tipo de orden.
     if tipo == "top":
@@ -206,12 +208,7 @@ def main(tipo, año):
     # Iteramos sobre los delitos que nos interesan
     for item in DELITOS:
         # Creamos un DataFrame con el delito o delitos.
-        temp_df = df[df["Subtipo de delito"].isin(item)]
-
-        # Agrupamos el DataFrame por entidad y solo nos quedamos con la columna del total por año.
-        temp_df = (
-            temp_df[["Clave_Ent", "total"]].groupby("Clave_Ent").sum(numeric_only=True)
-        )
+        temp_df = df[item].sum(axis=1).to_frame("total")
 
         # Este es el total nacional, el cual será usado para las etiquetas.
         total = temp_df["total"].sum()
@@ -225,6 +222,12 @@ def main(tipo, año):
         # Calculamos la incidencia por cada 100k habitantes.
         temp_df["tasa"] = temp_df["total"] / temp_df["pop"] * 100000
 
+        # Definimos el color de cada círculo usando el diccionario de colores.
+        temp_df["color"] = temp_df.index.map(COLORES)
+
+        # Definimos la abreviación de cada entidad usando el diccionario de abreviaciones.
+        temp_df["abreviacion"] = temp_df.index.map(ABREVIACIONES)
+
         # Esta linea es la más importante de todas, ya que ordena los valores calculados
         #  y solo toma los que necesitamos (top 10)
         if tipo == "top":
@@ -237,9 +240,6 @@ def main(tipo, año):
 
         # Aquí creamos los textos para cada entidad y tasa.
         temp_df["text"] = temp_df.apply(formatear_texto, axis=1)
-
-        # Definimos el color de cada círculo usando el diccionario de colores.
-        temp_df["color"] = temp_df["Clave_Ent"].map(COLORES)
 
         # Unimos los nombres de delitos y los partimos en dos en caso de ser muy largos.
         item = " y ".join(item)
@@ -257,8 +257,8 @@ def main(tipo, año):
                 text=temp_df["text"],
                 marker_color=temp_df["color"],
                 textfont_family="Oswald",
-                textfont_size=24,
-                marker_size=86,
+                textfont_size=36,
+                marker_size=120,
             )
         )
 
@@ -292,19 +292,19 @@ def main(tipo, año):
 
     fig.update_layout(
         showlegend=False,
-        width=1280,
-        height=1600,
-        font_family="Montserrat",
-        font_color="white",
-        font_size=18,
+        width=1920,
+        height=2400,
+        font_family="Inter",
+        font_color="#FFFFFF",
+        font_size=26,
         title_text=f"Las 10 entidades de México con <b>{titulo}</b> incidencia delictiva por tipo de delito durante el {año}<br>(un registro puede tener más de una víctima)",
         title_x=0.5,
         title_y=0.975,
-        margin_t=100,
-        margin_l=220,
+        margin_t=140,
+        margin_l=300,
         margin_r=40,
-        margin_b=60,
-        title_font_size=26,
+        margin_b=100,
+        title_font_size=40,
         plot_bgcolor="#100F0F",
         paper_bgcolor="#0F3D3E",
         annotations=[
@@ -324,7 +324,7 @@ def main(tipo, año):
                 y=-0.05,
                 yanchor="bottom",
                 yref="paper",
-                text="Incidencia delictiva ajustada por cada 100k habitantes",
+                text="Incidencia delictiva ajustada por cada 100,000 habitantes",
             ),
             dict(
                 x=1.01,
@@ -349,16 +349,14 @@ def formatear_texto(x):
     que siempre tengan 3 dígitos.
     """
 
-    abreviacion = ABREVIACIONES[x["Clave_Ent"]]
-
     if x["tasa"] < 10:
-        return f"{x['tasa']:,.2f}<br>{abreviacion}"
+        return f"{x['tasa']:,.2f}<br>{x['abreviacion']}"
     elif x["tasa"] >= 100:
-        return f"{x['tasa']:,.0f}<br>{abreviacion}"
+        return f"{x['tasa']:,.0f}<br>{x['abreviacion']}"
     else:
-        return f"{x['tasa']:,.1f}<br>{abreviacion}"
+        return f"{x['tasa']:,.1f}<br>{x['abreviacion']}"
 
 
 if __name__ == "__main__":
-    main("top", 2023)
-    main("bottom", 2023)
+    main("top", 2024)
+    main("bottom", 2024)
