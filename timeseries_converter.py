@@ -29,61 +29,138 @@ MESES = {
 }
 
 
-def convert_to_timeseries(file):
+def victimas_to_timeseries():
     """
     Transforma el dataset a series de tiempo.
-
-    Parameters
-    ----------
-    file : str
-        El nombre del archivo original.
-
     """
 
-    # Definimos la cabecera.
-    header = ["isodate", "entidad", "delito", "total"]
-
-    # Iniciamos la lista.
-    data_list = []
+    # Iniciamos la lista que almacenará los DataFrames por cada mes.
+    dfs = []
 
     # Cargamos el dataset con codificación latin-1.
-    df = pd.read_csv(f"./data/{file}.csv", encoding="latin-1", thousands=",")
+    df = pd.read_csv("./data/victimas.csv", encoding="latin-1", thousands=",")
 
-    # Obtenemos una lista de todos los subtipos de delitos.
-    delitos = df["Subtipo de delito"].unique().tolist()
+    # Iteramos por cada mes.
+    for k, v in MESES.items():
+        temp_df = df[
+            [
+                "Año",
+                "Clave_Ent",
+                "Entidad",
+                "Subtipo de delito",
+                "Modalidad",
+                "Sexo",
+                "Rango de edad",
+                k,
+            ]
+        ].copy()
 
-    # Obtenemos una lista de todas las entidades federativas de México.
-    entidades = df["Entidad"].unique().tolist()
+        # Calculamos la fecha.
+        temp_df["PERIODO"] = pd.to_datetime(
+            {"year": temp_df["Año"], "month": v, "day": 1}
+        )
 
-    # Insertamos una entidad para el nivel nacional.
-    entidades.insert(0, "Nacional")
+        # Renombramos la columna del mes y agregamos el DataFrame a la lista.
+        temp_df.rename(columns={k: "TOTAL"}, inplace=True)
+        dfs.append(temp_df)
 
-    # iteramos sobre cada año en nuestro dataset.
-    for year in df["Año"].unique():
-        # Iteramos sobre cada entidad.
-        for entidad in entidades:
-            # Si la entidad es 'Nacional' hacemos otro tipo de filtrado.
-            if entidad == "Nacional":
-                temp_df = df[df["Año"] == year]
-            else:
-                temp_df = df[(df["Año"] == year) & (df["Entidad"] == entidad)]
+    # Unimos todos los DataFrames.
+    final = pd.concat(dfs)
 
-            # Agrupamos el DataFrame por subtipo de delito.
-            temp_df = temp_df.groupby("Subtipo de delito").sum(numeric_only=True)
+    # Renombramos algunas columnas.
+    final.rename(
+        columns={
+            "Clave_Ent": "Cve_ent",
+            "Subtipo de delito": "delito",
+            "Rango de edad": "edad",
+        },
+        inplace=True,
+    )
 
-            # Iteramos sobre cada subtipo de delito.
-            for delito in delitos:
-                # iteramos sobre cada mes.
-                for k, v in MESES.items():
-                    # Finalmente armamos el registro con todos los valores
-                    # que estamos iterando.
-                    data_list.append(
-                        [date(year, v, 1), entidad, delito, int(temp_df.loc[delito, k])]
-                    )
+    # Convertimos nuestras columnas a mayúsculas.
+    final.columns = [col.upper() for col in final.columns]
 
-    # Guardamos el archivo final con un prefijo.
-    final = pd.DataFrame.from_records(data_list, columns=header)
-    final.to_csv(f"./data/timeseries_{file}.csv", index=False, encoding="utf-8")
+    # Convertimos los totales a int.
+    final["TOTAL"] = final["TOTAL"].fillna(0).astype(int)
+
+    # Quitamos valores en cero para reducir el tamaño del archivo.
+    final = final[final["TOTAL"] != 0]
+
+    # Ordenamos las columnas.
+    final = final[
+        [
+            "PERIODO",
+            "CVE_ENT",
+            "ENTIDAD",
+            "DELITO",
+            "MODALIDAD",
+            "SEXO",
+            "EDAD",
+            "TOTAL",
+        ]
+    ]
+
+    # Ordenamos el DataFrame.
+    final.sort_values(list(final.columns), inplace=True)
+
+    # Guardamos al archivo final.
+    final.to_csv("./data/timeseries_victimas.csv", index=False, encoding="utf-8")
+
+
+def estatal_to_timeseries():
+    """
+    Transforma el dataset a series de tiempo.
+    """
+
+    # Iniciamos la lista que almacenará los DataFrames por cada mes.
+    dfs = []
+
+    # Cargamos el dataset con codificación latin-1.
+    df = pd.read_csv("./data/estatal.csv", encoding="latin-1", thousands=",")
+
+    # Iteramos por cada mes.
+    for k, v in MESES.items():
+        temp_df = df[
+            [
+                "Año",
+                "Clave_Ent",
+                "Entidad",
+                "Subtipo de delito",
+                k,
+            ]
+        ].copy()
+
+        # Calculamos la fecha.
+        temp_df["PERIODO"] = pd.to_datetime(
+            {"year": temp_df["Año"], "month": v, "day": 1}
+        )
+
+        # Renombramos la columna del mes y agregamos el DataFrame a la lista.
+        temp_df.rename(columns={k: "TOTAL"}, inplace=True)
+        dfs.append(temp_df)
+
+    # Unimos todos los DataFrames.
+    final = pd.concat(dfs)
+
+    # Renombramos algunas columnas.
+    final.rename(
+        columns={"Clave_Ent": "Cve_ent", "Subtipo de delito": "delito"}, inplace=True
+    )
+
+    # Convertimos nuestras columnas a mayúsculas.
+    final.columns = [col.upper() for col in final.columns]
+
+    # Convertimos los totales a int.
+    final["TOTAL"] = final["TOTAL"].fillna(0).astype(int)
+
+    # Ordenamos las columnas.
+    final = final[["PERIODO", "CVE_ENT", "ENTIDAD", "DELITO", "TOTAL"]]
+
+    # Ordenamos el DataFrame.
+    final.sort_values(list(final.columns), inplace=True)
+
+    # Guardamos al archivo final.
+    final.to_csv("./data/timeseries_estatal.csv", index=False, encoding="utf-8")
 
 
 def municipios_to_timeseries():
@@ -105,7 +182,7 @@ def municipios_to_timeseries():
     meses = [item for item in MESES.keys()]
 
     # Calculamos los totales anuales de cada delito.
-    df["total"] = df[meses].sum(axis=1)
+    df["TOTAL"] = df[meses].sum(axis=1)
 
     # Agrupamos las columnas.
     df = df.groupby(["Año", "Cve. Municipio", "Subtipo de delito"]).sum(
@@ -113,13 +190,16 @@ def municipios_to_timeseries():
     )
 
     # Reseteamos el índice y renombramos las columnas.
-    df.reset_index(names=["año", "cve_municipio", "delito", "total"], inplace=True)
+    df.reset_index(names=["AÑO", "CVE_MUN", "DELITO", "TOTAL"], inplace=True)
 
     # Reordenamos las columnas
-    df = df[["año", "cve_municipio", "delito", "total"]]
+    df = df[["AÑO", "CVE_MUN", "DELITO", "TOTAL"]]
 
     # Convertimos el total a int.
-    df["total"] = df["total"].astype(int)
+    df["TOTAL"] = df["TOTAL"].astype(int)
+
+    # Ordenamos el DataFrame.
+    df.sort_values(list(df.columns), inplace=True)
 
     # Guardamos el nuevo archivo .csv
     df.to_csv(
@@ -135,11 +215,8 @@ def robos_to_timeseries():
     Genera series de tiempo para cada tipo de robo por entidad.
     """
 
-    # Definimos la cabecera.
-    header = ["isodate", "entidad", "delito", "modalidad", "total"]
-
-    # Inciamos al lista.
-    data_list = []
+    # Iniciamos la lista que almacenará los DataFrames por cada mes.
+    dfs = []
 
     # Cargamos el dataset con codificación latin-1.
     df = pd.read_csv("./data/estatal.csv", encoding="latin-1", thousands=",")
@@ -147,62 +224,68 @@ def robos_to_timeseries():
     # Seleccionamos solo los delitos clasificados como robo.
     df = df[df["Tipo de delito"] == "Robo"]
 
-    # Obtenemos una lista de todas las entidades federativas de México.
-    entidades = df["Entidad"].unique().tolist()
+    # Iteramos por cada mes.
+    for k, v in MESES.items():
+        temp_df = df[
+            [
+                "Año",
+                "Clave_Ent",
+                "Entidad",
+                "Subtipo de delito",
+                "Modalidad",
+                k,
+            ]
+        ].copy()
 
-    # Insertamos una entidad para el nivel nacional.
-    entidades.insert(0, "Nacional")
+        # Calculamos la fecha.
+        temp_df["PERIODO"] = pd.to_datetime(
+            {"year": temp_df["Año"], "month": v, "day": 1}
+        )
 
-    # iteramos sobre cada año en nuestro dataset.
-    for year in df["Año"].unique():
-        # Iteramos sobre cada entidad.
-        for entidad in entidades:
-            # Si la entidad es 'Nacional' hacemos otro tipo de filtrado.
-            if entidad == "Nacional":
-                temp_df = df[df["Año"] == year]
-            else:
-                temp_df = df[(df["Año"] == year) & (df["Entidad"] == entidad)]
+        # Renombramos la columna del mes y agregamos el DataFrame a la lista.
+        temp_df.rename(columns={k: "TOTAL"}, inplace=True)
+        dfs.append(temp_df)
 
-            # Agrupamos el DataFrame por subtipo de delito y modalidad.
-            temp_df = temp_df.groupby(["Subtipo de delito", "Modalidad"]).sum(
-                numeric_only=True
-            )
+    # Unimos todos los DataFrames.
+    final = pd.concat(dfs)
 
-            # Iteramos sobre cada subtipo de delito.
-            for delito, modalidad in temp_df.index:
-                # iteramos sobre cada mes.
-                for k, v in MESES.items():
-                    # Finalmente armamos el registro con todos los valores
-                    # que estamos iterando.
-                    data_list.append(
-                        [
-                            date(year, v, 1),
-                            entidad,
-                            delito,
-                            modalidad,
-                            int(temp_df.loc[delito, modalidad][k]),
-                        ]
-                    )
+    # Renombramos algunas columnas.
+    final.rename(
+        columns={
+            "Clave_Ent": "Cve_ent",
+            "Subtipo de delito": "delito",
+        },
+        inplace=True,
+    )
 
-    # Guardamos el archivo final con un prefijo.
-    final = pd.DataFrame.from_records(data_list, columns=header)
+    # Convertimos nuestras columnas a mayúsculas.
+    final.columns = [col.upper() for col in final.columns]
+
+    # Convertimos los totales a int.
+    final["TOTAL"] = final["TOTAL"].fillna(0).astype(int)
+
+    # Ordenamos las columnas.
+    final = final[["PERIODO", "CVE_ENT", "ENTIDAD", "DELITO", "MODALIDAD", "TOTAL"]]
 
     # Arreglamos los delitos con submodalidad.
-    final["delito"] = final.apply(
-        lambda x: x["modalidad"][:-14] if len(x["modalidad"]) > 13 else x["delito"],
+    final["DELITO"] = final.apply(
+        lambda x: x["MODALIDAD"][:-14] if len(x["MODALIDAD"]) > 13 else x["DELITO"],
         axis=1,
     )
 
-    final["modalidad"] = final["modalidad"].apply(
+    final["MODALIDAD"] = final["MODALIDAD"].apply(
         lambda x: x[-13:] if len(x) > 13 else x
     )
+
+    # Ordenamos el DataFrame.
+    final.sort_values(list(final.columns), inplace=True)
 
     # Guardamos el archivo final.
     final.to_csv("./data/timeseries_robos.csv", index=False, encoding="utf-8")
 
 
 if __name__ == "__main__":
-    # convert_to_timeseries("victimas")
-    # convert_to_timeseries("estatal")
+    victimas_to_timeseries()
+    estatal_to_timeseries()
     municipios_to_timeseries()
-    # robos_to_timeseries()
+    robos_to_timeseries()

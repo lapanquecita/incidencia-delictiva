@@ -26,40 +26,45 @@ DELITOS = [
 ]
 
 # Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2025-03-01"
+MES_ACTUAL = "2025-04-01"
 
 # El mes que se mostrará en el título.
-MES = "marzo"
+MES = "abril"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "abril"
+MES_FUENTE = "mayo"
+
+
+# Estas abreviaciones serán usadas para el eje horizontal.
+ABREVIACIONES = {
+    1: "Ene",
+    2: "Feb",
+    3: "Mar",
+    4: "Abr",
+    5: "May",
+    6: "Jun",
+    7: "Jul",
+    8: "Ago",
+    9: "Sep",
+    10: "Oct",
+    11: "Nov",
+    12: "Dic",
+}
 
 
 def main():
-    # Estas abreviaciones serán usadas para el eje horizontal.
-    abreviaciones = {
-        1: "Ene",
-        2: "Feb",
-        3: "Mar",
-        4: "Abr",
-        5: "May",
-        6: "Jun",
-        7: "Jul",
-        8: "Ago",
-        9: "Sep",
-        10: "Oct",
-        11: "Nov",
-        12: "Dic",
-    }
+    """
+    Genera una cuadrícula de gráficas linea mostrando
+    la tendencia de los delitos especificados.
+    """
 
     # Cargamos el dataset de series de tiempo estatal y definimos la columna índice.
     df = pd.read_csv(
-        "./data/timeseries_estatal.csv", parse_dates=["isodate"], index_col="isodate"
+        "./data/timeseries_estatal.csv", parse_dates=["PERIODO"], index_col="PERIODO"
     )
 
-    # Filtramos el DataFrame hasta el mes actual y a nivel nacional.
+    # Filtramos el DataFrame hasta el mes actual.
     df = df[df.index <= MES_ACTUAL]
-    df = df[df["entidad"] == "Nacional"]
 
     totales = list()
     colores = list()
@@ -82,18 +87,20 @@ def main():
     # iniciamos la iteración sobre las filas y columnas.
     for fila in range(4):
         for columna in range(3):
-            # Filtramos el dataset con el delito seleccionado.
-            temp_df = df[df["delito"] == DELITOS[index]].copy()
+            # Filtramos el dataset con el delito seleccionado y agruapoms por mes.
+            temp_df = (
+                df[df["DELITO"] == DELITOS[index]].resample("MS").sum(numeric_only=True)
+            )
 
             # Escogemos los últimos 13 meses del delito seleccionado.
             temp_df = temp_df[-13:]
 
             # Calculamos la tendencia usando STL.
-            temp_df["tendencia"] = STL(temp_df["total"]).fit().trend
+            temp_df["tendencia"] = STL(temp_df["TOTAL"]).fit().trend
 
             # Creamos la columna de fecha usando la abreviación y el año en formato corto.
             temp_df["fecha"] = temp_df.index.map(
-                lambda x: f"{abreviaciones[x.month]}<br>'{x.year - 2000}"
+                lambda x: f"{ABREVIACIONES[x.month]}<br>'{x.year - 2000}"
             )
 
             # Para nuestra gráfica sparkline solo el primer y el último punto
@@ -104,13 +111,13 @@ def main():
 
             # El siguiente grupo de variables van a ser usadas para
             # definir la posición de los textos, así como los colores.
-            primer_valor = temp_df["total"].iloc[0]
-            segundo_valor = temp_df["total"].iloc[1]
-            penultimo_valor = temp_df["total"].iloc[-2]
-            ultimo_valor = temp_df["total"].iloc[-1]
+            primer_valor = temp_df["TOTAL"].iloc[0]
+            segundo_valor = temp_df["TOTAL"].iloc[1]
+            penultimo_valor = temp_df["TOTAL"].iloc[-2]
+            ultimo_valor = temp_df["TOTAL"].iloc[-1]
 
-            valor_maximo = temp_df["total"].max()
-            valor_minimo = temp_df["total"].min()
+            valor_maximo = temp_df["TOTAL"].max()
+            valor_minimo = temp_df["TOTAL"].min()
 
             # Definimos el texto predeterminado para todas las etiquetas.
             textos = ["" for _ in range(len(temp_df))]
@@ -169,7 +176,7 @@ def main():
             fig.add_trace(
                 go.Scatter(
                     x=temp_df["fecha"],
-                    y=temp_df["total"],
+                    y=temp_df["TOTAL"],
                     text=textos,
                     mode="markers+lines+text",
                     textposition=text_pos,
@@ -255,16 +262,16 @@ def main():
     posiciones = [
         "bottom",
         "bottom",
-        "top",
+        "bottom",
+        "bottom",
+        "bottom",
+        "bottom",
+        "bottom",
         "top",
         "bottom",
         "bottom",
         "bottom",
-        "top",
         "bottom",
-        "bottom",
-        "top",
-        "top",
     ]
 
     # Lo que haremos se puede considerar como un hack.
