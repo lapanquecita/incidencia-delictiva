@@ -52,13 +52,30 @@ También se puede usar para generar tablas con el top 30 de tasas de incidencia 
 
 Este script hace uso exclusivo del dataset de víctimas para obtener tendencias y generar visualizaciones más detalladas.
 
-![5](./imgs/comparacion_entidad.png)
+![5](./imgs/tendencia_anual_0.png)
 
-![6](./imgs/tendencia.png)
+Se pueden generar tasas anuales para cada una de las entidades o anivel ancional.
 
-Personalmente, este mapa con tabla es mi favorito. Toda la información se encuentra desglosada sin dejar lugar para la ambigüedad.
+Así mismo, se puede conocer la tendencia mensual por entidad y tipo de delito.
 
-![5](./imgs/estatal_2023.png)
+![6](./imgs/tendencia_mensual_0.png)
+
+
+La siguiente gráfica de barras es particulamernte efectiva para conocer cambios relativos para cada entidad.
+
+![7](./imgs/comparacion_entidad_2023_2024.png)
+
+El siguiente mapa y tabla son de especial utilidad para mostrar un panorama completo.
+
+Las víctimas se desglosan por entidad y sexo, así como sus tasas por cada 100,000 habitantes. Esto elimina cualquier posibilidad de cesgo o ambigüedad.
+
+![8](./imgs/mapa_estatal_2024.png)
+
+Finalmente, tenemos una opción adicional de explorar los delitos por sexo.
+
+![9](./imgs/comparacion_sexo_2024.png)
+
+Esta gráfica de barras hace un desglose por proporción, facilitando la comparación por entidad.
 
 ## Conclusión
 
