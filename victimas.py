@@ -17,15 +17,16 @@ import pandas as pd
 import plotly.graph_objects as go
 from PIL import Image
 from plotly.subplots import make_subplots
+from statsmodels.tsa.seasonal import STL
 
 
 # Todas las gráficas de este script
 # van a compartir el mismo esquema de colores.
-PLOT_BGCOLOR = "#171010"
-PAPER_BGCOLOR = "#2B2B2B"
+PLOT_COLOR = "#171010"
+PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "marzo 2024"
+FECHA_FUENTE = "mayo 2025"
 
 
 MESES = [
@@ -44,43 +45,94 @@ MESES = [
 ]
 
 
-def tendencia(delito):
+# Este diccionario es utilizado por todas las funciones
+# para poder referenciar cada entidad con su clave numérica.
+ENTIDADES = {
+    0: "México",
+    1: "Aguascalientes",
+    2: "Baja California",
+    3: "Baja California Sur",
+    4: "Campeche",
+    5: "Coahuila",
+    6: "Colima",
+    7: "Chiapas",
+    8: "Chihuahua",
+    9: "Ciudad de México",
+    10: "Durango",
+    11: "Guanajuato",
+    12: "Guerrero",
+    13: "Hidalgo",
+    14: "Jalisco",
+    15: "Estado de México",
+    16: "Michoacán",
+    17: "Morelos",
+    18: "Nayarit",
+    19: "Nuevo León",
+    20: "Oaxaca",
+    21: "Puebla",
+    22: "Querétaro",
+    23: "Quintana Roo",
+    24: "San Luis Potosí",
+    25: "Sinaloa",
+    26: "Sonora",
+    27: "Tabasco",
+    28: "Tamaulipas",
+    29: "Tlaxcala",
+    30: "Veracruz",
+    31: "Yucatán",
+    32: "Zacatecas",
+}
+
+
+def tendencia_anual(delito, entidad_id, xanchor="left"):
     """
-    Crea una gráfica con la tendencia de la tasa anual
-    de homicidios dolosos a nivel nacional.
+    GEnera una gráfica mostrando la evolución
+    de la tasa anual del delito y entidad especificados.
 
     Parameters
     ----------
     delito : str
         El nombre del delito que se desea graficar.
 
+    entidad_id : int
+        La clave numérica de la entidad. 0 para datos a nivel nacional.
+
+    xanchor : str
+        Es la ubicación de la leyenda dentro del gráfico.
+        Los posibles valores pueden ser "left" o "right".
+
     """
 
-    # Cargamos el dataset de la polación total estimada según el CONAPO.
-    pop = pd.read_csv("./assets/poblacion.csv")
+    # Cargamos el dataset de la población estimada según el CONAPO.
+    pop = pd.read_csv("./assets/poblacion.csv", dtype={"CVE": str})
 
-    # Seleccionamos las columnas ed años.
-    pop = pop.iloc[:, 3:]
+    # Sumamos el total de población por entidad.
+    pop["CVE"] = pop["CVE"].str[:2]
+    pop = pop.groupby("CVE").sum(numeric_only=True)
 
-    # Calculamos la población nacional anual.
-    pop = pop.sum(axis=0)
+    # Si el valor de entidad_id es 0, sumamos la población de todas las entidades.
+    if entidad_id == 0:
+        pop = pop.sum(axis=0)
+    else:
+        pop = pop.loc[f"{entidad_id:02}"]
 
     # Convertimos el índice a int.
     pop.index = pop.index.astype(int)
 
     # Cargamos el dataset de víctimas (serie de tiempo).
     df = pd.read_csv(
-        "./data/timeseries_victimas.csv", parse_dates=["isodate"], index_col=0
+        "./data/timeseries_victimas.csv", parse_dates=["PERIODO"], index_col=0
     )
 
-    # Seleccionamos los registros a nivel nacional.
-    df = df[df["entidad"] == "Nacional"]
+    # Filtramos por entidad. Si entidad_es 0, no hacemos filtro.
+    if entidad_id != 0:
+        df = df[df["ENTIDAD"] == ENTIDADES[entidad_id]]
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["delito"] == delito]
+    df = df[df["DELITO"] == delito]
 
     # Calculamos el total de víctimas por año.
-    df = df.resample("YE").sum(numeric_only=True)
+    df = df.resample("YS").sum(numeric_only=True)
 
     # Solo necesitamos el año para emparejar los DataFrames.
     df.index = df.index.year
@@ -89,11 +141,11 @@ def tendencia(delito):
     df["poblacion"] = pop
 
     # Calculamos la tasa por cada 100k habitantes.
-    df["tasa"] = df["total"] / df["poblacion"] * 100000
+    df["tasa"] = df["TOTAL"] / df["poblacion"] * 100000
 
     # Preparamos el texto para cada observación dentro de la gráfica.
     df["texto"] = df.apply(
-        lambda x: f"<b>{x['tasa']:,.2f}</b><br>({x['total']:,.0f})", axis=1
+        lambda x: f"<b>{x['tasa']:,.2f}</b><br>({x['TOTAL']:,.0f})", axis=1
     )
 
     fig = go.Figure()
@@ -104,41 +156,36 @@ def tendencia(delito):
             y=df["tasa"],
             text=df["texto"],
             marker_color=df["tasa"],
-            marker_colorscale="portland",
-            marker_cmid=0,
-            name=f"Total acumulado: <b>{df['total'].sum():,.0f}</b>",
+            marker_colorscale="redor",
+            name=f"<b>Total acumulado</b><br>{df['TOTAL'].sum():,.0f} víctimas",
             textposition="outside",
             marker_line_width=0,
-            textfont_size=20,
+            textfont_size=40,
         )
     )
 
     fig.update_xaxes(
         ticks="outside",
-        tickfont_size=14,
         ticklen=10,
         zeroline=False,
         tickcolor="#FFFFFF",
         linewidth=2,
         showline=True,
-        showgrid=True,
-        gridwidth=0.35,
+        showgrid=False,
         mirror=True,
         nticks=12,
     )
 
     fig.update_yaxes(
         title="Tasa bruta por cada 100,000 habitantes",
-        range=[0, df["tasa"].max() * 1.12],
+        range=[0, df["tasa"].max() * 1.13],
         ticks="outside",
         separatethousands=True,
-        title_font_size=18,
-        tickfont_size=14,
         ticklen=10,
-        title_standoff=6,
+        title_standoff=15,
         tickcolor="#FFFFFF",
         linewidth=2,
-        gridwidth=0.35,
+        gridwidth=0.5,
         showline=True,
         nticks=20,
         zeroline=False,
@@ -146,34 +193,33 @@ def tendencia(delito):
     )
 
     fig.update_layout(
-        legend_itemsizing="constant",
         showlegend=True,
         legend_borderwidth=1,
         legend_bordercolor="#FFFFFF",
-        legend_x=0.01,
+        legend_x=0.01 if xanchor == "left" else 0.99,
         legend_y=0.98,
-        legend_xanchor="left",
+        legend_xanchor=xanchor,
         legend_yanchor="top",
         legend_font_size=16,
-        width=1280,
-        height=720,
-        font_family="Montserrat",
+        width=1920,
+        height=1080,
+        font_family="Inter",
         font_color="#FFFFFF",
-        font_size=18,
-        title_text=f"Evolución de la tasa de <b>{delito.lower()}</b> en México (2015-2024)",
+        font_size=24,
+        title_text=f"Evolución de la tasa de <b>{delito.lower()}</b> en <b>{ENTIDADES[entidad_id]}</b> ({df.index.min()}-{df.index.max()})",
         title_x=0.5,
-        title_y=0.965,
-        margin_t=60,
+        title_y=0.97,
+        margin_t=80,
         margin_r=40,
-        margin_b=85,
-        margin_l=100,
-        title_font_size=22,
-        paper_bgcolor=PAPER_BGCOLOR,
-        plot_bgcolor=PLOT_BGCOLOR,
+        margin_b=120,
+        margin_l=130,
+        title_font_size=36,
+        paper_bgcolor=PAPER_COLOR,
+        plot_bgcolor=PLOT_COLOR,
         annotations=[
             dict(
                 x=0.01,
-                y=-0.13,
+                y=-0.11,
                 xref="paper",
                 yref="paper",
                 xanchor="left",
@@ -182,7 +228,7 @@ def tendencia(delito):
             ),
             dict(
                 x=0.5,
-                y=-0.13,
+                y=-0.11,
                 xref="paper",
                 yref="paper",
                 xanchor="center",
@@ -191,7 +237,7 @@ def tendencia(delito):
             ),
             dict(
                 x=1.01,
-                y=-0.13,
+                y=-0.11,
                 xref="paper",
                 yref="paper",
                 xanchor="right",
@@ -201,7 +247,159 @@ def tendencia(delito):
         ],
     )
 
-    fig.write_image("./tendencia.png")
+    # Guardamos el archiov usando la clave de la entidad.
+    fig.write_image(f"./tendencia_anual_{entidad_id}.png")
+
+
+def tendencia_mensual(delito, entidad_id, xanchor="left"):
+    """
+    GEnera una gráfica mostrando la evolución
+    de la incidencia mensual del delito y entidad especificados.
+
+    Parameters
+    ----------
+    delito : str
+        El nombre del delito que se desea graficar.
+
+    entidad_id : int
+        La clave numérica de la entidad. 0 para datos a nivel nacional.
+
+    xanchor : str
+        Es la ubicación de la leyenda dentro del gráfico.
+        Los posibles valores pueden ser "left" o "right".
+
+    """
+
+    # Cargamos el dataset de víctimas (serie de tiempo).
+    df = pd.read_csv(
+        "./data/timeseries_victimas.csv", parse_dates=["PERIODO"], index_col=0
+    )
+
+    # Filtramos por entidad. Si entidad_es 0, no hacemos filtro.
+    if entidad_id != 0:
+        df = df[df["ENTIDAD"] == ENTIDADES[entidad_id]]
+
+    # Filtramos por el delito que nos interesa.
+    df = df[df["DELITO"] == delito]
+
+    # Calculamos el total de víctimas por mes.
+    df = df.resample("MS").sum(numeric_only=True)
+
+    # Calculamos la tendencia usando STL.
+    df["tendencia"] = STL(df["TOTAL"]).fit().trend
+
+    # Solo vamos a mostrar los últimos 120 meses (10 años).
+    # Con esto es suficiente para mostrar una tendencia a mediano plazo.
+    df = df.tail(120)
+
+    fig = go.Figure()
+
+    fig.add_trace(
+        go.Bar(
+            x=df.index,
+            y=df["TOTAL"],
+            marker_color="#00897b",
+            name="Serie original",
+            marker_line_width=0,
+        )
+    )
+
+    fig.add_trace(
+        go.Scatter(
+            x=df.index,
+            y=df["tendencia"],
+            mode="lines",
+            line_color="#ffd54f",
+            name="Tendencia (12 periodos)",
+            line_width=6,
+        )
+    )
+
+    fig.update_xaxes(
+        tickformat="%m<br>%Y",
+        ticks="outside",
+        ticklen=10,
+        zeroline=False,
+        tickcolor="#FFFFFF",
+        linewidth=2,
+        showline=True,
+        showgrid=False,
+        mirror=True,
+        nticks=25,
+    )
+
+    fig.update_yaxes(
+        title="Víctimas mensuales",
+        ticks="outside",
+        separatethousands=True,
+        ticklen=10,
+        title_standoff=15,
+        tickcolor="#FFFFFF",
+        linewidth=2,
+        gridwidth=0.5,
+        showline=True,
+        nticks=20,
+        zeroline=False,
+        mirror=True,
+    )
+
+    fig.update_layout(
+        showlegend=True,
+        legend_borderwidth=1,
+        legend_bordercolor="#FFFFFF",
+        legend_x=0.01 if xanchor == "left" else 0.99,
+        legend_y=0.98,
+        legend_xanchor=xanchor,
+        legend_yanchor="top",
+        legend_font_size=16,
+        width=1920,
+        height=1080,
+        font_family="Inter",
+        font_color="#FFFFFF",
+        font_size=24,
+        title_text=f"Evolución de la incidencia mensual de <b>{delito.lower()}</b> en <b>{ENTIDADES[entidad_id]}</b> ({df.index.year.min()}-{df.index.year.max()})",
+        title_x=0.5,
+        title_y=0.97,
+        margin_t=80,
+        margin_r=40,
+        margin_b=160,
+        margin_l=130,
+        title_font_size=36,
+        paper_bgcolor=PAPER_COLOR,
+        plot_bgcolor=PLOT_COLOR,
+        annotations=[
+            dict(
+                x=0.01,
+                y=-0.16,
+                xref="paper",
+                yref="paper",
+                xanchor="left",
+                yanchor="top",
+                text=f"Fuente: SESNSP ({FECHA_FUENTE})",
+            ),
+            dict(
+                x=0.5,
+                y=-0.16,
+                xref="paper",
+                yref="paper",
+                xanchor="center",
+                yanchor="top",
+                text="Mes y año de registro del delito",
+            ),
+            dict(
+                x=1.01,
+                y=-0.16,
+                xref="paper",
+                yref="paper",
+                xanchor="right",
+                yanchor="top",
+                text="🧁 @lapanquecita",
+            ),
+        ],
+    )
+
+    # Guardamos el archiov usando la clave de la entidad.
+    fig.write_image(f"./tendencia_mensual_{entidad_id}.png")
 
 
 def comparacion_entidad(primer_año, segundo_año, delito):
@@ -223,25 +421,29 @@ def comparacion_entidad(primer_año, segundo_año, delito):
     """
 
     # Cargamos el dataset de víctimas (serie de tiempo).
-    df = pd.read_csv(
-        "./data/timeseries_victimas.csv", parse_dates=["isodate"], index_col=0
-    )
+    df = pd.read_csv("./data/timeseries_victimas.csv", parse_dates=["PERIODO"])
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["delito"] == delito]
-
-    # Seleccionamos los dos años que queremos comparar.
-    df = df[(df.index.year == primer_año) | (df.index.year == segundo_año)]
+    df = df[df["DELITO"] == delito]
 
     # Transformamos el DataFrame para tener los conteos por entidad y por año.
-    df = df.pivot_table(index="entidad", columns=df.index.year, aggfunc="sum")["total"]
+    df = df.pivot_table(
+        index="ENTIDAD",
+        columns=df["PERIODO"].dt.year,
+        values="TOTAL",
+        aggfunc="sum",
+        fill_value=0,
+    )
+
+    # Creamos la fila para el total naiconal.
+    df.loc["<b>Nacional</b>"] = df.sum(axis=0)
 
     # Calculamos el cambio porcentual.
     df["cambio"] = (df[segundo_año] - df[primer_año]) / df[primer_año] * 100
 
     # Preparamos el texto para cada observación.
-    df["text"] = df.apply(
-        lambda x: f" {x['cambio']:,.2f}% ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) ",
+    df["texto"] = df.apply(
+        lambda x: f" {x['cambio']:,.1f}% ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) ",
         axis=1,
     )
 
@@ -251,7 +453,6 @@ def comparacion_entidad(primer_año, segundo_año, delito):
     # Renombramos algunos estados a sus nombres comunes.
     df = df.rename(
         index={
-            "Nacional": "<b>Nacional</b>",
             "Coahuila de Zaragoza": "Coahuila",
             "México": "Estado de México",
             "Michoacán de Ocampo": "Michoacán",
@@ -264,16 +465,8 @@ def comparacion_entidad(primer_año, segundo_año, delito):
     valor_max = ((valor_max // 5) + 1) * 5
 
     # Determinamos la posición de los textos para cada barra.
-    text_position = list()
-
-    for valor in df["cambio"]:
-        ratio = abs(valor) / valor_max
-
-        # Si el valor está cercano al máximo, la etiqueta irá adentro de la barra.
-        if ratio >= 0.7:
-            text_position.append("inside")
-        else:
-            text_position.append("outside")
+    df["ratio"] = df["cambio"].abs() / valor_max
+    df["texto_pos"] = df["ratio"].apply(lambda x: "inside" if x >= 0.7 else "outside")
 
     fig = go.Figure()
 
@@ -281,29 +474,29 @@ def comparacion_entidad(primer_año, segundo_año, delito):
         go.Bar(
             y=df.index,
             x=df["cambio"],
-            text=df["text"],
-            textposition=text_position,
+            text=df["texto"],
+            textposition=df["texto_pos"],
             textfont_color="#FFFFFF",
             orientation="h",
             marker_color=df["cambio"],
-            marker_colorscale="portland",
+            marker_colorscale="geyser",
             marker_cmid=0,
             marker_line_width=0,
-            textfont_size=16,
+            textfont_size=30,
+            textfont_family="Oswald",
         )
     )
 
     fig.update_xaxes(
         range=[valor_max * -1, valor_max],
         ticksuffix="%",
-        tickfont_size=14,
         ticks="outside",
         ticklen=10,
         zeroline=False,
         tickcolor="#FFFFFF",
         linewidth=2,
         showline=True,
-        gridwidth=0.35,
+        gridwidth=0.5,
         mirror=True,
         nticks=20,
     )
@@ -313,36 +506,34 @@ def comparacion_entidad(primer_año, segundo_año, delito):
         ticks="outside",
         separatethousands=True,
         ticklen=10,
-        title_standoff=6,
         tickcolor="#FFFFFF",
         linewidth=2,
-        gridwidth=0.35,
+        gridwidth=0.5,
         showline=True,
         mirror=True,
     )
 
     fig.update_layout(
         showlegend=False,
-        barmode="overlay",
-        width=1280,
-        height=1280,
-        font_family="Montserrat",
+        width=1920,
+        height=1920,
+        font_family="Inter",
         font_color="#FFFFFF",
-        font_size=18,
-        title_text=f"Comparación del total de víctimas de <b>{delito.lower()}</b> registradas en México por entidad ({primer_año} vs. {segundo_año})",
+        font_size=24,
+        title_text=f"Comparación del total de víctimas de <b>{delito.lower()}</b> registradas en México ({primer_año} vs. {segundo_año})",
         title_x=0.5,
         title_y=0.98,
-        margin_t=60,
+        margin_t=80,
         margin_r=40,
-        margin_b=80,
-        margin_l=200,
-        title_font_size=22,
-        paper_bgcolor=PAPER_BGCOLOR,
-        plot_bgcolor=PLOT_BGCOLOR,
+        margin_b=120,
+        margin_l=280,
+        title_font_size=36,
+        paper_bgcolor=PAPER_COLOR,
+        plot_bgcolor=PLOT_COLOR,
         annotations=[
             dict(
                 x=0.01,
-                y=-0.065,
+                y=-0.06,
                 xref="paper",
                 yref="paper",
                 xanchor="left",
@@ -351,16 +542,16 @@ def comparacion_entidad(primer_año, segundo_año, delito):
             ),
             dict(
                 x=0.58,
-                y=-0.065,
+                y=-0.06,
                 xref="paper",
                 yref="paper",
                 xanchor="center",
                 yanchor="top",
-                text="Cambio porcentual",
+                text="Cambio porcentual (cambio absoluto)",
             ),
             dict(
                 x=1.01,
-                y=-0.065,
+                y=-0.06,
                 xref="paper",
                 yref="paper",
                 xanchor="right",
@@ -370,7 +561,8 @@ def comparacion_entidad(primer_año, segundo_año, delito):
         ],
     )
 
-    fig.write_image("./comparacion_entidad.png")
+    # Guardamos el nombre del archivo usando los parámetros de la función.
+    fig.write_image(f"./comparacion_entidad_{primer_año}_{segundo_año}.png")
 
 
 def crear_mapa(año, delito):
@@ -389,72 +581,75 @@ def crear_mapa(año, delito):
 
     """
 
-    # Cargamos el dataset de la polación total estimada según el CONAPO.
-    pop = pd.read_csv("./assets/poblacion.csv")
+    # Cargamos el dataset de la población estimada según el CONAPO.
+    pop = pd.read_csv("./assets/poblacion.csv", dtype={"CVE": str})
 
-    # Calculamos la población total por entidad.
-    pop = pop.groupby("Entidad").sum(numeric_only=True)
+    # Sumamos el total de población por entidad.
+    pop["CVE"] = pop["CVE"].str[:2]
+    pop = pop.groupby("CVE").sum(numeric_only=True)
 
-    # Seleccionamos la población del año de nuestro interés.
+    # Convertimos el índice a int para poderlo emparejar
+    # con las cifras de delitos.
+    pop.index = pop.index.astype(int)
+
+    # Seleccionamos la población del año especificado.
     pop = pop[str(año)]
 
-    # Cargamos el dataset de víctimas.
-    df = pd.read_csv("./data/victimas.csv", encoding="latin-1")
+    # Cargamos el dataset de víctimas (serie de tiempo).
+    df = pd.read_csv("./data/timeseries_victimas.csv", parse_dates=["PERIODO"])
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["Subtipo de delito"] == delito]
+    df = df[df["DELITO"] == delito]
 
-    # Seleccionamos los registros del año de nuestro interés.
-    df = df[df["Año"] == año]
+    # Seleccionamos los registros del año especificado.
+    df = df[df["PERIODO"].dt.year == año]
 
-    # Calculamos el total anual al sumar todos los meses.
-    df["Total"] = df[MESES].sum(axis=1)
-
-    # Transformamos el DataFrame para que las columnas sean el sexo de la víctima.
+    # Transformamos el DataFrame para tener los conteos por entidad y por año.
     df = df.pivot_table(
-        index="Entidad", columns="Sexo", values="Total", fill_value=0, aggfunc="sum"
+        index="CVE_ENT",
+        columns="SEXO",
+        values="TOTAL",
+        aggfunc="sum",
+        fill_value=0,
     )
 
-    # Calculamos el total de víctimas por entidad.
-    df["Todos"] = df.sum(axis=1)
+    # Calculamos el total por entidad.
+    df["total"] = df.sum(axis=1)
 
     # Agregamos la población para cada entidad.
-    df["poblacion"] = pop
+    df["pop"] = pop
 
-    # Calculamos la tasa por cada 100k habitantes.
-    df["tasa"] = df["Todos"] / df["poblacion"] * 100000
+    # Calculamos la tasa por cada 100,000 habitantes.
+    df["tasa"] = df["total"] / df["pop"] * 100000
 
-    # Ordenamos por mayor a menor la tasa.
+    # Ordenamos la tasa de manera descendente.
     df.sort_values("tasa", ascending=False, inplace=True)
 
-    # Renombramos algunos estados a sus nombres comunes.
-    df = df.rename(
-        index={
-            "Coahuila de Zaragoza": "Coahuila",
-            "México": "Estado de México",
-            "Michoacán de Ocampo": "Michoacán",
-            "Veracruz de Ignacio de la Llave": "Veracruz",
-        }
-    )
+    # Calculamos los totales nacionales.
+    total_nacional = df["total"].sum()
+    poblacion_nacional = pop.sum()
 
-    # Calculamos los valores a nivel nacional para configurar el subtítulo.
-    total_nacional = df["Todos"].sum()
-    total_poblacion = df["poblacion"].sum()
-    tasa_nacional = total_nacional / total_poblacion * 100000
-    subtitulo = f"Nacional: {tasa_nacional:,.2f} ({total_nacional:,.0f} registros)"
+    # Preparamos los valores para nuestro subtítulo.
+    subtitulo = f"Tasa nacional: <b>{total_nacional / poblacion_nacional * 100000:,.1f}</b> (con <b>{total_nacional:,.0f}</b> víctimas)"
+
+    # Quitamos los valores NaN para que no interfieran con los siguientes pasos.
+    df = df.dropna(axis=0)
 
     # Determinamos los valores mínimos y máximos para nuestra escala.
-    # Para el valor máximo usamos el 97.5 percentil para mitigar los
+    # Para el valor máximo usamos el 95 percentil para mitigar los
     # efectos de valores atípicos.
-    min_value = df["tasa"].min()
-    max_value = df["tasa"].quantile(0.975)
+    valor_min = df["tasa"].min()
+    valor_max = df["tasa"].quantile(0.95)
 
-    # Vamos a crear nuestra escala con 11 intervalos.
-    marcas = np.linspace(min_value, max_value, 11)
+    # Vamos a crear nuestra escala con 13 intervalos.
+    marcas = np.linspace(valor_min, valor_max, 13)
     etiquetas = list()
 
-    for marca in marcas:
-        etiquetas.append(f"{marca:,.1f}")
+    for item in marcas:
+        if item >= 10:
+            etiquetas.append(f"{item:,.0f}")
+        else:
+            etiquetas.append(f"{item:,.1f}")
 
     # A la última etiqueta le agregamos el símbolo de 'mayor o igual que'.
     etiquetas[-1] = f"≥{etiquetas[-1]}"
@@ -462,28 +657,23 @@ def crear_mapa(año, delito):
     # Cargamos el GeoJSON de México.
     geojson = json.load(open("./assets/mexico.json", "r", encoding="utf-8"))
 
-    # Estas listas serán usadas para configurar el mapa Choropleth.    ubicaciones = list()
-    valores = list()
-    ubicaciones = list()
-
-    # Iteramos sobre las entidades dentro del GeoJSON.
-    for item in geojson["features"]:
-        # Extraemos el nombre de la entidad.
-        geo = item["properties"]["NOMGEO"]
-
-        # Agregamos el objeto de la entidad y su valor a las listas correspondientes.
-        ubicaciones.append(geo)
-        valores.append(df.loc[geo, "tasa"])
-
     fig = go.Figure()
 
+    # PAra hacer funcionar el mapa debemos emparejar los valores
+    # de la propiedad CVEGEO con nuestro DataFrame.
+    # En este caso en particular, solo se requiere convertirlos
+    # a string y agregar un cero cuando sea menor de 10.
     fig.add_traces(
         go.Choropleth(
             geojson=geojson,
-            locations=ubicaciones,
-            z=valores,
-            featureidkey="properties.NOMGEO",
+            locations=df.index.astype(str).str.zfill(2),
+            z=df["tasa"],
+            featureidkey="properties.CVEGEO",
             colorscale="portland",
+            marker_line_color="#FFFFFF",
+            marker_line_width=1.5,
+            zmin=valor_min,
+            zmax=valor_max,
             colorbar=dict(
                 x=0.03,
                 y=0.5,
@@ -496,12 +686,7 @@ def crear_mapa(año, delito):
                 tickwidth=3,
                 tickcolor="#FFFFFF",
                 ticklen=10,
-                tickfont_size=20,
             ),
-            marker_line_color="#FFFFFF",
-            marker_line_width=1.0,
-            zmin=min_value,
-            zmax=max_value,
         )
     )
 
@@ -519,61 +704,64 @@ def crear_mapa(año, delito):
 
     fig.update_layout(
         showlegend=False,
-        font_family="Montserrat",
+        font_family="Inter",
         font_color="#FFFFFF",
-        margin_t=50,
+        font_size=28,
+        margin_t=80,
         margin_r=40,
-        margin_b=30,
+        margin_b=60,
         margin_l=40,
-        width=1280,
-        height=720,
-        paper_bgcolor=PAPER_BGCOLOR,
+        width=1920,
+        height=1080,
+        paper_bgcolor=PAPER_COLOR,
         annotations=[
             dict(
                 x=0.5,
-                y=1.0,
+                y=1.025,
                 xanchor="center",
                 yanchor="top",
-                text=f"Víctimas de <b>{delito.lower()}</b> registradas en México durante el {año} por entidad de registro",
-                font_size=26,
+                text=f"Incidencia de víctimas de <b>{delito.lower()}</b> en México durante el {año}",
+                font_size=42,
             ),
             dict(
                 x=0.0275,
-                y=0.45,
+                y=0.46,
                 textangle=-90,
                 xanchor="center",
                 yanchor="middle",
                 text="Tasa bruta por cada 100,000 habitantes",
-                font_size=16,
-            ),
-            dict(
-                x=0.58,
-                y=-0.04,
-                xanchor="center",
-                yanchor="top",
-                text=subtitulo,
-                font_size=22,
             ),
             dict(
                 x=0.01,
-                y=-0.04,
+                y=-0.056,
                 xanchor="left",
                 yanchor="top",
                 text=f"Fuente: SESNSP ({FECHA_FUENTE})",
-                font_size=22,
+            ),
+            dict(
+                x=0.5,
+                y=-0.056,
+                xanchor="center",
+                yanchor="top",
+                text=subtitulo,
             ),
             dict(
                 x=1.01,
-                y=-0.04,
+                y=-0.056,
                 xanchor="right",
                 yanchor="top",
                 text="🧁 @lapanquecita",
-                font_size=22,
             ),
         ],
     )
 
+    # Guardamos el mapa con un nombre temporal.
     fig.write_image("./1.png")
+
+    # Ahora crearemos las tablas con el desglose por entidad.
+
+    # Agregamos el nombre a cada entidad.
+    df["nombre"] = df.index.map(lambda x: ENTIDADES[x])
 
     fig = make_subplots(
         rows=1,
@@ -594,22 +782,22 @@ def crear_mapa(año, delito):
                     "<b>Tasa ↓</b>",
                 ],
                 font_color="#FFFFFF",
-                fill_color="#FF1E56",
+                fill_color=["#00897b", "#00897b", "#00897b", "#00897b", "#FF1E56"],
                 align="center",
-                height=27,
+                height=43,
                 line_width=0.8,
             ),
             cells=dict(
                 values=[
-                    df.index[:16],
+                    df["nombre"][:16],
                     df["Hombre"][:16],
                     df["Mujer"][:16],
-                    df["Todos"][:16],
+                    df["total"][:16],
                     df["tasa"][:16],
                 ],
-                fill_color=PLOT_BGCOLOR,
-                height=27,
-                format=["", ",", ",", ",", ",.2f"],
+                fill_color=PLOT_COLOR,
+                height=43,
+                format=["", ",", ",", ",", ",.1f"],
                 line_width=0.8,
                 align=["left", "center"],
             ),
@@ -630,22 +818,22 @@ def crear_mapa(año, delito):
                     "<b>Tasa ↓</b>",
                 ],
                 font_color="#FFFFFF",
-                fill_color="#FF1E56",
+                fill_color=["#00897b", "#00897b", "#00897b", "#00897b", "#FF1E56"],
                 align="center",
-                height=27,
+                height=43,
                 line_width=0.8,
             ),
             cells=dict(
                 values=[
-                    df.index[16:],
+                    df["nombre"][16:],
                     df["Hombre"][16:],
                     df["Mujer"][16:],
-                    df["Todos"][16:],
+                    df["total"][16:],
                     df["tasa"][16:],
                 ],
-                fill_color=PLOT_BGCOLOR,
-                height=27,
-                format=["", ",", ",", ",", ",.2f"],
+                fill_color=PLOT_COLOR,
+                height=43,
+                format=["", ",", ",", ",", ",.1f"],
                 line_width=0.8,
                 align=["left", "center"],
             ),
@@ -655,27 +843,28 @@ def crear_mapa(año, delito):
     )
 
     fig.update_layout(
-        width=1280,
-        height=560,
-        font_family="Montserrat",
+        width=1920,
+        height=840,
+        font_family="Inter",
         font_color="#FFFFFF",
-        font_size=17,
-        margin_t=20,
+        font_size=28,
+        margin_t=25,
         margin_l=40,
         margin_r=40,
         margin_b=0,
-        paper_bgcolor=PAPER_BGCOLOR,
+        paper_bgcolor=PAPER_COLOR,
         annotations=[
             dict(
                 x=0.5,
-                y=0.025,
+                y=0.03,
                 xanchor="center",
                 yanchor="top",
-                text="*El total está conformado por víctimas hombres, mujeres y de sexo no identificado.",
+                text="*El total está conformado por hombres, mujeres y víctimas con sexo no identificado.",
             ),
         ],
     )
 
+    # Guardamos la tabla con un nombre temporal.
     fig.write_image("./2.png")
 
     # Vamos a usar la librería Pillow para unir ambas imágenes.
@@ -693,13 +882,13 @@ def crear_mapa(año, delito):
     resultado.paste(im=imagen2, box=(0, imagen1.height))
 
     # Exportamos la nueva imagen unida y borramos las originales.
-    resultado.save(f"./estatal_{año}.png")
+    resultado.save(f"./mapa_estatal_{año}.png")
 
     os.remove("./1.png")
     os.remove("./2.png")
 
 
-def plot_sexo(año, delito):
+def comparacion_Sexo(año, delito):
     """
     Crea una gráfica de barras normalizada con la
     distribución del delito por sexo de la víctima.
@@ -715,36 +904,26 @@ def plot_sexo(año, delito):
     """
 
     # Cargamos el dataset de víctimas.
-    df = pd.read_csv("./data/victimas.csv", encoding="latin-1")
+    df = pd.read_csv("./data/timeseries_victimas.csv", parse_dates=["PERIODO"])
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["Subtipo de delito"] == delito]
+    df = df[df["DELITO"] == delito]
 
     # Seleccionamos los registros del año de nuestro interés.
-    df = df[df["Año"] == año]
-
-    # CAlculamos el total anual.
-    df["Total"] = df[MESES].sum(axis=1)
+    df = df[df["PERIODO"].dt.year == año]
 
     # Transformamos el DataFrame para que
     # el índice sean las entidades y el sexo las columnas.
     df = df.pivot_table(
-        index="Entidad",
-        columns="Sexo",
-        values="Total",
+        index="CVE_ENT",
+        columns="SEXO",
+        values="TOTAL",
         aggfunc="sum",
         fill_value=0,
     )
 
-    # Renombramos algunos estados a sus nombres comunes.
-    df = df.rename(
-        index={
-            "Coahuila de Zaragoza": "Coahuila",
-            "México": "Estado de México",
-            "Michoacán de Ocampo": "Michoacán",
-            "Veracruz de Ignacio de la Llave": "Veracruz",
-        }
-    )
+    # Asignamos el nombre común para cada entidad.
+    df.index = df.index.map(ENTIDADES)
 
     # Calculamos de nuevo el total, esto será usado
     # para calcular los porcentajes.
@@ -760,17 +939,19 @@ def plot_sexo(año, delito):
 
     # Creamos los textos para cada entidad.
     df["text_hombre"] = df.apply(
-        lambda x: format_text(x["perc_hombre"], x["Hombre"]),
+        lambda x: f"{x['perc_hombre']:,.1f}% ({x['Hombre']:,.0f}) ".replace(".0%", "%"),
         axis=1,
     )
 
     df["text_mujer"] = df.apply(
-        lambda x: format_text(x["perc_mujer"], x["Mujer"]),
+        lambda x: f"{x['perc_mujer']:,.1f}% ({x['Mujer']:,.0f}) ".replace(".0%", "%"),
         axis=1,
     )
 
     df["text_no_identificado"] = df.apply(
-        lambda x: format_text(x["perc_no_identificado"], x["No identificado"]),
+        lambda x: f"{x['perc_no_identificado']:,.1f}% ({x['No identificado']:,.0f}) ".replace(
+            ".0%", "%"
+        ),
         axis=1,
     )
 
@@ -790,7 +971,7 @@ def plot_sexo(año, delito):
             name="Hombre",
             textposition="inside",
             orientation="h",
-            marker_color="#3366CC",
+            marker_color="#00695c",
             marker_line_width=0,
             textfont_family="Oswald",
             textfont_size=40,
@@ -805,7 +986,7 @@ def plot_sexo(año, delito):
             name="Mujer",
             textposition="inside",
             orientation="h",
-            marker_color="#d81b60",
+            marker_color="#e65100",
             marker_line_width=0,
             textfont_family="Oswald",
             textfont_size=40,
@@ -835,7 +1016,6 @@ def plot_sexo(año, delito):
         separatethousands=True,
         ticklen=10,
         zeroline=False,
-        title_standoff=15,
         tickcolor="#FFFFFF",
         linewidth=2,
         showline=True,
@@ -846,11 +1026,9 @@ def plot_sexo(año, delito):
 
     fig.update_yaxes(
         autorange="reversed",
-        tickfont_size=14,
         ticks="outside",
         separatethousands=True,
         ticklen=10,
-        title_standoff=6,
         tickcolor="#FFFFFF",
         linewidth=2,
         showgrid=False,
@@ -864,28 +1042,28 @@ def plot_sexo(año, delito):
         legend_traceorder="normal",
         legend_x=0.5,
         legend_xanchor="center",
-        legend_y=1.042,
+        legend_y=1.035,
         legend_yanchor="top",
         barmode="stack",
-        width=1280,
-        height=1280,
-        font_family="Montserrat",
+        width=1920,
+        height=1920,
+        font_family="Inter",
         font_color="#FFFFFF",
-        font_size=16,
+        font_size=24,
         title_text=f"Distribución de víctimas de <b>{delito.lower()}</b> en México durante el {año} por entidad y sexo de la víctima",
         title_x=0.5,
         title_y=0.98,
-        margin_t=100,
+        margin_t=140,
         margin_r=40,
-        margin_b=90,
-        margin_l=150,
-        title_font_size=22,
-        paper_bgcolor=PAPER_BGCOLOR,
-        plot_bgcolor=PLOT_BGCOLOR,
+        margin_b=120,
+        margin_l=280,
+        title_font_size=36,
+        paper_bgcolor=PAPER_COLOR,
+        plot_bgcolor=PLOT_COLOR,
         annotations=[
             dict(
                 x=0.01,
-                y=-0.07,
+                y=-0.06,
                 xref="paper",
                 yref="paper",
                 xanchor="left",
@@ -894,7 +1072,7 @@ def plot_sexo(año, delito):
             ),
             dict(
                 x=0.57,
-                y=-0.07,
+                y=-0.06,
                 xref="paper",
                 yref="paper",
                 xanchor="center",
@@ -903,7 +1081,7 @@ def plot_sexo(año, delito):
             ),
             dict(
                 x=1.01,
-                y=-0.07,
+                y=-0.06,
                 xref="paper",
                 yref="paper",
                 xanchor="right",
@@ -916,21 +1094,9 @@ def plot_sexo(año, delito):
     fig.write_image(f"./comparacion_sexo_{año}.png")
 
 
-def format_text(perc, total):
-    """
-    Da formato a los textos de cada barra en
-    la gráfiac de barras normalizada.
-    """
-
-    # Si el porcentaje es 100, no redondeamos.
-    if perc == 100:
-        return f" {perc:,.0f}% ({total:,.0f}) "
-    else:
-        return f" {perc:,.1f}% ({total:,.0f}) "
-
-
 if __name__ == "__main__":
-    tendencia("Extorsión")
-    comparacion_entidad(2022, 2023, "Extorsión")
-    crear_mapa(2023, "Extorsión")
-    plot_sexo(2023, "Extorsión")
+    tendencia_anual("Extorsión", 0)
+    tendencia_mensual("Extorsión", 0)
+    comparacion_entidad(2023, 2024, "Extorsión")
+    crear_mapa(2024, "Extorsión")
+    comparacion_Sexo(2024, "Extorsión")
