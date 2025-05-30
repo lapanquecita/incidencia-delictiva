@@ -200,7 +200,6 @@ def tendencia_anual(delito, entidad_id, xanchor="left"):
         legend_y=0.98,
         legend_xanchor=xanchor,
         legend_yanchor="top",
-        legend_font_size=16,
         width=1920,
         height=1080,
         font_family="Inter",
@@ -351,7 +350,6 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
         legend_y=0.98,
         legend_xanchor=xanchor,
         legend_yanchor="top",
-        legend_font_size=16,
         width=1920,
         height=1080,
         font_family="Inter",
@@ -428,18 +426,24 @@ def comparacion_entidad(primer_año, segundo_año, delito):
 
     # Transformamos el DataFrame para tener los conteos por entidad y por año.
     df = df.pivot_table(
-        index="ENTIDAD",
+        index="CVE_ENT",
         columns=df["PERIODO"].dt.year,
         values="TOTAL",
         aggfunc="sum",
         fill_value=0,
     )
 
+    # Asignamos el nombre común para cada entidad.
+    df.index = df.index.map(ENTIDADES)
+
     # Creamos la fila para el total naiconal.
     df.loc["<b>Nacional</b>"] = df.sum(axis=0)
 
     # Calculamos el cambio porcentual.
     df["cambio"] = (df[segundo_año] - df[primer_año]) / df[primer_año] * 100
+
+    # Quitamos las filas con cambios inválidos.
+    df = df.dropna(axis=0)
 
     # Preparamos el texto para cada observación.
     df["texto"] = df.apply(
@@ -449,16 +453,6 @@ def comparacion_entidad(primer_año, segundo_año, delito):
 
     # Ordenamos de mayor a menor usando el cambio porcentual.
     df.sort_values("cambio", ascending=False, inplace=True)
-
-    # Renombramos algunos estados a sus nombres comunes.
-    df = df.rename(
-        index={
-            "Coahuila de Zaragoza": "Coahuila",
-            "México": "Estado de México",
-            "Michoacán de Ocampo": "Michoacán",
-            "Veracruz de Ignacio de la Llave": "Veracruz",
-        }
-    )
 
     # Calculamos el valor máximo para ajustar el rango del eje horizontal.
     valor_max = df["cambio"].abs().max()
@@ -670,8 +664,6 @@ def crear_mapa(año, delito):
             z=df["tasa"],
             featureidkey="properties.CVEGEO",
             colorscale="portland",
-            marker_line_color="#FFFFFF",
-            marker_line_width=1.5,
             zmin=valor_min,
             zmax=valor_max,
             colorbar=dict(
@@ -687,6 +679,23 @@ def crear_mapa(año, delito):
                 tickcolor="#FFFFFF",
                 ticklen=10,
             ),
+        )
+    )
+
+    # El propósito de este segundo mapa es dibujar la división política.
+    # En casos donde un estado no tiene registros, normalmente no se vería esto.
+    fig.add_traces(
+        go.Choropleth(
+            geojson=geojson,
+            locations=pop.index.astype(str).str.zfill(2),
+            z=[1 for _ in range(len(pop))],
+            featureidkey="properties.CVEGEO",
+            colorscale=["hsla(0,0,0,0)", "hsla(0,0,0,0)"],
+            marker_line_color="#FFFFFF",
+            marker_line_width=1.5,
+            zmin=0,
+            zmax=1,
+            showscale=False,
         )
     )
 
@@ -888,7 +897,7 @@ def crear_mapa(año, delito):
     os.remove("./2.png")
 
 
-def comparacion_Sexo(año, delito):
+def comparacion_sexo(año, delito):
     """
     Crea una gráfica de barras normalizada con la
     distribución del delito por sexo de la víctima.
@@ -902,6 +911,9 @@ def comparacion_Sexo(año, delito):
         El nombre del delito que se desea graficar.
 
     """
+
+    # Estos son los colores para cada categoría de sexo.
+    colores = {"Hombre": "#00695c", "Mujer": "#e65100", "No identificado": "#7b1fa2"}
 
     # Cargamos el dataset de víctimas.
     df = pd.read_csv("./data/timeseries_victimas.csv", parse_dates=["PERIODO"])
@@ -932,81 +944,46 @@ def comparacion_Sexo(año, delito):
     # Agregamos la fila para los datos a nivel nacional.
     df.loc["<b>Nacional</b>"] = df.sum(axis=0)
 
-    # Calculamos los porcentajes para cada sexo.
-    df["perc_hombre"] = df["Hombre"] / df["Total"] * 100
-    df["perc_mujer"] = df["Mujer"] / df["Total"] * 100
-    df["perc_no_identificado"] = df["No identificado"] / df["Total"] * 100
+    sexos_disponibles = df.columns[:-1]
 
-    # Creamos los textos para cada entidad.
-    df["text_hombre"] = df.apply(
-        lambda x: f"{x['perc_hombre']:,.1f}% ({x['Hombre']:,.0f}) ".replace(".0%", "%"),
-        axis=1,
-    )
+    # De forma dinámica, calcularemos el porcentaje y texto
+    # pcara cada sexo.
+    for sexo in sexos_disponibles:
+        # Calculamos los porcentajes para cada sexo.
+        df[f"perc_{sexo}"] = df[sexo] / df["Total"] * 100
 
-    df["text_mujer"] = df.apply(
-        lambda x: f"{x['perc_mujer']:,.1f}% ({x['Mujer']:,.0f}) ".replace(".0%", "%"),
-        axis=1,
-    )
-
-    df["text_no_identificado"] = df.apply(
-        lambda x: f"{x['perc_no_identificado']:,.1f}% ({x['No identificado']:,.0f}) ".replace(
-            ".0%", "%"
-        ),
-        axis=1,
-    )
+        # Creamos los textos para cada entidad.
+        df[f"text_{sexo}"] = df.apply(
+            lambda x: f"{x[f'perc_{sexo}']:,.1f}% ({x[sexo]:,.0f}) ".replace(
+                ".0%", "%"
+            ),
+            axis=1,
+        )
 
     # Ordenamos de mayor a menor proporción de hombres violentados.
-    df.sort_values(["perc_hombre", "perc_mujer"], ascending=False, inplace=True)
+    df.sort_values(["perc_Hombre", "perc_Mujer"], ascending=False, inplace=True)
 
     # Para crear una gráfica de barras normalizada solo
     # necesitamos que los valores sumen 100.
     # En este caso son 3 gráficas de barrs horizontales apiladas.
     fig = go.Figure()
 
-    fig.add_trace(
-        go.Bar(
-            y=df.index,
-            x=df["perc_hombre"],
-            text=df["text_hombre"],
-            name="Hombre",
-            textposition="inside",
-            orientation="h",
-            marker_color="#00695c",
-            marker_line_width=0,
-            textfont_family="Oswald",
-            textfont_size=40,
+    # Ahora creamos una gráfica para cada sexo.
+    for sexo in sexos_disponibles:
+        fig.add_trace(
+            go.Bar(
+                y=df.index,
+                x=df[f"perc_{sexo}"],
+                text=df[f"text_{sexo}"],
+                name=sexo,
+                textposition="inside",
+                orientation="h",
+                marker_color=colores[sexo],
+                marker_line_width=0,
+                textfont_family="Oswald",
+                textfont_size=40,
+            )
         )
-    )
-
-    fig.add_trace(
-        go.Bar(
-            y=df.index,
-            x=df["perc_mujer"],
-            text=df["text_mujer"],
-            name="Mujer",
-            textposition="inside",
-            orientation="h",
-            marker_color="#e65100",
-            marker_line_width=0,
-            textfont_family="Oswald",
-            textfont_size=40,
-        )
-    )
-
-    fig.add_trace(
-        go.Bar(
-            y=df.index,
-            x=df["perc_no_identificado"],
-            text=df["text_no_identificado"],
-            name="No identificado",
-            textposition="inside",
-            orientation="h",
-            marker_color="#7b1fa2",
-            marker_line_width=0,
-            textfont_family="Oswald",
-            textfont_size=40,
-        )
-    )
 
     # Nos aseguramos que el rango sea de 0 a 100.
     fig.update_xaxes(
@@ -1050,7 +1027,7 @@ def comparacion_Sexo(año, delito):
         font_family="Inter",
         font_color="#FFFFFF",
         font_size=24,
-        title_text=f"Distribución de víctimas de <b>{delito.lower()}</b> en México durante el {año} por entidad y sexo de la víctima",
+        title_text=f"Víctimas de <b>{delito.lower()}</b> en México durante el {año} según sexo y entidad de registro",
         title_x=0.5,
         title_y=0.98,
         margin_t=140,
@@ -1097,6 +1074,6 @@ def comparacion_Sexo(año, delito):
 if __name__ == "__main__":
     tendencia_anual("Extorsión", 0)
     tendencia_mensual("Extorsión", 0)
-    comparacion_entidad(2023, 2024, "Extorsión")
     crear_mapa(2024, "Extorsión")
-    comparacion_Sexo(2024, "Extorsión")
+    comparacion_entidad(2023, 2024, "Extorsión")
+    comparacion_sexo(2024, "Extorsión")
