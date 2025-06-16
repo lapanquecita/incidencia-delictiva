@@ -18,11 +18,11 @@ import plotly.graph_objects as go
 
 # Todas las gráficas de este script
 # van a compartir el mismo esquema de colores.
-PLOT_BGCOLOR = "#171010"
-PAPER_BGCOLOR = "#2B2B2B"
+PLOT_COLOR = "#171010"
+PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "febrero 2025"
+FECHA_FUENTE = "junio 2025"
 
 
 def crear_mapa(año, delito):
@@ -40,46 +40,44 @@ def crear_mapa(año, delito):
 
     """
 
-    # El índice lo vamos a necesitar como cadena.
-    pop_types = {"CVE": str}
-
     # Cargamos el dataset de población por municipio.
-    pop = pd.read_csv("./assets/poblacion.csv", dtype=pop_types, index_col=0)
+    pop = pd.read_csv("./assets/poblacion.csv", dtype={"CVE": str}, index_col=0)
 
-    # Seleccionamos las cifras del año de nuestro interés.
+    # Seleccionamos el año de nuestro interés.
     pop = pop[str(año)]
 
-    types = {"cve_municipio": str}
-
     # Cargamos el dataset de dengue del año que nos interesa.
-    df = pd.read_csv(
-        "./data/timeseries_municipal.csv", dtype=types, index_col="cve_municipio"
-    )
+    df = pd.read_csv("./data/timeseries_municipal.csv", dtype={"CVE_MUN": str})
 
-    df = df[df["año"] == año]
-    df = df[df["delito"] == delito]
+    # Seleccionamos el año de nuestro interés.
+    df = df[df["AÑO"] == año]
 
-    # Calculamos el total de casos confirmados.
-    total_registros = df["total"].sum()
+    # Filtramos por el delito que nos interesa.
+    df = df[df["DELITO"] == delito]
 
-    # Calculamos el total de población del año que nos interesa.
-    total_pop = pop.sum()
+    # Agrupamos por municipio.
+    df = df.groupby("CVE_MUN").sum(numeric_only=True)
 
     # Agregamos las cifras de población.
     df["poblacion"] = pop
 
     # Calculamos la tasa por cada 100k habitantes.
-    df["tasa"] = df["total"] / df["poblacion"] * 100000
+    df["tasa"] = df["TOTAL"] / df["poblacion"] * 100000
 
-    # Para este mapa vamos a filtrar todos los municipios sin registros
-    # ya que el dengue no afecta a todo el país y muchos valores en
-    # cero puede sesgar los resultados.
-    df = df[df["tasa"] != np.inf]
-    df = df[df["tasa"] != 0]
+    # Calculamos los totaales nacionales.
+    total_nacional = df["TOTAL"].sum()
+    poblacion_nacional = pop.sum()
+
+    # Preparamos los valores para nuestro subtítulo.
+    subtitulo = f"Tasa nacional: <b>{total_nacional / poblacion_nacional * 100000:,.1f}</b> (con <b>{total_nacional:,.0f}</b> casos)"
+
+    # Quitamos los valores NaN para que no interfieran con los siguientes pasos.
+    df = df.dropna(axis=0)
 
     # Calculamos algunas estadísticas descriptivas.
     estadisticas = [
         "Estadísticas descriptivas",
+        "<b>(tasa bruta)</b>",
         f"Media: <b>{df['tasa'].mean():,.1f}</b>",
         f"Mediana: <b>{df['tasa'].median():,.1f}</b>",
         f"DE: <b>{df['tasa'].std():,.1f}</b>",
@@ -111,16 +109,10 @@ def crear_mapa(año, delito):
     etiquetas[-1] = f"≥{valor_max:,.0f}"
 
     # Cargamos el GeoJSON de municipios de México.
-    geojson = json.loads(open("./assets/mexico2020.json", "r", encoding="utf-8").read())
-
-    # Calculamos los valores para nuestro subtítulo.
-    subtitulo = f"Tasa nacional: <b>{total_registros / total_pop * 100000:,.1f}</b> (con <b>{total_registros:,.0f}</b> registros)"
+    geojson = json.loads(open("./assets/municipios.json", "r", encoding="utf-8").read())
 
     fig = go.Figure()
 
-    # Configuramos nuestro mapa Choropleth con todas las variables antes definidas.
-    # El parámetro 'featureidkey' debe coincidir con el de la variable 'geo' que
-    # extrajimos en un paso anterior.
     fig.add_traces(
         go.Choropleth(
             geojson=geojson,
@@ -159,27 +151,15 @@ def crear_mapa(año, delito):
         open("./assets/mexico.json", "r", encoding="utf-8").read()
     )
 
-    # Estas listas serán usadas para configurar el mapa Choropleth.
-    ubicaciones_borde = list()
-    valores_borde = list()
-
-    # Iteramos sobre cada entidad dentro de nuestro archivo GeoJSON de México.
-    for item in geojson_borde["features"]:
-        geo = item["properties"]["NOMGEO"]
-
-        # Alimentamos las listas creadas anteriormente con la ubicación y su valor per capita.
-        ubicaciones_borde.append(geo)
-        valores_borde.append(1)
-
     # Este mapa tiene mucho menos personalización.
     # Lo único que necesitamos es que muestre los contornos
     # de cada entidad.
     fig.add_traces(
         go.Choropleth(
             geojson=geojson_borde,
-            locations=ubicaciones_borde,
-            z=valores_borde,
-            featureidkey="properties.NOMGEO",
+            locations=[f"{i:02}" for i in range(1, 33)],
+            z=[1 for _ in range(32)],
+            featureidkey="properties.CVEGEO",
             colorscale=["hsla(0, 0, 0, 0)", "hsla(0, 0, 0, 0)"],
             marker_line_color="#FFFFFF",
             marker_line_width=4,
@@ -190,7 +170,7 @@ def crear_mapa(año, delito):
     # Personalizamos algunos aspectos del mapa, como el color del oceáno
     # y el del terreno.
     fig.update_geos(
-        fitbounds="locations",
+        fitbounds="geojson",
         showocean=True,
         oceancolor="#092635",
         showcountries=False,
@@ -204,7 +184,7 @@ def crear_mapa(año, delito):
     # Agregamos las anotaciones correspondientes.
     fig.update_layout(
         showlegend=False,
-        font_family="Montserrat",
+        font_family="Inter",
         font_color="#FFFFFF",
         margin_t=50,
         margin_r=100,
@@ -212,14 +192,14 @@ def crear_mapa(año, delito):
         margin_l=100,
         width=7680,
         height=4320,
-        paper_bgcolor=PAPER_BGCOLOR,
+        paper_bgcolor=PAPER_COLOR,
         annotations=[
             dict(
                 x=0.5,
                 y=0.985,
                 xanchor="center",
                 yanchor="top",
-                text=f"Incidencia de <b>{delito.lower()}</b> en México por municipio durante el {año}",
+                text=f"Tasas de incidencia de <b>{delito.lower()}</b> en México por municipio de ocurrencia ({año})",
                 font_size=140,
             ),
             dict(
@@ -228,7 +208,7 @@ def crear_mapa(año, delito):
                 textangle=-90,
                 xanchor="center",
                 yanchor="middle",
-                text="Tasa por cada 100,000 habitantes",
+                text="Tasa bruta por cada 100,000 habitantes",
                 font_size=100,
             ),
             dict(
@@ -271,7 +251,7 @@ def crear_mapa(año, delito):
         ],
     )
 
-    fig.write_image(f"./municipal_{año}.png")
+    fig.write_image(f"./mapa_municipal_{año}.png")
 
 
 def tasa_municipios(año, delito):
@@ -289,56 +269,37 @@ def tasa_municipios(año, delito):
 
     """
 
-    # El índice lo vamos a necesitar como cadena.
-    pop_types = {"CVE": str}
-
     # Cargamos el dataset de población por municipio.
-    pop = pd.read_csv("./assets/poblacion.csv", dtype=pop_types, index_col=0)
+    pop = pd.read_csv("./assets/poblacion.csv", dtype={"CVE": str}, index_col=0)
 
-    # Renombramos algunos estados a sus nombres más comunes.
-    pop["Entidad"] = pop["Entidad"].replace(
-        {
-            "Coahuila de Zaragoza": "Coahuila",
-            "México": "Estado de México",
-            "Michoacán de Ocampo": "Michoacán",
-            "Veracruz de Ignacio de la Llave": "Veracruz",
-        }
-    )
+    # Juntamos el nombre del municipio con el de su respectiva entdiad.
+    pop["nombre"] = pop["Municipio"] + ", " + pop["Entidad"]
 
-    # Seleccionamos las columnas de nuestro interés.
-    pop = pop[["Entidad", "Municipio", str(año)]]
-
-    # Renombramos las columnas.
-    pop.columns = ["entidad", "municipio", "poblacion"]
+    # Seleccinamos solo las dos columnas que utilizaremos.
+    pop = pop[["nombre", str(año)]]
 
     # Cargamos el dataset municipal con datos anuales.
-    df = pd.read_csv(
-        "./data/timeseries_municipal.csv",
-        dtype={"cve_municipio": str},
-    )
+    df = pd.read_csv("./data/timeseries_municipal.csv", dtype={"CVE_MUN": str})
 
     # Seleccionamos el año de nuestro interés.
-    df = df[df["año"] == año]
+    df = df[df["AÑO"] == año]
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["delito"] == delito]
+    df = df[df["DELITO"] == delito]
 
     # Agrupamos por el identificador del municipio.
-    df = df.groupby("cve_municipio").sum(numeric_only=True)
+    df = df.groupby("CVE_MUN").sum(numeric_only=True)
 
     # Unimos los DataFrames.
     df = df.join(pop)
 
     # Calculamos la tasa por cada 100k habitantes.
-    df["tasa"] = df["total"] / df["poblacion"] * 100000
-
-    # Creamos la columna de nombre que se compone del nombre de la entidad y municipio.
-    df["nombre"] = df["municipio"] + ", " + df["entidad"]
+    df["tasa"] = df["TOTAL"] / df[str(año)] * 100000
 
     # Seleccionamos municipios con al menos 50k habitantes.
     # Esto es para evitar valores atípicos donde la poblacion
     # es muy pequeña y resulta en tasas muy grandes.
-    df = df[df["poblacion"] >= 50000]
+    df = df[df[str(año)] >= 50000]
 
     # Ordenamos los resultados por la tasa de mayor a menor.
     df.sort_values("tasa", ascending=False, inplace=True)
@@ -348,7 +309,7 @@ def tasa_municipios(año, delito):
     df.index += 1
     df = df.head(30)
 
-    subtitulo = "Municipios con al menos 50k habs."
+    nota = "Municipios con al menos 50k habs."
 
     fig = go.Figure()
 
@@ -364,16 +325,16 @@ def tasa_municipios(año, delito):
                     "<b>Tasa 100k habs. ↓</b>",
                 ],
                 font_color="#FFFFFF",
-                fill_color="#FF1E56",
+                fill_color=["#00897b", "#00897b", "#00897b", "#ff3d00"],
                 line_width=0.75,
                 align="center",
-                height=28,
+                height=43,
             ),
             cells=dict(
-                values=[df.index, df["nombre"], df["total"], df["tasa"]],
+                values=[df.index, df["nombre"], df["TOTAL"], df["tasa"]],
                 line_width=0.75,
-                fill_color=PLOT_BGCOLOR,
-                height=28,
+                fill_color=PLOT_COLOR,
+                height=43,
                 format=["", "", ",.0f", ",.2f"],
                 align=["center", "left", "center"],
             ),
@@ -382,42 +343,46 @@ def tasa_municipios(año, delito):
 
     fig.update_layout(
         showlegend=False,
-        width=840,
-        height=1050,
-        font_family="Montserrat",
+        width=1280,
+        height=1600,
+        font_family="Inter",
         font_color="#FFFFFF",
-        font_size=16,
-        margin_t=110,
+        font_size=25,
+        margin_t=180,
         margin_l=40,
         margin_r=40,
         margin_b=0,
         title_x=0.5,
         title_y=0.95,
-        title_font_size=26,
+        title_font_size=40,
         title_text=f"Los 30 municipios de México con la mayor<br><b>tasa bruta</b> de <b>{delito.lower()}</b> durante el {año}",
-        paper_bgcolor=PAPER_BGCOLOR,
+        paper_bgcolor=PAPER_COLOR,
         annotations=[
             dict(
                 x=0.015,
-                y=0.015,
+                y=0.02,
                 xanchor="left",
                 yanchor="top",
                 text=f"Fuente: SESNSP ({FECHA_FUENTE})",
             ),
             dict(
                 x=0.57,
-                y=0.015,
+                y=0.02,
                 xanchor="center",
                 yanchor="top",
-                text=subtitulo,
+                text=nota,
             ),
             dict(
-                x=1.01, y=0.015, xanchor="right", yanchor="top", text="🧁 @lapanquecita"
+                x=1.01,
+                y=0.02,
+                xanchor="right",
+                yanchor="top",
+                text="🧁 @lapanquecita",
             ),
         ],
     )
 
-    fig.write_image("./tabla_tasa.png")
+    fig.write_image(f"./tabla_tasa_{año}.png")
 
 
 def absolutos_municipios(año, delito):
@@ -435,68 +400,51 @@ def absolutos_municipios(año, delito):
 
     """
 
-    # El índice lo vamos a necesitar como cadena.
-    pop_types = {"CVE": str}
-
     # Cargamos el dataset de población por municipio.
-    pop = pd.read_csv("./assets/poblacion.csv", dtype=pop_types, index_col=0)
+    pop = pd.read_csv("./assets/poblacion.csv", dtype={"CVE": str}, index_col=0)
 
-    # Renombramos algunos estados a sus nombres más comunes.
-    pop["Entidad"] = pop["Entidad"].replace(
-        {
-            "Coahuila de Zaragoza": "Coahuila",
-            "México": "Estado de México",
-            "Michoacán de Ocampo": "Michoacán",
-            "Veracruz de Ignacio de la Llave": "Veracruz",
-        }
-    )
+    # Juntamos el nombre del municipio con el de su respectiva entdiad.
+    pop["nombre"] = pop["Municipio"] + ", " + pop["Entidad"]
 
-    # Seleccionamos las columnas de nuestro interés.
-    pop = pop[["Entidad", "Municipio", str(año)]]
-
-    # Renombramos las columnas.
-    pop.columns = ["entidad", "municipio", "poblacion"]
+    # Seleccinamos solo las dos columnas que utilizaremos.
+    pop = pop[["nombre", str(año)]]
 
     # Cargamos el dataset municipal con datos anuales.
-    df = pd.read_csv(
-        "./data/timeseries_municipal.csv",
-        dtype={"cve_municipio": str},
-    )
+    df = pd.read_csv("./data/timeseries_municipal.csv", dtype={"CVE_MUN": str})
 
     # Seleccionamos el año de nuestro interés.
-    df = df[df["año"] == año]
+    df = df[df["AÑO"] == año]
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["delito"] == delito]
+    df = df[df["DELITO"] == delito]
 
     # Agrupamos por el identificador del municipio.
-    df = df.groupby("cve_municipio").sum(numeric_only=True)
+    df = df.groupby("CVE_MUN").sum(numeric_only=True)
 
     # Unimos los DataFrames.
     df = df.join(pop)
 
     # Calculamos la tasa por cada 100k habitantes.
-    df["tasa"] = df["total"] / df["poblacion"] * 100000
-
-    # Creamos la columna de nombre que se compone del nombre de la entidad y municipio.
-    df["nombre"] = df["municipio"] + ", " + df["entidad"]
+    df["tasa"] = df["TOTAL"] / df[str(año)] * 100000
 
     # Ordenamos los resultados por la tasa de mayor a menor.
-    df.sort_values("total", ascending=False, inplace=True)
+    df.sort_values("TOTAL", ascending=False, inplace=True)
 
     # Reseteamos el índice y solo escogemos el top 30.
     df.reset_index(inplace=True)
     df.index += 1
     df = df.head(30)
 
-    subtitulo = ""
+    # Para esta tabla no necesitamos una anotación por ahora.
+    # Pero dejamos la opción disponible.
+    nota = ""
 
     fig = go.Figure()
 
     # Vamos a crear una tabla con 4 columnas.
     fig.add_trace(
         go.Table(
-            columnwidth=[40, 220, 80, 90],
+            columnwidth=[40, 220, 80, 100],
             header=dict(
                 values=[
                     "<b>Pos.</b>",
@@ -505,16 +453,16 @@ def absolutos_municipios(año, delito):
                     "<b>Tasa 100k habs.</b>",
                 ],
                 font_color="#FFFFFF",
-                fill_color="#ff8f00",
+                fill_color=["#00897b", "#00897b", "#ff3d00", "#00897b"],
                 line_width=0.75,
                 align="center",
-                height=28,
+                height=43,
             ),
             cells=dict(
-                values=[df.index, df["nombre"], df["total"], df["tasa"]],
+                values=[df.index, df["nombre"], df["TOTAL"], df["tasa"]],
                 line_width=0.75,
-                fill_color=PLOT_BGCOLOR,
-                height=28,
+                fill_color=PLOT_COLOR,
+                height=43,
                 format=["", "", ",.0f", ",.2f"],
                 align=["center", "left", "center"],
             ),
@@ -523,42 +471,46 @@ def absolutos_municipios(año, delito):
 
     fig.update_layout(
         showlegend=False,
-        width=840,
-        height=1050,
-        font_family="Montserrat",
+        width=1280,
+        height=1600,
+        font_family="Inter",
         font_color="#FFFFFF",
-        font_size=16,
-        margin_t=110,
+        font_size=25,
+        margin_t=180,
         margin_l=40,
         margin_r=40,
         margin_b=0,
         title_x=0.5,
         title_y=0.95,
-        title_font_size=26,
-        title_text=f"Los 30 municipios de México con <br><b>mayor incidencia</b> de <b>{delito.lower()}</b> durante el {año}",
-        paper_bgcolor=PAPER_BGCOLOR,
+        title_font_size=40,
+        title_text=f"Los 30 municipios de México con la mayor<br><b>incidencia</b> de <b>{delito.lower()}</b> durante el {año}",
+        paper_bgcolor=PAPER_COLOR,
         annotations=[
             dict(
                 x=0.015,
-                y=0.015,
+                y=0.02,
                 xanchor="left",
                 yanchor="top",
                 text=f"Fuente: SESNSP ({FECHA_FUENTE})",
             ),
             dict(
                 x=0.57,
-                y=0.015,
+                y=0.02,
                 xanchor="center",
                 yanchor="top",
-                text=subtitulo,
+                text=nota,
             ),
             dict(
-                x=1.01, y=0.015, xanchor="right", yanchor="top", text="🧁 @lapanquecita"
+                x=1.01,
+                y=0.02,
+                xanchor="right",
+                yanchor="top",
+                text="🧁 @lapanquecita",
             ),
         ],
     )
 
-    fig.write_image("./tabla_absolutos.png")
+    fig.write_image(f"./tabla_absolutos_{año}.png")
 
 
 if __name__ == "__main__":

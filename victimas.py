@@ -26,7 +26,7 @@ PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "mayo 2025"
+FECHA_FUENTE = "junio 2025"
 
 
 MESES = [
@@ -329,6 +329,7 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
 
     fig.update_yaxes(
         title="Víctimas mensuales",
+        tickformat=".2s",
         ticks="outside",
         separatethousands=True,
         ticklen=10,

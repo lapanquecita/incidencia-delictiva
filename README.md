@@ -42,11 +42,11 @@ Dependiendo del modo del script "top|bottom" se muestran las 10 entidades con ma
 
 Este script puede generar un mapa choropleth con la incidencia delictiva por municipio.
 
-![3](./imgs/municipal_2023.png)
+![3](./imgs/mapa_municipal_2024.png)
 
-También se puede usar para generar tablas con el top 30 de tasas de incidencia del delito especificado.
+Así mismo, se pueden generar tablas desglosando los 30 municipios con la mayor incidencia o tasa ajustada por población.
 
-![4](./imgs/tabla_tasa.png)
+![4](./imgs/tabla_tasa_2024.png)
 
 ## victimas.py
 
