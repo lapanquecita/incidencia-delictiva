@@ -26,13 +26,13 @@ DELITOS = [
 ]
 
 # Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2025-04-01"
+MES_ACTUAL = "2025-05-01"
 
 # El mes que se mostrará en el título.
-MES = "abril"
+MES = "mayo"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "mayo"
+MES_FUENTE = "junio"
 
 
 # Estas abreviaciones serán usadas para el eje horizontal.
@@ -125,34 +125,54 @@ def main():
             # Definimos la posición predeterminada para todas las etiquetas.
             text_pos = ["top center" for _ in range(len(temp_df))]
 
-            # Si el primer valor es mayor a 10,000, lo acortamos.
+            # Si el primer o último valor es mayor a 10,000, lo acortamos.
             if primer_valor >= 10000:
                 textos[0] = f"<b>{primer_valor / 1000:,.1f}k</b>"
             else:
                 textos[0] = f"<b>{primer_valor:,}</b>"
 
-            # Ajustamos la posición de la primera etiqueta.
-            if primer_valor >= segundo_valor:
-                text_pos[0] = "top center"
-            else:
-                text_pos[0] = "bottom center"
-
-            if primer_valor == valor_maximo or primer_valor == valor_minimo:
-                text_pos[0] = "middle right"
-
-            # Ajustamos la posición de la última etiqueta.
             if ultimo_valor >= 10000:
                 textos[-1] = f"<b>{ultimo_valor / 1000:,.1f}k</b>"
             else:
                 textos[-1] = f"<b>{ultimo_valor:,}</b>"
 
-            if ultimo_valor >= penultimo_valor:
-                text_pos[-1] = "top center"
-            else:
-                text_pos[-1] = "bottom center"
+            # Estos ratios nos ayudan a acomodar nuestras etiquetas con más precisión.
+            primer_valor_ratio = segundo_valor / primer_valor
+            ultimo_valor_ratio = penultimo_valor / ultimo_valor
 
-            if ultimo_valor == valor_maximo or ultimo_valor == valor_minimo:
-                text_pos[-1] = "middle left"
+            # Ajustamos la posición de la primera etiqueta.
+            if primer_valor == valor_maximo:
+                if primer_valor_ratio >= 0.95:
+                    text_pos[0] = "bottom center"
+                else:
+                    text_pos[0] = "middle right"
+            elif primer_valor == valor_minimo:
+                if primer_valor_ratio >= 0.95:
+                    text_pos[0] = "middle right"
+                else:
+                    text_pos[0] = "top right"
+            else:
+                if primer_valor_ratio >= 0.95:
+                    text_pos[0] = "bottom center"
+                else:
+                    text_pos[0] = "top center"
+
+            # Ajustamos la posición de la última etiqueta.
+            if ultimo_valor == valor_maximo:
+                if ultimo_valor_ratio >= 0.95:
+                    text_pos[-1] = "bottom center"
+                else:
+                    text_pos[-1] = "top left"
+            elif ultimo_valor == valor_minimo:
+                if ultimo_valor_ratio >= 0.95:
+                    text_pos[-1] = "top center"
+                else:
+                    text_pos[-1] = "middle left"
+            else:
+                if ultimo_valor_ratio >= 0.5:
+                    text_pos[-1] = "top center"
+                else:
+                    text_pos[-1] = "bottom center"
 
             # Definimos el color del sparkline.
             # Amarillo si hubo un aumento o azul si hubo una reducción.
@@ -263,12 +283,12 @@ def main():
         "bottom",
         "bottom",
         "bottom",
-        "bottom",
+        "top",
         "bottom",
         "bottom",
         "bottom",
         "top",
-        "bottom",
+        "top",
         "bottom",
         "bottom",
         "bottom",

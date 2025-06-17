@@ -198,6 +198,9 @@ def municipios_to_timeseries():
     # Convertimos el total a int.
     df["TOTAL"] = df["TOTAL"].astype(int)
 
+    # Quitamos valores en cero para reducir el tamaño del archivo.
+    df = df[df["TOTAL"] != 0]
+
     # Ordenamos el DataFrame.
     df.sort_values(list(df.columns), inplace=True)
 
