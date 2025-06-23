@@ -329,7 +329,7 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
 
     fig.update_yaxes(
         title="Víctimas mensuales",
-        tickformat=".2s",
+        tickformat="s",
         ticks="outside",
         separatethousands=True,
         ticklen=10,

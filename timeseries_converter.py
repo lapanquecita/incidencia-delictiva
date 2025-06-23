@@ -267,6 +267,9 @@ def robos_to_timeseries():
     # Convertimos los totales a int.
     final["TOTAL"] = final["TOTAL"].fillna(0).astype(int)
 
+    # Quitamos valores en cero para reducir el tamaño del archivo.
+    final = final[final["TOTAL"] != 0]
+
     # Ordenamos las columnas.
     final = final[["PERIODO", "CVE_ENT", "ENTIDAD", "DELITO", "MODALIDAD", "TOTAL"]]
 

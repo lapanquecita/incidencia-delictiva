@@ -1,34 +1,25 @@
-# Incidencia delictiva en México
 
-En este repositorio se encuentran los scripts y datasets para analizar las cifras de incidencia delictiva proporcionadas por el SESNSP.
+## Conjuntos de datos
 
-https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva
+El SESNSP publica tres bases de datos principales sobre incidencia delictiva:
 
-El SESNSP cuenta con 3 datasets de incidencia delictiva:
+* **Estatal:** Carpetas de investigación agregadas por entidad federativa.
+* **Municipal:** Igual que el dataset estatal, pero con mayor desagregación (nivel municipal).
+* **Víctimas:** Datos sobre el número de víctimas, con variables adicionales como sexo y grupo de edad. Esta base tiene un catálogo de delitos más reducido y cifras más altas, ya que se contabilizan víctimas y no carpetas.
 
-* Estatal
-* Municipal
-* Víctimas
+## Scripts incluidos
 
-En el estatal y municipal se cuentan las carpetas de investigación de cada delito. Las cifras son las mismas, siendo la única diferencia el nivel de detalle.
+A continuación se describe la función de cada uno de los scripts disponibles en este repositorio.
 
-En el caso del dataset de víctimas, este cuenta con un menor catálogo de delitos, las cifras son a nivel estatal, pero tiene más información, como el sexo y grupo de edad de la víctima. En este dataset se cuentan las víctimas y no las carpetas de investigación, por lo tanto, son cifras más altas.
+### `timeseries_converter.py`
 
-A continuación voy a documentar de forma breve la función de cada script.
+Convierte los datasets originales del SESNSP a un formato de series de tiempo. En su forma original, cada mes es una columna, lo que dificulta el análisis. Este script simplifica esa estructura para facilitar el filtrado y el trabajo con fechas.
 
-## timeseries_converter.py
+### `alto_impacto.py`
 
-Los datasets del SESNSP están en un formato algo complicado de usar ya que cada mes es una columna.
+Genera gráficas de línea que muestran la evolución mensual de 12 delitos de alto impacto a lo largo de un año. Se incluye una línea adicional con la tendencia para facilitar la interpretación de tendencias.
 
-Este script transforma los datasets en un formato de series de tiempo, lo cual hace mucho más fácil poder filtrar la información.
-
-## alto_inpacto.py
-
-Este script crea una serie de gráficas de linea para mostrar la evolución de 12 delitos a lo largo de un año.
-
-Cada delito cuenta con una linea adicional mostrando el promedio móvil.
-
-![1](./imgs/alto_impacto.png)
+![Gráfica de alto impacto](./imgs/alto_impacto.png)
 
 ## top10.py
 
@@ -77,10 +68,13 @@ Finalmente, tenemos una opción adicional de explorar los delitos por sexo.
 
 Esta gráfica de barras hace un desglose por proporción, facilitando la comparación por entidad.
 
+
+## Consideraciones adicionales
+
+* Las tasas de incidencia se calculan utilizando las estimaciones de población del CONAPO, disponibles en la carpeta `assets/`.
+* Estos scripts han sido utilizados para generar contenido en redes sociales, con buena recepción por parte del público.
+* Aunque los datos del SESNSP tienen ciertas limitaciones en cuanto a detalle, permiten generar análisis valiosos y visualizaciones útiles.
+
 ## Conclusión
 
-A pesar de que los datasets del SESNSP no contienen información muy detallada, aún se pueden obtener datos interesantes.
-
-Estos scripts los he utilizado para generar contenido en mis redes sociales y han tenido buena aceptación.
-
-Para calcular las tasas de incidencia utilicé las estimaciones de población del CONAPO, las cuales se encuentran en la carpeta `assets`.
+Este proyecto demuestra que, con un procesamiento adecuado, es posible obtener información relevante a partir de datos públicos sobre seguridad. La intención es facilitar el análisis, la visualización y la comprensión de la evolución delictiva en México.
