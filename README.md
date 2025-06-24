@@ -1,3 +1,6 @@
+# Incidencia Delictiva en México
+
+Este repositorio contiene scripts y conjuntos de datos para poder analizar las cifras y tendencias de incidencia delictiva en el país utilizando los datos abiertos del SESNSP: https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva
 
 ## Conjuntos de datos
 
