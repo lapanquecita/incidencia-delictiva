@@ -26,13 +26,13 @@ DELITOS = [
 ]
 
 # Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2025-05-01"
+MES_ACTUAL = "2025-06-01"
 
 # El mes que se mostrará en el título.
-MES = "mayo"
+MES = "junio"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "junio"
+MES_FUENTE = "julio"
 
 
 # Estas abreviaciones serán usadas para el eje horizontal.
@@ -138,7 +138,7 @@ def main():
 
             # Estos ratios nos ayudan a acomodar nuestras etiquetas con más precisión.
             primer_valor_ratio = segundo_valor / primer_valor
-            ultimo_valor_ratio = penultimo_valor / ultimo_valor
+            ultimo_valor_ratio = ultimo_valor / penultimo_valor
 
             # Ajustamos la posición de la primera etiqueta.
             if primer_valor == valor_maximo:
@@ -159,20 +159,20 @@ def main():
 
             # Ajustamos la posición de la última etiqueta.
             if ultimo_valor == valor_maximo:
-                if ultimo_valor_ratio >= 0.95:
-                    text_pos[-1] = "bottom center"
-                else:
-                    text_pos[-1] = "top left"
-            elif ultimo_valor == valor_minimo:
-                if ultimo_valor_ratio >= 0.95:
-                    text_pos[-1] = "top center"
-                else:
+                if ultimo_valor_ratio >= 0.6:
                     text_pos[-1] = "middle left"
-            else:
-                if ultimo_valor_ratio >= 0.5:
+                else:
+                    text_pos[-1] = "top center"
+            elif ultimo_valor == valor_minimo:
+                if ultimo_valor_ratio >= 0.6:
                     text_pos[-1] = "top center"
                 else:
                     text_pos[-1] = "bottom center"
+            else:
+                if ultimo_valor_ratio >= 0.6:
+                    text_pos[-1] = "bottom center"
+                else:
+                    text_pos[-1] = "top center"
 
             # Definimos el color del sparkline.
             # Amarillo si hubo un aumento o azul si hubo una reducción.
@@ -291,7 +291,7 @@ def main():
         "top",
         "bottom",
         "bottom",
-        "bottom",
+        "top",
     ]
 
     # Lo que haremos se puede considerar como un hack.
