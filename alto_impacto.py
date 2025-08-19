@@ -26,13 +26,13 @@ DELITOS = [
 ]
 
 # Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2025-06-01"
+MES_ACTUAL = "2025-07-01"
 
 # El mes que se mostrará en el título.
-MES = "junio"
+MES = "julio"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "julio"
+MES_FUENTE = "agosto"
 
 
 # Estas abreviaciones serán usadas para el eje horizontal.
@@ -71,6 +71,9 @@ def main():
 
     # Preparamos el título para cada gráfica.
     subtitulos = [f"<b>{item}</b>" for item in DELITOS]
+
+    # Esta lista representa la posición de las anotaciones dentro de cada gráfica.
+    posiciones = list()
 
     # Vamos a necesitar una cuadrícula de 3 columnas por 4 filas.
     fig = make_subplots(
@@ -119,6 +122,13 @@ def main():
             valor_maximo = temp_df["TOTAL"].max()
             valor_minimo = temp_df["TOTAL"].min()
 
+            punto_medio = (valor_maximo + valor_minimo) / 2
+
+            if primer_valor >= punto_medio:
+                posiciones.append("bottom")
+            else:
+                posiciones.append("top")
+
             # Definimos el texto predeterminado para todas las etiquetas.
             textos = ["" for _ in range(len(temp_df))]
 
@@ -137,25 +147,26 @@ def main():
                 textos[-1] = f"<b>{ultimo_valor:,}</b>"
 
             # Estos ratios nos ayudan a acomodar nuestras etiquetas con más precisión.
-            primer_valor_ratio = segundo_valor / primer_valor
+            primer_valor_ratio = primer_valor / segundo_valor
+
             ultimo_valor_ratio = ultimo_valor / penultimo_valor
 
             # Ajustamos la posición de la primera etiqueta.
             if primer_valor == valor_maximo:
-                if primer_valor_ratio >= 0.95:
-                    text_pos[0] = "bottom center"
-                else:
+                if primer_valor_ratio >= 1.0:
                     text_pos[0] = "middle right"
+                else:
+                    text_pos[0] = "bottom center"
             elif primer_valor == valor_minimo:
                 if primer_valor_ratio >= 0.95:
                     text_pos[0] = "middle right"
                 else:
                     text_pos[0] = "top right"
             else:
-                if primer_valor_ratio >= 0.95:
-                    text_pos[0] = "bottom center"
-                else:
+                if primer_valor_ratio >= 1.0:
                     text_pos[0] = "top center"
+                else:
+                    text_pos[0] = "bottom center"
 
             # Ajustamos la posición de la última etiqueta.
             if ultimo_valor == valor_maximo:
@@ -169,10 +180,10 @@ def main():
                 else:
                     text_pos[-1] = "bottom center"
             else:
-                if ultimo_valor_ratio >= 0.6:
-                    text_pos[-1] = "bottom center"
-                else:
+                if ultimo_valor_ratio >= 1.0:
                     text_pos[-1] = "top center"
+                else:
+                    text_pos[-1] = "bottom center"
 
             # Definimos el color del sparkline.
             # Amarillo si hubo un aumento o azul si hubo una reducción.
@@ -277,22 +288,6 @@ def main():
     # Estas listas guardaran las coordenadas X y Y de nuestras anotaciones.
     anotaciones_x = list()
     anotaciones_y = list()
-
-    # Esta lista representa la posición de las anotaciones dentro de cada gráfica.
-    posiciones = [
-        "bottom",
-        "bottom",
-        "bottom",
-        "top",
-        "bottom",
-        "bottom",
-        "bottom",
-        "top",
-        "top",
-        "bottom",
-        "bottom",
-        "top",
-    ]
 
     # Lo que haremos se puede considerar como un hack.
     # Cuando se agregan títulos a las gráficas, estos se consideran como anotaciones.

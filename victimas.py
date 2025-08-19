@@ -26,7 +26,7 @@ PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "julio 2025"
+FECHA_FUENTE = "agosto 2025"
 
 
 MESES = [
@@ -401,7 +401,7 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
     fig.write_image(f"./tendencia_mensual_{entidad_id}.png")
 
 
-def comparacion_entidad(primer_año, segundo_año, delito):
+def comparacion_interanual(primer_año, segundo_año, delito):
     """
     Crea una gráfica de barras donde se comparan
     los totales de dos años.
@@ -448,7 +448,9 @@ def comparacion_entidad(primer_año, segundo_año, delito):
 
     # Preparamos el texto para cada observación.
     df["texto"] = df.apply(
-        lambda x: f" {x['cambio']:,.1f}% ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) ",
+        lambda x: f" <b>{x['cambio']:,.0f}%</b> ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) "
+        if abs(x["cambio"]) >= 100
+        else f" <b>{x['cambio']:,.1f}%</b> ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) ",
         axis=1,
     )
 
@@ -730,7 +732,7 @@ def crear_mapa(año, delito):
                 y=1.025,
                 xanchor="center",
                 yanchor="top",
-                text=f"Incidencia de víctimas de <b>{delito.lower()}</b> en México durante el {año}",
+                text=f"Incidencia de víctimas de <b>{delito.lower()}</b> en México durante {año}",
                 font_size=42,
             ),
             dict(
@@ -1028,7 +1030,7 @@ def comparacion_sexo(año, delito):
         font_family="Inter",
         font_color="#FFFFFF",
         font_size=24,
-        title_text=f"Víctimas de <b>{delito.lower()}</b> en México durante el {año} según sexo y entidad de registro",
+        title_text=f"Víctimas de <b>{delito.lower()}</b> en México durante {año} según sexo y entidad de registro",
         title_x=0.5,
         title_y=0.98,
         margin_t=140,
@@ -1076,5 +1078,5 @@ if __name__ == "__main__":
     tendencia_anual("Extorsión", 0)
     tendencia_mensual("Extorsión", 0)
     crear_mapa(2024, "Extorsión")
-    comparacion_entidad(2023, 2024, "Extorsión")
+    comparacion_interanual(2023, 2024, "Extorsión")
     comparacion_sexo(2024, "Extorsión")

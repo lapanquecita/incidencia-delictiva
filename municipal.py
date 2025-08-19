@@ -22,7 +22,7 @@ PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "junio 2025"
+FECHA_FUENTE = "agosto 2025"
 
 
 def crear_mapa(año, delito):
@@ -355,7 +355,7 @@ def tasa_municipios(año, delito):
         title_x=0.5,
         title_y=0.95,
         title_font_size=40,
-        title_text=f"Los 30 municipios de México con la mayor<br><b>tasa bruta</b> de <b>{delito.lower()}</b> durante el {año}",
+        title_text=f"Los 30 municipios de México con la mayor<br><b>tasa bruta</b> de <b>{delito.lower()}</b> durante {año}",
         paper_bgcolor=PAPER_COLOR,
         annotations=[
             dict(
@@ -483,7 +483,7 @@ def absolutos_municipios(año, delito):
         title_x=0.5,
         title_y=0.95,
         title_font_size=40,
-        title_text=f"Los 30 municipios de México con la mayor<br><b>incidencia</b> de <b>{delito.lower()}</b> durante el {año}",
+        title_text=f"Los 30 municipios de México con la mayor<br><b>incidencia</b> de <b>{delito.lower()}</b> durante {año}",
         paper_bgcolor=PAPER_COLOR,
         annotations=[
             dict(
