@@ -26,13 +26,13 @@ DELITOS = [
 ]
 
 # Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2025-07-01"
+MES_ACTUAL = "2025-09-01"
 
 # El mes que se mostrará en el título.
-MES = "julio"
+MES = "septiembre"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "agosto"
+MES_FUENTE = "octubre"
 
 
 # Estas abreviaciones serán usadas para el eje horizontal.
@@ -147,40 +147,39 @@ def main():
                 textos[-1] = f"<b>{ultimo_valor:,}</b>"
 
             # Estos ratios nos ayudan a acomodar nuestras etiquetas con más precisión.
-            primer_valor_ratio = primer_valor / segundo_valor
-
-            ultimo_valor_ratio = ultimo_valor / penultimo_valor
+            primer_valor_ratio = segundo_valor / primer_valor
+            ultimo_valor_ratio = penultimo_valor / ultimo_valor
 
             # Ajustamos la posición de la primera etiqueta.
             if primer_valor == valor_maximo:
-                if primer_valor_ratio >= 1.0:
-                    text_pos[0] = "middle right"
-                else:
+                if primer_valor_ratio >= 0.9:
                     text_pos[0] = "bottom center"
+                else:
+                    text_pos[0] = "middle right"
             elif primer_valor == valor_minimo:
                 if primer_valor_ratio >= 0.95:
                     text_pos[0] = "middle right"
                 else:
                     text_pos[0] = "top right"
             else:
-                if primer_valor_ratio >= 1.0:
+                if primer_valor_ratio <= 1.0:
                     text_pos[0] = "top center"
                 else:
                     text_pos[0] = "bottom center"
 
             # Ajustamos la posición de la última etiqueta.
             if ultimo_valor == valor_maximo:
-                if ultimo_valor_ratio >= 0.6:
+                if ultimo_valor_ratio <= 1.0:
                     text_pos[-1] = "middle left"
                 else:
                     text_pos[-1] = "top center"
             elif ultimo_valor == valor_minimo:
-                if ultimo_valor_ratio >= 0.6:
+                if ultimo_valor_ratio <= 1.02:
                     text_pos[-1] = "top center"
                 else:
-                    text_pos[-1] = "bottom center"
+                    text_pos[-1] = "middle left"
             else:
-                if ultimo_valor_ratio >= 1.0:
+                if ultimo_valor_ratio <= 1.0:
                     text_pos[-1] = "top center"
                 else:
                     text_pos[-1] = "bottom center"

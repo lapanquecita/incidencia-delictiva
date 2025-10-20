@@ -26,7 +26,7 @@ PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "agosto 2025"
+FECHA_FUENTE = "octubre 2025"
 
 
 MESES = [
