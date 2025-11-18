@@ -26,13 +26,13 @@ DELITOS = [
 ]
 
 # Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2025-09-01"
+MES_ACTUAL = "2025-10-01"
 
 # El mes que se mostrará en el título.
-MES = "septiembre"
+MES = "octubre"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "octubre"
+MES_FUENTE = "noviembre"
 
 
 # Estas abreviaciones serán usadas para el eje horizontal.
@@ -152,7 +152,7 @@ def main():
 
             # Ajustamos la posición de la primera etiqueta.
             if primer_valor == valor_maximo:
-                if primer_valor_ratio >= 0.9:
+                if primer_valor_ratio <= 0.85:
                     text_pos[0] = "bottom center"
                 else:
                     text_pos[0] = "middle right"

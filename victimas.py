@@ -26,7 +26,7 @@ PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "octubre 2025"
+FECHA_FUENTE = "noviembre 2025"
 
 
 MESES = [
@@ -207,7 +207,7 @@ def tendencia_anual(delito, entidad_id, xanchor="left"):
         font_size=24,
         title_text=f"Evolución de la tasa de <b>{delito.lower()}</b> en <b>{ENTIDADES[entidad_id]}</b> ({df.index.min()}-{df.index.max()})",
         title_x=0.5,
-        title_y=0.97,
+        title_y=0.965,
         margin_t=80,
         margin_r=40,
         margin_b=120,
@@ -358,7 +358,7 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
         font_size=24,
         title_text=f"Evolución de la incidencia mensual de <b>{delito.lower()}</b> en <b>{ENTIDADES[entidad_id]}</b> ({df.index.year.min()}-{df.index.year.max()})",
         title_x=0.5,
-        title_y=0.97,
+        title_y=0.965,
         margin_t=80,
         margin_r=40,
         margin_b=160,
