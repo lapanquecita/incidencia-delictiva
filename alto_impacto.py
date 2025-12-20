@@ -26,13 +26,13 @@ DELITOS = [
 ]
 
 # Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2025-10-01"
+MES_ACTUAL = "2025-11-01"
 
 # El mes que se mostrará en el título.
-MES = "octubre"
+MES = "noviembre"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "noviembre"
+MES_FUENTE = "diciembre"
 
 
 # Estas abreviaciones serán usadas para el eje horizontal.
@@ -152,15 +152,15 @@ def main():
 
             # Ajustamos la posición de la primera etiqueta.
             if primer_valor == valor_maximo:
-                if primer_valor_ratio <= 0.85:
+                if primer_valor_ratio <= 0.70:
                     text_pos[0] = "bottom center"
                 else:
                     text_pos[0] = "middle right"
             elif primer_valor == valor_minimo:
-                if primer_valor_ratio >= 0.95:
+                if primer_valor_ratio <= 0.95:
                     text_pos[0] = "middle right"
                 else:
-                    text_pos[0] = "top right"
+                    text_pos[0] = "top center"
             else:
                 if primer_valor_ratio <= 1.0:
                     text_pos[0] = "top center"
@@ -239,6 +239,7 @@ def main():
             index += 1
 
     fig.update_xaxes(
+        tickfont_size=17,
         ticks="outside",
         ticklen=10,
         zeroline=False,
@@ -266,7 +267,7 @@ def main():
     )
 
     fig.update_layout(
-        font_family="Lato",
+        font_family="Inter",
         showlegend=False,
         width=2000,
         height=2000,
