@@ -57,7 +57,7 @@ Así mismo, se puede conocer la tendencia mensual por entidad y tipo de delito.
 
 La siguiente gráfica de barras es particulamernte efectiva para conocer cambios relativos para cada entidad.
 
-![7](./imgs/comparacion_entidad_2023_2024.png)
+![7](./imgs/comparacion_entidad_2024_2025.png)
 
 El siguiente mapa y tabla son de especial utilidad para mostrar un panorama completo.
 

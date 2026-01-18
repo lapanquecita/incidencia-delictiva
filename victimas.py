@@ -26,7 +26,7 @@ PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "noviembre 2025"
+FECHA_FUENTE = "enero 2026"
 
 
 MESES = [
@@ -1078,5 +1078,5 @@ if __name__ == "__main__":
     tendencia_anual("Extorsión", 0)
     tendencia_mensual("Extorsión", 0)
     crear_mapa(2024, "Extorsión")
-    comparacion_interanual(2023, 2024, "Extorsión")
-    comparacion_sexo(2024, "Extorsión")
+    comparacion_interanual(2024, 2025, "Extorsión")
+    comparacion_sexo(2025, "Extorsión")

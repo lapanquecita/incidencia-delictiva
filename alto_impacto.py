@@ -26,13 +26,13 @@ DELITOS = [
 ]
 
 # Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2025-11-01"
+MES_ACTUAL = "2025-12-01"
 
 # El mes que se mostrará en el título.
-MES = "noviembre"
+MES = "diciembre"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "diciembre"
+MES_FUENTE = "enero"
 
 
 # Estas abreviaciones serán usadas para el eje horizontal.
@@ -339,7 +339,7 @@ def main():
         y=-0.095,
         yanchor="bottom",
         yref="paper",
-        text=f"Fuente: SESNSP ({MES_FUENTE} 2025)",
+        text=f"Fuente: SESNSP ({MES_FUENTE} 2026)",
         font_size=24,
     )
 
