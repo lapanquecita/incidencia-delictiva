@@ -1077,6 +1077,6 @@ def comparacion_sexo(año, delito):
 if __name__ == "__main__":
     tendencia_anual("Extorsión", 0)
     tendencia_mensual("Extorsión", 0)
-    crear_mapa(2024, "Extorsión")
+    crear_mapa(2025, "Extorsión")
     comparacion_interanual(2024, 2025, "Extorsión")
     comparacion_sexo(2025, "Extorsión")

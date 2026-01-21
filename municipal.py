@@ -22,7 +22,7 @@ PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "agosto 2025"
+FECHA_FUENTE = "enero 2026"
 
 
 def crear_mapa(año, delito):
@@ -199,7 +199,7 @@ def crear_mapa(año, delito):
                 y=0.985,
                 xanchor="center",
                 yanchor="top",
-                text=f"Tasas de incidencia de <b>{delito.lower()}</b> en México por municipio de ocurrencia ({año})",
+                text=f"Tasas de incidencia de <b>{delito.lower()}</b> en México por municipio de ocurrencia durante {año}",
                 font_size=140,
             ),
             dict(
@@ -514,6 +514,6 @@ def absolutos_municipios(año, delito):
 
 
 if __name__ == "__main__":
-    crear_mapa(2024, "Extorsión")
-    tasa_municipios(2024, "Extorsión")
-    absolutos_municipios(2024, "Extorsión")
+    crear_mapa(2025, "Extorsión")
+    tasa_municipios(2025, "Extorsión")
+    absolutos_municipios(2025, "Extorsión")

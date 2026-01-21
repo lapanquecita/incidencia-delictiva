@@ -11,7 +11,7 @@ from textwrap import wrap
 
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "julio 2025"
+FECHA_FUENTE = "enero 2026"
 
 ENTIDADES = {
     1: "Aguascalientes",
@@ -297,7 +297,7 @@ def main(tipo, año):
         font_family="Inter",
         font_color="#FFFFFF",
         font_size=26,
-        title_text=f"Las 10 entidades de México con <b>{titulo}</b> incidencia delictiva durante enero-junio de {año}<br>(un registro puede tener más de una víctima)",
+        title_text=f"Las 10 entidades de México con <b>{titulo}</b> incidencia delictiva durante {año}<br>(un registro puede tener más de una víctima)",
         title_x=0.5,
         title_y=0.975,
         margin_t=140,
