@@ -22,7 +22,7 @@ PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "enero 2026"
+FECHA_FUENTE = "febrero 2026"
 
 
 def crear_mapa(año, delito):
@@ -53,7 +53,7 @@ def crear_mapa(año, delito):
     df = df[df["AÑO"] == año]
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"] == delito]
+    df = df[df["DELITO"].str.contains(delito, case=False)]
 
     # Agrupamos por municipio.
     df = df.groupby("CVE_MUN").sum(numeric_only=True)
@@ -285,7 +285,7 @@ def tasa_municipios(año, delito):
     df = df[df["AÑO"] == año]
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"] == delito]
+    df = df[df["DELITO"].str.contains(delito, case=False)]
 
     # Agrupamos por el identificador del municipio.
     df = df.groupby("CVE_MUN").sum(numeric_only=True)
@@ -416,7 +416,7 @@ def absolutos_municipios(año, delito):
     df = df[df["AÑO"] == año]
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"] == delito]
+    df = df[df["DELITO"].str.contains(delito, case=False)]
 
     # Agrupamos por el identificador del municipio.
     df = df.groupby("CVE_MUN").sum(numeric_only=True)

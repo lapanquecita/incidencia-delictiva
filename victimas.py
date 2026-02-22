@@ -26,7 +26,7 @@ PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "enero 2026"
+FECHA_FUENTE = "febrero 2026"
 
 
 MESES = [
@@ -129,7 +129,7 @@ def tendencia_anual(delito, entidad_id, xanchor="left"):
         df = df[df["ENTIDAD"] == ENTIDADES[entidad_id]]
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"] == delito]
+    df = df[df["DELITO"].str.contains(delito, case=False)]
 
     # Calculamos el total de víctimas por año.
     df = df.resample("YS").sum(numeric_only=True)
@@ -279,7 +279,7 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
         df = df[df["ENTIDAD"] == ENTIDADES[entidad_id]]
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"] == delito]
+    df = df[df["DELITO"].str.contains(delito, case=False)]
 
     # Calculamos el total de víctimas por mes.
     df = df.resample("MS").sum(numeric_only=True)
@@ -423,7 +423,7 @@ def comparacion_interanual(primer_año, segundo_año, delito):
     df = pd.read_csv("./data/timeseries_victimas.csv", parse_dates=["PERIODO"])
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"] == delito]
+    df = df[df["DELITO"].str.contains(delito, case=False)]
 
     # Transformamos el DataFrame para tener los conteos por entidad y por año.
     df = df.pivot_table(
@@ -596,7 +596,7 @@ def crear_mapa(año, delito):
     df = pd.read_csv("./data/timeseries_victimas.csv", parse_dates=["PERIODO"])
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"] == delito]
+    df = df[df["DELITO"].str.contains(delito, case=False)]
 
     # Seleccionamos los registros del año especificado.
     df = df[df["PERIODO"].dt.year == año]
@@ -922,7 +922,7 @@ def comparacion_sexo(año, delito):
     df = pd.read_csv("./data/timeseries_victimas.csv", parse_dates=["PERIODO"])
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"] == delito]
+    df = df[df["DELITO"].str.contains(delito, case=False)]
 
     # Seleccionamos los registros del año de nuestro interés.
     df = df[df["PERIODO"].dt.year == año]

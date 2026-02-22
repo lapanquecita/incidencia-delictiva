@@ -10,29 +10,51 @@ from statsmodels.tsa.seasonal import STL
 
 
 # Estos son los delitos que nos interesan.
-DELITOS = [
-    "Homicidio doloso",
-    "Feminicidio",
-    "Secuestro",
-    "Extorsión",
-    "Lesiones dolosas",
-    "Abuso sexual",
-    "Violencia familiar",
-    "Narcomenudeo",
-    "Robo a negocio",
-    "Robo a casa habitación",
-    "Robo de vehículo automotor",
-    "Robo en transporte público colectivo",
-]
+# A partir de la nueva metodología (2026)
+# algunos subtipos de delitos fueron desagregados
+# y por lo tanto se debe especificar la nueva modalidad.
+DELITOS = {
+    "Homicidio doloso": ["Homicidio doloso"],
+    "Feminicidio": ["Feminicidio"],
+    "Secuestro": [
+        "Secuestro",
+        "Secuestro extorsivo",
+        "Secuestro con calidad de rehén",
+        "Secuestro para causar daño",
+        "Secuestro exprés",
+    ],
+    "Extorsión": [
+        "Extorsión",
+        "Extorsión presencial",
+        "Extorsión por otros medios",
+    ],
+    "Lesiones dolosas": ["Lesiones dolosas"],
+    "Abuso sexual": ["Abuso sexual"],
+    "Violencia familiar": ["Violencia familiar"],
+    "Narcomenudeo": [
+        "Narcomenudeo",
+        "Narcomenudeo posesión simple",
+        "Narcomenudeo con fines de venta",
+    ],
+    "Robo a negocio": ["Robo a negocio"],
+    "Robo a casa habitación": ["Robo a casa habitación"],
+    "Robo de vehículo automotor": [
+        "Robo de vehículo automotor",
+        "Robo de vehículo automotor - Coche de 4 ruedas",
+        "Robo de vehículo automotor - Motocicleta",
+        "Robo de vehículo automotor - Embarcaciones",
+    ],
+    "Robo en transporte público colectivo": ["Robo en transporte público colectivo"],
+}
 
-# Esta constante es usada para definir el último mes.
-MES_ACTUAL = "2025-12-01"
+# Esta constante es usada para definir que mes será comparado.
+MES_REFERENCIA = "2026-01-01"
 
 # El mes que se mostrará en el título.
-MES = "diciembre"
+MES = "enero"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "enero"
+MES_FUENTE = "febrero"
 
 
 # Estas abreviaciones serán usadas para el eje horizontal.
@@ -64,13 +86,16 @@ def main():
     )
 
     # Filtramos el DataFrame hasta el mes actual.
-    df = df[df.index <= MES_ACTUAL]
+    df = df[df.index <= MES_REFERENCIA]
 
     totales = list()
     colores = list()
 
     # Preparamos el título para cada gráfica.
-    subtitulos = [f"<b>{item}</b>" for item in DELITOS]
+    subtitulos = [f"<b>{item}</b>" for item in DELITOS.keys()]
+
+    # Estos serán los grupos de subdelitos que se analizarán.
+    subtipos_delito = [item for item in DELITOS.values()]
 
     # Esta lista representa la posición de las anotaciones dentro de cada gráfica.
     posiciones = list()
@@ -92,7 +117,9 @@ def main():
         for columna in range(3):
             # Filtramos el dataset con el delito seleccionado y agruapoms por mes.
             temp_df = (
-                df[df["DELITO"] == DELITOS[index]].resample("MS").sum(numeric_only=True)
+                df[df["DELITO"].isin(subtipos_delito[index])]
+                .resample("MS")
+                .sum(numeric_only=True)
             )
 
             # Escogemos los últimos 13 meses del delito seleccionado.
@@ -277,7 +304,7 @@ def main():
         margin_l=110,
         margin_r=40,
         margin_b=150,
-        title_text=f"Reporte de incidencia delictiva en México correspondiente al mes de {MES} del año 2025",
+        title_text=f"Reporte de incidencia delictiva en México correspondiente al mes de {MES} del año {MES_REFERENCIA[:4]}",
         title_x=0.5,
         title_y=0.98,
         title_font_size=40,

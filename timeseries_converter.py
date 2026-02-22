@@ -37,8 +37,10 @@ def victimas_to_timeseries():
     # Iniciamos la lista que almacenará los DataFrames por cada mes.
     dfs = []
 
-    # Cargamos el dataset con codificación latin-1.
-    df = pd.read_csv("./data/victimas.csv", encoding="latin-1", thousands=",")
+    # Cargamos los datasets de la antigua (2015-2025) y nueva (2026) metodología.
+    df1 = pd.read_csv("./data/victimas.csv", encoding="latin-1", thousands=",")
+    df2 = pd.read_csv("./data/victimas_n.csv", encoding="latin-1", thousands=",")
+    df = pd.concat([df1, df2])
 
     # Iteramos por cada mes.
     for k, v in MESES.items():
@@ -115,8 +117,10 @@ def estatal_to_timeseries():
     # Iniciamos la lista que almacenará los DataFrames por cada mes.
     dfs = []
 
-    # Cargamos el dataset con codificación latin-1.
-    df = pd.read_csv("./data/estatal.csv", encoding="latin-1", thousands=",")
+    # Cargamos los datasets de la antigua (2015-2025) y nueva (2026) metodología.
+    df1 = pd.read_csv("./data/estatal.csv", encoding="latin-1", thousands=",")
+    df2 = pd.read_csv("./data/estatal_n.csv", encoding="latin-1", thousands=",")
+    df = pd.concat([df1, df2])
 
     # Iteramos por cada mes.
     for k, v in MESES.items():
@@ -175,8 +179,10 @@ def municipios_to_timeseries():
     tener su propia función.
     """
 
-    # Cargamos el dataset de municipios con codificación latin-1.
-    df = pd.read_csv("./data/municipal.csv", encoding="latin-1", thousands=",")
+    # Cargamos los datasets de la antigua (2015-2025) y nueva (2026) metodología.
+    df1 = pd.read_csv("./data/municipal.csv", encoding="latin-1", thousands=",")
+    df2 = pd.read_csv("./data/municipal_n.csv", encoding="latin-1", thousands=",")
+    df = pd.concat([df1, df2])
 
     # Arreglamos la clave del municipio.
     df["Cve. Municipio"] = df["Cve. Municipio"].astype(str).str.zfill(5)
@@ -224,8 +230,10 @@ def robos_to_timeseries():
     # Iniciamos la lista que almacenará los DataFrames por cada mes.
     dfs = []
 
-    # Cargamos el dataset con codificación latin-1.
-    df = pd.read_csv("./data/estatal.csv", encoding="latin-1", thousands=",")
+    # Cargamos los datasets de la antigua (2015-2025) y nueva (2026) metodología.
+    df1 = pd.read_csv("./data/estatal.csv", encoding="latin-1", thousands=",")
+    df2 = pd.read_csv("./data/estatal_n.csv", encoding="latin-1", thousands=",")
+    df = pd.concat([df1, df2])
 
     # Seleccionamos solo los delitos clasificados como robo.
     df = df[df["Tipo de delito"] == "Robo"]
@@ -275,6 +283,19 @@ def robos_to_timeseries():
 
     # Ordenamos las columnas.
     final = final[["PERIODO", "CVE_ENT", "ENTIDAD", "DELITO", "MODALIDAD", "TOTAL"]]
+
+    # La nueva metodología (2026) ha cambiado algunos nombres.
+    # Los renombraremos para que ambas metodlogías coincidan.
+    final["DELITO"] = final["DELITO"].replace(
+        {
+            "Robo de vehículo automotor - Coche de 4 ruedas": "Robo de coche de 4 ruedas",
+            "Robo de vehículo automotor - Motocicleta": "Robo de motocicleta",
+            "Robo de vehículo automotor - Embarcaciones": "Robo de embarcaciones pequeñas y grandes",
+            "Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos": "Robo de cables, tubos y otros objetos destinados a servicios públicos",
+            "Robo de maquinaria - Herramienta industrial o agrícola": "Robo de herramienta industrial o agrícola",
+            "Robo de maquinaria - Tractores y/o montacargas": "Robo de tractores",
+        }
+    )
 
     # Arreglamos los delitos con submodalidad.
     final["DELITO"] = final.apply(
