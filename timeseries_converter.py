@@ -224,15 +224,15 @@ def municipios_to_timeseries():
 
 def robos_to_timeseries():
     """
-    Genera series de tiempo para cada tipo de robo por entidad.
+    Genera series de tiempo para cada tipo de robo por entidad y municipio.
     """
 
     # Iniciamos la lista que almacenará los DataFrames por cada mes.
     dfs = []
 
     # Cargamos los datasets de la antigua (2015-2025) y nueva (2026) metodología.
-    df1 = pd.read_csv("./data/estatal.csv", encoding="latin-1", thousands=",")
-    df2 = pd.read_csv("./data/estatal_n.csv", encoding="latin-1", thousands=",")
+    df1 = pd.read_csv("./data/municipal.csv", encoding="latin-1", thousands=",")
+    df2 = pd.read_csv("./data/municipal_n.csv", encoding="latin-1", thousands=",")
     df = pd.concat([df1, df2])
 
     # Seleccionamos solo los delitos clasificados como robo.
@@ -243,8 +243,9 @@ def robos_to_timeseries():
         temp_df = df[
             [
                 "Año",
-                "Clave_Ent",
                 "Entidad",
+                "Cve. Municipio",
+                "Municipio",
                 "Subtipo de delito",
                 "Modalidad",
                 k,
@@ -266,7 +267,7 @@ def robos_to_timeseries():
     # Renombramos algunas columnas.
     final.rename(
         columns={
-            "Clave_Ent": "Cve_ent",
+            "Cve. Municipio": "Cve_geo",
             "Subtipo de delito": "delito",
         },
         inplace=True,
@@ -282,7 +283,17 @@ def robos_to_timeseries():
     final = final[final["TOTAL"] != 0]
 
     # Ordenamos las columnas.
-    final = final[["PERIODO", "CVE_ENT", "ENTIDAD", "DELITO", "MODALIDAD", "TOTAL"]]
+    final = final[
+        [
+            "PERIODO",
+            "CVE_GEO",
+            "ENTIDAD",
+            "MUNICIPIO",
+            "DELITO",
+            "MODALIDAD",
+            "TOTAL",
+        ]
+    ]
 
     # La nueva metodología (2026) ha cambiado algunos nombres.
     # Los renombraremos para que ambas metodlogías coincidan.
@@ -306,6 +317,9 @@ def robos_to_timeseries():
     final["MODALIDAD"] = final["MODALIDAD"].apply(
         lambda x: x[-13:] if len(x) > 13 else x
     )
+
+    # Convertimos al identificador del municipio a string con 5 caracteres.
+    final["CVE_GEO"] = final["CVE_GEO"].astype(str).str.zfill(5)
 
     # Ordenamos el DataFrame.
     final.sort_values(list(final.columns), inplace=True)

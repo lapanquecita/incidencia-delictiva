@@ -26,7 +26,7 @@ PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "febrero 2026"
+FECHA_FUENTE = "marzo 2026"
 
 
 MESES = [
@@ -129,7 +129,7 @@ def tendencia_anual(delito, entidad_id, xanchor="left"):
         df = df[df["ENTIDAD"] == ENTIDADES[entidad_id]]
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"].str.contains(delito, case=False)]
+    df = df[df["DELITO"].str.startswith(delito)]
 
     # Calculamos el total de víctimas por año.
     df = df.resample("YS").sum(numeric_only=True)
@@ -279,7 +279,7 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
         df = df[df["ENTIDAD"] == ENTIDADES[entidad_id]]
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"].str.contains(delito, case=False)]
+    df = df[df["DELITO"].str.startswith(delito)]
 
     # Calculamos el total de víctimas por mes.
     df = df.resample("MS").sum(numeric_only=True)
@@ -423,7 +423,7 @@ def comparacion_interanual(primer_año, segundo_año, delito):
     df = pd.read_csv("./data/timeseries_victimas.csv", parse_dates=["PERIODO"])
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"].str.contains(delito, case=False)]
+    df = df[df["DELITO"].str.startswith(delito)]
 
     # Transformamos el DataFrame para tener los conteos por entidad y por año.
     df = df.pivot_table(
@@ -448,9 +448,11 @@ def comparacion_interanual(primer_año, segundo_año, delito):
 
     # Preparamos el texto para cada observación.
     df["texto"] = df.apply(
-        lambda x: f" <b>{x['cambio']:,.0f}%</b> ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) "
-        if abs(x["cambio"]) >= 100
-        else f" <b>{x['cambio']:,.1f}%</b> ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) ",
+        lambda x: (
+            f" <b>{x['cambio']:,.0f}%</b> ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) "
+            if abs(x["cambio"]) >= 100
+            else f" <b>{x['cambio']:,.1f}%</b> ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) "
+        ),
         axis=1,
     )
 
@@ -596,7 +598,7 @@ def crear_mapa(año, delito):
     df = pd.read_csv("./data/timeseries_victimas.csv", parse_dates=["PERIODO"])
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"].str.contains(delito, case=False)]
+    df = df[df["DELITO"].str.startswith(delito)]
 
     # Seleccionamos los registros del año especificado.
     df = df[df["PERIODO"].dt.year == año]
@@ -922,7 +924,7 @@ def comparacion_sexo(año, delito):
     df = pd.read_csv("./data/timeseries_victimas.csv", parse_dates=["PERIODO"])
 
     # Filtramos por el delito que nos interesa.
-    df = df[df["DELITO"].str.contains(delito, case=False)]
+    df = df[df["DELITO"].str.startswith(delito)]
 
     # Seleccionamos los registros del año de nuestro interés.
     df = df[df["PERIODO"].dt.year == año]
