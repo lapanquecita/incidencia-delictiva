@@ -54544,7 +54544,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2022,14,Jalisco,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,Mujer,Menores de edad (0-17),4,5,9,8,6,3,3,7,3,8,14,3
 2022,14,Jalisco,La sociedad,Trata de personas,Trata de personas,Trata de personas,Mujer,Menores de edad (0-17),0,0,0,0,0,0,0,1,0,0,1,0
 2022,14,Jalisco,La sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Mujer,Menores de edad (0-17),0,0,0,0,0,0,0,0,0,0,0,0
-2022,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,Adultos (18 y más),10,8,2,0,10,12,12,8,7,2,6,4
+2022,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,Adultos (18 y más),9,8,2,0,10,12,12,8,7,2,6,4
 2022,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,Adultos (18 y más),0,1,0,9,0,2,0,3,1,2,5,1
 2022,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Mujer,Adultos (18 y más),1,2,1,2,1,1,1,3,2,2,3,2
 2022,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Mujer,Adultos (18 y más),2,3,1,2,0,0,0,0,1,2,2,1
@@ -54562,7 +54562,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2022,14,Jalisco,La vida y la Integridad corporal,Lesiones,Lesiones culposas,En accidente de tránsito,Mujer,Adultos (18 y más),64,60,82,68,65,57,56,60,67,58,71,94
 2022,14,Jalisco,La vida y la Integridad corporal,Lesiones,Lesiones culposas,Con otro elemento,Mujer,Adultos (18 y más),2,6,3,4,2,2,3,8,4,3,3,5
 2022,14,Jalisco,La vida y la Integridad corporal,Lesiones,Lesiones culposas,No especificado,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
-2022,14,Jalisco,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,Mujer,Adultos (18 y más),0,0,2,0,0,1,0,2,1,1,0,2
+2022,14,Jalisco,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,Mujer,Adultos (18 y más),1,0,2,0,0,1,0,2,1,1,0,2
 2022,14,Jalisco,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma blanca,Mujer,Adultos (18 y más),1,1,0,1,0,1,0,0,1,3,0,1
 2022,14,Jalisco,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con otro elemento,Mujer,Adultos (18 y más),4,0,1,1,2,2,0,0,2,3,2,2
 2022,14,Jalisco,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
@@ -54645,7 +54645,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2022,14,Jalisco,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,Hombre,Menores de edad (0-17),2,4,4,4,2,3,4,8,7,12,10,6
 2022,14,Jalisco,La sociedad,Trata de personas,Trata de personas,Trata de personas,Hombre,Menores de edad (0-17),0,0,0,0,0,0,0,0,0,0,0,0
 2022,14,Jalisco,La sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Hombre,Menores de edad (0-17),0,0,0,0,0,0,0,0,0,0,0,0
-2022,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,Adultos (18 y más),77,53,66,57,82,94,80,75,67,77,80,62
+2022,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,Adultos (18 y más),78,53,66,57,82,94,80,75,67,77,80,62
 2022,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,Adultos (18 y más),7,10,17,16,15,15,14,7,26,17,17,15
 2022,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,Adultos (18 y más),15,29,22,16,30,22,33,32,27,35,21,19
 2022,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,Adultos (18 y más),10,9,5,3,1,4,7,11,6,4,4,3
@@ -60751,12 +60751,12 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2023,9,Ciudad de México,Libertad personal,Rapto,Rapto,Rapto,Mujer,Menores de edad (0-17),0,0,0,0,0,0,0,0,0,0,0,0
 2023,9,Ciudad de México,Libertad personal,Otros delitos que atentan contra la libertad personal,Otros delitos que atentan contra la libertad personal,Otros delitos que atentan contra la libertad personal,Mujer,Menores de edad (0-17),54,30,33,31,41,42,35,58,44,59,33,42
 2023,9,Ciudad de México,El patrimonio,Extorsión,Extorsión,Extorsión,Mujer,Menores de edad (0-17),1,0,0,0,1,0,0,0,0,0,0,0
-2023,9,Ciudad de México,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,Mujer,Menores de edad (0-17),7,13,26,14,15,15,10,16,19,19,17,11
+2023,9,Ciudad de México,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,Mujer,Menores de edad (0-17),7,13,26,14,15,15,10,15,19,19,17,11
 2023,9,Ciudad de México,La sociedad,Trata de personas,Trata de personas,Trata de personas,Mujer,Menores de edad (0-17),5,3,4,10,12,12,3,6,6,6,5,3
 2023,9,Ciudad de México,La sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Mujer,Menores de edad (0-17),4,2,16,2,4,15,4,2,5,10,3,9
 2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,Adultos (18 y más),3,3,3,1,5,3,6,4,2,5,0,4
 2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,Adultos (18 y más),0,0,1,0,0,2,0,0,0,0,0,0
-2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Mujer,Adultos (18 y más),1,1,4,1,0,1,1,3,2,1,3,0
+2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Mujer,Adultos (18 y más),1,1,4,1,0,1,1,2,2,1,3,0
 2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
 2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
 2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
@@ -60786,7 +60786,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2023,9,Ciudad de México,Libertad personal,Rapto,Rapto,Rapto,Mujer,Adultos (18 y más),0,0,1,1,1,0,1,0,0,0,0,1
 2023,9,Ciudad de México,Libertad personal,Otros delitos que atentan contra la libertad personal,Otros delitos que atentan contra la libertad personal,Otros delitos que atentan contra la libertad personal,Mujer,Adultos (18 y más),11,14,21,12,19,15,14,11,17,20,11,10
 2023,9,Ciudad de México,El patrimonio,Extorsión,Extorsión,Extorsión,Mujer,Adultos (18 y más),8,7,7,8,11,5,8,19,21,8,9,5
-2023,9,Ciudad de México,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
+2023,9,Ciudad de México,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,1,0,0,0,0
 2023,9,Ciudad de México,La sociedad,Trata de personas,Trata de personas,Trata de personas,Mujer,Adultos (18 y más),3,3,3,2,0,2,4,2,2,2,2,2
 2023,9,Ciudad de México,La sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Mujer,Adultos (18 y más),27,38,42,25,41,33,40,46,31,39,33,33
 2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,No especificado,0,0,0,0,0,0,0,0,0,0,0,0
@@ -60852,10 +60852,10 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2023,9,Ciudad de México,Libertad personal,Rapto,Rapto,Rapto,Hombre,Menores de edad (0-17),0,0,0,0,0,0,0,0,0,0,0,0
 2023,9,Ciudad de México,Libertad personal,Otros delitos que atentan contra la libertad personal,Otros delitos que atentan contra la libertad personal,Otros delitos que atentan contra la libertad personal,Hombre,Menores de edad (0-17),50,35,42,38,39,55,51,54,47,58,43,29
 2023,9,Ciudad de México,El patrimonio,Extorsión,Extorsión,Extorsión,Hombre,Menores de edad (0-17),0,0,0,0,0,0,0,0,0,0,0,0
-2023,9,Ciudad de México,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,Hombre,Menores de edad (0-17),3,8,9,7,7,12,7,5,7,6,9,6
+2023,9,Ciudad de México,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,Hombre,Menores de edad (0-17),3,8,9,7,7,12,7,3,7,3,9,6
 2023,9,Ciudad de México,La sociedad,Trata de personas,Trata de personas,Trata de personas,Hombre,Menores de edad (0-17),1,0,0,1,1,0,1,2,1,2,0,0
 2023,9,Ciudad de México,La sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Hombre,Menores de edad (0-17),2,2,10,5,9,13,2,1,7,12,4,8
-2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,Adultos (18 y más),45,31,53,43,47,49,46,44,32,51,47,43
+2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,Adultos (18 y más),45,31,53,43,47,49,46,45,32,52,47,43
 2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,Adultos (18 y más),11,12,10,8,10,13,7,6,12,6,8,11
 2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,Adultos (18 y más),9,9,14,8,8,10,8,7,10,3,10,18
 2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
@@ -60914,7 +60914,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2023,9,Ciudad de México,Libertad personal,Rapto,Rapto,Rapto,Hombre,No especificado,0,0,0,0,0,0,0,0,0,0,0,0
 2023,9,Ciudad de México,Libertad personal,Otros delitos que atentan contra la libertad personal,Otros delitos que atentan contra la libertad personal,Otros delitos que atentan contra la libertad personal,Hombre,No especificado,19,26,30,22,18,19,29,12,39,23,18,22
 2023,9,Ciudad de México,El patrimonio,Extorsión,Extorsión,Extorsión,Hombre,No especificado,4,8,7,6,9,2,7,5,6,5,3,3
-2023,9,Ciudad de México,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,Hombre,No especificado,0,0,0,0,0,0,0,0,0,0,0,0
+2023,9,Ciudad de México,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,Hombre,No especificado,0,0,0,0,0,0,0,2,0,3,0,0
 2023,9,Ciudad de México,La sociedad,Trata de personas,Trata de personas,Trata de personas,Hombre,No especificado,0,0,0,0,0,0,0,0,0,0,0,0
 2023,9,Ciudad de México,La sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Hombre,No especificado,18,13,40,27,21,29,16,16,21,47,16,21
 2023,9,Ciudad de México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,No identificado,No identificado,0,0,0,0,0,0,0,0,0,0,0,0
@@ -65586,7 +65586,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2023,30,Veracruz de Ignacio de la Llave,La sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Mujer,Menores de edad (0-17),0,0,0,0,0,0,0,0,0,0,0,0
 2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,Adultos (18 y más),2,2,6,6,5,4,2,5,3,5,2,0
 2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,Adultos (18 y más),0,0,1,0,0,1,0,0,0,0,0,0
-2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Mujer,Adultos (18 y más),2,0,0,1,1,2,1,1,0,1,2,1
+2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Mujer,Adultos (18 y más),2,0,0,1,1,2,1,1,0,1,1,1
 2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
 2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
 2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
@@ -65604,7 +65604,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Lesiones,Lesiones culposas,No especificado,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
 2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,Mujer,Adultos (18 y más),0,0,1,1,0,0,2,1,2,1,0,1
 2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma blanca,Mujer,Adultos (18 y más),3,0,2,1,1,0,2,2,0,0,1,0
-2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con otro elemento,Mujer,Adultos (18 y más),3,4,0,1,3,0,1,0,0,0,0,1
+2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con otro elemento,Mujer,Adultos (18 y más),3,4,0,1,3,0,1,0,0,0,1,1
 2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,Adultos (18 y más),1,0,0,0,2,0,1,0,0,0,1,0
 2023,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Otros delitos que atentan contra la vida y la integridad corporal,Otros delitos que atentan contra la vida y la integridad corporal,Otros delitos que atentan contra la vida y la integridad corporal,Mujer,Adultos (18 y más),8,7,4,9,8,7,6,4,5,7,9,7
 2023,30,Veracruz de Ignacio de la Llave,Libertad personal,Secuestro,Secuestro,Secuestro extorsivo,Mujer,Adultos (18 y más),0,0,0,0,0,2,1,0,0,1,1,0
@@ -72944,7 +72944,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2024,30,Veracruz de Ignacio de la Llave,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,Mujer,Menores de edad (0-17),1,3,2,0,2,2,7,3,0,2,0,1
 2024,30,Veracruz de Ignacio de la Llave,La sociedad,Trata de personas,Trata de personas,Trata de personas,Mujer,Menores de edad (0-17),0,0,0,0,0,0,0,1,0,0,0,0
 2024,30,Veracruz de Ignacio de la Llave,La sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Mujer,Menores de edad (0-17),0,0,0,0,0,0,0,0,0,0,0,0
-2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,Adultos (18 y más),1,4,2,7,3,2,10,5,7,6,1,0
+2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,Adultos (18 y más),1,4,2,7,2,2,10,5,7,6,1,0
 2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,Adultos (18 y más),0,0,1,1,1,1,0,0,0,1,0,0
 2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Mujer,Adultos (18 y más),2,1,0,1,1,0,3,2,1,1,0,1
 2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
@@ -72962,7 +72962,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Lesiones,Lesiones culposas,En accidente de tránsito,Mujer,Adultos (18 y más),26,32,26,26,41,19,32,33,40,32,30,48
 2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Lesiones,Lesiones culposas,Con otro elemento,Mujer,Adultos (18 y más),47,36,34,39,35,31,31,16,17,17,23,18
 2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Lesiones,Lesiones culposas,No especificado,Mujer,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
-2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,Mujer,Adultos (18 y más),4,1,0,1,0,1,1,2,0,0,1,0
+2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,Mujer,Adultos (18 y más),4,1,0,1,1,1,1,2,0,0,1,0
 2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma blanca,Mujer,Adultos (18 y más),1,1,0,1,3,2,0,1,1,1,2,0
 2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con otro elemento,Mujer,Adultos (18 y más),1,0,3,1,5,0,1,2,2,4,1,2
 2024,30,Veracruz de Ignacio de la Llave,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,Adultos (18 y más),0,0,0,0,0,0,1,0,0,0,0,0
@@ -75347,7 +75347,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,8,Chihuahua,La sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Hombre,Menores de edad (0-17),0,0,0,1,0,1,1,0,0,2,0,0
 2025,8,Chihuahua,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,Adultos (18 y más),91,62,105,68,82,85,105,70,89,89,83,77
 2025,8,Chihuahua,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,Adultos (18 y más),6,8,5,12,9,13,13,16,8,5,9,18
-2025,8,Chihuahua,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,Adultos (18 y más),15,27,20,23,25,25,26,35,20,25,18,14
+2025,8,Chihuahua,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,Adultos (18 y más),15,27,20,23,25,25,26,35,20,25,18,15
 2025,8,Chihuahua,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
 2025,8,Chihuahua,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,Hombre,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
 2025,8,Chihuahua,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,Hombre,Adultos (18 y más),0,0,0,0,0,0,0,0,0,0,0,0
