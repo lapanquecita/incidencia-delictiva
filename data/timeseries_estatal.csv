@@ -197984,7 +197984,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2024-04-01,8,Chihuahua,Otros delitos contra la familia,8
 2024-04-01,8,Chihuahua,Otros delitos contra la sociedad,6
 2024-04-01,8,Chihuahua,Otros delitos del Fuero Común,198
-2024-04-01,8,Chihuahua,Otros delitos que atentan contra la libertad personal,81
+2024-04-01,8,Chihuahua,Otros delitos que atentan contra la libertad personal,82
 2024-04-01,8,Chihuahua,Otros delitos que atentan contra la libertad y la seguridad sexual,37
 2024-04-01,8,Chihuahua,Otros delitos que atentan contra la vida y la integridad corporal,32
 2024-04-01,8,Chihuahua,Otros robos,37
@@ -198011,7 +198011,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2024-04-01,8,Chihuahua,Robo de vehículo automotor,164
 2024-04-01,8,Chihuahua,Robo en transporte individual,1
 2024-04-01,8,Chihuahua,Secuestro,1
-2024-04-01,8,Chihuahua,Secuestro,5
+2024-04-01,8,Chihuahua,Secuestro,4
 2024-04-01,8,Chihuahua,Trata de personas,3
 2024-04-01,8,Chihuahua,Violación equiparada,25
 2024-04-01,8,Chihuahua,Violación simple,81
@@ -215315,7 +215315,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-01-01,27,Tabasco,Homicidio culposo,30
 2025-01-01,27,Tabasco,Homicidio doloso,3
 2025-01-01,27,Tabasco,Homicidio doloso,8
-2025-01-01,27,Tabasco,Homicidio doloso,62
+2025-01-01,27,Tabasco,Homicidio doloso,63
 2025-01-01,27,Tabasco,Hostigamiento sexual,13
 2025-01-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,92
 2025-01-01,27,Tabasco,Lesiones culposas,9
@@ -215331,7 +215331,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-01-01,27,Tabasco,Otros delitos del Fuero Común,828
 2025-01-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,22
 2025-01-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,45
-2025-01-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,32
+2025-01-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,31
 2025-01-01,27,Tabasco,Otros robos,94
 2025-01-01,27,Tabasco,Otros robos,185
 2025-01-01,27,Tabasco,Robo a casa habitación,2
@@ -217095,8 +217095,9 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-02-01,27,Tabasco,Fraude,105
 2025-02-01,27,Tabasco,Homicidio culposo,37
 2025-02-01,27,Tabasco,Homicidio doloso,1
-2025-02-01,27,Tabasco,Homicidio doloso,10
-2025-02-01,27,Tabasco,Homicidio doloso,52
+2025-02-01,27,Tabasco,Homicidio doloso,2
+2025-02-01,27,Tabasco,Homicidio doloso,11
+2025-02-01,27,Tabasco,Homicidio doloso,54
 2025-02-01,27,Tabasco,Hostigamiento sexual,10
 2025-02-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,85
 2025-02-01,27,Tabasco,Lesiones culposas,1
@@ -217111,7 +217112,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-02-01,27,Tabasco,Otros delitos del Fuero Común,783
 2025-02-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,33
 2025-02-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,58
-2025-02-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,62
+2025-02-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,57
 2025-02-01,27,Tabasco,Otros robos,76
 2025-02-01,27,Tabasco,Otros robos,217
 2025-02-01,27,Tabasco,Robo a casa habitación,20
@@ -218884,9 +218885,10 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-03-01,27,Tabasco,Feminicidio,2
 2025-03-01,27,Tabasco,Fraude,120
 2025-03-01,27,Tabasco,Homicidio culposo,47
-2025-03-01,27,Tabasco,Homicidio doloso,1
 2025-03-01,27,Tabasco,Homicidio doloso,3
-2025-03-01,27,Tabasco,Homicidio doloso,50
+2025-03-01,27,Tabasco,Homicidio doloso,3
+2025-03-01,27,Tabasco,Homicidio doloso,4
+2025-03-01,27,Tabasco,Homicidio doloso,61
 2025-03-01,27,Tabasco,Hostigamiento sexual,22
 2025-03-01,27,Tabasco,Incesto,3
 2025-03-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,113
@@ -218901,10 +218903,10 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-03-01,27,Tabasco,Narcomenudeo,99
 2025-03-01,27,Tabasco,Otros delitos contra el patrimonio,20
 2025-03-01,27,Tabasco,Otros delitos contra la familia,5
-2025-03-01,27,Tabasco,Otros delitos del Fuero Común,909
-2025-03-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,33
+2025-03-01,27,Tabasco,Otros delitos del Fuero Común,908
+2025-03-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,30
 2025-03-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,65
-2025-03-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,106
+2025-03-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,93
 2025-03-01,27,Tabasco,Otros robos,67
 2025-03-01,27,Tabasco,Otros robos,251
 2025-03-01,27,Tabasco,Robo a casa habitación,4
@@ -220672,8 +220674,10 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-04-01,27,Tabasco,Feminicidio,1
 2025-04-01,27,Tabasco,Fraude,105
 2025-04-01,27,Tabasco,Homicidio culposo,30
-2025-04-01,27,Tabasco,Homicidio doloso,1
-2025-04-01,27,Tabasco,Homicidio doloso,49
+2025-04-01,27,Tabasco,Homicidio doloso,3
+2025-04-01,27,Tabasco,Homicidio doloso,4
+2025-04-01,27,Tabasco,Homicidio doloso,4
+2025-04-01,27,Tabasco,Homicidio doloso,54
 2025-04-01,27,Tabasco,Hostigamiento sexual,20
 2025-04-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,90
 2025-04-01,27,Tabasco,Lesiones culposas,1
@@ -220687,10 +220691,10 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-04-01,27,Tabasco,Narcomenudeo,76
 2025-04-01,27,Tabasco,Otros delitos contra el patrimonio,29
 2025-04-01,27,Tabasco,Otros delitos contra la familia,12
-2025-04-01,27,Tabasco,Otros delitos del Fuero Común,901
+2025-04-01,27,Tabasco,Otros delitos del Fuero Común,900
 2025-04-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,31
 2025-04-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,42
-2025-04-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,86
+2025-04-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,72
 2025-04-01,27,Tabasco,Otros robos,97
 2025-04-01,27,Tabasco,Otros robos,169
 2025-04-01,27,Tabasco,Robo a casa habitación,4
@@ -222470,7 +222474,9 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-05-01,27,Tabasco,Fraude,99
 2025-05-01,27,Tabasco,Homicidio culposo,37
 2025-05-01,27,Tabasco,Homicidio doloso,2
-2025-05-01,27,Tabasco,Homicidio doloso,54
+2025-05-01,27,Tabasco,Homicidio doloso,3
+2025-05-01,27,Tabasco,Homicidio doloso,3
+2025-05-01,27,Tabasco,Homicidio doloso,66
 2025-05-01,27,Tabasco,Hostigamiento sexual,27
 2025-05-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,110
 2025-05-01,27,Tabasco,Lesiones culposas,5
@@ -222483,10 +222489,10 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-05-01,27,Tabasco,Narcomenudeo,78
 2025-05-01,27,Tabasco,Otros delitos contra el patrimonio,50
 2025-05-01,27,Tabasco,Otros delitos contra la familia,2
-2025-05-01,27,Tabasco,Otros delitos del Fuero Común,854
+2025-05-01,27,Tabasco,Otros delitos del Fuero Común,850
 2025-05-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,22
 2025-05-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,42
-2025-05-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,59
+2025-05-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,45
 2025-05-01,27,Tabasco,Otros robos,79
 2025-05-01,27,Tabasco,Otros robos,177
 2025-05-01,27,Tabasco,Robo a casa habitación,4
@@ -224273,8 +224279,10 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-06-01,27,Tabasco,Fraude,145
 2025-06-01,27,Tabasco,Homicidio culposo,1
 2025-06-01,27,Tabasco,Homicidio culposo,33
-2025-06-01,27,Tabasco,Homicidio doloso,3
-2025-06-01,27,Tabasco,Homicidio doloso,43
+2025-06-01,27,Tabasco,Homicidio doloso,2
+2025-06-01,27,Tabasco,Homicidio doloso,5
+2025-06-01,27,Tabasco,Homicidio doloso,5
+2025-06-01,27,Tabasco,Homicidio doloso,59
 2025-06-01,27,Tabasco,Hostigamiento sexual,25
 2025-06-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,108
 2025-06-01,27,Tabasco,Lesiones culposas,13
@@ -224287,10 +224295,10 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-06-01,27,Tabasco,Narcomenudeo,95
 2025-06-01,27,Tabasco,Otros delitos contra el patrimonio,80
 2025-06-01,27,Tabasco,Otros delitos contra la familia,1
-2025-06-01,27,Tabasco,Otros delitos del Fuero Común,850
-2025-06-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,31
+2025-06-01,27,Tabasco,Otros delitos del Fuero Común,847
+2025-06-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,30
 2025-06-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,37
-2025-06-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,73
+2025-06-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,52
 2025-06-01,27,Tabasco,Otros robos,69
 2025-06-01,27,Tabasco,Otros robos,159
 2025-06-01,27,Tabasco,Robo a casa habitación,8
@@ -226054,8 +226062,9 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-07-01,27,Tabasco,Fraude,153
 2025-07-01,27,Tabasco,Homicidio culposo,39
 2025-07-01,27,Tabasco,Homicidio doloso,1
-2025-07-01,27,Tabasco,Homicidio doloso,2
-2025-07-01,27,Tabasco,Homicidio doloso,42
+2025-07-01,27,Tabasco,Homicidio doloso,4
+2025-07-01,27,Tabasco,Homicidio doloso,4
+2025-07-01,27,Tabasco,Homicidio doloso,56
 2025-07-01,27,Tabasco,Hostigamiento sexual,26
 2025-07-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,109
 2025-07-01,27,Tabasco,Lesiones culposas,6
@@ -226071,7 +226080,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-07-01,27,Tabasco,Otros delitos del Fuero Común,859
 2025-07-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,22
 2025-07-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,56
-2025-07-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,112
+2025-07-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,92
 2025-07-01,27,Tabasco,Otros robos,49
 2025-07-01,27,Tabasco,Otros robos,201
 2025-07-01,27,Tabasco,Robo a casa habitación,7
@@ -227850,8 +227859,10 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-08-01,27,Tabasco,Falsificación,9
 2025-08-01,27,Tabasco,Fraude,131
 2025-08-01,27,Tabasco,Homicidio culposo,40
-2025-08-01,27,Tabasco,Homicidio doloso,1
-2025-08-01,27,Tabasco,Homicidio doloso,32
+2025-08-01,27,Tabasco,Homicidio doloso,2
+2025-08-01,27,Tabasco,Homicidio doloso,4
+2025-08-01,27,Tabasco,Homicidio doloso,6
+2025-08-01,27,Tabasco,Homicidio doloso,41
 2025-08-01,27,Tabasco,Hostigamiento sexual,16
 2025-08-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,106
 2025-08-01,27,Tabasco,Lesiones culposas,8
@@ -227865,9 +227876,9 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-08-01,27,Tabasco,Otros delitos contra el patrimonio,69
 2025-08-01,27,Tabasco,Otros delitos contra la familia,3
 2025-08-01,27,Tabasco,Otros delitos del Fuero Común,812
-2025-08-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,43
+2025-08-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,42
 2025-08-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,44
-2025-08-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,78
+2025-08-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,59
 2025-08-01,27,Tabasco,Otros robos,60
 2025-08-01,27,Tabasco,Otros robos,178
 2025-08-01,27,Tabasco,Robo a casa habitación,9
@@ -228826,33 +228837,33 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-09-01,14,Jalisco,Abuso sexual,498
 2025-09-01,14,Jalisco,Acoso sexual,29
 2025-09-01,14,Jalisco,Allanamiento de morada,24
-2025-09-01,14,Jalisco,Amenazas,832
+2025-09-01,14,Jalisco,Amenazas,831
 2025-09-01,14,Jalisco,Contra el medio ambiente,3
 2025-09-01,14,Jalisco,Corrupción de menores,16
 2025-09-01,14,Jalisco,Daño a la propiedad,147
 2025-09-01,14,Jalisco,Delitos cometidos por servidores públicos,48
 2025-09-01,14,Jalisco,Despojo,96
-2025-09-01,14,Jalisco,Extorsión,38
+2025-09-01,14,Jalisco,Extorsión,39
 2025-09-01,14,Jalisco,Falsedad,6
 2025-09-01,14,Jalisco,Falsificación,162
 2025-09-01,14,Jalisco,Feminicidio,3
-2025-09-01,14,Jalisco,Feminicidio,5
+2025-09-01,14,Jalisco,Feminicidio,6
 2025-09-01,14,Jalisco,Fraude,839
 2025-09-01,14,Jalisco,Homicidio culposo,1
-2025-09-01,14,Jalisco,Homicidio culposo,88
+2025-09-01,14,Jalisco,Homicidio culposo,89
 2025-09-01,14,Jalisco,Homicidio doloso,5
-2025-09-01,14,Jalisco,Homicidio doloso,6
+2025-09-01,14,Jalisco,Homicidio doloso,5
 2025-09-01,14,Jalisco,Homicidio doloso,35
 2025-09-01,14,Jalisco,Hostigamiento sexual,8
 2025-09-01,14,Jalisco,Incumplimiento de obligaciones de asistencia familiar,79
 2025-09-01,14,Jalisco,Lesiones culposas,7
-2025-09-01,14,Jalisco,Lesiones culposas,424
-2025-09-01,14,Jalisco,Lesiones dolosas,40
+2025-09-01,14,Jalisco,Lesiones culposas,423
+2025-09-01,14,Jalisco,Lesiones dolosas,39
 2025-09-01,14,Jalisco,Lesiones dolosas,51
 2025-09-01,14,Jalisco,Lesiones dolosas,648
 2025-09-01,14,Jalisco,Narcomenudeo,207
 2025-09-01,14,Jalisco,Otros delitos contra la familia,35
-2025-09-01,14,Jalisco,Otros delitos del Fuero Común,1147
+2025-09-01,14,Jalisco,Otros delitos del Fuero Común,1146
 2025-09-01,14,Jalisco,Otros delitos que atentan contra la libertad personal,43
 2025-09-01,14,Jalisco,Otros delitos que atentan contra la libertad y la seguridad sexual,106
 2025-09-01,14,Jalisco,Otros delitos que atentan contra la vida y la integridad corporal,19
@@ -229624,8 +229635,9 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-09-01,27,Tabasco,Fraude,127
 2025-09-01,27,Tabasco,Homicidio culposo,2
 2025-09-01,27,Tabasco,Homicidio culposo,38
-2025-09-01,27,Tabasco,Homicidio doloso,1
-2025-09-01,27,Tabasco,Homicidio doloso,33
+2025-09-01,27,Tabasco,Homicidio doloso,4
+2025-09-01,27,Tabasco,Homicidio doloso,5
+2025-09-01,27,Tabasco,Homicidio doloso,50
 2025-09-01,27,Tabasco,Hostigamiento sexual,21
 2025-09-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,103
 2025-09-01,27,Tabasco,Lesiones culposas,3
@@ -229641,7 +229653,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-09-01,27,Tabasco,Otros delitos del Fuero Común,773
 2025-09-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,40
 2025-09-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,38
-2025-09-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,90
+2025-09-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,65
 2025-09-01,27,Tabasco,Otros robos,69
 2025-09-01,27,Tabasco,Otros robos,180
 2025-09-01,27,Tabasco,Robo a casa habitación,11
@@ -230111,6 +230123,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-10-01,4,Campeche,Robo de maquinaria,1
 2025-10-01,4,Campeche,Robo de vehículo automotor,1
 2025-10-01,4,Campeche,Robo de vehículo automotor,2
+2025-10-01,4,Campeche,Trata de personas,1
 2025-10-01,4,Campeche,Violación equiparada,16
 2025-10-01,4,Campeche,Violación simple,7
 2025-10-01,4,Campeche,Violencia familiar,35
@@ -231419,7 +231432,8 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-10-01,27,Tabasco,Fraude,116
 2025-10-01,27,Tabasco,Homicidio culposo,49
 2025-10-01,27,Tabasco,Homicidio doloso,5
-2025-10-01,27,Tabasco,Homicidio doloso,38
+2025-10-01,27,Tabasco,Homicidio doloso,5
+2025-10-01,27,Tabasco,Homicidio doloso,49
 2025-10-01,27,Tabasco,Hostigamiento sexual,15
 2025-10-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,115
 2025-10-01,27,Tabasco,Lesiones culposas,1
@@ -231435,8 +231449,8 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-10-01,27,Tabasco,Otros delitos contra la familia,2
 2025-10-01,27,Tabasco,Otros delitos del Fuero Común,820
 2025-10-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,35
-2025-10-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,50
-2025-10-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,65
+2025-10-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,49
+2025-10-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,49
 2025-10-01,27,Tabasco,Otros robos,57
 2025-10-01,27,Tabasco,Otros robos,201
 2025-10-01,27,Tabasco,Robo a casa habitación,5
@@ -231453,7 +231467,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-10-01,27,Tabasco,Robo de vehículo automotor,59
 2025-10-01,27,Tabasco,Secuestro,2
 2025-10-01,27,Tabasco,Trata de personas,1
-2025-10-01,27,Tabasco,Violación simple,12
+2025-10-01,27,Tabasco,Violación simple,13
 2025-10-01,27,Tabasco,Violencia familiar,566
 2025-10-01,28,Tamaulipas,Aborto,3
 2025-10-01,28,Tamaulipas,Abuso de confianza,35
@@ -232071,7 +232085,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-11-01,8,Chihuahua,Fraude,425
 2025-11-01,8,Chihuahua,Homicidio culposo,38
 2025-11-01,8,Chihuahua,Homicidio doloso,12
-2025-11-01,8,Chihuahua,Homicidio doloso,23
+2025-11-01,8,Chihuahua,Homicidio doloso,24
 2025-11-01,8,Chihuahua,Homicidio doloso,70
 2025-11-01,8,Chihuahua,Hostigamiento sexual,6
 2025-11-01,8,Chihuahua,Incumplimiento de obligaciones de asistencia familiar,176
@@ -232420,13 +232434,13 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-11-01,14,Jalisco,Lesiones culposas,468
 2025-11-01,14,Jalisco,Lesiones dolosas,47
 2025-11-01,14,Jalisco,Lesiones dolosas,57
-2025-11-01,14,Jalisco,Lesiones dolosas,629
+2025-11-01,14,Jalisco,Lesiones dolosas,628
 2025-11-01,14,Jalisco,Narcomenudeo,201
 2025-11-01,14,Jalisco,Otros delitos contra la familia,35
 2025-11-01,14,Jalisco,Otros delitos del Fuero Común,1074
-2025-11-01,14,Jalisco,Otros delitos que atentan contra la libertad personal,46
+2025-11-01,14,Jalisco,Otros delitos que atentan contra la libertad personal,45
 2025-11-01,14,Jalisco,Otros delitos que atentan contra la libertad y la seguridad sexual,112
-2025-11-01,14,Jalisco,Otros delitos que atentan contra la vida y la integridad corporal,13
+2025-11-01,14,Jalisco,Otros delitos que atentan contra la vida y la integridad corporal,14
 2025-11-01,14,Jalisco,Otros robos,171
 2025-11-01,14,Jalisco,Otros robos,614
 2025-11-01,14,Jalisco,Robo a casa habitación,18
@@ -232452,7 +232466,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-11-01,14,Jalisco,Robo en transporte individual,11
 2025-11-01,14,Jalisco,Robo en transporte público colectivo,1
 2025-11-01,14,Jalisco,Robo en transporte público colectivo,7
-2025-11-01,14,Jalisco,Secuestro,1
+2025-11-01,14,Jalisco,Secuestro,2
 2025-11-01,14,Jalisco,Trata de personas,1
 2025-11-01,14,Jalisco,Violación simple,43
 2025-11-01,14,Jalisco,Violencia familiar,942
@@ -233188,9 +233202,10 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-11-01,27,Tabasco,Fraude,111
 2025-11-01,27,Tabasco,Homicidio culposo,1
 2025-11-01,27,Tabasco,Homicidio culposo,53
-2025-11-01,27,Tabasco,Homicidio doloso,1
-2025-11-01,27,Tabasco,Homicidio doloso,10
-2025-11-01,27,Tabasco,Homicidio doloso,25
+2025-11-01,27,Tabasco,Homicidio doloso,3
+2025-11-01,27,Tabasco,Homicidio doloso,3
+2025-11-01,27,Tabasco,Homicidio doloso,13
+2025-11-01,27,Tabasco,Homicidio doloso,39
 2025-11-01,27,Tabasco,Hostigamiento sexual,20
 2025-11-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,103
 2025-11-01,27,Tabasco,Lesiones culposas,9
@@ -233206,7 +233221,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-11-01,27,Tabasco,Otros delitos del Fuero Común,877
 2025-11-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,23
 2025-11-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,36
-2025-11-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,76
+2025-11-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,55
 2025-11-01,27,Tabasco,Otros robos,62
 2025-11-01,27,Tabasco,Otros robos,155
 2025-11-01,27,Tabasco,Robo a casa habitación,14
@@ -234938,7 +234953,8 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-12-01,27,Tabasco,Fraude,131
 2025-12-01,27,Tabasco,Homicidio culposo,51
 2025-12-01,27,Tabasco,Homicidio doloso,1
-2025-12-01,27,Tabasco,Homicidio doloso,22
+2025-12-01,27,Tabasco,Homicidio doloso,3
+2025-12-01,27,Tabasco,Homicidio doloso,39
 2025-12-01,27,Tabasco,Hostigamiento sexual,12
 2025-12-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,79
 2025-12-01,27,Tabasco,Lesiones culposas,3
@@ -234954,7 +234970,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2025-12-01,27,Tabasco,Otros delitos del Fuero Común,870
 2025-12-01,27,Tabasco,Otros delitos que atentan contra la libertad personal,25
 2025-12-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,36
-2025-12-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,58
+2025-12-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,38
 2025-12-01,27,Tabasco,Otros robos,86
 2025-12-01,27,Tabasco,Otros robos,178
 2025-12-01,27,Tabasco,Robo a casa habitación,9
@@ -235741,7 +235757,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-01-01,9,Ciudad de México,Otros delitos del Fuero Común,151
 2026-01-01,9,Ciudad de México,Otros delitos que atentan contra la libertad personal,242
 2026-01-01,9,Ciudad de México,Otros delitos que atentan contra la libertad y la seguridad sexual,4
-2026-01-01,9,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,77
+2026-01-01,9,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,78
 2026-01-01,9,Ciudad de México,Otros robos,19
 2026-01-01,9,Ciudad de México,Otros robos,1390
 2026-01-01,9,Ciudad de México,Pornografía infantil,3
@@ -236031,15 +236047,15 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-01-01,14,Jalisco,Extorsión presencial,11
 2026-01-01,14,Jalisco,Falsedad,15
 2026-01-01,14,Jalisco,Falsificación,151
-2026-01-01,14,Jalisco,Feminicidio,1
+2026-01-01,14,Jalisco,Feminicidio,2
 2026-01-01,14,Jalisco,Feminicidio,2
 2026-01-01,14,Jalisco,Fraude,700
 2026-01-01,14,Jalisco,Homicidio culposo,1
 2026-01-01,14,Jalisco,Homicidio culposo,88
-2026-01-01,14,Jalisco,Homicidio doloso,3
-2026-01-01,14,Jalisco,Homicidio doloso,8
+2026-01-01,14,Jalisco,Homicidio doloso,1
+2026-01-01,14,Jalisco,Homicidio doloso,9
 2026-01-01,14,Jalisco,Homicidio doloso,12
-2026-01-01,14,Jalisco,Homicidio doloso,50
+2026-01-01,14,Jalisco,Homicidio doloso,51
 2026-01-01,14,Jalisco,Hostigamiento sexual,5
 2026-01-01,14,Jalisco,Incumplimiento de obligaciones de asistencia familiar,77
 2026-01-01,14,Jalisco,Lesiones culposas,2
@@ -236051,13 +236067,13 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-01-01,14,Jalisco,Narcomenudeo posesión simple,234
 2026-01-01,14,Jalisco,Otros delitos contra el patrimonio,22
 2026-01-01,14,Jalisco,Otros delitos contra la sociedad,1
-2026-01-01,14,Jalisco,Otros delitos del Fuero Común,658
+2026-01-01,14,Jalisco,Otros delitos del Fuero Común,657
 2026-01-01,14,Jalisco,Otros delitos que atentan contra la libertad personal,10
 2026-01-01,14,Jalisco,Otros delitos que atentan contra la libertad y la seguridad sexual,42
 2026-01-01,14,Jalisco,Otros delitos que atentan contra la vida y la integridad corporal,8
 2026-01-01,14,Jalisco,Otros robos,186
 2026-01-01,14,Jalisco,Otros robos,660
-2026-01-01,14,Jalisco,Privación ilegal de la libertad,44
+2026-01-01,14,Jalisco,Privación ilegal de la libertad,43
 2026-01-01,14,Jalisco,Retención o sustracción de menores e incapaces,36
 2026-01-01,14,Jalisco,Robo a casa habitación,23
 2026-01-01,14,Jalisco,Robo a casa habitación,139
@@ -236079,6 +236095,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-01-01,14,Jalisco,Robo en transporte público colectivo,1
 2026-01-01,14,Jalisco,Robo en transporte público individual,4
 2026-01-01,14,Jalisco,Secuestro extorsivo,1
+2026-01-01,14,Jalisco,Secuestro para causar daño,1
 2026-01-01,14,Jalisco,Suplantación y usurpación de identidad,368
 2026-01-01,14,Jalisco,Tentativa de extorsión por otros medios,2
 2026-01-01,14,Jalisco,Tentativa de homicidio doloso,3
@@ -236563,45 +236580,46 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-01-01,21,Puebla,Violación equiparada,25
 2026-01-01,21,Puebla,Violación simple,37
 2026-01-01,21,Puebla,Violencia familiar,848
-2026-01-01,22,Querétaro,Abuso de confianza,86
+2026-01-01,22,Querétaro,Abuso de confianza,87
 2026-01-01,22,Querétaro,Abuso sexual,57
-2026-01-01,22,Querétaro,Acoso sexual,67
+2026-01-01,22,Querétaro,Acoso sexual,68
 2026-01-01,22,Querétaro,Allanamiento de morada,22
-2026-01-01,22,Querétaro,Amenazas,304
-2026-01-01,22,Querétaro,Daño a la propiedad,133
+2026-01-01,22,Querétaro,Amenazas,309
+2026-01-01,22,Querétaro,Daño a la propiedad,134
 2026-01-01,22,Querétaro,Delitos cometidos por servidores públicos,20
 2026-01-01,22,Querétaro,Despojo,79
-2026-01-01,22,Querétaro,Discriminación,6
+2026-01-01,22,Querétaro,Discriminación,7
 2026-01-01,22,Querétaro,Extorsión por otros medios,21
 2026-01-01,22,Querétaro,Extorsión presencial,2
 2026-01-01,22,Querétaro,Falsedad,17
 2026-01-01,22,Querétaro,Falsificación,9
 2026-01-01,22,Querétaro,Feminicidio,2
-2026-01-01,22,Querétaro,Fraude,375
+2026-01-01,22,Querétaro,Fraude,377
 2026-01-01,22,Querétaro,Homicidio culposo,1
 2026-01-01,22,Querétaro,Homicidio culposo,26
-2026-01-01,22,Querétaro,Homicidio doloso,7
-2026-01-01,22,Querétaro,Hostigamiento sexual,2
+2026-01-01,22,Querétaro,Homicidio doloso,8
+2026-01-01,22,Querétaro,Hostigamiento sexual,1
 2026-01-01,22,Querétaro,Incumplimiento de obligaciones de asistencia familiar,57
-2026-01-01,22,Querétaro,Lesiones culposas,8
-2026-01-01,22,Querétaro,Lesiones culposas,107
+2026-01-01,22,Querétaro,Lesiones culposas,9
+2026-01-01,22,Querétaro,Lesiones culposas,105
+2026-01-01,22,Querétaro,Lesiones dolosas,1
 2026-01-01,22,Querétaro,Lesiones dolosas,14
-2026-01-01,22,Querétaro,Lesiones dolosas,20
-2026-01-01,22,Querétaro,Lesiones dolosas,271
-2026-01-01,22,Querétaro,Narcomenudeo con fines de venta,26
-2026-01-01,22,Querétaro,Narcomenudeo posesión simple,195
+2026-01-01,22,Querétaro,Lesiones dolosas,27
+2026-01-01,22,Querétaro,Lesiones dolosas,267
+2026-01-01,22,Querétaro,Narcomenudeo con fines de venta,23
+2026-01-01,22,Querétaro,Narcomenudeo posesión simple,194
 2026-01-01,22,Querétaro,Otros delitos contra el patrimonio,26
 2026-01-01,22,Querétaro,Otros delitos contra la sociedad,65
-2026-01-01,22,Querétaro,Otros delitos del Fuero Común,488
-2026-01-01,22,Querétaro,Otros delitos que atentan contra la libertad personal,1
+2026-01-01,22,Querétaro,Otros delitos del Fuero Común,483
+2026-01-01,22,Querétaro,Otros delitos que atentan contra la libertad personal,2
 2026-01-01,22,Querétaro,Otros delitos que atentan contra la libertad y la seguridad sexual,3
 2026-01-01,22,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,8
-2026-01-01,22,Querétaro,Otros robos,25
-2026-01-01,22,Querétaro,Otros robos,717
-2026-01-01,22,Querétaro,Privación ilegal de la libertad,10
+2026-01-01,22,Querétaro,Otros robos,27
+2026-01-01,22,Querétaro,Otros robos,684
+2026-01-01,22,Querétaro,Privación ilegal de la libertad,11
 2026-01-01,22,Querétaro,Retención o sustracción de menores e incapaces,20
-2026-01-01,22,Querétaro,Robo a casa habitación,6
-2026-01-01,22,Querétaro,Robo a casa habitación,120
+2026-01-01,22,Querétaro,Robo a casa habitación,7
+2026-01-01,22,Querétaro,Robo a casa habitación,119
 2026-01-01,22,Querétaro,Robo a negocio,50
 2026-01-01,22,Querétaro,Robo a negocio,206
 2026-01-01,22,Querétaro,Robo a transeúnte en espacio abierto al público,1
@@ -236624,11 +236642,11 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-01-01,22,Querétaro,Tentativa de extorsión por otros medios,10
 2026-01-01,22,Querétaro,Tentativa de extorsión presencial,1
 2026-01-01,22,Querétaro,Tentativa de homicidio doloso,8
-2026-01-01,22,Querétaro,Tortura,1
-2026-01-01,22,Querétaro,Violación equiparada,12
-2026-01-01,22,Querétaro,Violación simple,22
-2026-01-01,22,Querétaro,Violencia de género en todas sus modalidades distinta a la violencia familiar,110
-2026-01-01,22,Querétaro,Violencia familiar,338
+2026-01-01,22,Querétaro,Tortura,2
+2026-01-01,22,Querétaro,Violación equiparada,11
+2026-01-01,22,Querétaro,Violación simple,21
+2026-01-01,22,Querétaro,Violencia de género en todas sus modalidades distinta a la violencia familiar,106
+2026-01-01,22,Querétaro,Violencia familiar,334
 2026-01-01,23,Quintana Roo,Abuso de confianza,101
 2026-01-01,23,Quintana Roo,Abuso sexual,96
 2026-01-01,23,Quintana Roo,Acoso sexual,17
@@ -237737,7 +237755,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-02-01,9,Ciudad de México,Despojo,320
 2026-02-01,9,Ciudad de México,Discriminación,101
 2026-02-01,9,Ciudad de México,Electorales,9
-2026-02-01,9,Ciudad de México,Extorsión por otros medios,103
+2026-02-01,9,Ciudad de México,Extorsión por otros medios,105
 2026-02-01,9,Ciudad de México,Extorsión presencial,33
 2026-02-01,9,Ciudad de México,Falsedad,40
 2026-02-01,9,Ciudad de México,Falsificación,165
@@ -237746,12 +237764,12 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-02-01,9,Ciudad de México,Feminicidio,2
 2026-02-01,9,Ciudad de México,Fraude,1809
 2026-02-01,9,Ciudad de México,Homicidio culposo,2
-2026-02-01,9,Ciudad de México,Homicidio culposo,60
+2026-02-01,9,Ciudad de México,Homicidio culposo,61
 2026-02-01,9,Ciudad de México,Homicidio doloso,7
 2026-02-01,9,Ciudad de México,Homicidio doloso,9
 2026-02-01,9,Ciudad de México,Homicidio doloso,35
 2026-02-01,9,Ciudad de México,Incumplimiento de obligaciones de asistencia familiar,89
-2026-02-01,9,Ciudad de México,Lesiones culposas,403
+2026-02-01,9,Ciudad de México,Lesiones culposas,402
 2026-02-01,9,Ciudad de México,Lesiones dolosas,31
 2026-02-01,9,Ciudad de México,Lesiones dolosas,40
 2026-02-01,9,Ciudad de México,Lesiones dolosas,47
@@ -237761,7 +237779,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-02-01,9,Ciudad de México,Otros delitos contra el patrimonio,64
 2026-02-01,9,Ciudad de México,Otros delitos contra la familia,1
 2026-02-01,9,Ciudad de México,Otros delitos contra la sociedad,6
-2026-02-01,9,Ciudad de México,Otros delitos del Fuero Común,147
+2026-02-01,9,Ciudad de México,Otros delitos del Fuero Común,146
 2026-02-01,9,Ciudad de México,Otros delitos que atentan contra la libertad personal,213
 2026-02-01,9,Ciudad de México,Otros delitos que atentan contra la libertad y la seguridad sexual,4
 2026-02-01,9,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,60
@@ -237791,7 +237809,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-02-01,9,Ciudad de México,Robo en transporte público individual,37
 2026-02-01,9,Ciudad de México,Secuestro extorsivo,1
 2026-02-01,9,Ciudad de México,Suplantación y usurpación de identidad,386
-2026-02-01,9,Ciudad de México,Tentativa de extorsión por otros medios,12
+2026-02-01,9,Ciudad de México,Tentativa de extorsión por otros medios,11
 2026-02-01,9,Ciudad de México,Tentativa de extorsión presencial,24
 2026-02-01,9,Ciudad de México,Tentativa de feminicidio,3
 2026-02-01,9,Ciudad de México,Tentativa de homicidio doloso,9
@@ -238429,7 +238447,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-02-01,19,Nuevo León,Suplantación y usurpación de identidad,21
 2026-02-01,19,Nuevo León,Tentativa de feminicidio,21
 2026-02-01,19,Nuevo León,Tortura,4
-2026-02-01,19,Nuevo León,Trata de personas con fines de trabajo o servicios forzados,1
+2026-02-01,19,Nuevo León,Trata de personas con otros fines,1
 2026-02-01,19,Nuevo León,Violación a la intimidad sexual,35
 2026-02-01,19,Nuevo León,Violación equiparada,38
 2026-02-01,19,Nuevo León,Violación simple,58
@@ -238576,50 +238594,50 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-02-01,21,Puebla,Violación equiparada,22
 2026-02-01,21,Puebla,Violación simple,26
 2026-02-01,21,Puebla,Violencia familiar,848
-2026-02-01,22,Querétaro,Abuso de confianza,74
-2026-02-01,22,Querétaro,Abuso sexual,57
-2026-02-01,22,Querétaro,Acoso sexual,60
+2026-02-01,22,Querétaro,Abuso de confianza,75
+2026-02-01,22,Querétaro,Abuso sexual,58
+2026-02-01,22,Querétaro,Acoso sexual,62
 2026-02-01,22,Querétaro,Allanamiento de morada,24
-2026-02-01,22,Querétaro,Amenazas,296
-2026-02-01,22,Querétaro,Daño a la propiedad,137
+2026-02-01,22,Querétaro,Amenazas,302
+2026-02-01,22,Querétaro,Daño a la propiedad,138
 2026-02-01,22,Querétaro,Delitos cometidos por servidores públicos,22
 2026-02-01,22,Querétaro,Despojo,74
-2026-02-01,22,Querétaro,Discriminación,8
+2026-02-01,22,Querétaro,Discriminación,9
 2026-02-01,22,Querétaro,Extorsión por otros medios,15
 2026-02-01,22,Querétaro,Extorsión presencial,3
 2026-02-01,22,Querétaro,Falsedad,22
-2026-02-01,22,Querétaro,Falsificación,15
-2026-02-01,22,Querétaro,Fraude,373
-2026-02-01,22,Querétaro,Homicidio culposo,34
+2026-02-01,22,Querétaro,Falsificación,14
+2026-02-01,22,Querétaro,Fraude,381
+2026-02-01,22,Querétaro,Homicidio culposo,1
+2026-02-01,22,Querétaro,Homicidio culposo,32
 2026-02-01,22,Querétaro,Homicidio doloso,2
 2026-02-01,22,Querétaro,Homicidio doloso,2
 2026-02-01,22,Querétaro,Homicidio doloso,4
 2026-02-01,22,Querétaro,Hostigamiento sexual,2
 2026-02-01,22,Querétaro,Incumplimiento de obligaciones de asistencia familiar,54
 2026-02-01,22,Querétaro,Lesiones culposas,4
-2026-02-01,22,Querétaro,Lesiones culposas,13
-2026-02-01,22,Querétaro,Lesiones culposas,83
+2026-02-01,22,Querétaro,Lesiones culposas,96
 2026-02-01,22,Querétaro,Lesiones dolosas,12
-2026-02-01,22,Querétaro,Lesiones dolosas,13
-2026-02-01,22,Querétaro,Lesiones dolosas,34
-2026-02-01,22,Querétaro,Lesiones dolosas,235
-2026-02-01,22,Querétaro,Narcomenudeo con fines de venta,34
-2026-02-01,22,Querétaro,Narcomenudeo posesión simple,184
+2026-02-01,22,Querétaro,Lesiones dolosas,14
+2026-02-01,22,Querétaro,Lesiones dolosas,15
+2026-02-01,22,Querétaro,Lesiones dolosas,261
+2026-02-01,22,Querétaro,Narcomenudeo con fines de venta,31
+2026-02-01,22,Querétaro,Narcomenudeo posesión simple,183
 2026-02-01,22,Querétaro,Otros delitos contra el patrimonio,32
 2026-02-01,22,Querétaro,Otros delitos contra la familia,1
 2026-02-01,22,Querétaro,Otros delitos contra la sociedad,55
-2026-02-01,22,Querétaro,Otros delitos del Fuero Común,490
+2026-02-01,22,Querétaro,Otros delitos del Fuero Común,484
 2026-02-01,22,Querétaro,Otros delitos que atentan contra la libertad personal,1
 2026-02-01,22,Querétaro,Otros delitos que atentan contra la libertad y la seguridad sexual,6
-2026-02-01,22,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,7
-2026-02-01,22,Querétaro,Otros robos,20
-2026-02-01,22,Querétaro,Otros robos,664
-2026-02-01,22,Querétaro,Privación ilegal de la libertad,6
-2026-02-01,22,Querétaro,Retención o sustracción de menores e incapaces,29
-2026-02-01,22,Querétaro,Robo a casa habitación,3
+2026-02-01,22,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,11
+2026-02-01,22,Querétaro,Otros robos,23
+2026-02-01,22,Querétaro,Otros robos,629
+2026-02-01,22,Querétaro,Privación ilegal de la libertad,8
+2026-02-01,22,Querétaro,Retención o sustracción de menores e incapaces,28
+2026-02-01,22,Querétaro,Robo a casa habitación,4
 2026-02-01,22,Querétaro,Robo a casa habitación,87
-2026-02-01,22,Querétaro,Robo a negocio,41
-2026-02-01,22,Querétaro,Robo a negocio,192
+2026-02-01,22,Querétaro,Robo a negocio,42
+2026-02-01,22,Querétaro,Robo a negocio,191
 2026-02-01,22,Querétaro,Robo a transeúnte en espacio abierto al público,2
 2026-02-01,22,Querétaro,Robo a transeúnte en espacio abierto al público,3
 2026-02-01,22,Querétaro,Robo a transeúnte en vía pública,29
@@ -238627,7 +238645,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-02-01,22,Querétaro,Robo de autopartes,18
 2026-02-01,22,Querétaro,Robo de ganado,16
 2026-02-01,22,Querétaro,Robo de vehículo automotor - Coche de 4 ruedas,14
-2026-02-01,22,Querétaro,Robo de vehículo automotor - Coche de 4 ruedas,130
+2026-02-01,22,Querétaro,Robo de vehículo automotor - Coche de 4 ruedas,129
 2026-02-01,22,Querétaro,Robo de vehículo automotor - Motocicleta,3
 2026-02-01,22,Querétaro,Robo de vehículo automotor - Motocicleta,62
 2026-02-01,22,Querétaro,Robo en transporte individual,7
@@ -238638,11 +238656,12 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-02-01,22,Querétaro,Suplantación y usurpación de identidad,34
 2026-02-01,22,Querétaro,Tentativa de extorsión por otros medios,5
 2026-02-01,22,Querétaro,Tentativa de feminicidio,1
-2026-02-01,22,Querétaro,Tentativa de homicidio doloso,4
+2026-02-01,22,Querétaro,Tentativa de homicidio doloso,1
+2026-02-01,22,Querétaro,Tortura,2
 2026-02-01,22,Querétaro,Violación equiparada,22
 2026-02-01,22,Querétaro,Violación simple,47
-2026-02-01,22,Querétaro,Violencia de género en todas sus modalidades distinta a la violencia familiar,120
-2026-02-01,22,Querétaro,Violencia familiar,357
+2026-02-01,22,Querétaro,Violencia de género en todas sus modalidades distinta a la violencia familiar,119
+2026-02-01,22,Querétaro,Violencia familiar,354
 2026-02-01,23,Quintana Roo,Aborto,2
 2026-02-01,23,Quintana Roo,Abuso de confianza,76
 2026-02-01,23,Quintana Roo,Abuso sexual,97
@@ -239182,22 +239201,23 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-02-01,31,Yucatán,Violación simple,1
 2026-02-01,31,Yucatán,Violencia de género en todas sus modalidades distinta a la violencia familiar,2
 2026-02-01,31,Yucatán,Violencia familiar,18
-2026-02-01,32,Zacatecas,Abuso de confianza,29
-2026-02-01,32,Zacatecas,Abuso sexual,20
+2026-02-01,32,Zacatecas,Abuso de confianza,30
+2026-02-01,32,Zacatecas,Abuso sexual,19
 2026-02-01,32,Zacatecas,Acoso sexual,15
-2026-02-01,32,Zacatecas,Allanamiento de morada,13
-2026-02-01,32,Zacatecas,Amenazas,93
+2026-02-01,32,Zacatecas,Allanamiento de morada,12
+2026-02-01,32,Zacatecas,Amenazas,94
 2026-02-01,32,Zacatecas,Corrupción de menores,2
-2026-02-01,32,Zacatecas,Daño a la propiedad,253
+2026-02-01,32,Zacatecas,Daño a la propiedad,254
 2026-02-01,32,Zacatecas,Delitos cometidos por servidores públicos,11
 2026-02-01,32,Zacatecas,Delitos contra la administración de justicia,10
 2026-02-01,32,Zacatecas,Despojo,27
 2026-02-01,32,Zacatecas,Discriminación,5
 2026-02-01,32,Zacatecas,Electorales,1
-2026-02-01,32,Zacatecas,Extorsión por otros medios,38
+2026-02-01,32,Zacatecas,Extorsión por otros medios,39
 2026-02-01,32,Zacatecas,Extorsión presencial,1
 2026-02-01,32,Zacatecas,Falsedad,2
 2026-02-01,32,Zacatecas,Falsificación,8
+2026-02-01,32,Zacatecas,Feminicidio,1
 2026-02-01,32,Zacatecas,Feminicidio,1
 2026-02-01,32,Zacatecas,Feminicidio,1
 2026-02-01,32,Zacatecas,Fraude,118
@@ -239205,27 +239225,27 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-02-01,32,Zacatecas,Homicidio culposo,5
 2026-02-01,32,Zacatecas,Homicidio culposo,27
 2026-02-01,32,Zacatecas,Homicidio doloso,1
-2026-02-01,32,Zacatecas,Homicidio doloso,2
+2026-02-01,32,Zacatecas,Homicidio doloso,1
 2026-02-01,32,Zacatecas,Homicidio doloso,2
 2026-02-01,32,Zacatecas,Homicidio doloso,3
 2026-02-01,32,Zacatecas,Hostigamiento sexual,4
 2026-02-01,32,Zacatecas,Incumplimiento de obligaciones de asistencia familiar,74
 2026-02-01,32,Zacatecas,Lesiones culposas,9
-2026-02-01,32,Zacatecas,Lesiones culposas,18
+2026-02-01,32,Zacatecas,Lesiones culposas,19
 2026-02-01,32,Zacatecas,Lesiones culposas,21
-2026-02-01,32,Zacatecas,Lesiones dolosas,2
-2026-02-01,32,Zacatecas,Lesiones dolosas,3
-2026-02-01,32,Zacatecas,Lesiones dolosas,37
+2026-02-01,32,Zacatecas,Lesiones dolosas,1
+2026-02-01,32,Zacatecas,Lesiones dolosas,4
+2026-02-01,32,Zacatecas,Lesiones dolosas,36
 2026-02-01,32,Zacatecas,Lesiones dolosas,87
 2026-02-01,32,Zacatecas,Narcomenudeo con fines de venta,65
 2026-02-01,32,Zacatecas,Narcomenudeo posesión simple,7
 2026-02-01,32,Zacatecas,Otros delitos contra el patrimonio,6
 2026-02-01,32,Zacatecas,Otros delitos contra la familia,7
-2026-02-01,32,Zacatecas,Otros delitos del Fuero Común,46
+2026-02-01,32,Zacatecas,Otros delitos del Fuero Común,45
 2026-02-01,32,Zacatecas,Otros delitos que atentan contra la libertad personal,18
 2026-02-01,32,Zacatecas,Otros delitos que atentan contra la vida y la integridad corporal,8
 2026-02-01,32,Zacatecas,Otros robos,39
-2026-02-01,32,Zacatecas,Otros robos,173
+2026-02-01,32,Zacatecas,Otros robos,172
 2026-02-01,32,Zacatecas,Privación ilegal de la libertad,13
 2026-02-01,32,Zacatecas,Robo a casa habitación,7
 2026-02-01,32,Zacatecas,Robo a casa habitación,30
@@ -239248,7 +239268,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-02-01,32,Zacatecas,Tortura,5
 2026-02-01,32,Zacatecas,Trata de personas con fines de trabajo o servicios forzados,1
 2026-02-01,32,Zacatecas,Violación a la intimidad sexual,21
-2026-02-01,32,Zacatecas,Violación equiparada,8
+2026-02-01,32,Zacatecas,Violación equiparada,9
 2026-02-01,32,Zacatecas,Violación simple,12
 2026-02-01,32,Zacatecas,Violencia familiar,260
 2026-03-01,1,Aguascalientes,Abuso de confianza,72
@@ -239760,34 +239780,34 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-03-01,8,Chihuahua,Violencia familiar,1280
 2026-03-01,9,Ciudad de México,Aborto,13
 2026-03-01,9,Ciudad de México,Abuso de confianza,335
-2026-03-01,9,Ciudad de México,Abuso sexual,305
+2026-03-01,9,Ciudad de México,Abuso sexual,308
 2026-03-01,9,Ciudad de México,Acoso sexual,105
 2026-03-01,9,Ciudad de México,Allanamiento de morada,62
-2026-03-01,9,Ciudad de México,Amenazas,2095
+2026-03-01,9,Ciudad de México,Amenazas,2091
 2026-03-01,9,Ciudad de México,Contra el medio ambiente,98
-2026-03-01,9,Ciudad de México,Corrupción de menores,39
-2026-03-01,9,Ciudad de México,Daño a la propiedad,992
-2026-03-01,9,Ciudad de México,Delitos cometidos por servidores públicos,430
+2026-03-01,9,Ciudad de México,Corrupción de menores,40
+2026-03-01,9,Ciudad de México,Daño a la propiedad,993
+2026-03-01,9,Ciudad de México,Delitos cometidos por servidores públicos,431
 2026-03-01,9,Ciudad de México,Delitos contra la administración de justicia,96
 2026-03-01,9,Ciudad de México,Despojo,340
 2026-03-01,9,Ciudad de México,Discriminación,136
 2026-03-01,9,Ciudad de México,Electorales,9
-2026-03-01,9,Ciudad de México,Extorsión por otros medios,114
-2026-03-01,9,Ciudad de México,Extorsión presencial,36
+2026-03-01,9,Ciudad de México,Extorsión por otros medios,148
+2026-03-01,9,Ciudad de México,Extorsión presencial,51
 2026-03-01,9,Ciudad de México,Falsedad,43
 2026-03-01,9,Ciudad de México,Falsificación,222
 2026-03-01,9,Ciudad de México,Feminicidio,1
 2026-03-01,9,Ciudad de México,Feminicidio,3
-2026-03-01,9,Ciudad de México,Fraude,1814
+2026-03-01,9,Ciudad de México,Fraude,1813
 2026-03-01,9,Ciudad de México,Homicidio culposo,60
 2026-03-01,9,Ciudad de México,Homicidio doloso,1
 2026-03-01,9,Ciudad de México,Homicidio doloso,5
 2026-03-01,9,Ciudad de México,Homicidio doloso,6
 2026-03-01,9,Ciudad de México,Homicidio doloso,50
 2026-03-01,9,Ciudad de México,Incumplimiento de obligaciones de asistencia familiar,84
-2026-03-01,9,Ciudad de México,Lesiones culposas,447
+2026-03-01,9,Ciudad de México,Lesiones culposas,448
+2026-03-01,9,Ciudad de México,Lesiones dolosas,42
 2026-03-01,9,Ciudad de México,Lesiones dolosas,44
-2026-03-01,9,Ciudad de México,Lesiones dolosas,46
 2026-03-01,9,Ciudad de México,Lesiones dolosas,66
 2026-03-01,9,Ciudad de México,Lesiones dolosas,285
 2026-03-01,9,Ciudad de México,Narcomenudeo con fines de venta,261
@@ -239795,10 +239815,10 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-03-01,9,Ciudad de México,Otros delitos contra el patrimonio,92
 2026-03-01,9,Ciudad de México,Otros delitos contra la familia,2
 2026-03-01,9,Ciudad de México,Otros delitos contra la sociedad,50
-2026-03-01,9,Ciudad de México,Otros delitos del Fuero Común,180
+2026-03-01,9,Ciudad de México,Otros delitos del Fuero Común,179
 2026-03-01,9,Ciudad de México,Otros delitos que atentan contra la libertad personal,349
 2026-03-01,9,Ciudad de México,Otros delitos que atentan contra la libertad y la seguridad sexual,5
-2026-03-01,9,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,58
+2026-03-01,9,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,59
 2026-03-01,9,Ciudad de México,Otros robos,21
 2026-03-01,9,Ciudad de México,Otros robos,1372
 2026-03-01,9,Ciudad de México,Pornografía infantil,3
@@ -239825,8 +239845,8 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-03-01,9,Ciudad de México,Robo en transporte público individual,21
 2026-03-01,9,Ciudad de México,Secuestro exprés,1
 2026-03-01,9,Ciudad de México,Suplantación y usurpación de identidad,455
-2026-03-01,9,Ciudad de México,Tentativa de extorsión por otros medios,40
-2026-03-01,9,Ciudad de México,Tentativa de extorsión presencial,30
+2026-03-01,9,Ciudad de México,Tentativa de extorsión por otros medios,16
+2026-03-01,9,Ciudad de México,Tentativa de extorsión presencial,15
 2026-03-01,9,Ciudad de México,Tentativa de feminicidio,8
 2026-03-01,9,Ciudad de México,Tentativa de homicidio doloso,13
 2026-03-01,9,Ciudad de México,Tortura,3
@@ -239835,7 +239855,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-03-01,9,Ciudad de México,Violación a la intimidad sexual,141
 2026-03-01,9,Ciudad de México,Violación equiparada,115
 2026-03-01,9,Ciudad de México,Violación simple,87
-2026-03-01,9,Ciudad de México,Violencia familiar,2504
+2026-03-01,9,Ciudad de México,Violencia familiar,2505
 2026-03-01,10,Durango,Abuso de confianza,25
 2026-03-01,10,Durango,Abuso sexual,48
 2026-03-01,10,Durango,Acoso sexual,8
@@ -240100,18 +240120,18 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-03-01,14,Jalisco,Feminicidio,1
 2026-03-01,14,Jalisco,Feminicidio,2
 2026-03-01,14,Jalisco,Fraude,918
-2026-03-01,14,Jalisco,Homicidio culposo,89
-2026-03-01,14,Jalisco,Homicidio doloso,4
-2026-03-01,14,Jalisco,Homicidio doloso,10
-2026-03-01,14,Jalisco,Homicidio doloso,15
-2026-03-01,14,Jalisco,Homicidio doloso,30
+2026-03-01,14,Jalisco,Homicidio culposo,90
+2026-03-01,14,Jalisco,Homicidio doloso,3
+2026-03-01,14,Jalisco,Homicidio doloso,9
+2026-03-01,14,Jalisco,Homicidio doloso,16
+2026-03-01,14,Jalisco,Homicidio doloso,32
 2026-03-01,14,Jalisco,Hostigamiento sexual,11
 2026-03-01,14,Jalisco,Incumplimiento de obligaciones de asistencia familiar,90
 2026-03-01,14,Jalisco,Lesiones culposas,11
-2026-03-01,14,Jalisco,Lesiones culposas,552
+2026-03-01,14,Jalisco,Lesiones culposas,551
 2026-03-01,14,Jalisco,Lesiones dolosas,49
-2026-03-01,14,Jalisco,Lesiones dolosas,56
-2026-03-01,14,Jalisco,Lesiones dolosas,747
+2026-03-01,14,Jalisco,Lesiones dolosas,55
+2026-03-01,14,Jalisco,Lesiones dolosas,746
 2026-03-01,14,Jalisco,Narcomenudeo posesión simple,238
 2026-03-01,14,Jalisco,Otros delitos contra el patrimonio,17
 2026-03-01,14,Jalisco,Otros delitos del Fuero Común,817
@@ -240120,7 +240140,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-03-01,14,Jalisco,Otros delitos que atentan contra la vida y la integridad corporal,19
 2026-03-01,14,Jalisco,Otros robos,183
 2026-03-01,14,Jalisco,Otros robos,655
-2026-03-01,14,Jalisco,Privación ilegal de la libertad,65
+2026-03-01,14,Jalisco,Privación ilegal de la libertad,64
 2026-03-01,14,Jalisco,Retención o sustracción de menores e incapaces,25
 2026-03-01,14,Jalisco,Robo a casa habitación,25
 2026-03-01,14,Jalisco,Robo a casa habitación,129
@@ -240146,8 +240166,10 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-03-01,14,Jalisco,Robo en transporte público colectivo,2
 2026-03-01,14,Jalisco,Robo en transporte público colectivo,3
 2026-03-01,14,Jalisco,Robo en transporte público individual,10
+2026-03-01,14,Jalisco,Secuestro extorsivo,1
 2026-03-01,14,Jalisco,Suplantación y usurpación de identidad,442
 2026-03-01,14,Jalisco,Tentativa de feminicidio,3
+2026-03-01,14,Jalisco,Tentativa de homicidio doloso,1
 2026-03-01,14,Jalisco,Tortura,3
 2026-03-01,14,Jalisco,Trata de personas con fines de explotación sexual,1
 2026-03-01,14,Jalisco,Violación a la intimidad sexual,50
@@ -240638,46 +240660,48 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-03-01,21,Puebla,Violencia familiar,1005
 2026-03-01,22,Querétaro,Abuso de confianza,73
 2026-03-01,22,Querétaro,Abuso sexual,81
-2026-03-01,22,Querétaro,Acoso sexual,76
+2026-03-01,22,Querétaro,Acoso sexual,81
 2026-03-01,22,Querétaro,Allanamiento de morada,16
-2026-03-01,22,Querétaro,Amenazas,356
+2026-03-01,22,Querétaro,Amenazas,357
 2026-03-01,22,Querétaro,Daño a la propiedad,140
 2026-03-01,22,Querétaro,Delitos cometidos por servidores públicos,27
 2026-03-01,22,Querétaro,Despojo,81
-2026-03-01,22,Querétaro,Discriminación,4
+2026-03-01,22,Querétaro,Discriminación,5
 2026-03-01,22,Querétaro,Extorsión por otros medios,39
 2026-03-01,22,Querétaro,Extorsión presencial,3
 2026-03-01,22,Querétaro,Falsedad,18
 2026-03-01,22,Querétaro,Falsificación,26
-2026-03-01,22,Querétaro,Fraude,418
+2026-03-01,22,Querétaro,Feminicidio,1
+2026-03-01,22,Querétaro,Fraude,423
 2026-03-01,22,Querétaro,Homicidio culposo,35
 2026-03-01,22,Querétaro,Homicidio doloso,2
 2026-03-01,22,Querétaro,Homicidio doloso,3
-2026-03-01,22,Querétaro,Homicidio doloso,7
+2026-03-01,22,Querétaro,Homicidio doloso,6
 2026-03-01,22,Querétaro,Hostigamiento sexual,7
 2026-03-01,22,Querétaro,Incumplimiento de obligaciones de asistencia familiar,60
-2026-03-01,22,Querétaro,Lesiones culposas,6
-2026-03-01,22,Querétaro,Lesiones culposas,108
-2026-03-01,22,Querétaro,Lesiones dolosas,10
-2026-03-01,22,Querétaro,Lesiones dolosas,23
-2026-03-01,22,Querétaro,Lesiones dolosas,87
-2026-03-01,22,Querétaro,Lesiones dolosas,297
-2026-03-01,22,Querétaro,Narcomenudeo con fines de venta,26
-2026-03-01,22,Querétaro,Narcomenudeo posesión simple,191
-2026-03-01,22,Querétaro,Otros delitos contra el patrimonio,25
+2026-03-01,22,Querétaro,Lesiones culposas,7
+2026-03-01,22,Querétaro,Lesiones culposas,107
+2026-03-01,22,Querétaro,Lesiones dolosas,11
+2026-03-01,22,Querétaro,Lesiones dolosas,21
+2026-03-01,22,Querétaro,Lesiones dolosas,30
+2026-03-01,22,Querétaro,Lesiones dolosas,356
+2026-03-01,22,Querétaro,Narcomenudeo con fines de venta,25
+2026-03-01,22,Querétaro,Narcomenudeo posesión simple,190
+2026-03-01,22,Querétaro,Otros delitos contra el patrimonio,24
 2026-03-01,22,Querétaro,Otros delitos contra la familia,2
 2026-03-01,22,Querétaro,Otros delitos contra la sociedad,67
-2026-03-01,22,Querétaro,Otros delitos del Fuero Común,569
+2026-03-01,22,Querétaro,Otros delitos del Fuero Común,565
+2026-03-01,22,Querétaro,Otros delitos que atentan contra la libertad personal,1
 2026-03-01,22,Querétaro,Otros delitos que atentan contra la libertad y la seguridad sexual,16
-2026-03-01,22,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,15
+2026-03-01,22,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,14
 2026-03-01,22,Querétaro,Otros robos,18
-2026-03-01,22,Querétaro,Otros robos,706
+2026-03-01,22,Querétaro,Otros robos,687
 2026-03-01,22,Querétaro,Privación ilegal de la libertad,16
-2026-03-01,22,Querétaro,Retención o sustracción de menores e incapaces,12
+2026-03-01,22,Querétaro,Retención o sustracción de menores e incapaces,11
 2026-03-01,22,Querétaro,Robo a casa habitación,5
-2026-03-01,22,Querétaro,Robo a casa habitación,84
-2026-03-01,22,Querétaro,Robo a negocio,27
-2026-03-01,22,Querétaro,Robo a negocio,207
+2026-03-01,22,Querétaro,Robo a casa habitación,85
+2026-03-01,22,Querétaro,Robo a negocio,26
+2026-03-01,22,Querétaro,Robo a negocio,208
 2026-03-01,22,Querétaro,Robo a transeúnte en espacio abierto al público,1
 2026-03-01,22,Querétaro,Robo a transeúnte en espacio abierto al público,4
 2026-03-01,22,Querétaro,Robo a transeúnte en vía pública,25
@@ -240687,7 +240711,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-03-01,22,Querétaro,Robo de ganado,16
 2026-03-01,22,Querétaro,Robo de maquinaria - Herramienta industrial o agrícola,1
 2026-03-01,22,Querétaro,Robo de vehículo automotor - Coche de 4 ruedas,18
-2026-03-01,22,Querétaro,Robo de vehículo automotor - Coche de 4 ruedas,176
+2026-03-01,22,Querétaro,Robo de vehículo automotor - Coche de 4 ruedas,177
 2026-03-01,22,Querétaro,Robo de vehículo automotor - Motocicleta,5
 2026-03-01,22,Querétaro,Robo de vehículo automotor - Motocicleta,82
 2026-03-01,22,Querétaro,Robo en transporte individual,14
@@ -240696,13 +240720,13 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-03-01,22,Querétaro,Robo en transporte público colectivo,8
 2026-03-01,22,Querétaro,Robo en transporte público individual,1
 2026-03-01,22,Querétaro,Robo en transporte público individual,5
-2026-03-01,22,Querétaro,Suplantación y usurpación de identidad,41
+2026-03-01,22,Querétaro,Suplantación y usurpación de identidad,40
 2026-03-01,22,Querétaro,Tentativa de extorsión por otros medios,21
 2026-03-01,22,Querétaro,Tentativa de homicidio doloso,11
-2026-03-01,22,Querétaro,Violación equiparada,32
-2026-03-01,22,Querétaro,Violación simple,45
-2026-03-01,22,Querétaro,Violencia de género en todas sus modalidades distinta a la violencia familiar,160
-2026-03-01,22,Querétaro,Violencia familiar,440
+2026-03-01,22,Querétaro,Violación equiparada,31
+2026-03-01,22,Querétaro,Violación simple,44
+2026-03-01,22,Querétaro,Violencia de género en todas sus modalidades distinta a la violencia familiar,158
+2026-03-01,22,Querétaro,Violencia familiar,436
 2026-03-01,23,Quintana Roo,Aborto,1
 2026-03-01,23,Quintana Roo,Abuso de confianza,112
 2026-03-01,23,Quintana Roo,Abuso sexual,130
@@ -240802,9 +240826,9 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-03-01,24,San Luis Potosí,Lesiones dolosas,161
 2026-03-01,24,San Luis Potosí,Lesiones dolosas,183
 2026-03-01,24,San Luis Potosí,Narcomenudeo posesión simple,967
-2026-03-01,24,San Luis Potosí,Otros delitos contra el patrimonio,36
+2026-03-01,24,San Luis Potosí,Otros delitos contra el patrimonio,43
 2026-03-01,24,San Luis Potosí,Otros delitos contra la familia,7
-2026-03-01,24,San Luis Potosí,Otros delitos del Fuero Común,256
+2026-03-01,24,San Luis Potosí,Otros delitos del Fuero Común,249
 2026-03-01,24,San Luis Potosí,Otros delitos que atentan contra la libertad personal,2
 2026-03-01,24,San Luis Potosí,Otros delitos que atentan contra la libertad y la seguridad sexual,32
 2026-03-01,24,San Luis Potosí,Otros delitos que atentan contra la vida y la integridad corporal,18
@@ -241771,8 +241795,8 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,8,Chihuahua,Feminicidio,1
 2026-04-01,8,Chihuahua,Fraude,410
 2026-04-01,8,Chihuahua,Homicidio culposo,20
-2026-04-01,8,Chihuahua,Homicidio doloso,9
-2026-04-01,8,Chihuahua,Homicidio doloso,36
+2026-04-01,8,Chihuahua,Homicidio doloso,10
+2026-04-01,8,Chihuahua,Homicidio doloso,39
 2026-04-01,8,Chihuahua,Homicidio doloso,71
 2026-04-01,8,Chihuahua,Hostigamiento sexual,8
 2026-04-01,8,Chihuahua,Incumplimiento de obligaciones de asistencia familiar,184
@@ -241835,11 +241859,11 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,9,Ciudad de México,Abuso de confianza,350
 2026-04-01,9,Ciudad de México,Abuso sexual,309
 2026-04-01,9,Ciudad de México,Acoso sexual,140
-2026-04-01,9,Ciudad de México,Allanamiento de morada,78
+2026-04-01,9,Ciudad de México,Allanamiento de morada,79
 2026-04-01,9,Ciudad de México,Amenazas,2284
 2026-04-01,9,Ciudad de México,Contra el medio ambiente,96
 2026-04-01,9,Ciudad de México,Corrupción de menores,34
-2026-04-01,9,Ciudad de México,Daño a la propiedad,938
+2026-04-01,9,Ciudad de México,Daño a la propiedad,939
 2026-04-01,9,Ciudad de México,Delitos cometidos por servidores públicos,378
 2026-04-01,9,Ciudad de México,Delitos contra la administración de justicia,56
 2026-04-01,9,Ciudad de México,Despojo,351
@@ -241852,16 +241876,16 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,9,Ciudad de México,Falsificación,181
 2026-04-01,9,Ciudad de México,Feminicidio,1
 2026-04-01,9,Ciudad de México,Feminicidio,1
+2026-04-01,9,Ciudad de México,Feminicidio,2
 2026-04-01,9,Ciudad de México,Fraude,1783
-2026-04-01,9,Ciudad de México,Homicidio culposo,69
-2026-04-01,9,Ciudad de México,Homicidio doloso,1
+2026-04-01,9,Ciudad de México,Homicidio culposo,71
 2026-04-01,9,Ciudad de México,Homicidio doloso,6
-2026-04-01,9,Ciudad de México,Homicidio doloso,10
-2026-04-01,9,Ciudad de México,Homicidio doloso,52
-2026-04-01,9,Ciudad de México,Incumplimiento de obligaciones de asistencia familiar,83
-2026-04-01,9,Ciudad de México,Lesiones culposas,510
+2026-04-01,9,Ciudad de México,Homicidio doloso,9
+2026-04-01,9,Ciudad de México,Homicidio doloso,54
+2026-04-01,9,Ciudad de México,Incumplimiento de obligaciones de asistencia familiar,84
+2026-04-01,9,Ciudad de México,Lesiones culposas,507
 2026-04-01,9,Ciudad de México,Lesiones dolosas,50
-2026-04-01,9,Ciudad de México,Lesiones dolosas,53
+2026-04-01,9,Ciudad de México,Lesiones dolosas,51
 2026-04-01,9,Ciudad de México,Lesiones dolosas,100
 2026-04-01,9,Ciudad de México,Lesiones dolosas,304
 2026-04-01,9,Ciudad de México,Narcomenudeo con fines de venta,241
@@ -241882,7 +241906,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,9,Ciudad de México,Robo a casa habitación,169
 2026-04-01,9,Ciudad de México,Robo a institución bancaria,2
 2026-04-01,9,Ciudad de México,Robo a negocio,132
-2026-04-01,9,Ciudad de México,Robo a negocio,612
+2026-04-01,9,Ciudad de México,Robo a negocio,613
 2026-04-01,9,Ciudad de México,Robo a transeúnte en espacio abierto al público,115
 2026-04-01,9,Ciudad de México,Robo a transeúnte en espacio abierto al público,138
 2026-04-01,9,Ciudad de México,Robo a transeúnte en vía pública,126
@@ -241909,9 +241933,9 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,9,Ciudad de México,Trata de personas con fines de explotación sexual,1
 2026-04-01,9,Ciudad de México,Trata de personas con otros fines,3
 2026-04-01,9,Ciudad de México,Violación a la intimidad sexual,146
-2026-04-01,9,Ciudad de México,Violación equiparada,123
-2026-04-01,9,Ciudad de México,Violación simple,57
-2026-04-01,9,Ciudad de México,Violencia familiar,2406
+2026-04-01,9,Ciudad de México,Violación equiparada,124
+2026-04-01,9,Ciudad de México,Violación simple,58
+2026-04-01,9,Ciudad de México,Violencia familiar,2410
 2026-04-01,10,Durango,Abuso de confianza,29
 2026-04-01,10,Durango,Abuso sexual,42
 2026-04-01,10,Durango,Acoso sexual,5
@@ -241941,7 +241965,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,10,Durango,Otros delitos contra la sociedad,1
 2026-04-01,10,Durango,Otros delitos del Fuero Común,47
 2026-04-01,10,Durango,Otros delitos que atentan contra la libertad personal,23
-2026-04-01,10,Durango,Otros delitos que atentan contra la libertad y la seguridad sexual,9
+2026-04-01,10,Durango,Otros delitos que atentan contra la libertad y la seguridad sexual,6
 2026-04-01,10,Durango,Otros delitos que atentan contra la vida y la integridad corporal,2
 2026-04-01,10,Durango,Otros robos,10
 2026-04-01,10,Durango,Otros robos,70
@@ -241960,7 +241984,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,10,Durango,Robo de vehículo automotor - Motocicleta,11
 2026-04-01,10,Durango,Robo en transporte público individual,1
 2026-04-01,10,Durango,Suplantación y usurpación de identidad,3
-2026-04-01,10,Durango,Violación a la intimidad sexual,17
+2026-04-01,10,Durango,Violación a la intimidad sexual,20
 2026-04-01,10,Durango,Violación simple,21
 2026-04-01,10,Durango,Violencia familiar,402
 2026-04-01,11,Guanajuato,Abuso de confianza,187
@@ -242054,15 +242078,15 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,12,Guerrero,Narcomenudeo con fines de venta,9
 2026-04-01,12,Guerrero,Narcomenudeo posesión simple,90
 2026-04-01,12,Guerrero,Otros delitos contra el patrimonio,2
-2026-04-01,12,Guerrero,Otros delitos contra la familia,14
-2026-04-01,12,Guerrero,Otros delitos del Fuero Común,53
+2026-04-01,12,Guerrero,Otros delitos contra la familia,11
+2026-04-01,12,Guerrero,Otros delitos del Fuero Común,37
 2026-04-01,12,Guerrero,Otros delitos que atentan contra la libertad personal,43
 2026-04-01,12,Guerrero,Otros delitos que atentan contra la vida y la integridad corporal,5
 2026-04-01,12,Guerrero,Otros robos,43
 2026-04-01,12,Guerrero,Otros robos,159
 2026-04-01,12,Guerrero,Pornografía infantil,1
 2026-04-01,12,Guerrero,Privación ilegal de la libertad,18
-2026-04-01,12,Guerrero,Retención o sustracción de menores e incapaces,7
+2026-04-01,12,Guerrero,Retención o sustracción de menores e incapaces,10
 2026-04-01,12,Guerrero,Robo a casa habitación,5
 2026-04-01,12,Guerrero,Robo a casa habitación,16
 2026-04-01,12,Guerrero,Robo a negocio,7
@@ -242074,6 +242098,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,12,Guerrero,Robo de vehículo automotor - Motocicleta,20
 2026-04-01,12,Guerrero,Robo de vehículo automotor - Motocicleta,76
 2026-04-01,12,Guerrero,Secuestro extorsivo,2
+2026-04-01,12,Guerrero,Suplantación y usurpación de identidad,16
 2026-04-01,12,Guerrero,Tentativa de extorsión por otros medios,16
 2026-04-01,12,Guerrero,Tentativa de homicidio doloso,3
 2026-04-01,12,Guerrero,Trata de personas con otros fines,1
@@ -242085,7 +242110,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,13,Hidalgo,Abuso de confianza,54
 2026-04-01,13,Hidalgo,Abuso sexual,74
 2026-04-01,13,Hidalgo,Allanamiento de morada,40
-2026-04-01,13,Hidalgo,Amenazas,463
+2026-04-01,13,Hidalgo,Amenazas,467
 2026-04-01,13,Hidalgo,Contra el medio ambiente,22
 2026-04-01,13,Hidalgo,Corrupción de menores,13
 2026-04-01,13,Hidalgo,Daño a la propiedad,293
@@ -242093,14 +242118,16 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,13,Hidalgo,Delitos contra la administración de justicia,34
 2026-04-01,13,Hidalgo,Despojo,106
 2026-04-01,13,Hidalgo,Discriminación,16
-2026-04-01,13,Hidalgo,Electorales,9
-2026-04-01,13,Hidalgo,Extorsión por otros medios,6
+2026-04-01,13,Hidalgo,Electorales,10
+2026-04-01,13,Hidalgo,Extorsión por otros medios,8
 2026-04-01,13,Hidalgo,Falsedad,33
 2026-04-01,13,Hidalgo,Falsificación,29
-2026-04-01,13,Hidalgo,Fraude,241
-2026-04-01,13,Hidalgo,Homicidio culposo,1
-2026-04-01,13,Hidalgo,Homicidio culposo,14
-2026-04-01,13,Hidalgo,Homicidio doloso,18
+2026-04-01,13,Hidalgo,Fraude,243
+2026-04-01,13,Hidalgo,Homicidio culposo,15
+2026-04-01,13,Hidalgo,Homicidio doloso,1
+2026-04-01,13,Hidalgo,Homicidio doloso,2
+2026-04-01,13,Hidalgo,Homicidio doloso,4
+2026-04-01,13,Hidalgo,Homicidio doloso,11
 2026-04-01,13,Hidalgo,Hostigamiento sexual,18
 2026-04-01,13,Hidalgo,Incumplimiento de obligaciones de asistencia familiar,155
 2026-04-01,13,Hidalgo,Lesiones culposas,1
@@ -242114,7 +242141,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,13,Hidalgo,Lesiones dolosas,399
 2026-04-01,13,Hidalgo,Narcomenudeo con fines de venta,75
 2026-04-01,13,Hidalgo,Narcomenudeo posesión simple,59
-2026-04-01,13,Hidalgo,Otros delitos contra el patrimonio,41
+2026-04-01,13,Hidalgo,Otros delitos contra el patrimonio,29
 2026-04-01,13,Hidalgo,Otros delitos contra la sociedad,6
 2026-04-01,13,Hidalgo,Otros delitos del Fuero Común,66
 2026-04-01,13,Hidalgo,Otros delitos que atentan contra la libertad personal,85
@@ -242165,8 +242192,9 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,14,Jalisco,Extorsión presencial,7
 2026-04-01,14,Jalisco,Falsedad,9
 2026-04-01,14,Jalisco,Falsificación,119
-2026-04-01,14,Jalisco,Fraude,961
-2026-04-01,14,Jalisco,Homicidio culposo,95
+2026-04-01,14,Jalisco,Feminicidio,1
+2026-04-01,14,Jalisco,Fraude,960
+2026-04-01,14,Jalisco,Homicidio culposo,96
 2026-04-01,14,Jalisco,Homicidio doloso,4
 2026-04-01,14,Jalisco,Homicidio doloso,8
 2026-04-01,14,Jalisco,Homicidio doloso,17
@@ -242174,15 +242202,15 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,14,Jalisco,Hostigamiento sexual,5
 2026-04-01,14,Jalisco,Incumplimiento de obligaciones de asistencia familiar,70
 2026-04-01,14,Jalisco,Lesiones culposas,9
-2026-04-01,14,Jalisco,Lesiones culposas,523
+2026-04-01,14,Jalisco,Lesiones culposas,520
 2026-04-01,14,Jalisco,Lesiones dolosas,48
 2026-04-01,14,Jalisco,Lesiones dolosas,60
-2026-04-01,14,Jalisco,Lesiones dolosas,718
+2026-04-01,14,Jalisco,Lesiones dolosas,716
 2026-04-01,14,Jalisco,Narcomenudeo posesión simple,203
 2026-04-01,14,Jalisco,Otros delitos contra el patrimonio,17
 2026-04-01,14,Jalisco,Otros delitos contra la familia,1
-2026-04-01,14,Jalisco,Otros delitos del Fuero Común,781
-2026-04-01,14,Jalisco,Otros delitos que atentan contra la libertad personal,19
+2026-04-01,14,Jalisco,Otros delitos del Fuero Común,783
+2026-04-01,14,Jalisco,Otros delitos que atentan contra la libertad personal,18
 2026-04-01,14,Jalisco,Otros delitos que atentan contra la libertad y la seguridad sexual,48
 2026-04-01,14,Jalisco,Otros delitos que atentan contra la vida y la integridad corporal,14
 2026-04-01,14,Jalisco,Otros robos,182
@@ -242196,7 +242224,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,14,Jalisco,Robo a transeúnte en espacio abierto al público,6
 2026-04-01,14,Jalisco,Robo a transeúnte en espacio abierto al público,7
 2026-04-01,14,Jalisco,Robo a transeúnte en vía pública,55
-2026-04-01,14,Jalisco,Robo a transeúnte en vía pública,242
+2026-04-01,14,Jalisco,Robo a transeúnte en vía pública,243
 2026-04-01,14,Jalisco,Robo a transportista,1
 2026-04-01,14,Jalisco,Robo a transportista,7
 2026-04-01,14,Jalisco,Robo de autopartes,109
@@ -242213,10 +242241,11 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,14,Jalisco,Robo en transporte público colectivo,1
 2026-04-01,14,Jalisco,Robo en transporte público colectivo,1
 2026-04-01,14,Jalisco,Robo en transporte público individual,4
+2026-04-01,14,Jalisco,Secuestro extorsivo,1
 2026-04-01,14,Jalisco,Suplantación y usurpación de identidad,401
 2026-04-01,14,Jalisco,Tentativa de feminicidio,1
 2026-04-01,14,Jalisco,Tortura,1
-2026-04-01,14,Jalisco,Violación a la intimidad sexual,61
+2026-04-01,14,Jalisco,Violación a la intimidad sexual,60
 2026-04-01,14,Jalisco,Violación simple,42
 2026-04-01,14,Jalisco,Violencia familiar,1226
 2026-04-01,15,México,Aborto,17
@@ -242300,7 +242329,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,16,Michoacán de Ocampo,Contra el medio ambiente,18
 2026-04-01,16,Michoacán de Ocampo,Corrupción de menores,4
 2026-04-01,16,Michoacán de Ocampo,Daño a la propiedad,381
-2026-04-01,16,Michoacán de Ocampo,Delitos cometidos por servidores públicos,33
+2026-04-01,16,Michoacán de Ocampo,Delitos cometidos por servidores públicos,57
 2026-04-01,16,Michoacán de Ocampo,Despojo,96
 2026-04-01,16,Michoacán de Ocampo,Discriminación,3
 2026-04-01,16,Michoacán de Ocampo,Extorsión presencial,29
@@ -242330,14 +242359,15 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,16,Michoacán de Ocampo,Narcomenudeo posesión simple,78
 2026-04-01,16,Michoacán de Ocampo,Otros delitos contra el patrimonio,2
 2026-04-01,16,Michoacán de Ocampo,Otros delitos contra la familia,7
-2026-04-01,16,Michoacán de Ocampo,Otros delitos del Fuero Común,396
-2026-04-01,16,Michoacán de Ocampo,Otros delitos que atentan contra la libertad personal,116
+2026-04-01,16,Michoacán de Ocampo,Otros delitos del Fuero Común,351
+2026-04-01,16,Michoacán de Ocampo,Otros delitos que atentan contra la libertad personal,117
 2026-04-01,16,Michoacán de Ocampo,Otros delitos que atentan contra la libertad y la seguridad sexual,2
 2026-04-01,16,Michoacán de Ocampo,Otros delitos que atentan contra la vida y la integridad corporal,20
 2026-04-01,16,Michoacán de Ocampo,Otros robos,79
 2026-04-01,16,Michoacán de Ocampo,Otros robos,234
 2026-04-01,16,Michoacán de Ocampo,Pornografía infantil,1
 2026-04-01,16,Michoacán de Ocampo,Privación ilegal de la libertad,25
+2026-04-01,16,Michoacán de Ocampo,Retención o sustracción de menores e incapaces,20
 2026-04-01,16,Michoacán de Ocampo,Robo a casa habitación,20
 2026-04-01,16,Michoacán de Ocampo,Robo a casa habitación,89
 2026-04-01,16,Michoacán de Ocampo,Robo a institución bancaria,1
@@ -242705,20 +242735,20 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,21,Puebla,Violación equiparada,19
 2026-04-01,21,Puebla,Violación simple,37
 2026-04-01,21,Puebla,Violencia familiar,976
-2026-04-01,22,Querétaro,Abuso de confianza,67
+2026-04-01,22,Querétaro,Abuso de confianza,65
 2026-04-01,22,Querétaro,Abuso sexual,69
-2026-04-01,22,Querétaro,Acoso sexual,95
+2026-04-01,22,Querétaro,Acoso sexual,97
 2026-04-01,22,Querétaro,Allanamiento de morada,25
-2026-04-01,22,Querétaro,Amenazas,370
+2026-04-01,22,Querétaro,Amenazas,373
 2026-04-01,22,Querétaro,Contra el medio ambiente,2
-2026-04-01,22,Querétaro,Daño a la propiedad,146
-2026-04-01,22,Querétaro,Delitos cometidos por servidores públicos,29
+2026-04-01,22,Querétaro,Daño a la propiedad,148
+2026-04-01,22,Querétaro,Delitos cometidos por servidores públicos,28
 2026-04-01,22,Querétaro,Despojo,76
 2026-04-01,22,Querétaro,Discriminación,8
 2026-04-01,22,Querétaro,Extorsión por otros medios,53
 2026-04-01,22,Querétaro,Falsedad,19
 2026-04-01,22,Querétaro,Falsificación,13
-2026-04-01,22,Querétaro,Fraude,378
+2026-04-01,22,Querétaro,Fraude,383
 2026-04-01,22,Querétaro,Homicidio culposo,27
 2026-04-01,22,Querétaro,Homicidio doloso,2
 2026-04-01,22,Querétaro,Homicidio doloso,3
@@ -242726,20 +242756,20 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,22,Querétaro,Hostigamiento sexual,4
 2026-04-01,22,Querétaro,Incumplimiento de obligaciones de asistencia familiar,62
 2026-04-01,22,Querétaro,Lesiones culposas,2
-2026-04-01,22,Querétaro,Lesiones culposas,97
+2026-04-01,22,Querétaro,Lesiones culposas,98
 2026-04-01,22,Querétaro,Lesiones dolosas,11
 2026-04-01,22,Querétaro,Lesiones dolosas,12
 2026-04-01,22,Querétaro,Lesiones dolosas,46
-2026-04-01,22,Querétaro,Lesiones dolosas,292
+2026-04-01,22,Querétaro,Lesiones dolosas,293
 2026-04-01,22,Querétaro,Narcomenudeo con fines de venta,21
 2026-04-01,22,Querétaro,Narcomenudeo posesión simple,168
 2026-04-01,22,Querétaro,Otros delitos contra el patrimonio,38
-2026-04-01,22,Querétaro,Otros delitos contra la sociedad,63
-2026-04-01,22,Querétaro,Otros delitos del Fuero Común,563
+2026-04-01,22,Querétaro,Otros delitos contra la sociedad,62
+2026-04-01,22,Querétaro,Otros delitos del Fuero Común,564
 2026-04-01,22,Querétaro,Otros delitos que atentan contra la libertad y la seguridad sexual,6
 2026-04-01,22,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,12
-2026-04-01,22,Querétaro,Otros robos,16
-2026-04-01,22,Querétaro,Otros robos,630
+2026-04-01,22,Querétaro,Otros robos,17
+2026-04-01,22,Querétaro,Otros robos,628
 2026-04-01,22,Querétaro,Privación ilegal de la libertad,15
 2026-04-01,22,Querétaro,Retención o sustracción de menores e incapaces,17
 2026-04-01,22,Querétaro,Robo a casa habitación,9
@@ -242748,7 +242778,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,22,Querétaro,Robo a negocio,168
 2026-04-01,22,Querétaro,Robo a transeúnte en espacio abierto al público,2
 2026-04-01,22,Querétaro,Robo a transeúnte en espacio abierto al público,5
-2026-04-01,22,Querétaro,Robo a transeúnte en vía pública,32
+2026-04-01,22,Querétaro,Robo a transeúnte en vía pública,31
 2026-04-01,22,Querétaro,Robo a transeúnte en vía pública,34
 2026-04-01,22,Querétaro,Robo de autopartes,14
 2026-04-01,22,Querétaro,Robo de ganado,13
@@ -242764,7 +242794,7 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,22,Querétaro,Secuestro extorsivo,1
 2026-04-01,22,Querétaro,Suplantación y usurpación de identidad,42
 2026-04-01,22,Querétaro,Tentativa de extorsión por otros medios,35
-2026-04-01,22,Querétaro,Tentativa de homicidio doloso,7
+2026-04-01,22,Querétaro,Tentativa de homicidio doloso,8
 2026-04-01,22,Querétaro,Violación equiparada,18
 2026-04-01,22,Querétaro,Violación simple,27
 2026-04-01,22,Querétaro,Violencia de género en todas sus modalidades distinta a la violencia familiar,133
@@ -242925,10 +242955,10 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,25,Sinaloa,Lesiones dolosas,237
 2026-04-01,25,Sinaloa,Narcomenudeo con fines de venta,26
 2026-04-01,25,Sinaloa,Narcomenudeo posesión simple,17
-2026-04-01,25,Sinaloa,Otros delitos contra el patrimonio,8
+2026-04-01,25,Sinaloa,Otros delitos contra el patrimonio,13
 2026-04-01,25,Sinaloa,Otros delitos contra la familia,32
 2026-04-01,25,Sinaloa,Otros delitos contra la sociedad,27
-2026-04-01,25,Sinaloa,Otros delitos del Fuero Común,22
+2026-04-01,25,Sinaloa,Otros delitos del Fuero Común,17
 2026-04-01,25,Sinaloa,Otros delitos que atentan contra la libertad personal,31
 2026-04-01,25,Sinaloa,Otros delitos que atentan contra la libertad y la seguridad sexual,2
 2026-04-01,25,Sinaloa,Otros robos,59
@@ -243324,13 +243354,13 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,31,Yucatán,Violación simple,2
 2026-04-01,31,Yucatán,Violencia familiar,32
 2026-04-01,32,Zacatecas,Aborto,1
-2026-04-01,32,Zacatecas,Abuso de confianza,28
+2026-04-01,32,Zacatecas,Abuso de confianza,27
 2026-04-01,32,Zacatecas,Abuso sexual,28
 2026-04-01,32,Zacatecas,Acoso sexual,12
-2026-04-01,32,Zacatecas,Allanamiento de morada,9
+2026-04-01,32,Zacatecas,Allanamiento de morada,8
 2026-04-01,32,Zacatecas,Amenazas,124
 2026-04-01,32,Zacatecas,Corrupción de menores,2
-2026-04-01,32,Zacatecas,Daño a la propiedad,220
+2026-04-01,32,Zacatecas,Daño a la propiedad,221
 2026-04-01,32,Zacatecas,Delitos cometidos por servidores públicos,22
 2026-04-01,32,Zacatecas,Delitos contra la administración de justicia,4
 2026-04-01,32,Zacatecas,Despojo,26
@@ -243340,31 +243370,31 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,32,Zacatecas,Falsedad,4
 2026-04-01,32,Zacatecas,Falsificación,5
 2026-04-01,32,Zacatecas,Fraude,153
-2026-04-01,32,Zacatecas,Homicidio culposo,1
-2026-04-01,32,Zacatecas,Homicidio culposo,10
-2026-04-01,32,Zacatecas,Homicidio culposo,33
+2026-04-01,32,Zacatecas,Homicidio culposo,2
+2026-04-01,32,Zacatecas,Homicidio culposo,9
+2026-04-01,32,Zacatecas,Homicidio culposo,34
 2026-04-01,32,Zacatecas,Homicidio doloso,2
 2026-04-01,32,Zacatecas,Homicidio doloso,4
 2026-04-01,32,Zacatecas,Hostigamiento sexual,1
 2026-04-01,32,Zacatecas,Incumplimiento de obligaciones de asistencia familiar,60
 2026-04-01,32,Zacatecas,Lesiones culposas,7
 2026-04-01,32,Zacatecas,Lesiones culposas,27
-2026-04-01,32,Zacatecas,Lesiones culposas,33
+2026-04-01,32,Zacatecas,Lesiones culposas,32
 2026-04-01,32,Zacatecas,Lesiones dolosas,3
 2026-04-01,32,Zacatecas,Lesiones dolosas,9
-2026-04-01,32,Zacatecas,Lesiones dolosas,43
+2026-04-01,32,Zacatecas,Lesiones dolosas,44
 2026-04-01,32,Zacatecas,Lesiones dolosas,101
 2026-04-01,32,Zacatecas,Narcomenudeo con fines de venta,47
 2026-04-01,32,Zacatecas,Narcomenudeo posesión simple,7
 2026-04-01,32,Zacatecas,Otros delitos contra el patrimonio,7
-2026-04-01,32,Zacatecas,Otros delitos contra la familia,10
 2026-04-01,32,Zacatecas,Otros delitos del Fuero Común,35
-2026-04-01,32,Zacatecas,Otros delitos que atentan contra la libertad personal,17
+2026-04-01,32,Zacatecas,Otros delitos que atentan contra la libertad personal,16
 2026-04-01,32,Zacatecas,Otros delitos que atentan contra la vida y la integridad corporal,6
 2026-04-01,32,Zacatecas,Otros robos,65
-2026-04-01,32,Zacatecas,Otros robos,167
+2026-04-01,32,Zacatecas,Otros robos,166
 2026-04-01,32,Zacatecas,Privación ilegal de la libertad,25
-2026-04-01,32,Zacatecas,Robo a casa habitación,3
+2026-04-01,32,Zacatecas,Retención o sustracción de menores e incapaces,10
+2026-04-01,32,Zacatecas,Robo a casa habitación,4
 2026-04-01,32,Zacatecas,Robo a casa habitación,25
 2026-04-01,32,Zacatecas,Robo a negocio,3
 2026-04-01,32,Zacatecas,Robo a negocio,17
@@ -243374,15 +243404,2060 @@ PERIODO,CVE_ENT,ENTIDAD,DELITO,TOTAL
 2026-04-01,32,Zacatecas,Robo de autopartes,1
 2026-04-01,32,Zacatecas,Robo de ganado,7
 2026-04-01,32,Zacatecas,Robo de vehículo automotor - Coche de 4 ruedas,20
-2026-04-01,32,Zacatecas,Robo de vehículo automotor - Coche de 4 ruedas,38
+2026-04-01,32,Zacatecas,Robo de vehículo automotor - Coche de 4 ruedas,39
 2026-04-01,32,Zacatecas,Robo de vehículo automotor - Motocicleta,6
-2026-04-01,32,Zacatecas,Robo de vehículo automotor - Motocicleta,39
+2026-04-01,32,Zacatecas,Robo de vehículo automotor - Motocicleta,40
 2026-04-01,32,Zacatecas,Suplantación y usurpación de identidad,12
 2026-04-01,32,Zacatecas,Tentativa de feminicidio,2
 2026-04-01,32,Zacatecas,Tentativa de homicidio doloso,3
 2026-04-01,32,Zacatecas,Tortura,8
 2026-04-01,32,Zacatecas,Trata de personas con fines de explotación sexual,2
+2026-04-01,32,Zacatecas,Trata de personas con fines de trabajo o servicios forzados,1
 2026-04-01,32,Zacatecas,Violación a la intimidad sexual,16
 2026-04-01,32,Zacatecas,Violación equiparada,15
 2026-04-01,32,Zacatecas,Violación simple,14
-2026-04-01,32,Zacatecas,Violencia familiar,320
+2026-04-01,32,Zacatecas,Violencia familiar,323
+2026-05-01,1,Aguascalientes,Aborto,3
+2026-05-01,1,Aguascalientes,Abuso de confianza,53
+2026-05-01,1,Aguascalientes,Abuso sexual,60
+2026-05-01,1,Aguascalientes,Allanamiento de morada,39
+2026-05-01,1,Aguascalientes,Amenazas,221
+2026-05-01,1,Aguascalientes,Contra el medio ambiente,10
+2026-05-01,1,Aguascalientes,Corrupción de menores,6
+2026-05-01,1,Aguascalientes,Daño a la propiedad,410
+2026-05-01,1,Aguascalientes,Delitos cometidos por servidores públicos,32
+2026-05-01,1,Aguascalientes,Despojo,35
+2026-05-01,1,Aguascalientes,Extorsión por otros medios,1
+2026-05-01,1,Aguascalientes,Falsedad,11
+2026-05-01,1,Aguascalientes,Falsificación,45
+2026-05-01,1,Aguascalientes,Feminicidio,1
+2026-05-01,1,Aguascalientes,Fraude,251
+2026-05-01,1,Aguascalientes,Homicidio culposo,5
+2026-05-01,1,Aguascalientes,Homicidio doloso,1
+2026-05-01,1,Aguascalientes,Homicidio doloso,2
+2026-05-01,1,Aguascalientes,Homicidio doloso,2
+2026-05-01,1,Aguascalientes,Hostigamiento sexual,14
+2026-05-01,1,Aguascalientes,Incumplimiento de obligaciones de asistencia familiar,39
+2026-05-01,1,Aguascalientes,Lesiones culposas,9
+2026-05-01,1,Aguascalientes,Lesiones culposas,80
+2026-05-01,1,Aguascalientes,Lesiones dolosas,9
+2026-05-01,1,Aguascalientes,Lesiones dolosas,33
+2026-05-01,1,Aguascalientes,Lesiones dolosas,52
+2026-05-01,1,Aguascalientes,Lesiones dolosas,224
+2026-05-01,1,Aguascalientes,Narcomenudeo posesión simple,252
+2026-05-01,1,Aguascalientes,Otros delitos contra el patrimonio,8
+2026-05-01,1,Aguascalientes,Otros delitos contra la familia,7
+2026-05-01,1,Aguascalientes,Otros delitos del Fuero Común,384
+2026-05-01,1,Aguascalientes,Otros delitos que atentan contra la libertad y la seguridad sexual,4
+2026-05-01,1,Aguascalientes,Otros delitos que atentan contra la vida y la integridad corporal,9
+2026-05-01,1,Aguascalientes,Otros robos,4
+2026-05-01,1,Aguascalientes,Otros robos,176
+2026-05-01,1,Aguascalientes,Privación ilegal de la libertad,7
+2026-05-01,1,Aguascalientes,Retención o sustracción de menores e incapaces,10
+2026-05-01,1,Aguascalientes,Robo a casa habitación,5
+2026-05-01,1,Aguascalientes,Robo a casa habitación,113
+2026-05-01,1,Aguascalientes,Robo a negocio,29
+2026-05-01,1,Aguascalientes,Robo a negocio,142
+2026-05-01,1,Aguascalientes,Robo a transeúnte en espacio abierto al público,1
+2026-05-01,1,Aguascalientes,Robo a transeúnte en vía pública,43
+2026-05-01,1,Aguascalientes,Robo a transeúnte en vía pública,86
+2026-05-01,1,Aguascalientes,Robo a transportista,1
+2026-05-01,1,Aguascalientes,Robo de autopartes,21
+2026-05-01,1,Aguascalientes,Robo de ganado,18
+2026-05-01,1,Aguascalientes,Robo de vehículo automotor - Coche de 4 ruedas,3
+2026-05-01,1,Aguascalientes,Robo de vehículo automotor - Coche de 4 ruedas,27
+2026-05-01,1,Aguascalientes,Robo de vehículo automotor - Motocicleta,4
+2026-05-01,1,Aguascalientes,Robo de vehículo automotor - Motocicleta,55
+2026-05-01,1,Aguascalientes,Robo en transporte individual,1
+2026-05-01,1,Aguascalientes,Robo en transporte individual,2
+2026-05-01,1,Aguascalientes,Robo en transporte público colectivo,2
+2026-05-01,1,Aguascalientes,Robo en transporte público individual,5
+2026-05-01,1,Aguascalientes,Robo en transporte público individual,5
+2026-05-01,1,Aguascalientes,Suplantación y usurpación de identidad,17
+2026-05-01,1,Aguascalientes,Tentativa de extorsión por otros medios,1
+2026-05-01,1,Aguascalientes,Tentativa de feminicidio,1
+2026-05-01,1,Aguascalientes,Violación equiparada,11
+2026-05-01,1,Aguascalientes,Violación simple,28
+2026-05-01,1,Aguascalientes,Violencia de género en todas sus modalidades distinta a la violencia familiar,1
+2026-05-01,1,Aguascalientes,Violencia familiar,257
+2026-05-01,2,Baja California,Aborto,7
+2026-05-01,2,Baja California,Abuso de confianza,51
+2026-05-01,2,Baja California,Abuso sexual,136
+2026-05-01,2,Baja California,Acoso sexual,29
+2026-05-01,2,Baja California,Allanamiento de morada,289
+2026-05-01,2,Baja California,Amenazas,385
+2026-05-01,2,Baja California,Contra el medio ambiente,1
+2026-05-01,2,Baja California,Corrupción de menores,28
+2026-05-01,2,Baja California,Daño a la propiedad,528
+2026-05-01,2,Baja California,Delitos cometidos por servidores públicos,78
+2026-05-01,2,Baja California,Delitos contra la administración de justicia,22
+2026-05-01,2,Baja California,Despojo,105
+2026-05-01,2,Baja California,Discriminación,5
+2026-05-01,2,Baja California,Electorales,4
+2026-05-01,2,Baja California,Extorsión por otros medios,2
+2026-05-01,2,Baja California,Falsedad,25
+2026-05-01,2,Baja California,Falsificación,28
+2026-05-01,2,Baja California,Fraude,272
+2026-05-01,2,Baja California,Homicidio culposo,1
+2026-05-01,2,Baja California,Homicidio culposo,36
+2026-05-01,2,Baja California,Homicidio doloso,4
+2026-05-01,2,Baja California,Homicidio doloso,8
+2026-05-01,2,Baja California,Homicidio doloso,24
+2026-05-01,2,Baja California,Homicidio doloso,69
+2026-05-01,2,Baja California,Hostigamiento sexual,14
+2026-05-01,2,Baja California,Incumplimiento de obligaciones de asistencia familiar,99
+2026-05-01,2,Baja California,Lesiones culposas,138
+2026-05-01,2,Baja California,Lesiones dolosas,5
+2026-05-01,2,Baja California,Lesiones dolosas,35
+2026-05-01,2,Baja California,Lesiones dolosas,404
+2026-05-01,2,Baja California,Narcomenudeo posesión simple,655
+2026-05-01,2,Baja California,Otros delitos contra el patrimonio,71
+2026-05-01,2,Baja California,Otros delitos contra la familia,11
+2026-05-01,2,Baja California,Otros delitos contra la sociedad,115
+2026-05-01,2,Baja California,Otros delitos del Fuero Común,537
+2026-05-01,2,Baja California,Otros delitos que atentan contra la libertad personal,9
+2026-05-01,2,Baja California,Otros delitos que atentan contra la libertad y la seguridad sexual,19
+2026-05-01,2,Baja California,Otros delitos que atentan contra la vida y la integridad corporal,111
+2026-05-01,2,Baja California,Otros robos,61
+2026-05-01,2,Baja California,Otros robos,396
+2026-05-01,2,Baja California,Pornografía infantil,2
+2026-05-01,2,Baja California,Privación ilegal de la libertad,41
+2026-05-01,2,Baja California,Retención o sustracción de menores e incapaces,73
+2026-05-01,2,Baja California,Robo a casa habitación,7
+2026-05-01,2,Baja California,Robo a casa habitación,124
+2026-05-01,2,Baja California,Robo a negocio,139
+2026-05-01,2,Baja California,Robo a negocio,152
+2026-05-01,2,Baja California,Robo a transeúnte en espacio abierto al público,2
+2026-05-01,2,Baja California,Robo a transeúnte en vía pública,126
+2026-05-01,2,Baja California,Robo a transeúnte en vía pública,150
+2026-05-01,2,Baja California,Robo a transportista,1
+2026-05-01,2,Baja California,Robo a transportista,1
+2026-05-01,2,Baja California,Robo de autopartes,13
+2026-05-01,2,Baja California,Robo de ganado,4
+2026-05-01,2,Baja California,Robo de vehículo automotor - Coche de 4 ruedas,42
+2026-05-01,2,Baja California,Robo de vehículo automotor - Coche de 4 ruedas,457
+2026-05-01,2,Baja California,Robo de vehículo automotor - Motocicleta,12
+2026-05-01,2,Baja California,Robo de vehículo automotor - Motocicleta,66
+2026-05-01,2,Baja California,Robo en transporte individual,1
+2026-05-01,2,Baja California,Robo en transporte público colectivo,3
+2026-05-01,2,Baja California,Secuestro para causar daño,1
+2026-05-01,2,Baja California,Suplantación y usurpación de identidad,47
+2026-05-01,2,Baja California,Tentativa de extorsión por otros medios,3
+2026-05-01,2,Baja California,Tentativa de homicidio doloso,31
+2026-05-01,2,Baja California,Tortura,2
+2026-05-01,2,Baja California,Trata de personas con fines de explotación sexual,6
+2026-05-01,2,Baja California,Trata de personas con fines de trabajo o servicios forzados,1
+2026-05-01,2,Baja California,Violación a la intimidad sexual,25
+2026-05-01,2,Baja California,Violación equiparada,17
+2026-05-01,2,Baja California,Violación simple,40
+2026-05-01,2,Baja California,Violencia familiar,1448
+2026-05-01,3,Baja California Sur,Aborto,1
+2026-05-01,3,Baja California Sur,Abuso de confianza,37
+2026-05-01,3,Baja California Sur,Abuso sexual,34
+2026-05-01,3,Baja California Sur,Acoso sexual,18
+2026-05-01,3,Baja California Sur,Allanamiento de morada,11
+2026-05-01,3,Baja California Sur,Amenazas,208
+2026-05-01,3,Baja California Sur,Contra el medio ambiente,1
+2026-05-01,3,Baja California Sur,Corrupción de menores,11
+2026-05-01,3,Baja California Sur,Daño a la propiedad,190
+2026-05-01,3,Baja California Sur,Delitos cometidos por servidores públicos,22
+2026-05-01,3,Baja California Sur,Delitos contra la administración de justicia,2
+2026-05-01,3,Baja California Sur,Despojo,37
+2026-05-01,3,Baja California Sur,Discriminación,11
+2026-05-01,3,Baja California Sur,Extorsión por otros medios,25
+2026-05-01,3,Baja California Sur,Extorsión presencial,4
+2026-05-01,3,Baja California Sur,Falsedad,8
+2026-05-01,3,Baja California Sur,Falsificación,7
+2026-05-01,3,Baja California Sur,Feminicidio,1
+2026-05-01,3,Baja California Sur,Fraude,153
+2026-05-01,3,Baja California Sur,Homicidio culposo,6
+2026-05-01,3,Baja California Sur,Homicidio doloso,1
+2026-05-01,3,Baja California Sur,Homicidio doloso,1
+2026-05-01,3,Baja California Sur,Homicidio doloso,2
+2026-05-01,3,Baja California Sur,Incumplimiento de obligaciones de asistencia familiar,79
+2026-05-01,3,Baja California Sur,Lesiones culposas,1
+2026-05-01,3,Baja California Sur,Lesiones culposas,11
+2026-05-01,3,Baja California Sur,Lesiones culposas,68
+2026-05-01,3,Baja California Sur,Lesiones dolosas,1
+2026-05-01,3,Baja California Sur,Lesiones dolosas,8
+2026-05-01,3,Baja California Sur,Lesiones dolosas,31
+2026-05-01,3,Baja California Sur,Lesiones dolosas,113
+2026-05-01,3,Baja California Sur,Narcomenudeo con fines de venta,21
+2026-05-01,3,Baja California Sur,Narcomenudeo posesión simple,165
+2026-05-01,3,Baja California Sur,Otros delitos contra el patrimonio,22
+2026-05-01,3,Baja California Sur,Otros delitos del Fuero Común,50
+2026-05-01,3,Baja California Sur,Otros delitos que atentan contra la libertad personal,22
+2026-05-01,3,Baja California Sur,Otros delitos que atentan contra la libertad y la seguridad sexual,20
+2026-05-01,3,Baja California Sur,Otros delitos que atentan contra la vida y la integridad corporal,26
+2026-05-01,3,Baja California Sur,Otros robos,21
+2026-05-01,3,Baja California Sur,Otros robos,168
+2026-05-01,3,Baja California Sur,Privación ilegal de la libertad,16
+2026-05-01,3,Baja California Sur,Retención o sustracción de menores e incapaces,19
+2026-05-01,3,Baja California Sur,Robo a casa habitación,3
+2026-05-01,3,Baja California Sur,Robo a casa habitación,74
+2026-05-01,3,Baja California Sur,Robo a negocio,11
+2026-05-01,3,Baja California Sur,Robo a negocio,39
+2026-05-01,3,Baja California Sur,Robo a transeúnte en espacio abierto al público,1
+2026-05-01,3,Baja California Sur,Robo a transeúnte en vía pública,5
+2026-05-01,3,Baja California Sur,Robo a transportista,1
+2026-05-01,3,Baja California Sur,Robo de autopartes,1
+2026-05-01,3,Baja California Sur,Robo de ganado,3
+2026-05-01,3,Baja California Sur,"Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos",8
+2026-05-01,3,Baja California Sur,Robo de vehículo automotor - Coche de 4 ruedas,34
+2026-05-01,3,Baja California Sur,Robo de vehículo automotor - Embarcaciones,1
+2026-05-01,3,Baja California Sur,Robo de vehículo automotor - Motocicleta,20
+2026-05-01,3,Baja California Sur,Suplantación y usurpación de identidad,31
+2026-05-01,3,Baja California Sur,Tentativa de extorsión por otros medios,1
+2026-05-01,3,Baja California Sur,Tentativa de homicidio doloso,1
+2026-05-01,3,Baja California Sur,Tortura,1
+2026-05-01,3,Baja California Sur,Violación equiparada,12
+2026-05-01,3,Baja California Sur,Violación simple,11
+2026-05-01,3,Baja California Sur,Violencia de género en todas sus modalidades distinta a la violencia familiar,1
+2026-05-01,3,Baja California Sur,Violencia familiar,337
+2026-05-01,4,Campeche,Abuso de confianza,1
+2026-05-01,4,Campeche,Abuso sexual,19
+2026-05-01,4,Campeche,Acoso sexual,3
+2026-05-01,4,Campeche,Allanamiento de morada,7
+2026-05-01,4,Campeche,Amenazas,22
+2026-05-01,4,Campeche,Corrupción de menores,1
+2026-05-01,4,Campeche,Daño a la propiedad,47
+2026-05-01,4,Campeche,Delitos contra la administración de justicia,1
+2026-05-01,4,Campeche,Despojo,2
+2026-05-01,4,Campeche,Extorsión por otros medios,2
+2026-05-01,4,Campeche,Falsedad,1
+2026-05-01,4,Campeche,Falsificación,1
+2026-05-01,4,Campeche,Fraude,1
+2026-05-01,4,Campeche,Homicidio culposo,9
+2026-05-01,4,Campeche,Homicidio doloso,1
+2026-05-01,4,Campeche,Homicidio doloso,8
+2026-05-01,4,Campeche,Incumplimiento de obligaciones de asistencia familiar,13
+2026-05-01,4,Campeche,Lesiones culposas,1
+2026-05-01,4,Campeche,Lesiones culposas,28
+2026-05-01,4,Campeche,Lesiones dolosas,2
+2026-05-01,4,Campeche,Lesiones dolosas,3
+2026-05-01,4,Campeche,Lesiones dolosas,30
+2026-05-01,4,Campeche,Narcomenudeo con fines de venta,13
+2026-05-01,4,Campeche,Narcomenudeo posesión simple,42
+2026-05-01,4,Campeche,Otros delitos contra el patrimonio,15
+2026-05-01,4,Campeche,Otros delitos del Fuero Común,19
+2026-05-01,4,Campeche,Otros delitos que atentan contra la libertad personal,1
+2026-05-01,4,Campeche,Otros delitos que atentan contra la libertad y la seguridad sexual,2
+2026-05-01,4,Campeche,Otros robos,2
+2026-05-01,4,Campeche,Otros robos,6
+2026-05-01,4,Campeche,Retención o sustracción de menores e incapaces,7
+2026-05-01,4,Campeche,Robo a casa habitación,4
+2026-05-01,4,Campeche,Robo a negocio,3
+2026-05-01,4,Campeche,Robo a negocio,10
+2026-05-01,4,Campeche,Robo de autopartes,1
+2026-05-01,4,Campeche,Tentativa de extorsión por otros medios,1
+2026-05-01,4,Campeche,Tentativa de homicidio doloso,2
+2026-05-01,4,Campeche,Violación a la intimidad sexual,2
+2026-05-01,4,Campeche,Violación equiparada,10
+2026-05-01,4,Campeche,Violación simple,6
+2026-05-01,4,Campeche,Violencia familiar,30
+2026-05-01,5,Coahuila de Zaragoza,Abuso de confianza,96
+2026-05-01,5,Coahuila de Zaragoza,Abuso sexual,74
+2026-05-01,5,Coahuila de Zaragoza,Acoso sexual,47
+2026-05-01,5,Coahuila de Zaragoza,Allanamiento de morada,72
+2026-05-01,5,Coahuila de Zaragoza,Amenazas,1305
+2026-05-01,5,Coahuila de Zaragoza,Corrupción de menores,3
+2026-05-01,5,Coahuila de Zaragoza,Daño a la propiedad,866
+2026-05-01,5,Coahuila de Zaragoza,Delitos cometidos por servidores públicos,24
+2026-05-01,5,Coahuila de Zaragoza,Despojo,61
+2026-05-01,5,Coahuila de Zaragoza,Discriminación,22
+2026-05-01,5,Coahuila de Zaragoza,Electorales,14
+2026-05-01,5,Coahuila de Zaragoza,Extorsión por otros medios,4
+2026-05-01,5,Coahuila de Zaragoza,Extorsión presencial,2
+2026-05-01,5,Coahuila de Zaragoza,Falsificación,20
+2026-05-01,5,Coahuila de Zaragoza,Fraude,243
+2026-05-01,5,Coahuila de Zaragoza,Homicidio culposo,2
+2026-05-01,5,Coahuila de Zaragoza,Homicidio culposo,25
+2026-05-01,5,Coahuila de Zaragoza,Homicidio doloso,4
+2026-05-01,5,Coahuila de Zaragoza,Hostigamiento sexual,2
+2026-05-01,5,Coahuila de Zaragoza,Incumplimiento de obligaciones de asistencia familiar,39
+2026-05-01,5,Coahuila de Zaragoza,Lesiones culposas,3
+2026-05-01,5,Coahuila de Zaragoza,Lesiones culposas,6
+2026-05-01,5,Coahuila de Zaragoza,Lesiones culposas,141
+2026-05-01,5,Coahuila de Zaragoza,Lesiones dolosas,7
+2026-05-01,5,Coahuila de Zaragoza,Lesiones dolosas,47
+2026-05-01,5,Coahuila de Zaragoza,Lesiones dolosas,77
+2026-05-01,5,Coahuila de Zaragoza,Lesiones dolosas,427
+2026-05-01,5,Coahuila de Zaragoza,Narcomenudeo con fines de venta,57
+2026-05-01,5,Coahuila de Zaragoza,Narcomenudeo posesión simple,226
+2026-05-01,5,Coahuila de Zaragoza,Otros delitos contra el patrimonio,105
+2026-05-01,5,Coahuila de Zaragoza,Otros delitos contra la familia,6
+2026-05-01,5,Coahuila de Zaragoza,Otros delitos contra la sociedad,11
+2026-05-01,5,Coahuila de Zaragoza,Otros delitos del Fuero Común,516
+2026-05-01,5,Coahuila de Zaragoza,Otros delitos que atentan contra la libertad y la seguridad sexual,11
+2026-05-01,5,Coahuila de Zaragoza,Otros delitos que atentan contra la vida y la integridad corporal,2
+2026-05-01,5,Coahuila de Zaragoza,Otros robos,24
+2026-05-01,5,Coahuila de Zaragoza,Otros robos,205
+2026-05-01,5,Coahuila de Zaragoza,Privación ilegal de la libertad,3
+2026-05-01,5,Coahuila de Zaragoza,Retención o sustracción de menores e incapaces,17
+2026-05-01,5,Coahuila de Zaragoza,Robo a casa habitación,1
+2026-05-01,5,Coahuila de Zaragoza,Robo a casa habitación,48
+2026-05-01,5,Coahuila de Zaragoza,Robo a negocio,6
+2026-05-01,5,Coahuila de Zaragoza,Robo a negocio,42
+2026-05-01,5,Coahuila de Zaragoza,Robo a transeúnte en espacio abierto al público,4
+2026-05-01,5,Coahuila de Zaragoza,Robo a transeúnte en vía pública,8
+2026-05-01,5,Coahuila de Zaragoza,Robo a transeúnte en vía pública,11
+2026-05-01,5,Coahuila de Zaragoza,Robo a transportista,2
+2026-05-01,5,Coahuila de Zaragoza,Robo de autopartes,6
+2026-05-01,5,Coahuila de Zaragoza,Robo de ganado,8
+2026-05-01,5,Coahuila de Zaragoza,Robo de vehículo automotor - Coche de 4 ruedas,1
+2026-05-01,5,Coahuila de Zaragoza,Robo de vehículo automotor - Coche de 4 ruedas,16
+2026-05-01,5,Coahuila de Zaragoza,Robo en transporte individual,1
+2026-05-01,5,Coahuila de Zaragoza,Tentativa de extorsión por otros medios,2
+2026-05-01,5,Coahuila de Zaragoza,Tentativa de extorsión presencial,1
+2026-05-01,5,Coahuila de Zaragoza,Tentativa de feminicidio,3
+2026-05-01,5,Coahuila de Zaragoza,Tentativa de homicidio doloso,3
+2026-05-01,5,Coahuila de Zaragoza,Tortura,4
+2026-05-01,5,Coahuila de Zaragoza,Trata de personas con fines de explotación sexual,1
+2026-05-01,5,Coahuila de Zaragoza,Trata de personas con otros fines,1
+2026-05-01,5,Coahuila de Zaragoza,Violación a la intimidad sexual,22
+2026-05-01,5,Coahuila de Zaragoza,Violación equiparada,23
+2026-05-01,5,Coahuila de Zaragoza,Violación simple,11
+2026-05-01,5,Coahuila de Zaragoza,Violencia familiar,1350
+2026-05-01,6,Colima,Abuso de confianza,32
+2026-05-01,6,Colima,Abuso sexual,33
+2026-05-01,6,Colima,Acoso sexual,5
+2026-05-01,6,Colima,Allanamiento de morada,15
+2026-05-01,6,Colima,Amenazas,245
+2026-05-01,6,Colima,Corrupción de menores,3
+2026-05-01,6,Colima,Daño a la propiedad,341
+2026-05-01,6,Colima,Delitos cometidos por servidores públicos,23
+2026-05-01,6,Colima,Despojo,41
+2026-05-01,6,Colima,Discriminación,3
+2026-05-01,6,Colima,Electorales,5
+2026-05-01,6,Colima,Extorsión por otros medios,15
+2026-05-01,6,Colima,Falsedad,4
+2026-05-01,6,Colima,Falsificación,19
+2026-05-01,6,Colima,Feminicidio,1
+2026-05-01,6,Colima,Fraude,113
+2026-05-01,6,Colima,Homicidio culposo,15
+2026-05-01,6,Colima,Homicidio doloso,4
+2026-05-01,6,Colima,Homicidio doloso,37
+2026-05-01,6,Colima,Hostigamiento sexual,3
+2026-05-01,6,Colima,Incumplimiento de obligaciones de asistencia familiar,42
+2026-05-01,6,Colima,Lesiones culposas,1
+2026-05-01,6,Colima,Lesiones culposas,1
+2026-05-01,6,Colima,Lesiones culposas,88
+2026-05-01,6,Colima,Lesiones dolosas,1
+2026-05-01,6,Colima,Lesiones dolosas,6
+2026-05-01,6,Colima,Lesiones dolosas,94
+2026-05-01,6,Colima,Narcomenudeo con fines de venta,9
+2026-05-01,6,Colima,Narcomenudeo posesión simple,187
+2026-05-01,6,Colima,Otros delitos contra el patrimonio,19
+2026-05-01,6,Colima,Otros delitos contra la sociedad,17
+2026-05-01,6,Colima,Otros delitos del Fuero Común,214
+2026-05-01,6,Colima,Otros delitos que atentan contra la libertad personal,29
+2026-05-01,6,Colima,Otros delitos que atentan contra la libertad y la seguridad sexual,14
+2026-05-01,6,Colima,Otros robos,119
+2026-05-01,6,Colima,Privación ilegal de la libertad,4
+2026-05-01,6,Colima,Retención o sustracción de menores e incapaces,14
+2026-05-01,6,Colima,Robo a casa habitación,58
+2026-05-01,6,Colima,Robo a institución bancaria,1
+2026-05-01,6,Colima,Robo a negocio,1
+2026-05-01,6,Colima,Robo a negocio,26
+2026-05-01,6,Colima,Robo a transeúnte en vía pública,1
+2026-05-01,6,Colima,Robo a transeúnte en vía pública,4
+2026-05-01,6,Colima,Robo a transportista,4
+2026-05-01,6,Colima,Robo de autopartes,2
+2026-05-01,6,Colima,Robo de ganado,2
+2026-05-01,6,Colima,Robo de vehículo automotor - Coche de 4 ruedas,22
+2026-05-01,6,Colima,Robo de vehículo automotor - Motocicleta,18
+2026-05-01,6,Colima,Tentativa de extorsión por otros medios,1
+2026-05-01,6,Colima,Tentativa de feminicidio,3
+2026-05-01,6,Colima,Tentativa de homicidio doloso,10
+2026-05-01,6,Colima,Violación simple,13
+2026-05-01,6,Colima,Violencia familiar,356
+2026-05-01,7,Chiapas,Aborto,1
+2026-05-01,7,Chiapas,Abuso de confianza,1
+2026-05-01,7,Chiapas,Abuso sexual,7
+2026-05-01,7,Chiapas,Acoso sexual,6
+2026-05-01,7,Chiapas,Allanamiento de morada,7
+2026-05-01,7,Chiapas,Amenazas,5
+2026-05-01,7,Chiapas,Contra el medio ambiente,2
+2026-05-01,7,Chiapas,Corrupción de menores,1
+2026-05-01,7,Chiapas,Daño a la propiedad,64
+2026-05-01,7,Chiapas,Delitos cometidos por servidores públicos,8
+2026-05-01,7,Chiapas,Delitos contra la administración de justicia,34
+2026-05-01,7,Chiapas,Despojo,5
+2026-05-01,7,Chiapas,Discriminación,3
+2026-05-01,7,Chiapas,Extorsión por otros medios,1
+2026-05-01,7,Chiapas,Extorsión presencial,2
+2026-05-01,7,Chiapas,Falsificación,1
+2026-05-01,7,Chiapas,Feminicidio,1
+2026-05-01,7,Chiapas,Feminicidio,1
+2026-05-01,7,Chiapas,Fraude,12
+2026-05-01,7,Chiapas,Homicidio culposo,1
+2026-05-01,7,Chiapas,Homicidio culposo,8
+2026-05-01,7,Chiapas,Homicidio culposo,14
+2026-05-01,7,Chiapas,Homicidio culposo,37
+2026-05-01,7,Chiapas,Homicidio doloso,1
+2026-05-01,7,Chiapas,Homicidio doloso,2
+2026-05-01,7,Chiapas,Homicidio doloso,5
+2026-05-01,7,Chiapas,Homicidio doloso,6
+2026-05-01,7,Chiapas,Hostigamiento sexual,1
+2026-05-01,7,Chiapas,Incumplimiento de obligaciones de asistencia familiar,11
+2026-05-01,7,Chiapas,Lesiones culposas,2
+2026-05-01,7,Chiapas,Lesiones culposas,46
+2026-05-01,7,Chiapas,Lesiones dolosas,2
+2026-05-01,7,Chiapas,Lesiones dolosas,9
+2026-05-01,7,Chiapas,Lesiones dolosas,24
+2026-05-01,7,Chiapas,Narcomenudeo con fines de venta,60
+2026-05-01,7,Chiapas,Narcomenudeo posesión simple,25
+2026-05-01,7,Chiapas,Otros delitos contra el patrimonio,11
+2026-05-01,7,Chiapas,Otros delitos contra la familia,1
+2026-05-01,7,Chiapas,Otros delitos del Fuero Común,87
+2026-05-01,7,Chiapas,Otros delitos que atentan contra la libertad personal,9
+2026-05-01,7,Chiapas,Otros delitos que atentan contra la libertad y la seguridad sexual,30
+2026-05-01,7,Chiapas,Otros robos,11
+2026-05-01,7,Chiapas,Otros robos,16
+2026-05-01,7,Chiapas,Pornografía infantil,1
+2026-05-01,7,Chiapas,Retención o sustracción de menores e incapaces,1
+2026-05-01,7,Chiapas,Robo a casa habitación,5
+2026-05-01,7,Chiapas,Robo a casa habitación,9
+2026-05-01,7,Chiapas,Robo a negocio,1
+2026-05-01,7,Chiapas,Robo a negocio,11
+2026-05-01,7,Chiapas,Robo a transeúnte en espacio abierto al público,1
+2026-05-01,7,Chiapas,Robo a transeúnte en vía pública,1
+2026-05-01,7,Chiapas,Robo de autopartes,1
+2026-05-01,7,Chiapas,Robo de ganado,1
+2026-05-01,7,Chiapas,Robo de ganado,3
+2026-05-01,7,Chiapas,Robo de vehículo automotor - Coche de 4 ruedas,8
+2026-05-01,7,Chiapas,Robo de vehículo automotor - Coche de 4 ruedas,13
+2026-05-01,7,Chiapas,Robo de vehículo automotor - Motocicleta,6
+2026-05-01,7,Chiapas,Robo de vehículo automotor - Motocicleta,10
+2026-05-01,7,Chiapas,Secuestro para causar daño,1
+2026-05-01,7,Chiapas,Suplantación y usurpación de identidad,3
+2026-05-01,7,Chiapas,Tentativa de extorsión presencial,1
+2026-05-01,7,Chiapas,Tentativa de feminicidio,5
+2026-05-01,7,Chiapas,Tentativa de homicidio doloso,12
+2026-05-01,7,Chiapas,Tortura,2
+2026-05-01,7,Chiapas,Trata de personas con fines de explotación sexual,1
+2026-05-01,7,Chiapas,Violación simple,6
+2026-05-01,7,Chiapas,Violencia familiar,62
+2026-05-01,8,Chihuahua,Abuso de confianza,124
+2026-05-01,8,Chihuahua,Abuso sexual,173
+2026-05-01,8,Chihuahua,Acoso sexual,46
+2026-05-01,8,Chihuahua,Allanamiento de morada,31
+2026-05-01,8,Chihuahua,Amenazas,280
+2026-05-01,8,Chihuahua,Contra el medio ambiente,1
+2026-05-01,8,Chihuahua,Corrupción de menores,10
+2026-05-01,8,Chihuahua,Daño a la propiedad,757
+2026-05-01,8,Chihuahua,Delitos cometidos por servidores públicos,54
+2026-05-01,8,Chihuahua,Delitos contra la administración de justicia,21
+2026-05-01,8,Chihuahua,Despojo,67
+2026-05-01,8,Chihuahua,Discriminación,14
+2026-05-01,8,Chihuahua,Extorsión por otros medios,19
+2026-05-01,8,Chihuahua,Extorsión presencial,3
+2026-05-01,8,Chihuahua,Falsedad,34
+2026-05-01,8,Chihuahua,Falsificación,61
+2026-05-01,8,Chihuahua,Feminicidio,1
+2026-05-01,8,Chihuahua,Feminicidio,1
+2026-05-01,8,Chihuahua,Fraude,444
+2026-05-01,8,Chihuahua,Homicidio culposo,2
+2026-05-01,8,Chihuahua,Homicidio culposo,15
+2026-05-01,8,Chihuahua,Homicidio doloso,11
+2026-05-01,8,Chihuahua,Homicidio doloso,24
+2026-05-01,8,Chihuahua,Homicidio doloso,50
+2026-05-01,8,Chihuahua,Hostigamiento sexual,4
+2026-05-01,8,Chihuahua,Incesto,1
+2026-05-01,8,Chihuahua,Incumplimiento de obligaciones de asistencia familiar,207
+2026-05-01,8,Chihuahua,Lesiones culposas,74
+2026-05-01,8,Chihuahua,Lesiones culposas,82
+2026-05-01,8,Chihuahua,Lesiones dolosas,15
+2026-05-01,8,Chihuahua,Lesiones dolosas,42
+2026-05-01,8,Chihuahua,Lesiones dolosas,120
+2026-05-01,8,Chihuahua,Lesiones dolosas,342
+2026-05-01,8,Chihuahua,Narcomenudeo con fines de venta,9
+2026-05-01,8,Chihuahua,Narcomenudeo posesión simple,454
+2026-05-01,8,Chihuahua,Otros delitos contra el patrimonio,60
+2026-05-01,8,Chihuahua,Otros delitos contra la familia,4
+2026-05-01,8,Chihuahua,Otros delitos contra la sociedad,7
+2026-05-01,8,Chihuahua,Otros delitos del Fuero Común,313
+2026-05-01,8,Chihuahua,Otros delitos que atentan contra la libertad personal,2
+2026-05-01,8,Chihuahua,Otros delitos que atentan contra la libertad y la seguridad sexual,4
+2026-05-01,8,Chihuahua,Otros delitos que atentan contra la vida y la integridad corporal,39
+2026-05-01,8,Chihuahua,Otros robos,35
+2026-05-01,8,Chihuahua,Otros robos,264
+2026-05-01,8,Chihuahua,Privación ilegal de la libertad,18
+2026-05-01,8,Chihuahua,Retención o sustracción de menores e incapaces,44
+2026-05-01,8,Chihuahua,Robo a casa habitación,8
+2026-05-01,8,Chihuahua,Robo a casa habitación,100
+2026-05-01,8,Chihuahua,Robo a negocio,14
+2026-05-01,8,Chihuahua,Robo a negocio,100
+2026-05-01,8,Chihuahua,Robo a transeúnte en espacio abierto al público,1
+2026-05-01,8,Chihuahua,Robo a transeúnte en vía pública,10
+2026-05-01,8,Chihuahua,Robo a transeúnte en vía pública,15
+2026-05-01,8,Chihuahua,Robo a transportista,1
+2026-05-01,8,Chihuahua,Robo a transportista,1
+2026-05-01,8,Chihuahua,Robo de autopartes,17
+2026-05-01,8,Chihuahua,Robo de ganado,12
+2026-05-01,8,Chihuahua,"Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos",9
+2026-05-01,8,Chihuahua,Robo de maquinaria - Herramienta industrial o agrícola,2
+2026-05-01,8,Chihuahua,Robo de vehículo automotor - Coche de 4 ruedas,27
+2026-05-01,8,Chihuahua,Robo de vehículo automotor - Coche de 4 ruedas,165
+2026-05-01,8,Chihuahua,Robo de vehículo automotor - Motocicleta,3
+2026-05-01,8,Chihuahua,Robo de vehículo automotor - Motocicleta,32
+2026-05-01,8,Chihuahua,Robo en transporte individual,1
+2026-05-01,8,Chihuahua,Secuestro exprés,2
+2026-05-01,8,Chihuahua,Secuestro extorsivo,2
+2026-05-01,8,Chihuahua,Suplantación y usurpación de identidad,19
+2026-05-01,8,Chihuahua,Tentativa de feminicidio,5
+2026-05-01,8,Chihuahua,Tentativa de homicidio doloso,12
+2026-05-01,8,Chihuahua,Tortura,15
+2026-05-01,8,Chihuahua,Trata de personas con otros fines,3
+2026-05-01,8,Chihuahua,Violación a la intimidad sexual,35
+2026-05-01,8,Chihuahua,Violación equiparada,34
+2026-05-01,8,Chihuahua,Violación simple,98
+2026-05-01,8,Chihuahua,Violencia familiar,1193
+2026-05-01,9,Ciudad de México,Aborto,27
+2026-05-01,9,Ciudad de México,Abuso de confianza,370
+2026-05-01,9,Ciudad de México,Abuso sexual,322
+2026-05-01,9,Ciudad de México,Acoso sexual,82
+2026-05-01,9,Ciudad de México,Allanamiento de morada,78
+2026-05-01,9,Ciudad de México,Amenazas,2234
+2026-05-01,9,Ciudad de México,Contra el medio ambiente,68
+2026-05-01,9,Ciudad de México,Corrupción de menores,41
+2026-05-01,9,Ciudad de México,Daño a la propiedad,913
+2026-05-01,9,Ciudad de México,Delitos cometidos por servidores públicos,368
+2026-05-01,9,Ciudad de México,Delitos contra la administración de justicia,91
+2026-05-01,9,Ciudad de México,Despojo,361
+2026-05-01,9,Ciudad de México,Discriminación,114
+2026-05-01,9,Ciudad de México,Electorales,76
+2026-05-01,9,Ciudad de México,Extorsión por otros medios,85
+2026-05-01,9,Ciudad de México,Extorsión presencial,38
+2026-05-01,9,Ciudad de México,Falsedad,57
+2026-05-01,9,Ciudad de México,Falsificación,191
+2026-05-01,9,Ciudad de México,Feminicidio,1
+2026-05-01,9,Ciudad de México,Feminicidio,2
+2026-05-01,9,Ciudad de México,Fraude,1891
+2026-05-01,9,Ciudad de México,Homicidio culposo,76
+2026-05-01,9,Ciudad de México,Homicidio doloso,2
+2026-05-01,9,Ciudad de México,Homicidio doloso,5
+2026-05-01,9,Ciudad de México,Homicidio doloso,9
+2026-05-01,9,Ciudad de México,Homicidio doloso,50
+2026-05-01,9,Ciudad de México,Incumplimiento de obligaciones de asistencia familiar,62
+2026-05-01,9,Ciudad de México,Lesiones culposas,486
+2026-05-01,9,Ciudad de México,Lesiones dolosas,48
+2026-05-01,9,Ciudad de México,Lesiones dolosas,63
+2026-05-01,9,Ciudad de México,Lesiones dolosas,84
+2026-05-01,9,Ciudad de México,Lesiones dolosas,343
+2026-05-01,9,Ciudad de México,Narcomenudeo con fines de venta,304
+2026-05-01,9,Ciudad de México,Narcomenudeo posesión simple,222
+2026-05-01,9,Ciudad de México,Otros delitos contra el patrimonio,64
+2026-05-01,9,Ciudad de México,Otros delitos contra la familia,1
+2026-05-01,9,Ciudad de México,Otros delitos contra la sociedad,14
+2026-05-01,9,Ciudad de México,Otros delitos del Fuero Común,176
+2026-05-01,9,Ciudad de México,Otros delitos que atentan contra la libertad personal,319
+2026-05-01,9,Ciudad de México,Otros delitos que atentan contra la libertad y la seguridad sexual,14
+2026-05-01,9,Ciudad de México,Otros delitos que atentan contra la vida y la integridad corporal,88
+2026-05-01,9,Ciudad de México,Otros robos,18
+2026-05-01,9,Ciudad de México,Otros robos,1428
+2026-05-01,9,Ciudad de México,Pornografía infantil,4
+2026-05-01,9,Ciudad de México,Privación ilegal de la libertad,38
+2026-05-01,9,Ciudad de México,Retención o sustracción de menores e incapaces,63
+2026-05-01,9,Ciudad de México,Robo a casa habitación,22
+2026-05-01,9,Ciudad de México,Robo a casa habitación,181
+2026-05-01,9,Ciudad de México,Robo a institución bancaria,1
+2026-05-01,9,Ciudad de México,Robo a negocio,126
+2026-05-01,9,Ciudad de México,Robo a negocio,625
+2026-05-01,9,Ciudad de México,Robo a transeúnte en espacio abierto al público,116
+2026-05-01,9,Ciudad de México,Robo a transeúnte en espacio abierto al público,146
+2026-05-01,9,Ciudad de México,Robo a transeúnte en vía pública,155
+2026-05-01,9,Ciudad de México,Robo a transeúnte en vía pública,365
+2026-05-01,9,Ciudad de México,Robo de autopartes,794
+2026-05-01,9,Ciudad de México,Robo de vehículo automotor - Coche de 4 ruedas,25
+2026-05-01,9,Ciudad de México,Robo de vehículo automotor - Coche de 4 ruedas,159
+2026-05-01,9,Ciudad de México,Robo de vehículo automotor - Motocicleta,21
+2026-05-01,9,Ciudad de México,Robo de vehículo automotor - Motocicleta,214
+2026-05-01,9,Ciudad de México,Robo en transporte individual,75
+2026-05-01,9,Ciudad de México,Robo en transporte público colectivo,32
+2026-05-01,9,Ciudad de México,Robo en transporte público colectivo,266
+2026-05-01,9,Ciudad de México,Robo en transporte público individual,13
+2026-05-01,9,Ciudad de México,Robo en transporte público individual,38
+2026-05-01,9,Ciudad de México,Suplantación y usurpación de identidad,437
+2026-05-01,9,Ciudad de México,Tentativa de extorsión por otros medios,40
+2026-05-01,9,Ciudad de México,Tentativa de extorsión presencial,32
+2026-05-01,9,Ciudad de México,Tentativa de feminicidio,12
+2026-05-01,9,Ciudad de México,Tentativa de homicidio doloso,5
+2026-05-01,9,Ciudad de México,Tortura,7
+2026-05-01,9,Ciudad de México,Trata de personas con otros fines,1
+2026-05-01,9,Ciudad de México,Violación a la intimidad sexual,141
+2026-05-01,9,Ciudad de México,Violación equiparada,139
+2026-05-01,9,Ciudad de México,Violación simple,58
+2026-05-01,9,Ciudad de México,Violencia familiar,2409
+2026-05-01,10,Durango,Abuso de confianza,21
+2026-05-01,10,Durango,Abuso sexual,48
+2026-05-01,10,Durango,Acoso sexual,12
+2026-05-01,10,Durango,Allanamiento de morada,4
+2026-05-01,10,Durango,Amenazas,106
+2026-05-01,10,Durango,Daño a la propiedad,119
+2026-05-01,10,Durango,Despojo,19
+2026-05-01,10,Durango,Discriminación,3
+2026-05-01,10,Durango,Extorsión por otros medios,3
+2026-05-01,10,Durango,Falsedad,1
+2026-05-01,10,Durango,Falsificación,9
+2026-05-01,10,Durango,Fraude,99
+2026-05-01,10,Durango,Homicidio culposo,2
+2026-05-01,10,Durango,Homicidio culposo,14
+2026-05-01,10,Durango,Homicidio doloso,1
+2026-05-01,10,Durango,Homicidio doloso,2
+2026-05-01,10,Durango,Hostigamiento sexual,2
+2026-05-01,10,Durango,Incumplimiento de obligaciones de asistencia familiar,10
+2026-05-01,10,Durango,Lesiones culposas,1
+2026-05-01,10,Durango,Lesiones culposas,4
+2026-05-01,10,Durango,Lesiones culposas,57
+2026-05-01,10,Durango,Lesiones dolosas,1
+2026-05-01,10,Durango,Lesiones dolosas,2
+2026-05-01,10,Durango,Lesiones dolosas,15
+2026-05-01,10,Durango,Lesiones dolosas,182
+2026-05-01,10,Durango,Narcomenudeo posesión simple,63
+2026-05-01,10,Durango,Otros delitos contra el patrimonio,2
+2026-05-01,10,Durango,Otros delitos contra la familia,33
+2026-05-01,10,Durango,Otros delitos contra la sociedad,4
+2026-05-01,10,Durango,Otros delitos del Fuero Común,58
+2026-05-01,10,Durango,Otros delitos que atentan contra la libertad personal,18
+2026-05-01,10,Durango,Otros delitos que atentan contra la libertad y la seguridad sexual,12
+2026-05-01,10,Durango,Otros delitos que atentan contra la vida y la integridad corporal,5
+2026-05-01,10,Durango,Otros robos,8
+2026-05-01,10,Durango,Otros robos,60
+2026-05-01,10,Durango,Retención o sustracción de menores e incapaces,15
+2026-05-01,10,Durango,Robo a casa habitación,3
+2026-05-01,10,Durango,Robo a casa habitación,25
+2026-05-01,10,Durango,Robo a negocio,2
+2026-05-01,10,Durango,Robo a negocio,15
+2026-05-01,10,Durango,Robo a transeúnte en vía pública,5
+2026-05-01,10,Durango,Robo de autopartes,1
+2026-05-01,10,Durango,Robo de vehículo automotor - Coche de 4 ruedas,7
+2026-05-01,10,Durango,Robo de vehículo automotor - Coche de 4 ruedas,16
+2026-05-01,10,Durango,Robo de vehículo automotor - Motocicleta,20
+2026-05-01,10,Durango,Robo en transporte individual,1
+2026-05-01,10,Durango,Robo en transporte público individual,1
+2026-05-01,10,Durango,Violación a la intimidad sexual,15
+2026-05-01,10,Durango,Violación simple,17
+2026-05-01,10,Durango,Violencia familiar,502
+2026-05-01,11,Guanajuato,Aborto,3
+2026-05-01,11,Guanajuato,Abuso de confianza,196
+2026-05-01,11,Guanajuato,Abuso sexual,210
+2026-05-01,11,Guanajuato,Acoso sexual,51
+2026-05-01,11,Guanajuato,Allanamiento de morada,48
+2026-05-01,11,Guanajuato,Amenazas,1442
+2026-05-01,11,Guanajuato,Corrupción de menores,94
+2026-05-01,11,Guanajuato,Daño a la propiedad,1307
+2026-05-01,11,Guanajuato,Delitos cometidos por servidores públicos,14
+2026-05-01,11,Guanajuato,Despojo,152
+2026-05-01,11,Guanajuato,Extorsión por otros medios,102
+2026-05-01,11,Guanajuato,Extorsión presencial,13
+2026-05-01,11,Guanajuato,Falsedad,31
+2026-05-01,11,Guanajuato,Falsificación,137
+2026-05-01,11,Guanajuato,Feminicidio,1
+2026-05-01,11,Guanajuato,Fraude,541
+2026-05-01,11,Guanajuato,Homicidio culposo,61
+2026-05-01,11,Guanajuato,Homicidio culposo,74
+2026-05-01,11,Guanajuato,Homicidio doloso,3
+2026-05-01,11,Guanajuato,Homicidio doloso,98
+2026-05-01,11,Guanajuato,Hostigamiento sexual,6
+2026-05-01,11,Guanajuato,Incumplimiento de obligaciones de asistencia familiar,272
+2026-05-01,11,Guanajuato,Lesiones dolosas,68
+2026-05-01,11,Guanajuato,Lesiones dolosas,82
+2026-05-01,11,Guanajuato,Lesiones dolosas,1647
+2026-05-01,11,Guanajuato,Narcomenudeo con fines de venta,347
+2026-05-01,11,Guanajuato,Narcomenudeo posesión simple,645
+2026-05-01,11,Guanajuato,Otros delitos contra el patrimonio,219
+2026-05-01,11,Guanajuato,Otros delitos contra la familia,4
+2026-05-01,11,Guanajuato,Otros delitos del Fuero Común,1933
+2026-05-01,11,Guanajuato,Otros delitos que atentan contra la libertad personal,3
+2026-05-01,11,Guanajuato,Otros delitos que atentan contra la libertad y la seguridad sexual,1
+2026-05-01,11,Guanajuato,Otros delitos que atentan contra la vida y la integridad corporal,15
+2026-05-01,11,Guanajuato,Otros robos,226
+2026-05-01,11,Guanajuato,Otros robos,873
+2026-05-01,11,Guanajuato,Privación ilegal de la libertad,30
+2026-05-01,11,Guanajuato,Retención o sustracción de menores e incapaces,152
+2026-05-01,11,Guanajuato,Robo a casa habitación,11
+2026-05-01,11,Guanajuato,Robo a casa habitación,187
+2026-05-01,11,Guanajuato,Robo a institución bancaria,1
+2026-05-01,11,Guanajuato,Robo a negocio,159
+2026-05-01,11,Guanajuato,Robo a negocio,212
+2026-05-01,11,Guanajuato,Robo a transeúnte en vía pública,7
+2026-05-01,11,Guanajuato,Robo a transeúnte en vía pública,14
+2026-05-01,11,Guanajuato,Robo a transportista,1
+2026-05-01,11,Guanajuato,Robo a transportista,1
+2026-05-01,11,Guanajuato,Robo de autopartes,5
+2026-05-01,11,Guanajuato,Robo de ganado,2
+2026-05-01,11,Guanajuato,Robo de ganado,13
+2026-05-01,11,Guanajuato,Robo de vehículo automotor - Coche de 4 ruedas,72
+2026-05-01,11,Guanajuato,Robo de vehículo automotor - Coche de 4 ruedas,113
+2026-05-01,11,Guanajuato,Robo de vehículo automotor - Motocicleta,44
+2026-05-01,11,Guanajuato,Robo de vehículo automotor - Motocicleta,247
+2026-05-01,11,Guanajuato,Suplantación y usurpación de identidad,90
+2026-05-01,11,Guanajuato,Tentativa de extorsión por otros medios,11
+2026-05-01,11,Guanajuato,Tentativa de extorsión presencial,1
+2026-05-01,11,Guanajuato,Tentativa de feminicidio,11
+2026-05-01,11,Guanajuato,Tentativa de homicidio doloso,21
+2026-05-01,11,Guanajuato,Tortura,1
+2026-05-01,11,Guanajuato,Trata de personas con otros fines,3
+2026-05-01,11,Guanajuato,Violación a la intimidad sexual,66
+2026-05-01,11,Guanajuato,Violación equiparada,7
+2026-05-01,11,Guanajuato,Violación simple,85
+2026-05-01,11,Guanajuato,Violencia familiar,1708
+2026-05-01,12,Guerrero,Abuso de confianza,40
+2026-05-01,12,Guerrero,Abuso sexual,37
+2026-05-01,12,Guerrero,Acoso sexual,15
+2026-05-01,12,Guerrero,Allanamiento de morada,22
+2026-05-01,12,Guerrero,Amenazas,276
+2026-05-01,12,Guerrero,Contra el medio ambiente,1
+2026-05-01,12,Guerrero,Corrupción de menores,1
+2026-05-01,12,Guerrero,Daño a la propiedad,211
+2026-05-01,12,Guerrero,Delitos cometidos por servidores públicos,19
+2026-05-01,12,Guerrero,Despojo,50
+2026-05-01,12,Guerrero,Discriminación,1
+2026-05-01,12,Guerrero,Electorales,4
+2026-05-01,12,Guerrero,Extorsión por otros medios,22
+2026-05-01,12,Guerrero,Falsedad,10
+2026-05-01,12,Guerrero,Falsificación,21
+2026-05-01,12,Guerrero,Feminicidio,1
+2026-05-01,12,Guerrero,Fraude,103
+2026-05-01,12,Guerrero,Homicidio culposo,53
+2026-05-01,12,Guerrero,Homicidio doloso,67
+2026-05-01,12,Guerrero,Hostigamiento sexual,1
+2026-05-01,12,Guerrero,Incumplimiento de obligaciones de asistencia familiar,38
+2026-05-01,12,Guerrero,Lesiones culposas,2
+2026-05-01,12,Guerrero,Lesiones culposas,80
+2026-05-01,12,Guerrero,Lesiones dolosas,14
+2026-05-01,12,Guerrero,Lesiones dolosas,25
+2026-05-01,12,Guerrero,Lesiones dolosas,199
+2026-05-01,12,Guerrero,Narcomenudeo con fines de venta,3
+2026-05-01,12,Guerrero,Narcomenudeo posesión simple,79
+2026-05-01,12,Guerrero,Otros delitos contra la familia,19
+2026-05-01,12,Guerrero,Otros delitos del Fuero Común,59
+2026-05-01,12,Guerrero,Otros delitos que atentan contra la libertad personal,40
+2026-05-01,12,Guerrero,Otros delitos que atentan contra la vida y la integridad corporal,2
+2026-05-01,12,Guerrero,Otros robos,53
+2026-05-01,12,Guerrero,Otros robos,143
+2026-05-01,12,Guerrero,Retención o sustracción de menores e incapaces,17
+2026-05-01,12,Guerrero,Robo a casa habitación,7
+2026-05-01,12,Guerrero,Robo a casa habitación,16
+2026-05-01,12,Guerrero,Robo a institución bancaria,1
+2026-05-01,12,Guerrero,Robo a negocio,9
+2026-05-01,12,Guerrero,Robo a negocio,41
+2026-05-01,12,Guerrero,Robo a transeúnte en vía pública,1
+2026-05-01,12,Guerrero,Robo a transeúnte en vía pública,2
+2026-05-01,12,Guerrero,Robo de autopartes,1
+2026-05-01,12,Guerrero,Robo de ganado,1
+2026-05-01,12,Guerrero,Robo de vehículo automotor - Coche de 4 ruedas,34
+2026-05-01,12,Guerrero,Robo de vehículo automotor - Coche de 4 ruedas,61
+2026-05-01,12,Guerrero,Robo de vehículo automotor - Embarcaciones,1
+2026-05-01,12,Guerrero,Robo de vehículo automotor - Motocicleta,11
+2026-05-01,12,Guerrero,Robo de vehículo automotor - Motocicleta,68
+2026-05-01,12,Guerrero,Tentativa de extorsión por otros medios,7
+2026-05-01,12,Guerrero,Tentativa de feminicidio,1
+2026-05-01,12,Guerrero,Trata de personas con fines de explotación sexual,2
+2026-05-01,12,Guerrero,Trata de personas con otros fines,1
+2026-05-01,12,Guerrero,Violación equiparada,21
+2026-05-01,12,Guerrero,Violación simple,16
+2026-05-01,12,Guerrero,Violencia de género en todas sus modalidades distinta a la violencia familiar,43
+2026-05-01,12,Guerrero,Violencia familiar,318
+2026-05-01,13,Hidalgo,Aborto,2
+2026-05-01,13,Hidalgo,Abuso de confianza,45
+2026-05-01,13,Hidalgo,Abuso sexual,73
+2026-05-01,13,Hidalgo,Allanamiento de morada,53
+2026-05-01,13,Hidalgo,Amenazas,558
+2026-05-01,13,Hidalgo,Contra el medio ambiente,8
+2026-05-01,13,Hidalgo,Corrupción de menores,11
+2026-05-01,13,Hidalgo,Daño a la propiedad,334
+2026-05-01,13,Hidalgo,Delitos cometidos por servidores públicos,50
+2026-05-01,13,Hidalgo,Delitos contra la administración de justicia,32
+2026-05-01,13,Hidalgo,Despojo,96
+2026-05-01,13,Hidalgo,Discriminación,15
+2026-05-01,13,Hidalgo,Electorales,8
+2026-05-01,13,Hidalgo,Extorsión por otros medios,9
+2026-05-01,13,Hidalgo,Falsedad,29
+2026-05-01,13,Hidalgo,Falsificación,12
+2026-05-01,13,Hidalgo,Feminicidio,1
+2026-05-01,13,Hidalgo,Fraude,227
+2026-05-01,13,Hidalgo,Homicidio culposo,6
+2026-05-01,13,Hidalgo,Homicidio culposo,22
+2026-05-01,13,Hidalgo,Homicidio doloso,2
+2026-05-01,13,Hidalgo,Homicidio doloso,19
+2026-05-01,13,Hidalgo,Hostigamiento sexual,15
+2026-05-01,13,Hidalgo,Incumplimiento de obligaciones de asistencia familiar,158
+2026-05-01,13,Hidalgo,Lesiones culposas,1
+2026-05-01,13,Hidalgo,Lesiones culposas,1
+2026-05-01,13,Hidalgo,Lesiones culposas,43
+2026-05-01,13,Hidalgo,Lesiones culposas,84
+2026-05-01,13,Hidalgo,Lesiones culposas,96
+2026-05-01,13,Hidalgo,Lesiones dolosas,8
+2026-05-01,13,Hidalgo,Lesiones dolosas,18
+2026-05-01,13,Hidalgo,Lesiones dolosas,174
+2026-05-01,13,Hidalgo,Lesiones dolosas,357
+2026-05-01,13,Hidalgo,Narcomenudeo con fines de venta,58
+2026-05-01,13,Hidalgo,Narcomenudeo posesión simple,46
+2026-05-01,13,Hidalgo,Otros delitos contra el patrimonio,28
+2026-05-01,13,Hidalgo,Otros delitos del Fuero Común,67
+2026-05-01,13,Hidalgo,Otros delitos que atentan contra la libertad personal,92
+2026-05-01,13,Hidalgo,Otros delitos que atentan contra la libertad y la seguridad sexual,8
+2026-05-01,13,Hidalgo,Otros delitos que atentan contra la vida y la integridad corporal,27
+2026-05-01,13,Hidalgo,Otros robos,23
+2026-05-01,13,Hidalgo,Otros robos,146
+2026-05-01,13,Hidalgo,Privación ilegal de la libertad,65
+2026-05-01,13,Hidalgo,Retención o sustracción de menores e incapaces,25
+2026-05-01,13,Hidalgo,Robo a casa habitación,19
+2026-05-01,13,Hidalgo,Robo a casa habitación,126
+2026-05-01,13,Hidalgo,Robo a negocio,40
+2026-05-01,13,Hidalgo,Robo a negocio,115
+2026-05-01,13,Hidalgo,Robo a transeúnte en espacio abierto al público,14
+2026-05-01,13,Hidalgo,Robo a transeúnte en espacio abierto al público,54
+2026-05-01,13,Hidalgo,Robo a transeúnte en vía pública,4
+2026-05-01,13,Hidalgo,Robo a transeúnte en vía pública,20
+2026-05-01,13,Hidalgo,Robo a transportista,3
+2026-05-01,13,Hidalgo,Robo a transportista,3
+2026-05-01,13,Hidalgo,Robo de autopartes,11
+2026-05-01,13,Hidalgo,Robo de ganado,5
+2026-05-01,13,Hidalgo,Robo de vehículo automotor - Coche de 4 ruedas,47
+2026-05-01,13,Hidalgo,Robo de vehículo automotor - Coche de 4 ruedas,99
+2026-05-01,13,Hidalgo,Robo de vehículo automotor - Motocicleta,16
+2026-05-01,13,Hidalgo,Robo de vehículo automotor - Motocicleta,80
+2026-05-01,13,Hidalgo,Robo en transporte individual,8
+2026-05-01,13,Hidalgo,Robo en transporte individual,38
+2026-05-01,13,Hidalgo,Robo en transporte público colectivo,5
+2026-05-01,13,Hidalgo,Robo en transporte público colectivo,5
+2026-05-01,13,Hidalgo,Suplantación y usurpación de identidad,23
+2026-05-01,13,Hidalgo,Tortura,5
+2026-05-01,13,Hidalgo,Violación a la intimidad sexual,34
+2026-05-01,13,Hidalgo,Violación equiparada,36
+2026-05-01,13,Hidalgo,Violación simple,41
+2026-05-01,13,Hidalgo,Violencia familiar,774
+2026-05-01,14,Jalisco,Aborto,1
+2026-05-01,14,Jalisco,Abuso de confianza,60
+2026-05-01,14,Jalisco,Abuso sexual,281
+2026-05-01,14,Jalisco,Acoso sexual,29
+2026-05-01,14,Jalisco,Allanamiento de morada,25
+2026-05-01,14,Jalisco,Amenazas,934
+2026-05-01,14,Jalisco,Corrupción de menores,15
+2026-05-01,14,Jalisco,Daño a la propiedad,252
+2026-05-01,14,Jalisco,Delitos cometidos por servidores públicos,36
+2026-05-01,14,Jalisco,Despojo,113
+2026-05-01,14,Jalisco,Extorsión por otros medios,17
+2026-05-01,14,Jalisco,Extorsión presencial,3
+2026-05-01,14,Jalisco,Falsedad,7
+2026-05-01,14,Jalisco,Falsificación,113
+2026-05-01,14,Jalisco,Feminicidio,1
+2026-05-01,14,Jalisco,Feminicidio,2
+2026-05-01,14,Jalisco,Fraude,1054
+2026-05-01,14,Jalisco,Homicidio culposo,5
+2026-05-01,14,Jalisco,Homicidio culposo,82
+2026-05-01,14,Jalisco,Homicidio doloso,7
+2026-05-01,14,Jalisco,Homicidio doloso,7
+2026-05-01,14,Jalisco,Homicidio doloso,15
+2026-05-01,14,Jalisco,Homicidio doloso,44
+2026-05-01,14,Jalisco,Hostigamiento sexual,7
+2026-05-01,14,Jalisco,Incumplimiento de obligaciones de asistencia familiar,74
+2026-05-01,14,Jalisco,Lesiones culposas,12
+2026-05-01,14,Jalisco,Lesiones culposas,501
+2026-05-01,14,Jalisco,Lesiones dolosas,59
+2026-05-01,14,Jalisco,Lesiones dolosas,60
+2026-05-01,14,Jalisco,Lesiones dolosas,744
+2026-05-01,14,Jalisco,Narcomenudeo posesión simple,314
+2026-05-01,14,Jalisco,Otros delitos contra el patrimonio,17
+2026-05-01,14,Jalisco,Otros delitos del Fuero Común,857
+2026-05-01,14,Jalisco,Otros delitos que atentan contra la libertad personal,17
+2026-05-01,14,Jalisco,Otros delitos que atentan contra la libertad y la seguridad sexual,53
+2026-05-01,14,Jalisco,Otros delitos que atentan contra la vida y la integridad corporal,28
+2026-05-01,14,Jalisco,Otros robos,135
+2026-05-01,14,Jalisco,Otros robos,654
+2026-05-01,14,Jalisco,Privación ilegal de la libertad,41
+2026-05-01,14,Jalisco,Retención o sustracción de menores e incapaces,20
+2026-05-01,14,Jalisco,Robo a casa habitación,26
+2026-05-01,14,Jalisco,Robo a casa habitación,96
+2026-05-01,14,Jalisco,Robo a negocio,88
+2026-05-01,14,Jalisco,Robo a negocio,116
+2026-05-01,14,Jalisco,Robo a transeúnte en espacio abierto al público,16
+2026-05-01,14,Jalisco,Robo a transeúnte en espacio abierto al público,17
+2026-05-01,14,Jalisco,Robo a transeúnte en vía pública,44
+2026-05-01,14,Jalisco,Robo a transeúnte en vía pública,240
+2026-05-01,14,Jalisco,Robo a transportista,8
+2026-05-01,14,Jalisco,Robo de autopartes,108
+2026-05-01,14,Jalisco,Robo de ganado,2
+2026-05-01,14,Jalisco,Robo de ganado,8
+2026-05-01,14,Jalisco,"Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos",6
+2026-05-01,14,Jalisco,Robo de maquinaria - Herramienta industrial o agrícola,1
+2026-05-01,14,Jalisco,Robo de maquinaria - Herramienta industrial o agrícola,1
+2026-05-01,14,Jalisco,Robo de vehículo automotor - Coche de 4 ruedas,155
+2026-05-01,14,Jalisco,Robo de vehículo automotor - Coche de 4 ruedas,351
+2026-05-01,14,Jalisco,Robo de vehículo automotor - Motocicleta,115
+2026-05-01,14,Jalisco,Robo de vehículo automotor - Motocicleta,211
+2026-05-01,14,Jalisco,Robo en transporte individual,6
+2026-05-01,14,Jalisco,Robo en transporte público colectivo,2
+2026-05-01,14,Jalisco,Robo en transporte público colectivo,4
+2026-05-01,14,Jalisco,Robo en transporte público individual,1
+2026-05-01,14,Jalisco,Robo en transporte público individual,6
+2026-05-01,14,Jalisco,Secuestro extorsivo,3
+2026-05-01,14,Jalisco,Suplantación y usurpación de identidad,375
+2026-05-01,14,Jalisco,Tentativa de feminicidio,3
+2026-05-01,14,Jalisco,Tentativa de homicidio doloso,2
+2026-05-01,14,Jalisco,Tortura,7
+2026-05-01,14,Jalisco,Violación a la intimidad sexual,53
+2026-05-01,14,Jalisco,Violación simple,57
+2026-05-01,14,Jalisco,Violencia familiar,1154
+2026-05-01,15,México,Aborto,28
+2026-05-01,15,México,Abuso de confianza,569
+2026-05-01,15,México,Abuso sexual,433
+2026-05-01,15,México,Acoso sexual,216
+2026-05-01,15,México,Allanamiento de morada,165
+2026-05-01,15,México,Contra el medio ambiente,24
+2026-05-01,15,México,Corrupción de menores,24
+2026-05-01,15,México,Daño a la propiedad,1344
+2026-05-01,15,México,Delitos cometidos por servidores públicos,289
+2026-05-01,15,México,Despojo,383
+2026-05-01,15,México,Discriminación,40
+2026-05-01,15,México,Evasión de presos,1
+2026-05-01,15,México,Extorsión por otros medios,75
+2026-05-01,15,México,Extorsión presencial,59
+2026-05-01,15,México,Falsedad,14
+2026-05-01,15,México,Falsificación,174
+2026-05-01,15,México,Feminicidio,1
+2026-05-01,15,México,Feminicidio,4
+2026-05-01,15,México,Fraude,1547
+2026-05-01,15,México,Homicidio culposo,135
+2026-05-01,15,México,Homicidio doloso,5
+2026-05-01,15,México,Homicidio doloso,65
+2026-05-01,15,México,Hostigamiento sexual,9
+2026-05-01,15,México,Incumplimiento de obligaciones de asistencia familiar,251
+2026-05-01,15,México,Lesiones culposas,1
+2026-05-01,15,México,Lesiones culposas,365
+2026-05-01,15,México,Lesiones culposas,721
+2026-05-01,15,México,Lesiones dolosas,115
+2026-05-01,15,México,Lesiones dolosas,126
+2026-05-01,15,México,Lesiones dolosas,3526
+2026-05-01,15,México,Narcomenudeo con fines de venta,262
+2026-05-01,15,México,Narcomenudeo posesión simple,99
+2026-05-01,15,México,Otros delitos contra el patrimonio,206
+2026-05-01,15,México,Otros delitos contra la sociedad,104
+2026-05-01,15,México,Otros delitos del Fuero Común,6354
+2026-05-01,15,México,Otros delitos que atentan contra la libertad personal,425
+2026-05-01,15,México,Otros delitos que atentan contra la libertad y la seguridad sexual,7
+2026-05-01,15,México,Otros delitos que atentan contra la vida y la integridad corporal,168
+2026-05-01,15,México,Otros robos,426
+2026-05-01,15,México,Otros robos,1223
+2026-05-01,15,México,Privación ilegal de la libertad,108
+2026-05-01,15,México,Retención o sustracción de menores e incapaces,185
+2026-05-01,15,México,Robo a casa habitación,66
+2026-05-01,15,México,Robo a casa habitación,200
+2026-05-01,15,México,Robo a negocio,440
+2026-05-01,15,México,Robo a negocio,772
+2026-05-01,15,México,Robo a transeúnte en vía pública,146
+2026-05-01,15,México,Robo a transeúnte en vía pública,1085
+2026-05-01,15,México,Robo a transportista,35
+2026-05-01,15,México,Robo a transportista,171
+2026-05-01,15,México,Robo de autopartes,2
+2026-05-01,15,México,Robo de autopartes,155
+2026-05-01,15,México,Robo de ganado,11
+2026-05-01,15,México,Robo de vehículo automotor - Coche de 4 ruedas,259
+2026-05-01,15,México,Robo de vehículo automotor - Coche de 4 ruedas,452
+2026-05-01,15,México,Robo de vehículo automotor - Motocicleta,237
+2026-05-01,15,México,Robo de vehículo automotor - Motocicleta,246
+2026-05-01,15,México,Robo en transporte individual,113
+2026-05-01,15,México,Robo en transporte individual,472
+2026-05-01,15,México,Robo en transporte público colectivo,72
+2026-05-01,15,México,Robo en transporte público colectivo,197
+2026-05-01,15,México,Robo en transporte público individual,12
+2026-05-01,15,México,Robo en transporte público individual,18
+2026-05-01,15,México,Secuestro exprés,1
+2026-05-01,15,México,Secuestro extorsivo,3
+2026-05-01,15,México,Suplantación y usurpación de identidad,173
+2026-05-01,15,México,Tortura,69
+2026-05-01,15,México,Trata de personas con fines de explotación sexual,1
+2026-05-01,15,México,Trata de personas con otros fines,1
+2026-05-01,15,México,Violación equiparada,40
+2026-05-01,15,México,Violación simple,189
+2026-05-01,15,México,Violencia familiar,2672
+2026-05-01,16,Michoacán de Ocampo,Aborto,1
+2026-05-01,16,Michoacán de Ocampo,Abuso de confianza,85
+2026-05-01,16,Michoacán de Ocampo,Abuso sexual,74
+2026-05-01,16,Michoacán de Ocampo,Acoso sexual,34
+2026-05-01,16,Michoacán de Ocampo,Allanamiento de morada,35
+2026-05-01,16,Michoacán de Ocampo,Amenazas,528
+2026-05-01,16,Michoacán de Ocampo,Contra el medio ambiente,17
+2026-05-01,16,Michoacán de Ocampo,Corrupción de menores,3
+2026-05-01,16,Michoacán de Ocampo,Daño a la propiedad,448
+2026-05-01,16,Michoacán de Ocampo,Delitos cometidos por servidores públicos,63
+2026-05-01,16,Michoacán de Ocampo,Despojo,68
+2026-05-01,16,Michoacán de Ocampo,Discriminación,5
+2026-05-01,16,Michoacán de Ocampo,Extorsión presencial,48
+2026-05-01,16,Michoacán de Ocampo,Falsedad,1
+2026-05-01,16,Michoacán de Ocampo,Falsificación,44
+2026-05-01,16,Michoacán de Ocampo,Fraude,285
+2026-05-01,16,Michoacán de Ocampo,Homicidio culposo,3
+2026-05-01,16,Michoacán de Ocampo,Homicidio culposo,71
+2026-05-01,16,Michoacán de Ocampo,Homicidio culposo,78
+2026-05-01,16,Michoacán de Ocampo,Homicidio doloso,5
+2026-05-01,16,Michoacán de Ocampo,Homicidio doloso,47
+2026-05-01,16,Michoacán de Ocampo,Hostigamiento sexual,5
+2026-05-01,16,Michoacán de Ocampo,Incumplimiento de obligaciones de asistencia familiar,38
+2026-05-01,16,Michoacán de Ocampo,Lesiones culposas,1
+2026-05-01,16,Michoacán de Ocampo,Lesiones culposas,5
+2026-05-01,16,Michoacán de Ocampo,Lesiones culposas,7
+2026-05-01,16,Michoacán de Ocampo,Lesiones culposas,118
+2026-05-01,16,Michoacán de Ocampo,Lesiones dolosas,35
+2026-05-01,16,Michoacán de Ocampo,Lesiones dolosas,39
+2026-05-01,16,Michoacán de Ocampo,Lesiones dolosas,105
+2026-05-01,16,Michoacán de Ocampo,Lesiones dolosas,537
+2026-05-01,16,Michoacán de Ocampo,Narcomenudeo con fines de venta,60
+2026-05-01,16,Michoacán de Ocampo,Narcomenudeo posesión simple,97
+2026-05-01,16,Michoacán de Ocampo,Otros delitos contra el patrimonio,3
+2026-05-01,16,Michoacán de Ocampo,Otros delitos contra la familia,5
+2026-05-01,16,Michoacán de Ocampo,Otros delitos del Fuero Común,331
+2026-05-01,16,Michoacán de Ocampo,Otros delitos que atentan contra la libertad personal,107
+2026-05-01,16,Michoacán de Ocampo,Otros delitos que atentan contra la libertad y la seguridad sexual,3
+2026-05-01,16,Michoacán de Ocampo,Otros delitos que atentan contra la vida y la integridad corporal,22
+2026-05-01,16,Michoacán de Ocampo,Otros robos,54
+2026-05-01,16,Michoacán de Ocampo,Otros robos,191
+2026-05-01,16,Michoacán de Ocampo,Privación ilegal de la libertad,24
+2026-05-01,16,Michoacán de Ocampo,Retención o sustracción de menores e incapaces,19
+2026-05-01,16,Michoacán de Ocampo,Robo a casa habitación,11
+2026-05-01,16,Michoacán de Ocampo,Robo a casa habitación,88
+2026-05-01,16,Michoacán de Ocampo,Robo a negocio,33
+2026-05-01,16,Michoacán de Ocampo,Robo a negocio,88
+2026-05-01,16,Michoacán de Ocampo,Robo a transeúnte en espacio abierto al público,3
+2026-05-01,16,Michoacán de Ocampo,Robo a transeúnte en espacio abierto al público,7
+2026-05-01,16,Michoacán de Ocampo,Robo a transeúnte en vía pública,27
+2026-05-01,16,Michoacán de Ocampo,Robo a transeúnte en vía pública,35
+2026-05-01,16,Michoacán de Ocampo,Robo a transportista,5
+2026-05-01,16,Michoacán de Ocampo,Robo a transportista,26
+2026-05-01,16,Michoacán de Ocampo,Robo de autopartes,8
+2026-05-01,16,Michoacán de Ocampo,Robo de ganado,8
+2026-05-01,16,Michoacán de Ocampo,Robo de maquinaria - Tractores y/o montacargas,1
+2026-05-01,16,Michoacán de Ocampo,Robo de vehículo automotor - Coche de 4 ruedas,116
+2026-05-01,16,Michoacán de Ocampo,Robo de vehículo automotor - Coche de 4 ruedas,166
+2026-05-01,16,Michoacán de Ocampo,Robo de vehículo automotor - Motocicleta,52
+2026-05-01,16,Michoacán de Ocampo,Robo de vehículo automotor - Motocicleta,123
+2026-05-01,16,Michoacán de Ocampo,Robo en transporte público colectivo,1
+2026-05-01,16,Michoacán de Ocampo,Robo en transporte público colectivo,1
+2026-05-01,16,Michoacán de Ocampo,Robo en transporte público individual,1
+2026-05-01,16,Michoacán de Ocampo,Secuestro extorsivo,3
+2026-05-01,16,Michoacán de Ocampo,Suplantación y usurpación de identidad,59
+2026-05-01,16,Michoacán de Ocampo,Tentativa de extorsión presencial,17
+2026-05-01,16,Michoacán de Ocampo,Tentativa de feminicidio,2
+2026-05-01,16,Michoacán de Ocampo,Tentativa de homicidio doloso,10
+2026-05-01,16,Michoacán de Ocampo,Tortura,1
+2026-05-01,16,Michoacán de Ocampo,Trata de personas con fines de explotación sexual,3
+2026-05-01,16,Michoacán de Ocampo,Violación a la intimidad sexual,19
+2026-05-01,16,Michoacán de Ocampo,Violación equiparada,30
+2026-05-01,16,Michoacán de Ocampo,Violación simple,26
+2026-05-01,16,Michoacán de Ocampo,Violencia familiar,214
+2026-05-01,17,Morelos,Abuso de confianza,50
+2026-05-01,17,Morelos,Abuso sexual,56
+2026-05-01,17,Morelos,Acoso sexual,1
+2026-05-01,17,Morelos,Allanamiento de morada,29
+2026-05-01,17,Morelos,Amenazas,506
+2026-05-01,17,Morelos,Contra el medio ambiente,1
+2026-05-01,17,Morelos,Corrupción de menores,11
+2026-05-01,17,Morelos,Daño a la propiedad,294
+2026-05-01,17,Morelos,Delitos cometidos por servidores públicos,15
+2026-05-01,17,Morelos,Delitos contra la administración de justicia,22
+2026-05-01,17,Morelos,Despojo,114
+2026-05-01,17,Morelos,Discriminación,9
+2026-05-01,17,Morelos,Extorsión por otros medios,35
+2026-05-01,17,Morelos,Extorsión presencial,34
+2026-05-01,17,Morelos,Falsedad,9
+2026-05-01,17,Morelos,Falsificación,24
+2026-05-01,17,Morelos,Feminicidio,1
+2026-05-01,17,Morelos,Fraude,227
+2026-05-01,17,Morelos,Homicidio culposo,27
+2026-05-01,17,Morelos,Homicidio doloso,2
+2026-05-01,17,Morelos,Homicidio doloso,5
+2026-05-01,17,Morelos,Homicidio doloso,48
+2026-05-01,17,Morelos,Hostigamiento sexual,15
+2026-05-01,17,Morelos,Incumplimiento de obligaciones de asistencia familiar,37
+2026-05-01,17,Morelos,Lesiones culposas,345
+2026-05-01,17,Morelos,Lesiones dolosas,68
+2026-05-01,17,Morelos,Narcomenudeo posesión simple,131
+2026-05-01,17,Morelos,Otros delitos contra el patrimonio,47
+2026-05-01,17,Morelos,Otros delitos contra la sociedad,80
+2026-05-01,17,Morelos,Otros delitos del Fuero Común,223
+2026-05-01,17,Morelos,Otros delitos que atentan contra la libertad personal,1
+2026-05-01,17,Morelos,Otros delitos que atentan contra la libertad y la seguridad sexual,4
+2026-05-01,17,Morelos,Otros delitos que atentan contra la vida y la integridad corporal,71
+2026-05-01,17,Morelos,Otros robos,157
+2026-05-01,17,Morelos,Otros robos,238
+2026-05-01,17,Morelos,Privación ilegal de la libertad,15
+2026-05-01,17,Morelos,Retención o sustracción de menores e incapaces,33
+2026-05-01,17,Morelos,Robo a casa habitación,8
+2026-05-01,17,Morelos,Robo a casa habitación,93
+2026-05-01,17,Morelos,Robo a negocio,54
+2026-05-01,17,Morelos,Robo a negocio,84
+2026-05-01,17,Morelos,Robo a transeúnte en vía pública,25
+2026-05-01,17,Morelos,Robo a transeúnte en vía pública,36
+2026-05-01,17,Morelos,Robo a transportista,1
+2026-05-01,17,Morelos,Robo a transportista,3
+2026-05-01,17,Morelos,Robo de autopartes,23
+2026-05-01,17,Morelos,Robo de ganado,3
+2026-05-01,17,Morelos,Robo de vehículo automotor - Coche de 4 ruedas,75
+2026-05-01,17,Morelos,Robo de vehículo automotor - Coche de 4 ruedas,95
+2026-05-01,17,Morelos,Robo de vehículo automotor - Motocicleta,83
+2026-05-01,17,Morelos,Robo de vehículo automotor - Motocicleta,85
+2026-05-01,17,Morelos,Robo en transporte individual,1
+2026-05-01,17,Morelos,Robo en transporte individual,2
+2026-05-01,17,Morelos,Robo en transporte público colectivo,1
+2026-05-01,17,Morelos,Robo en transporte público colectivo,4
+2026-05-01,17,Morelos,Robo en transporte público individual,1
+2026-05-01,17,Morelos,Secuestro exprés,1
+2026-05-01,17,Morelos,Secuestro extorsivo,2
+2026-05-01,17,Morelos,Secuestro para causar daño,1
+2026-05-01,17,Morelos,Suplantación y usurpación de identidad,54
+2026-05-01,17,Morelos,Tentativa de feminicidio,3
+2026-05-01,17,Morelos,Tentativa de homicidio doloso,39
+2026-05-01,17,Morelos,Tortura,1
+2026-05-01,17,Morelos,Violación simple,43
+2026-05-01,17,Morelos,Violencia familiar,661
+2026-05-01,18,Nayarit,Abuso de confianza,2
+2026-05-01,18,Nayarit,Abuso sexual,5
+2026-05-01,18,Nayarit,Allanamiento de morada,4
+2026-05-01,18,Nayarit,Amenazas,39
+2026-05-01,18,Nayarit,Contra el medio ambiente,1
+2026-05-01,18,Nayarit,Corrupción de menores,2
+2026-05-01,18,Nayarit,Daño a la propiedad,56
+2026-05-01,18,Nayarit,Delitos cometidos por servidores públicos,5
+2026-05-01,18,Nayarit,Despojo,2
+2026-05-01,18,Nayarit,Extorsión por otros medios,6
+2026-05-01,18,Nayarit,Extorsión presencial,3
+2026-05-01,18,Nayarit,Falsificación,1
+2026-05-01,18,Nayarit,Fraude,24
+2026-05-01,18,Nayarit,Homicidio culposo,1
+2026-05-01,18,Nayarit,Homicidio culposo,5
+2026-05-01,18,Nayarit,Homicidio doloso,2
+2026-05-01,18,Nayarit,Homicidio doloso,3
+2026-05-01,18,Nayarit,Hostigamiento sexual,4
+2026-05-01,18,Nayarit,Incumplimiento de obligaciones de asistencia familiar,45
+2026-05-01,18,Nayarit,Lesiones culposas,1
+2026-05-01,18,Nayarit,Lesiones culposas,4
+2026-05-01,18,Nayarit,Lesiones culposas,11
+2026-05-01,18,Nayarit,Lesiones culposas,15
+2026-05-01,18,Nayarit,Lesiones dolosas,1
+2026-05-01,18,Nayarit,Lesiones dolosas,2
+2026-05-01,18,Nayarit,Lesiones dolosas,10
+2026-05-01,18,Nayarit,Lesiones dolosas,19
+2026-05-01,18,Nayarit,Narcomenudeo con fines de venta,15
+2026-05-01,18,Nayarit,Narcomenudeo posesión simple,39
+2026-05-01,18,Nayarit,Otros delitos contra el patrimonio,2
+2026-05-01,18,Nayarit,Otros delitos contra la familia,5
+2026-05-01,18,Nayarit,Otros delitos del Fuero Común,64
+2026-05-01,18,Nayarit,Otros delitos que atentan contra la libertad personal,39
+2026-05-01,18,Nayarit,Otros delitos que atentan contra la libertad y la seguridad sexual,5
+2026-05-01,18,Nayarit,Otros delitos que atentan contra la vida y la integridad corporal,9
+2026-05-01,18,Nayarit,Otros robos,12
+2026-05-01,18,Nayarit,Otros robos,23
+2026-05-01,18,Nayarit,Privación ilegal de la libertad,5
+2026-05-01,18,Nayarit,Retención o sustracción de menores e incapaces,2
+2026-05-01,18,Nayarit,Robo a casa habitación,6
+2026-05-01,18,Nayarit,Robo de autopartes,3
+2026-05-01,18,Nayarit,Robo de vehículo automotor - Coche de 4 ruedas,6
+2026-05-01,18,Nayarit,Robo de vehículo automotor - Coche de 4 ruedas,35
+2026-05-01,18,Nayarit,Violación a la intimidad sexual,2
+2026-05-01,18,Nayarit,Violación simple,14
+2026-05-01,18,Nayarit,Violencia familiar,147
+2026-05-01,19,Nuevo León,Aborto,16
+2026-05-01,19,Nuevo León,Abuso de confianza,99
+2026-05-01,19,Nuevo León,Abuso sexual,144
+2026-05-01,19,Nuevo León,Acoso sexual,98
+2026-05-01,19,Nuevo León,Allanamiento de morada,24
+2026-05-01,19,Nuevo León,Amenazas,323
+2026-05-01,19,Nuevo León,Contra el medio ambiente,27
+2026-05-01,19,Nuevo León,Corrupción de menores,19
+2026-05-01,19,Nuevo León,Daño a la propiedad,254
+2026-05-01,19,Nuevo León,Delitos cometidos por servidores públicos,153
+2026-05-01,19,Nuevo León,Delitos contra la administración de justicia,10
+2026-05-01,19,Nuevo León,Despojo,112
+2026-05-01,19,Nuevo León,Discriminación,4
+2026-05-01,19,Nuevo León,Electorales,2
+2026-05-01,19,Nuevo León,Evasión de presos,1
+2026-05-01,19,Nuevo León,Extorsión por otros medios,124
+2026-05-01,19,Nuevo León,Falsedad,33
+2026-05-01,19,Nuevo León,Falsificación,66
+2026-05-01,19,Nuevo León,Feminicidio,1
+2026-05-01,19,Nuevo León,Fraude,482
+2026-05-01,19,Nuevo León,Homicidio culposo,1
+2026-05-01,19,Nuevo León,Homicidio culposo,25
+2026-05-01,19,Nuevo León,Homicidio doloso,2
+2026-05-01,19,Nuevo León,Homicidio doloso,7
+2026-05-01,19,Nuevo León,Homicidio doloso,25
+2026-05-01,19,Nuevo León,Hostigamiento sexual,8
+2026-05-01,19,Nuevo León,Incumplimiento de obligaciones de asistencia familiar,101
+2026-05-01,19,Nuevo León,Lesiones culposas,5
+2026-05-01,19,Nuevo León,Lesiones culposas,146
+2026-05-01,19,Nuevo León,Lesiones dolosas,19
+2026-05-01,19,Nuevo León,Lesiones dolosas,25
+2026-05-01,19,Nuevo León,Lesiones dolosas,50
+2026-05-01,19,Nuevo León,Lesiones dolosas,178
+2026-05-01,19,Nuevo León,Narcomenudeo con fines de venta,28
+2026-05-01,19,Nuevo León,Narcomenudeo posesión simple,929
+2026-05-01,19,Nuevo León,Otros delitos contra el patrimonio,14
+2026-05-01,19,Nuevo León,Otros delitos contra la familia,1
+2026-05-01,19,Nuevo León,Otros delitos del Fuero Común,420
+2026-05-01,19,Nuevo León,Otros delitos que atentan contra la libertad personal,2
+2026-05-01,19,Nuevo León,Otros delitos que atentan contra la libertad y la seguridad sexual,24
+2026-05-01,19,Nuevo León,Otros delitos que atentan contra la vida y la integridad corporal,1
+2026-05-01,19,Nuevo León,Otros robos,21
+2026-05-01,19,Nuevo León,Otros robos,132
+2026-05-01,19,Nuevo León,Pornografía infantil,9
+2026-05-01,19,Nuevo León,Privación ilegal de la libertad,10
+2026-05-01,19,Nuevo León,Rapto,2
+2026-05-01,19,Nuevo León,Retención o sustracción de menores e incapaces,154
+2026-05-01,19,Nuevo León,Robo a casa habitación,21
+2026-05-01,19,Nuevo León,Robo a casa habitación,57
+2026-05-01,19,Nuevo León,Robo a negocio,37
+2026-05-01,19,Nuevo León,Robo a negocio,58
+2026-05-01,19,Nuevo León,Robo a transeúnte en espacio abierto al público,3
+2026-05-01,19,Nuevo León,Robo a transeúnte en espacio abierto al público,20
+2026-05-01,19,Nuevo León,Robo a transeúnte en vía pública,2
+2026-05-01,19,Nuevo León,Robo a transeúnte en vía pública,131
+2026-05-01,19,Nuevo León,Robo a transportista,2
+2026-05-01,19,Nuevo León,Robo a transportista,6
+2026-05-01,19,Nuevo León,Robo de autopartes,2
+2026-05-01,19,Nuevo León,Robo de ganado,1
+2026-05-01,19,Nuevo León,"Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos",1
+2026-05-01,19,Nuevo León,"Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos",3
+2026-05-01,19,Nuevo León,Robo de vehículo automotor - Coche de 4 ruedas,7
+2026-05-01,19,Nuevo León,Robo de vehículo automotor - Coche de 4 ruedas,44
+2026-05-01,19,Nuevo León,Robo de vehículo automotor - Motocicleta,7
+2026-05-01,19,Nuevo León,Robo en transporte individual,2
+2026-05-01,19,Nuevo León,Robo en transporte individual,5
+2026-05-01,19,Nuevo León,Robo en transporte público colectivo,1
+2026-05-01,19,Nuevo León,Robo en transporte público individual,1
+2026-05-01,19,Nuevo León,Robo en transporte público individual,12
+2026-05-01,19,Nuevo León,Secuestro extorsivo,1
+2026-05-01,19,Nuevo León,Suplantación y usurpación de identidad,20
+2026-05-01,19,Nuevo León,Tentativa de feminicidio,25
+2026-05-01,19,Nuevo León,Tortura,3
+2026-05-01,19,Nuevo León,Trata de personas con fines de explotación sexual,1
+2026-05-01,19,Nuevo León,Violación a la intimidad sexual,49
+2026-05-01,19,Nuevo León,Violación equiparada,32
+2026-05-01,19,Nuevo León,Violación simple,70
+2026-05-01,19,Nuevo León,Violencia familiar,2449
+2026-05-01,20,Oaxaca,Aborto,1
+2026-05-01,20,Oaxaca,Abuso de confianza,4
+2026-05-01,20,Oaxaca,Abuso sexual,61
+2026-05-01,20,Oaxaca,Acoso sexual,21
+2026-05-01,20,Oaxaca,Allanamiento de morada,28
+2026-05-01,20,Oaxaca,Amenazas,293
+2026-05-01,20,Oaxaca,Contra el medio ambiente,1
+2026-05-01,20,Oaxaca,Corrupción de menores,2
+2026-05-01,20,Oaxaca,Daño a la propiedad,128
+2026-05-01,20,Oaxaca,Delitos cometidos por servidores públicos,10
+2026-05-01,20,Oaxaca,Despojo,64
+2026-05-01,20,Oaxaca,Discriminación,8
+2026-05-01,20,Oaxaca,Electorales,13
+2026-05-01,20,Oaxaca,Extorsión por otros medios,3
+2026-05-01,20,Oaxaca,Falsedad,9
+2026-05-01,20,Oaxaca,Falsificación,18
+2026-05-01,20,Oaxaca,Feminicidio,1
+2026-05-01,20,Oaxaca,Feminicidio,1
+2026-05-01,20,Oaxaca,Fraude,97
+2026-05-01,20,Oaxaca,Homicidio culposo,2
+2026-05-01,20,Oaxaca,Homicidio culposo,20
+2026-05-01,20,Oaxaca,Homicidio doloso,7
+2026-05-01,20,Oaxaca,Homicidio doloso,9
+2026-05-01,20,Oaxaca,Homicidio doloso,43
+2026-05-01,20,Oaxaca,Hostigamiento sexual,2
+2026-05-01,20,Oaxaca,Incesto,1
+2026-05-01,20,Oaxaca,Incumplimiento de obligaciones de asistencia familiar,8
+2026-05-01,20,Oaxaca,Lesiones culposas,10
+2026-05-01,20,Oaxaca,Lesiones culposas,65
+2026-05-01,20,Oaxaca,Lesiones dolosas,14
+2026-05-01,20,Oaxaca,Lesiones dolosas,22
+2026-05-01,20,Oaxaca,Lesiones dolosas,211
+2026-05-01,20,Oaxaca,Narcomenudeo con fines de venta,53
+2026-05-01,20,Oaxaca,Narcomenudeo posesión simple,45
+2026-05-01,20,Oaxaca,Otros delitos contra el patrimonio,3
+2026-05-01,20,Oaxaca,Otros delitos contra la familia,12
+2026-05-01,20,Oaxaca,Otros delitos contra la sociedad,30
+2026-05-01,20,Oaxaca,Otros delitos del Fuero Común,6
+2026-05-01,20,Oaxaca,Otros delitos que atentan contra la libertad personal,28
+2026-05-01,20,Oaxaca,Otros delitos que atentan contra la libertad y la seguridad sexual,21
+2026-05-01,20,Oaxaca,Otros robos,15
+2026-05-01,20,Oaxaca,Otros robos,47
+2026-05-01,20,Oaxaca,Pornografía infantil,1
+2026-05-01,20,Oaxaca,Privación ilegal de la libertad,17
+2026-05-01,20,Oaxaca,Robo a casa habitación,6
+2026-05-01,20,Oaxaca,Robo a casa habitación,31
+2026-05-01,20,Oaxaca,Robo a institución bancaria,1
+2026-05-01,20,Oaxaca,Robo a negocio,33
+2026-05-01,20,Oaxaca,Robo a negocio,44
+2026-05-01,20,Oaxaca,Robo a transeúnte en espacio abierto al público,1
+2026-05-01,20,Oaxaca,Robo a transeúnte en espacio abierto al público,2
+2026-05-01,20,Oaxaca,Robo a transeúnte en vía pública,6
+2026-05-01,20,Oaxaca,Robo a transeúnte en vía pública,52
+2026-05-01,20,Oaxaca,Robo a transportista,7
+2026-05-01,20,Oaxaca,Robo de autopartes,5
+2026-05-01,20,Oaxaca,Robo de ganado,6
+2026-05-01,20,Oaxaca,Robo de vehículo automotor - Coche de 4 ruedas,12
+2026-05-01,20,Oaxaca,Robo de vehículo automotor - Coche de 4 ruedas,58
+2026-05-01,20,Oaxaca,Robo de vehículo automotor - Motocicleta,14
+2026-05-01,20,Oaxaca,Robo de vehículo automotor - Motocicleta,92
+2026-05-01,20,Oaxaca,Secuestro extorsivo,2
+2026-05-01,20,Oaxaca,Suplantación y usurpación de identidad,2
+2026-05-01,20,Oaxaca,Tentativa de feminicidio,1
+2026-05-01,20,Oaxaca,Tentativa de homicidio doloso,10
+2026-05-01,20,Oaxaca,Tortura,8
+2026-05-01,20,Oaxaca,Trata de personas con fines de explotación sexual,1
+2026-05-01,20,Oaxaca,Trata de personas con fines de trabajo o servicios forzados,1
+2026-05-01,20,Oaxaca,Violación a la intimidad sexual,29
+2026-05-01,20,Oaxaca,Violación equiparada,34
+2026-05-01,20,Oaxaca,Violación simple,25
+2026-05-01,20,Oaxaca,Violencia familiar,345
+2026-05-01,21,Puebla,Abuso de confianza,119
+2026-05-01,21,Puebla,Abuso sexual,82
+2026-05-01,21,Puebla,Acoso sexual,33
+2026-05-01,21,Puebla,Allanamiento de morada,12
+2026-05-01,21,Puebla,Amenazas,463
+2026-05-01,21,Puebla,Contra el medio ambiente,5
+2026-05-01,21,Puebla,Corrupción de menores,14
+2026-05-01,21,Puebla,Daño a la propiedad,388
+2026-05-01,21,Puebla,Delitos cometidos por servidores públicos,81
+2026-05-01,21,Puebla,Delitos contra la administración de justicia,14
+2026-05-01,21,Puebla,Despojo,131
+2026-05-01,21,Puebla,Discriminación,2
+2026-05-01,21,Puebla,Extorsión por otros medios,8
+2026-05-01,21,Puebla,Extorsión presencial,7
+2026-05-01,21,Puebla,Falsedad,42
+2026-05-01,21,Puebla,Falsificación,37
+2026-05-01,21,Puebla,Feminicidio,1
+2026-05-01,21,Puebla,Fraude,499
+2026-05-01,21,Puebla,Homicidio culposo,64
+2026-05-01,21,Puebla,Homicidio doloso,1
+2026-05-01,21,Puebla,Homicidio doloso,4
+2026-05-01,21,Puebla,Homicidio doloso,9
+2026-05-01,21,Puebla,Homicidio doloso,39
+2026-05-01,21,Puebla,Hostigamiento sexual,8
+2026-05-01,21,Puebla,Incumplimiento de obligaciones de asistencia familiar,25
+2026-05-01,21,Puebla,Lesiones culposas,13
+2026-05-01,21,Puebla,Lesiones culposas,61
+2026-05-01,21,Puebla,Lesiones dolosas,23
+2026-05-01,21,Puebla,Lesiones dolosas,38
+2026-05-01,21,Puebla,Lesiones dolosas,367
+2026-05-01,21,Puebla,Narcomenudeo con fines de venta,27
+2026-05-01,21,Puebla,Narcomenudeo posesión simple,115
+2026-05-01,21,Puebla,Otros delitos contra el patrimonio,19
+2026-05-01,21,Puebla,Otros delitos contra la sociedad,42
+2026-05-01,21,Puebla,Otros delitos del Fuero Común,213
+2026-05-01,21,Puebla,Otros delitos que atentan contra la libertad personal,1
+2026-05-01,21,Puebla,Otros delitos que atentan contra la libertad y la seguridad sexual,166
+2026-05-01,21,Puebla,Otros delitos que atentan contra la vida y la integridad corporal,23
+2026-05-01,21,Puebla,Otros robos,87
+2026-05-01,21,Puebla,Otros robos,387
+2026-05-01,21,Puebla,Pornografía infantil,1
+2026-05-01,21,Puebla,Privación ilegal de la libertad,14
+2026-05-01,21,Puebla,Retención o sustracción de menores e incapaces,59
+2026-05-01,21,Puebla,Robo a casa habitación,21
+2026-05-01,21,Puebla,Robo a casa habitación,126
+2026-05-01,21,Puebla,Robo a negocio,103
+2026-05-01,21,Puebla,Robo a negocio,137
+2026-05-01,21,Puebla,Robo a transeúnte en vía pública,106
+2026-05-01,21,Puebla,Robo a transeúnte en vía pública,218
+2026-05-01,21,Puebla,Robo a transportista,7
+2026-05-01,21,Puebla,Robo a transportista,91
+2026-05-01,21,Puebla,Robo de autopartes,154
+2026-05-01,21,Puebla,Robo de ganado,5
+2026-05-01,21,Puebla,"Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos",1
+2026-05-01,21,Puebla,"Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos",32
+2026-05-01,21,Puebla,Robo de maquinaria - Herramienta industrial o agrícola,1
+2026-05-01,21,Puebla,Robo de vehículo automotor - Coche de 4 ruedas,187
+2026-05-01,21,Puebla,Robo de vehículo automotor - Coche de 4 ruedas,268
+2026-05-01,21,Puebla,Robo de vehículo automotor - Motocicleta,87
+2026-05-01,21,Puebla,Robo de vehículo automotor - Motocicleta,261
+2026-05-01,21,Puebla,Robo en transporte individual,39
+2026-05-01,21,Puebla,Robo en transporte individual,64
+2026-05-01,21,Puebla,Robo en transporte público colectivo,26
+2026-05-01,21,Puebla,Robo en transporte público colectivo,123
+2026-05-01,21,Puebla,Robo en transporte público individual,3
+2026-05-01,21,Puebla,Robo en transporte público individual,9
+2026-05-01,21,Puebla,Tentativa de feminicidio,2
+2026-05-01,21,Puebla,Tentativa de homicidio doloso,2
+2026-05-01,21,Puebla,Tortura,15
+2026-05-01,21,Puebla,Trata de personas con fines de explotación sexual,1
+2026-05-01,21,Puebla,Trata de personas con otros fines,2
+2026-05-01,21,Puebla,Violación a la intimidad sexual,36
+2026-05-01,21,Puebla,Violación equiparada,14
+2026-05-01,21,Puebla,Violación simple,44
+2026-05-01,21,Puebla,Violencia familiar,1057
+2026-05-01,22,Querétaro,Abuso de confianza,87
+2026-05-01,22,Querétaro,Abuso sexual,79
+2026-05-01,22,Querétaro,Acoso sexual,86
+2026-05-01,22,Querétaro,Allanamiento de morada,24
+2026-05-01,22,Querétaro,Amenazas,398
+2026-05-01,22,Querétaro,Daño a la propiedad,156
+2026-05-01,22,Querétaro,Delitos cometidos por servidores públicos,31
+2026-05-01,22,Querétaro,Despojo,62
+2026-05-01,22,Querétaro,Discriminación,3
+2026-05-01,22,Querétaro,Extorsión por otros medios,41
+2026-05-01,22,Querétaro,Extorsión presencial,3
+2026-05-01,22,Querétaro,Falsedad,25
+2026-05-01,22,Querétaro,Falsificación,13
+2026-05-01,22,Querétaro,Feminicidio,1
+2026-05-01,22,Querétaro,Fraude,377
+2026-05-01,22,Querétaro,Homicidio culposo,33
+2026-05-01,22,Querétaro,Homicidio doloso,1
+2026-05-01,22,Querétaro,Homicidio doloso,4
+2026-05-01,22,Querétaro,Homicidio doloso,8
+2026-05-01,22,Querétaro,Hostigamiento sexual,10
+2026-05-01,22,Querétaro,Incumplimiento de obligaciones de asistencia familiar,56
+2026-05-01,22,Querétaro,Lesiones culposas,2
+2026-05-01,22,Querétaro,Lesiones culposas,12
+2026-05-01,22,Querétaro,Lesiones culposas,88
+2026-05-01,22,Querétaro,Lesiones dolosas,23
+2026-05-01,22,Querétaro,Lesiones dolosas,30
+2026-05-01,22,Querétaro,Lesiones dolosas,90
+2026-05-01,22,Querétaro,Lesiones dolosas,296
+2026-05-01,22,Querétaro,Narcomenudeo con fines de venta,26
+2026-05-01,22,Querétaro,Narcomenudeo posesión simple,185
+2026-05-01,22,Querétaro,Otros delitos contra el patrimonio,28
+2026-05-01,22,Querétaro,Otros delitos contra la sociedad,52
+2026-05-01,22,Querétaro,Otros delitos del Fuero Común,573
+2026-05-01,22,Querétaro,Otros delitos que atentan contra la libertad y la seguridad sexual,4
+2026-05-01,22,Querétaro,Otros delitos que atentan contra la vida y la integridad corporal,16
+2026-05-01,22,Querétaro,Otros robos,9
+2026-05-01,22,Querétaro,Otros robos,598
+2026-05-01,22,Querétaro,Privación ilegal de la libertad,12
+2026-05-01,22,Querétaro,Retención o sustracción de menores e incapaces,17
+2026-05-01,22,Querétaro,Robo a casa habitación,4
+2026-05-01,22,Querétaro,Robo a casa habitación,89
+2026-05-01,22,Querétaro,Robo a negocio,28
+2026-05-01,22,Querétaro,Robo a negocio,152
+2026-05-01,22,Querétaro,Robo a transeúnte en espacio abierto al público,3
+2026-05-01,22,Querétaro,Robo a transeúnte en espacio abierto al público,3
+2026-05-01,22,Querétaro,Robo a transeúnte en vía pública,25
+2026-05-01,22,Querétaro,Robo a transeúnte en vía pública,48
+2026-05-01,22,Querétaro,Robo de autopartes,25
+2026-05-01,22,Querétaro,Robo de ganado,20
+2026-05-01,22,Querétaro,Robo de maquinaria - Herramienta industrial o agrícola,1
+2026-05-01,22,Querétaro,Robo de maquinaria - Tractores y/o montacargas,1
+2026-05-01,22,Querétaro,Robo de vehículo automotor - Coche de 4 ruedas,11
+2026-05-01,22,Querétaro,Robo de vehículo automotor - Coche de 4 ruedas,147
+2026-05-01,22,Querétaro,Robo de vehículo automotor - Motocicleta,7
+2026-05-01,22,Querétaro,Robo de vehículo automotor - Motocicleta,67
+2026-05-01,22,Querétaro,Robo en transporte individual,10
+2026-05-01,22,Querétaro,Robo en transporte individual,11
+2026-05-01,22,Querétaro,Robo en transporte público colectivo,6
+2026-05-01,22,Querétaro,Robo en transporte público individual,2
+2026-05-01,22,Querétaro,Suplantación y usurpación de identidad,41
+2026-05-01,22,Querétaro,Tentativa de extorsión por otros medios,27
+2026-05-01,22,Querétaro,Tentativa de homicidio doloso,13
+2026-05-01,22,Querétaro,Tortura,1
+2026-05-01,22,Querétaro,Violación equiparada,22
+2026-05-01,22,Querétaro,Violación simple,43
+2026-05-01,22,Querétaro,Violencia de género en todas sus modalidades distinta a la violencia familiar,138
+2026-05-01,22,Querétaro,Violencia familiar,487
+2026-05-01,23,Quintana Roo,Aborto,3
+2026-05-01,23,Quintana Roo,Abuso de confianza,97
+2026-05-01,23,Quintana Roo,Abuso sexual,112
+2026-05-01,23,Quintana Roo,Acoso sexual,29
+2026-05-01,23,Quintana Roo,Allanamiento de morada,27
+2026-05-01,23,Quintana Roo,Amenazas,379
+2026-05-01,23,Quintana Roo,Contra el medio ambiente,11
+2026-05-01,23,Quintana Roo,Corrupción de menores,31
+2026-05-01,23,Quintana Roo,Daño a la propiedad,553
+2026-05-01,23,Quintana Roo,Delitos cometidos por servidores públicos,89
+2026-05-01,23,Quintana Roo,Delitos contra la administración de justicia,3
+2026-05-01,23,Quintana Roo,Despojo,65
+2026-05-01,23,Quintana Roo,Electorales,1
+2026-05-01,23,Quintana Roo,Extorsión por otros medios,10
+2026-05-01,23,Quintana Roo,Falsedad,51
+2026-05-01,23,Quintana Roo,Falsificación,26
+2026-05-01,23,Quintana Roo,Feminicidio,2
+2026-05-01,23,Quintana Roo,Feminicidio,2
+2026-05-01,23,Quintana Roo,Fraude,425
+2026-05-01,23,Quintana Roo,Homicidio culposo,3
+2026-05-01,23,Quintana Roo,Homicidio culposo,4
+2026-05-01,23,Quintana Roo,Homicidio culposo,90
+2026-05-01,23,Quintana Roo,Homicidio doloso,3
+2026-05-01,23,Quintana Roo,Homicidio doloso,5
+2026-05-01,23,Quintana Roo,Hostigamiento sexual,2
+2026-05-01,23,Quintana Roo,Incumplimiento de obligaciones de asistencia familiar,57
+2026-05-01,23,Quintana Roo,Lesiones culposas,3
+2026-05-01,23,Quintana Roo,Lesiones culposas,189
+2026-05-01,23,Quintana Roo,Lesiones dolosas,5
+2026-05-01,23,Quintana Roo,Lesiones dolosas,17
+2026-05-01,23,Quintana Roo,Lesiones dolosas,286
+2026-05-01,23,Quintana Roo,Narcomenudeo con fines de venta,71
+2026-05-01,23,Quintana Roo,Narcomenudeo posesión simple,171
+2026-05-01,23,Quintana Roo,Otros delitos contra el patrimonio,49
+2026-05-01,23,Quintana Roo,Otros delitos contra la familia,84
+2026-05-01,23,Quintana Roo,Otros delitos contra la sociedad,1
+2026-05-01,23,Quintana Roo,Otros delitos del Fuero Común,321
+2026-05-01,23,Quintana Roo,Otros delitos que atentan contra la libertad personal,86
+2026-05-01,23,Quintana Roo,Otros delitos que atentan contra la libertad y la seguridad sexual,30
+2026-05-01,23,Quintana Roo,Otros delitos que atentan contra la vida y la integridad corporal,12
+2026-05-01,23,Quintana Roo,Otros robos,43
+2026-05-01,23,Quintana Roo,Otros robos,236
+2026-05-01,23,Quintana Roo,Pornografía infantil,7
+2026-05-01,23,Quintana Roo,Privación ilegal de la libertad,15
+2026-05-01,23,Quintana Roo,Robo a casa habitación,2
+2026-05-01,23,Quintana Roo,Robo a casa habitación,86
+2026-05-01,23,Quintana Roo,Robo a negocio,42
+2026-05-01,23,Quintana Roo,Robo a negocio,84
+2026-05-01,23,Quintana Roo,Robo a transeúnte en espacio abierto al público,3
+2026-05-01,23,Quintana Roo,Robo a transeúnte en espacio abierto al público,17
+2026-05-01,23,Quintana Roo,Robo a transeúnte en vía pública,26
+2026-05-01,23,Quintana Roo,Robo a transeúnte en vía pública,38
+2026-05-01,23,Quintana Roo,Robo a transportista,1
+2026-05-01,23,Quintana Roo,Robo a transportista,1
+2026-05-01,23,Quintana Roo,"Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos",3
+2026-05-01,23,Quintana Roo,Robo de vehículo automotor - Coche de 4 ruedas,4
+2026-05-01,23,Quintana Roo,Robo de vehículo automotor - Coche de 4 ruedas,35
+2026-05-01,23,Quintana Roo,Robo de vehículo automotor - Embarcaciones,1
+2026-05-01,23,Quintana Roo,Robo de vehículo automotor - Motocicleta,9
+2026-05-01,23,Quintana Roo,Robo de vehículo automotor - Motocicleta,100
+2026-05-01,23,Quintana Roo,Robo en transporte individual,1
+2026-05-01,23,Quintana Roo,Robo en transporte público colectivo,1
+2026-05-01,23,Quintana Roo,Tentativa de feminicidio,2
+2026-05-01,23,Quintana Roo,Tentativa de homicidio doloso,2
+2026-05-01,23,Quintana Roo,Tortura,24
+2026-05-01,23,Quintana Roo,Trata de personas con otros fines,13
+2026-05-01,23,Quintana Roo,Violación a la intimidad sexual,48
+2026-05-01,23,Quintana Roo,Violación equiparada,31
+2026-05-01,23,Quintana Roo,Violación simple,46
+2026-05-01,23,Quintana Roo,Violencia familiar,647
+2026-05-01,24,San Luis Potosí,Aborto,1
+2026-05-01,24,San Luis Potosí,Abuso de confianza,32
+2026-05-01,24,San Luis Potosí,Abuso sexual,63
+2026-05-01,24,San Luis Potosí,Acoso sexual,44
+2026-05-01,24,San Luis Potosí,Allanamiento de morada,66
+2026-05-01,24,San Luis Potosí,Amenazas,270
+2026-05-01,24,San Luis Potosí,Contra el medio ambiente,14
+2026-05-01,24,San Luis Potosí,Corrupción de menores,5
+2026-05-01,24,San Luis Potosí,Daño a la propiedad,436
+2026-05-01,24,San Luis Potosí,Delitos cometidos por servidores públicos,49
+2026-05-01,24,San Luis Potosí,Despojo,29
+2026-05-01,24,San Luis Potosí,Discriminación,8
+2026-05-01,24,San Luis Potosí,Electorales,1
+2026-05-01,24,San Luis Potosí,Extorsión por otros medios,13
+2026-05-01,24,San Luis Potosí,Falsificación,18
+2026-05-01,24,San Luis Potosí,Fraude,207
+2026-05-01,24,San Luis Potosí,Homicidio culposo,31
+2026-05-01,24,San Luis Potosí,Homicidio doloso,1
+2026-05-01,24,San Luis Potosí,Homicidio doloso,2
+2026-05-01,24,San Luis Potosí,Hostigamiento sexual,3
+2026-05-01,24,San Luis Potosí,Incumplimiento de obligaciones de asistencia familiar,57
+2026-05-01,24,San Luis Potosí,Lesiones culposas,47
+2026-05-01,24,San Luis Potosí,Lesiones dolosas,15
+2026-05-01,24,San Luis Potosí,Lesiones dolosas,37
+2026-05-01,24,San Luis Potosí,Lesiones dolosas,145
+2026-05-01,24,San Luis Potosí,Lesiones dolosas,201
+2026-05-01,24,San Luis Potosí,Narcomenudeo posesión simple,972
+2026-05-01,24,San Luis Potosí,Otros delitos contra el patrimonio,26
+2026-05-01,24,San Luis Potosí,Otros delitos contra la familia,6
+2026-05-01,24,San Luis Potosí,Otros delitos del Fuero Común,232
+2026-05-01,24,San Luis Potosí,Otros delitos que atentan contra la libertad y la seguridad sexual,2
+2026-05-01,24,San Luis Potosí,Otros delitos que atentan contra la vida y la integridad corporal,14
+2026-05-01,24,San Luis Potosí,Otros robos,80
+2026-05-01,24,San Luis Potosí,Otros robos,383
+2026-05-01,24,San Luis Potosí,Privación ilegal de la libertad,15
+2026-05-01,24,San Luis Potosí,Retención o sustracción de menores e incapaces,23
+2026-05-01,24,San Luis Potosí,Robo a casa habitación,4
+2026-05-01,24,San Luis Potosí,Robo a casa habitación,45
+2026-05-01,24,San Luis Potosí,Robo a negocio,29
+2026-05-01,24,San Luis Potosí,Robo a negocio,33
+2026-05-01,24,San Luis Potosí,Robo a transeúnte en espacio abierto al público,2
+2026-05-01,24,San Luis Potosí,Robo a transeúnte en vía pública,19
+2026-05-01,24,San Luis Potosí,Robo a transeúnte en vía pública,43
+2026-05-01,24,San Luis Potosí,Robo a transportista,10
+2026-05-01,24,San Luis Potosí,Robo a transportista,12
+2026-05-01,24,San Luis Potosí,Robo de autopartes,1
+2026-05-01,24,San Luis Potosí,Robo de autopartes,5
+2026-05-01,24,San Luis Potosí,Robo de ganado,1
+2026-05-01,24,San Luis Potosí,Robo de ganado,3
+2026-05-01,24,San Luis Potosí,Robo de vehículo automotor - Coche de 4 ruedas,22
+2026-05-01,24,San Luis Potosí,Robo de vehículo automotor - Coche de 4 ruedas,32
+2026-05-01,24,San Luis Potosí,Robo de vehículo automotor - Motocicleta,7
+2026-05-01,24,San Luis Potosí,Robo de vehículo automotor - Motocicleta,60
+2026-05-01,24,San Luis Potosí,Tentativa de extorsión por otros medios,6
+2026-05-01,24,San Luis Potosí,Tentativa de feminicidio,1
+2026-05-01,24,San Luis Potosí,Tentativa de homicidio doloso,2
+2026-05-01,24,San Luis Potosí,Tortura,5
+2026-05-01,24,San Luis Potosí,Violación simple,43
+2026-05-01,24,San Luis Potosí,Violencia familiar,942
+2026-05-01,25,Sinaloa,Abuso de confianza,41
+2026-05-01,25,Sinaloa,Abuso sexual,51
+2026-05-01,25,Sinaloa,Acoso sexual,20
+2026-05-01,25,Sinaloa,Allanamiento de morada,9
+2026-05-01,25,Sinaloa,Amenazas,265
+2026-05-01,25,Sinaloa,Corrupción de menores,6
+2026-05-01,25,Sinaloa,Daño a la propiedad,295
+2026-05-01,25,Sinaloa,Delitos cometidos por servidores públicos,22
+2026-05-01,25,Sinaloa,Delitos contra la administración de justicia,2
+2026-05-01,25,Sinaloa,Despojo,53
+2026-05-01,25,Sinaloa,Discriminación,2
+2026-05-01,25,Sinaloa,Extorsión presencial,18
+2026-05-01,25,Sinaloa,Falsedad,6
+2026-05-01,25,Sinaloa,Falsificación,16
+2026-05-01,25,Sinaloa,Feminicidio,6
+2026-05-01,25,Sinaloa,Fraude,98
+2026-05-01,25,Sinaloa,Homicidio culposo,1
+2026-05-01,25,Sinaloa,Homicidio culposo,35
+2026-05-01,25,Sinaloa,Homicidio doloso,7
+2026-05-01,25,Sinaloa,Homicidio doloso,9
+2026-05-01,25,Sinaloa,Homicidio doloso,83
+2026-05-01,25,Sinaloa,Incumplimiento de obligaciones de asistencia familiar,20
+2026-05-01,25,Sinaloa,Lesiones culposas,3
+2026-05-01,25,Sinaloa,Lesiones culposas,3
+2026-05-01,25,Sinaloa,Lesiones culposas,97
+2026-05-01,25,Sinaloa,Lesiones dolosas,21
+2026-05-01,25,Sinaloa,Lesiones dolosas,23
+2026-05-01,25,Sinaloa,Lesiones dolosas,39
+2026-05-01,25,Sinaloa,Lesiones dolosas,250
+2026-05-01,25,Sinaloa,Narcomenudeo con fines de venta,40
+2026-05-01,25,Sinaloa,Narcomenudeo posesión simple,15
+2026-05-01,25,Sinaloa,Otros delitos contra el patrimonio,12
+2026-05-01,25,Sinaloa,Otros delitos contra la familia,23
+2026-05-01,25,Sinaloa,Otros delitos contra la sociedad,31
+2026-05-01,25,Sinaloa,Otros delitos del Fuero Común,15
+2026-05-01,25,Sinaloa,Otros delitos que atentan contra la libertad personal,18
+2026-05-01,25,Sinaloa,Otros robos,80
+2026-05-01,25,Sinaloa,Otros robos,188
+2026-05-01,25,Sinaloa,Pornografía infantil,1
+2026-05-01,25,Sinaloa,Privación ilegal de la libertad,109
+2026-05-01,25,Sinaloa,Retención o sustracción de menores e incapaces,24
+2026-05-01,25,Sinaloa,Robo a casa habitación,6
+2026-05-01,25,Sinaloa,Robo a casa habitación,23
+2026-05-01,25,Sinaloa,Robo a negocio,43
+2026-05-01,25,Sinaloa,Robo a negocio,72
+2026-05-01,25,Sinaloa,Robo a transportista,2
+2026-05-01,25,Sinaloa,Robo de autopartes,1
+2026-05-01,25,Sinaloa,Robo de ganado,2
+2026-05-01,25,Sinaloa,Robo de vehículo automotor - Coche de 4 ruedas,25
+2026-05-01,25,Sinaloa,Robo de vehículo automotor - Coche de 4 ruedas,179
+2026-05-01,25,Sinaloa,Robo de vehículo automotor - Motocicleta,71
+2026-05-01,25,Sinaloa,Robo de vehículo automotor - Motocicleta,99
+2026-05-01,25,Sinaloa,Suplantación y usurpación de identidad,21
+2026-05-01,25,Sinaloa,Violación a la intimidad sexual,10
+2026-05-01,25,Sinaloa,Violación equiparada,10
+2026-05-01,25,Sinaloa,Violación simple,32
+2026-05-01,25,Sinaloa,Violencia familiar,684
+2026-05-01,26,Sonora,Aborto,1
+2026-05-01,26,Sonora,Abuso de confianza,8
+2026-05-01,26,Sonora,Abuso sexual,40
+2026-05-01,26,Sonora,Acoso sexual,7
+2026-05-01,26,Sonora,Allanamiento de morada,37
+2026-05-01,26,Sonora,Amenazas,127
+2026-05-01,26,Sonora,Contra el medio ambiente,11
+2026-05-01,26,Sonora,Corrupción de menores,7
+2026-05-01,26,Sonora,Daño a la propiedad,174
+2026-05-01,26,Sonora,Delitos cometidos por servidores públicos,7
+2026-05-01,26,Sonora,Despojo,16
+2026-05-01,26,Sonora,Extorsión por otros medios,2
+2026-05-01,26,Sonora,Falsedad,3
+2026-05-01,26,Sonora,Falsificación,1
+2026-05-01,26,Sonora,Feminicidio,1
+2026-05-01,26,Sonora,Feminicidio,1
+2026-05-01,26,Sonora,Fraude,26
+2026-05-01,26,Sonora,Homicidio culposo,20
+2026-05-01,26,Sonora,Homicidio doloso,3
+2026-05-01,26,Sonora,Homicidio doloso,15
+2026-05-01,26,Sonora,Homicidio doloso,35
+2026-05-01,26,Sonora,Incumplimiento de obligaciones de asistencia familiar,152
+2026-05-01,26,Sonora,Lesiones culposas,11
+2026-05-01,26,Sonora,Lesiones culposas,63
+2026-05-01,26,Sonora,Lesiones dolosas,9
+2026-05-01,26,Sonora,Lesiones dolosas,23
+2026-05-01,26,Sonora,Lesiones dolosas,98
+2026-05-01,26,Sonora,Narcomenudeo con fines de venta,402
+2026-05-01,26,Sonora,Narcomenudeo posesión simple,143
+2026-05-01,26,Sonora,Otros delitos contra el patrimonio,45
+2026-05-01,26,Sonora,Otros delitos contra la familia,2
+2026-05-01,26,Sonora,Otros delitos contra la sociedad,14
+2026-05-01,26,Sonora,Otros delitos del Fuero Común,167
+2026-05-01,26,Sonora,Otros delitos que atentan contra la libertad personal,5
+2026-05-01,26,Sonora,Otros delitos que atentan contra la vida y la integridad corporal,4
+2026-05-01,26,Sonora,Otros robos,28
+2026-05-01,26,Sonora,Otros robos,55
+2026-05-01,26,Sonora,Privación ilegal de la libertad,26
+2026-05-01,26,Sonora,Retención o sustracción de menores e incapaces,2
+2026-05-01,26,Sonora,Robo a casa habitación,8
+2026-05-01,26,Sonora,Robo a casa habitación,17
+2026-05-01,26,Sonora,Robo a negocio,10
+2026-05-01,26,Sonora,Robo a negocio,17
+2026-05-01,26,Sonora,Robo a transeúnte en espacio abierto al público,2
+2026-05-01,26,Sonora,Robo a transeúnte en vía pública,2
+2026-05-01,26,Sonora,Robo a transeúnte en vía pública,3
+2026-05-01,26,Sonora,Robo de autopartes,1
+2026-05-01,26,Sonora,Robo de autopartes,5
+2026-05-01,26,Sonora,Robo de ganado,5
+2026-05-01,26,Sonora,Robo de maquinaria - Herramienta industrial o agrícola,1
+2026-05-01,26,Sonora,Robo de maquinaria - Herramienta industrial o agrícola,2
+2026-05-01,26,Sonora,Robo de vehículo automotor - Coche de 4 ruedas,33
+2026-05-01,26,Sonora,Robo de vehículo automotor - Coche de 4 ruedas,72
+2026-05-01,26,Sonora,Robo de vehículo automotor - Motocicleta,14
+2026-05-01,26,Sonora,Robo de vehículo automotor - Motocicleta,64
+2026-05-01,26,Sonora,Tentativa de feminicidio,2
+2026-05-01,26,Sonora,Tentativa de homicidio doloso,16
+2026-05-01,26,Sonora,Violación a la intimidad sexual,3
+2026-05-01,26,Sonora,Violación equiparada,1
+2026-05-01,26,Sonora,Violación simple,9
+2026-05-01,26,Sonora,Violencia familiar,481
+2026-05-01,27,Tabasco,Abuso de confianza,70
+2026-05-01,27,Tabasco,Abuso sexual,30
+2026-05-01,27,Tabasco,Acoso sexual,9
+2026-05-01,27,Tabasco,Allanamiento de morada,18
+2026-05-01,27,Tabasco,Amenazas,420
+2026-05-01,27,Tabasco,Contra el medio ambiente,5
+2026-05-01,27,Tabasco,Corrupción de menores,3
+2026-05-01,27,Tabasco,Daño a la propiedad,175
+2026-05-01,27,Tabasco,Delitos cometidos por servidores públicos,26
+2026-05-01,27,Tabasco,Delitos contra la administración de justicia,6
+2026-05-01,27,Tabasco,Despojo,51
+2026-05-01,27,Tabasco,Discriminación,13
+2026-05-01,27,Tabasco,Electorales,1
+2026-05-01,27,Tabasco,Evasión de presos,6
+2026-05-01,27,Tabasco,Extorsión por otros medios,25
+2026-05-01,27,Tabasco,Extorsión presencial,2
+2026-05-01,27,Tabasco,Falsedad,2
+2026-05-01,27,Tabasco,Falsificación,9
+2026-05-01,27,Tabasco,Feminicidio,2
+2026-05-01,27,Tabasco,Fraude,110
+2026-05-01,27,Tabasco,Homicidio culposo,21
+2026-05-01,27,Tabasco,Homicidio culposo,31
+2026-05-01,27,Tabasco,Homicidio doloso,1
+2026-05-01,27,Tabasco,Homicidio doloso,3
+2026-05-01,27,Tabasco,Homicidio doloso,5
+2026-05-01,27,Tabasco,Homicidio doloso,45
+2026-05-01,27,Tabasco,Hostigamiento sexual,12
+2026-05-01,27,Tabasco,Incumplimiento de obligaciones de asistencia familiar,110
+2026-05-01,27,Tabasco,Lesiones culposas,40
+2026-05-01,27,Tabasco,Lesiones culposas,62
+2026-05-01,27,Tabasco,Lesiones dolosas,28
+2026-05-01,27,Tabasco,Lesiones dolosas,43
+2026-05-01,27,Tabasco,Lesiones dolosas,127
+2026-05-01,27,Tabasco,Lesiones dolosas,182
+2026-05-01,27,Tabasco,Narcomenudeo con fines de venta,21
+2026-05-01,27,Tabasco,Narcomenudeo posesión simple,41
+2026-05-01,27,Tabasco,Otros delitos contra el patrimonio,39
+2026-05-01,27,Tabasco,Otros delitos contra la familia,42
+2026-05-01,27,Tabasco,Otros delitos contra la sociedad,9
+2026-05-01,27,Tabasco,Otros delitos del Fuero Común,709
+2026-05-01,27,Tabasco,Otros delitos que atentan contra la libertad y la seguridad sexual,50
+2026-05-01,27,Tabasco,Otros delitos que atentan contra la vida y la integridad corporal,2
+2026-05-01,27,Tabasco,Otros robos,53
+2026-05-01,27,Tabasco,Otros robos,205
+2026-05-01,27,Tabasco,Privación ilegal de la libertad,7
+2026-05-01,27,Tabasco,Retención o sustracción de menores e incapaces,27
+2026-05-01,27,Tabasco,Robo a casa habitación,1
+2026-05-01,27,Tabasco,Robo a casa habitación,23
+2026-05-01,27,Tabasco,Robo a negocio,47
+2026-05-01,27,Tabasco,Robo a negocio,57
+2026-05-01,27,Tabasco,Robo a transeúnte en espacio abierto al público,4
+2026-05-01,27,Tabasco,Robo a transeúnte en espacio abierto al público,5
+2026-05-01,27,Tabasco,Robo a transeúnte en vía pública,11
+2026-05-01,27,Tabasco,Robo a transeúnte en vía pública,25
+2026-05-01,27,Tabasco,Robo a transportista,7
+2026-05-01,27,Tabasco,Robo de ganado,31
+2026-05-01,27,Tabasco,"Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos",1
+2026-05-01,27,Tabasco,"Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos",7
+2026-05-01,27,Tabasco,Robo de maquinaria - Herramienta industrial o agrícola,1
+2026-05-01,27,Tabasco,Robo de maquinaria - Tractores y/o montacargas,1
+2026-05-01,27,Tabasco,Robo de maquinaria - Tractores y/o montacargas,2
+2026-05-01,27,Tabasco,Robo de vehículo automotor - Coche de 4 ruedas,19
+2026-05-01,27,Tabasco,Robo de vehículo automotor - Coche de 4 ruedas,36
+2026-05-01,27,Tabasco,Robo de vehículo automotor - Motocicleta,33
+2026-05-01,27,Tabasco,Robo de vehículo automotor - Motocicleta,58
+2026-05-01,27,Tabasco,Robo en transporte individual,10
+2026-05-01,27,Tabasco,Robo en transporte público colectivo,1
+2026-05-01,27,Tabasco,Secuestro extorsivo,1
+2026-05-01,27,Tabasco,Tentativa de extorsión por otros medios,14
+2026-05-01,27,Tabasco,Tentativa de extorsión presencial,2
+2026-05-01,27,Tabasco,Tentativa de feminicidio,5
+2026-05-01,27,Tabasco,Tentativa de homicidio doloso,7
+2026-05-01,27,Tabasco,Tortura,23
+2026-05-01,27,Tabasco,Violación a la intimidad sexual,10
+2026-05-01,27,Tabasco,Violación simple,19
+2026-05-01,27,Tabasco,Violencia familiar,710
+2026-05-01,28,Tamaulipas,Aborto,4
+2026-05-01,28,Tamaulipas,Abuso de confianza,65
+2026-05-01,28,Tamaulipas,Abuso sexual,69
+2026-05-01,28,Tamaulipas,Acoso sexual,13
+2026-05-01,28,Tamaulipas,Allanamiento de morada,26
+2026-05-01,28,Tamaulipas,Amenazas,187
+2026-05-01,28,Tamaulipas,Contra el medio ambiente,1
+2026-05-01,28,Tamaulipas,Corrupción de menores,4
+2026-05-01,28,Tamaulipas,Daño a la propiedad,378
+2026-05-01,28,Tamaulipas,Delitos cometidos por servidores públicos,37
+2026-05-01,28,Tamaulipas,Delitos contra la administración de justicia,5
+2026-05-01,28,Tamaulipas,Despojo,43
+2026-05-01,28,Tamaulipas,Discriminación,4
+2026-05-01,28,Tamaulipas,Extorsión por otros medios,8
+2026-05-01,28,Tamaulipas,Falsedad,8
+2026-05-01,28,Tamaulipas,Falsificación,23
+2026-05-01,28,Tamaulipas,Feminicidio,3
+2026-05-01,28,Tamaulipas,Fraude,164
+2026-05-01,28,Tamaulipas,Homicidio culposo,25
+2026-05-01,28,Tamaulipas,Homicidio culposo,34
+2026-05-01,28,Tamaulipas,Homicidio doloso,7
+2026-05-01,28,Tamaulipas,Homicidio doloso,9
+2026-05-01,28,Tamaulipas,Hostigamiento sexual,6
+2026-05-01,28,Tamaulipas,Incumplimiento de obligaciones de asistencia familiar,120
+2026-05-01,28,Tamaulipas,Lesiones culposas,1
+2026-05-01,28,Tamaulipas,Lesiones culposas,10
+2026-05-01,28,Tamaulipas,Lesiones culposas,35
+2026-05-01,28,Tamaulipas,Lesiones culposas,83
+2026-05-01,28,Tamaulipas,Lesiones dolosas,1
+2026-05-01,28,Tamaulipas,Lesiones dolosas,80
+2026-05-01,28,Tamaulipas,Lesiones dolosas,151
+2026-05-01,28,Tamaulipas,Narcomenudeo con fines de venta,12
+2026-05-01,28,Tamaulipas,Narcomenudeo posesión simple,43
+2026-05-01,28,Tamaulipas,Otros delitos contra el patrimonio,5
+2026-05-01,28,Tamaulipas,Otros delitos contra la familia,5
+2026-05-01,28,Tamaulipas,Otros delitos contra la sociedad,8
+2026-05-01,28,Tamaulipas,Otros delitos del Fuero Común,281
+2026-05-01,28,Tamaulipas,Otros delitos que atentan contra la libertad y la seguridad sexual,3
+2026-05-01,28,Tamaulipas,Otros delitos que atentan contra la vida y la integridad corporal,27
+2026-05-01,28,Tamaulipas,Otros robos,62
+2026-05-01,28,Tamaulipas,Otros robos,239
+2026-05-01,28,Tamaulipas,Pornografía infantil,2
+2026-05-01,28,Tamaulipas,Privación ilegal de la libertad,39
+2026-05-01,28,Tamaulipas,Retención o sustracción de menores e incapaces,53
+2026-05-01,28,Tamaulipas,Robo a casa habitación,10
+2026-05-01,28,Tamaulipas,Robo a casa habitación,60
+2026-05-01,28,Tamaulipas,Robo a negocio,46
+2026-05-01,28,Tamaulipas,Robo a negocio,82
+2026-05-01,28,Tamaulipas,Robo a transeúnte en espacio abierto al público,1
+2026-05-01,28,Tamaulipas,Robo a transeúnte en vía pública,1
+2026-05-01,28,Tamaulipas,Robo a transeúnte en vía pública,2
+2026-05-01,28,Tamaulipas,Robo a transportista,1
+2026-05-01,28,Tamaulipas,Robo de ganado,8
+2026-05-01,28,Tamaulipas,"Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos",1
+2026-05-01,28,Tamaulipas,Robo de vehículo automotor - Coche de 4 ruedas,31
+2026-05-01,28,Tamaulipas,Robo de vehículo automotor - Coche de 4 ruedas,60
+2026-05-01,28,Tamaulipas,Robo de vehículo automotor - Motocicleta,1
+2026-05-01,28,Tamaulipas,Robo de vehículo automotor - Motocicleta,33
+2026-05-01,28,Tamaulipas,Suplantación y usurpación de identidad,4
+2026-05-01,28,Tamaulipas,Tentativa de extorsión por otros medios,3
+2026-05-01,28,Tamaulipas,Tentativa de feminicidio,1
+2026-05-01,28,Tamaulipas,Tentativa de homicidio doloso,1
+2026-05-01,28,Tamaulipas,Tortura,7
+2026-05-01,28,Tamaulipas,Trata de personas con fines de explotación sexual,2
+2026-05-01,28,Tamaulipas,Violación a la intimidad sexual,5
+2026-05-01,28,Tamaulipas,Violación simple,45
+2026-05-01,28,Tamaulipas,Violencia familiar,656
+2026-05-01,29,Tlaxcala,Abuso sexual,1
+2026-05-01,29,Tlaxcala,Allanamiento de morada,1
+2026-05-01,29,Tlaxcala,Amenazas,1
+2026-05-01,29,Tlaxcala,Fraude,3
+2026-05-01,29,Tlaxcala,Homicidio culposo,1
+2026-05-01,29,Tlaxcala,Homicidio doloso,3
+2026-05-01,29,Tlaxcala,Homicidio doloso,8
+2026-05-01,29,Tlaxcala,Incumplimiento de obligaciones de asistencia familiar,1
+2026-05-01,29,Tlaxcala,Lesiones culposas,12
+2026-05-01,29,Tlaxcala,Lesiones dolosas,1
+2026-05-01,29,Tlaxcala,Lesiones dolosas,3
+2026-05-01,29,Tlaxcala,Narcomenudeo posesión simple,25
+2026-05-01,29,Tlaxcala,Otros delitos contra el patrimonio,3
+2026-05-01,29,Tlaxcala,Otros delitos del Fuero Común,7
+2026-05-01,29,Tlaxcala,Otros delitos que atentan contra la libertad personal,5
+2026-05-01,29,Tlaxcala,Otros delitos que atentan contra la libertad y la seguridad sexual,2
+2026-05-01,29,Tlaxcala,Otros robos,1
+2026-05-01,29,Tlaxcala,Otros robos,5
+2026-05-01,29,Tlaxcala,Robo a casa habitación,3
+2026-05-01,29,Tlaxcala,Robo a casa habitación,11
+2026-05-01,29,Tlaxcala,Robo a institución bancaria,1
+2026-05-01,29,Tlaxcala,Robo a negocio,6
+2026-05-01,29,Tlaxcala,Robo a negocio,7
+2026-05-01,29,Tlaxcala,Robo a transeúnte en espacio abierto al público,1
+2026-05-01,29,Tlaxcala,Robo a transeúnte en vía pública,6
+2026-05-01,29,Tlaxcala,Robo a transportista,2
+2026-05-01,29,Tlaxcala,Robo de ganado,1
+2026-05-01,29,Tlaxcala,Robo de maquinaria - Herramienta industrial o agrícola,1
+2026-05-01,29,Tlaxcala,Robo de maquinaria - Herramienta industrial o agrícola,1
+2026-05-01,29,Tlaxcala,Robo de vehículo automotor - Coche de 4 ruedas,3
+2026-05-01,29,Tlaxcala,Robo de vehículo automotor - Coche de 4 ruedas,13
+2026-05-01,29,Tlaxcala,Robo de vehículo automotor - Motocicleta,4
+2026-05-01,29,Tlaxcala,Robo de vehículo automotor - Motocicleta,9
+2026-05-01,29,Tlaxcala,Trata de personas con fines de explotación sexual,1
+2026-05-01,29,Tlaxcala,Violencia de género en todas sus modalidades distinta a la violencia familiar,1
+2026-05-01,29,Tlaxcala,Violencia familiar,1
+2026-05-01,30,Veracruz de Ignacio de la Llave,Abuso de confianza,95
+2026-05-01,30,Veracruz de Ignacio de la Llave,Abuso sexual,116
+2026-05-01,30,Veracruz de Ignacio de la Llave,Acoso sexual,40
+2026-05-01,30,Veracruz de Ignacio de la Llave,Allanamiento de morada,40
+2026-05-01,30,Veracruz de Ignacio de la Llave,Amenazas,645
+2026-05-01,30,Veracruz de Ignacio de la Llave,Contra el medio ambiente,1
+2026-05-01,30,Veracruz de Ignacio de la Llave,Corrupción de menores,7
+2026-05-01,30,Veracruz de Ignacio de la Llave,Daño a la propiedad,558
+2026-05-01,30,Veracruz de Ignacio de la Llave,Delitos cometidos por servidores públicos,79
+2026-05-01,30,Veracruz de Ignacio de la Llave,Delitos contra la administración de justicia,15
+2026-05-01,30,Veracruz de Ignacio de la Llave,Despojo,115
+2026-05-01,30,Veracruz de Ignacio de la Llave,Discriminación,8
+2026-05-01,30,Veracruz de Ignacio de la Llave,Evasión de presos,1
+2026-05-01,30,Veracruz de Ignacio de la Llave,Extorsión por otros medios,23
+2026-05-01,30,Veracruz de Ignacio de la Llave,Extorsión presencial,6
+2026-05-01,30,Veracruz de Ignacio de la Llave,Falsedad,18
+2026-05-01,30,Veracruz de Ignacio de la Llave,Falsificación,34
+2026-05-01,30,Veracruz de Ignacio de la Llave,Feminicidio,1
+2026-05-01,30,Veracruz de Ignacio de la Llave,Fraude,303
+2026-05-01,30,Veracruz de Ignacio de la Llave,Homicidio culposo,1
+2026-05-01,30,Veracruz de Ignacio de la Llave,Homicidio culposo,8
+2026-05-01,30,Veracruz de Ignacio de la Llave,Homicidio culposo,93
+2026-05-01,30,Veracruz de Ignacio de la Llave,Homicidio doloso,5
+2026-05-01,30,Veracruz de Ignacio de la Llave,Homicidio doloso,10
+2026-05-01,30,Veracruz de Ignacio de la Llave,Homicidio doloso,45
+2026-05-01,30,Veracruz de Ignacio de la Llave,Hostigamiento sexual,5
+2026-05-01,30,Veracruz de Ignacio de la Llave,Incumplimiento de obligaciones de asistencia familiar,76
+2026-05-01,30,Veracruz de Ignacio de la Llave,Lesiones culposas,1
+2026-05-01,30,Veracruz de Ignacio de la Llave,Lesiones culposas,83
+2026-05-01,30,Veracruz de Ignacio de la Llave,Lesiones culposas,136
+2026-05-01,30,Veracruz de Ignacio de la Llave,Lesiones dolosas,43
+2026-05-01,30,Veracruz de Ignacio de la Llave,Lesiones dolosas,101
+2026-05-01,30,Veracruz de Ignacio de la Llave,Lesiones dolosas,522
+2026-05-01,30,Veracruz de Ignacio de la Llave,Narcomenudeo con fines de venta,226
+2026-05-01,30,Veracruz de Ignacio de la Llave,Narcomenudeo posesión simple,328
+2026-05-01,30,Veracruz de Ignacio de la Llave,Otros delitos contra el patrimonio,70
+2026-05-01,30,Veracruz de Ignacio de la Llave,Otros delitos contra la familia,78
+2026-05-01,30,Veracruz de Ignacio de la Llave,Otros delitos del Fuero Común,255
+2026-05-01,30,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la libertad personal,21
+2026-05-01,30,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la libertad y la seguridad sexual,142
+2026-05-01,30,Veracruz de Ignacio de la Llave,Otros delitos que atentan contra la vida y la integridad corporal,21
+2026-05-01,30,Veracruz de Ignacio de la Llave,Otros robos,37
+2026-05-01,30,Veracruz de Ignacio de la Llave,Otros robos,207
+2026-05-01,30,Veracruz de Ignacio de la Llave,Privación ilegal de la libertad,41
+2026-05-01,30,Veracruz de Ignacio de la Llave,Retención o sustracción de menores e incapaces,55
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo a casa habitación,24
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo a casa habitación,118
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo a negocio,158
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo a negocio,201
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo a transeúnte en espacio abierto al público,7
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo a transeúnte en espacio abierto al público,13
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo a transeúnte en vía pública,35
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo a transeúnte en vía pública,58
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo a transportista,3
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo a transportista,4
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo de autopartes,18
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo de ganado,2
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo de ganado,21
+2026-05-01,30,Veracruz de Ignacio de la Llave,"Robo de maquinaria - Cables, tubos y otros objetos destinados a servicios públicos",1
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo de maquinaria - Herramienta industrial o agrícola,1
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo de maquinaria - Herramienta industrial o agrícola,3
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo de vehículo automotor - Coche de 4 ruedas,59
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo de vehículo automotor - Coche de 4 ruedas,148
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo de vehículo automotor - Motocicleta,18
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo de vehículo automotor - Motocicleta,158
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo en transporte individual,2
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo en transporte público colectivo,3
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo en transporte público individual,2
+2026-05-01,30,Veracruz de Ignacio de la Llave,Robo en transporte público individual,2
+2026-05-01,30,Veracruz de Ignacio de la Llave,Secuestro extorsivo,1
+2026-05-01,30,Veracruz de Ignacio de la Llave,Suplantación y usurpación de identidad,93
+2026-05-01,30,Veracruz de Ignacio de la Llave,Tentativa de extorsión por otros medios,1
+2026-05-01,30,Veracruz de Ignacio de la Llave,Tentativa de extorsión presencial,4
+2026-05-01,30,Veracruz de Ignacio de la Llave,Tentativa de feminicidio,1
+2026-05-01,30,Veracruz de Ignacio de la Llave,Tentativa de homicidio doloso,7
+2026-05-01,30,Veracruz de Ignacio de la Llave,Tortura,15
+2026-05-01,30,Veracruz de Ignacio de la Llave,Trata de personas con fines de trabajo o servicios forzados,1
+2026-05-01,30,Veracruz de Ignacio de la Llave,Violación a la intimidad sexual,25
+2026-05-01,30,Veracruz de Ignacio de la Llave,Violación equiparada,2
+2026-05-01,30,Veracruz de Ignacio de la Llave,Violación simple,41
+2026-05-01,30,Veracruz de Ignacio de la Llave,Violencia de género en todas sus modalidades distinta a la violencia familiar,279
+2026-05-01,30,Veracruz de Ignacio de la Llave,Violencia familiar,1033
+2026-05-01,31,Yucatán,Abuso de confianza,37
+2026-05-01,31,Yucatán,Abuso sexual,5
+2026-05-01,31,Yucatán,Acoso sexual,2
+2026-05-01,31,Yucatán,Allanamiento de morada,5
+2026-05-01,31,Yucatán,Amenazas,138
+2026-05-01,31,Yucatán,Contra el medio ambiente,1
+2026-05-01,31,Yucatán,Daño a la propiedad,105
+2026-05-01,31,Yucatán,Delitos cometidos por servidores públicos,8
+2026-05-01,31,Yucatán,Despojo,11
+2026-05-01,31,Yucatán,Falsedad,1
+2026-05-01,31,Yucatán,Falsificación,3
+2026-05-01,31,Yucatán,Feminicidio,2
+2026-05-01,31,Yucatán,Fraude,41
+2026-05-01,31,Yucatán,Homicidio culposo,1
+2026-05-01,31,Yucatán,Homicidio culposo,20
+2026-05-01,31,Yucatán,Homicidio doloso,1
+2026-05-01,31,Yucatán,Incumplimiento de obligaciones de asistencia familiar,27
+2026-05-01,31,Yucatán,Lesiones culposas,9
+2026-05-01,31,Yucatán,Lesiones dolosas,1
+2026-05-01,31,Yucatán,Lesiones dolosas,4
+2026-05-01,31,Yucatán,Lesiones dolosas,47
+2026-05-01,31,Yucatán,Narcomenudeo posesión simple,18
+2026-05-01,31,Yucatán,Otros delitos del Fuero Común,26
+2026-05-01,31,Yucatán,Otros delitos que atentan contra la libertad personal,41
+2026-05-01,31,Yucatán,Otros delitos que atentan contra la vida y la integridad corporal,1
+2026-05-01,31,Yucatán,Otros robos,16
+2026-05-01,31,Yucatán,Retención o sustracción de menores e incapaces,1
+2026-05-01,31,Yucatán,Robo a casa habitación,9
+2026-05-01,31,Yucatán,Robo a negocio,14
+2026-05-01,31,Yucatán,Robo a transeúnte en vía pública,1
+2026-05-01,31,Yucatán,Robo a transeúnte en vía pública,1
+2026-05-01,31,Yucatán,Robo de vehículo automotor - Coche de 4 ruedas,4
+2026-05-01,31,Yucatán,Robo de vehículo automotor - Motocicleta,5
+2026-05-01,31,Yucatán,Tentativa de feminicidio,3
+2026-05-01,31,Yucatán,Violación simple,5
+2026-05-01,31,Yucatán,Violencia de género en todas sus modalidades distinta a la violencia familiar,1
+2026-05-01,31,Yucatán,Violencia familiar,17
+2026-05-01,32,Zacatecas,Aborto,2
+2026-05-01,32,Zacatecas,Abuso de confianza,28
+2026-05-01,32,Zacatecas,Abuso sexual,39
+2026-05-01,32,Zacatecas,Acoso sexual,15
+2026-05-01,32,Zacatecas,Allanamiento de morada,18
+2026-05-01,32,Zacatecas,Amenazas,143
+2026-05-01,32,Zacatecas,Corrupción de menores,1
+2026-05-01,32,Zacatecas,Daño a la propiedad,228
+2026-05-01,32,Zacatecas,Delitos cometidos por servidores públicos,24
+2026-05-01,32,Zacatecas,Delitos contra la administración de justicia,3
+2026-05-01,32,Zacatecas,Despojo,36
+2026-05-01,32,Zacatecas,Discriminación,6
+2026-05-01,32,Zacatecas,Electorales,1
+2026-05-01,32,Zacatecas,Extorsión por otros medios,34
+2026-05-01,32,Zacatecas,Extorsión presencial,3
+2026-05-01,32,Zacatecas,Falsedad,8
+2026-05-01,32,Zacatecas,Falsificación,3
+2026-05-01,32,Zacatecas,Feminicidio,1
+2026-05-01,32,Zacatecas,Fraude,138
+2026-05-01,32,Zacatecas,Homicidio culposo,11
+2026-05-01,32,Zacatecas,Homicidio culposo,36
+2026-05-01,32,Zacatecas,Homicidio doloso,1
+2026-05-01,32,Zacatecas,Homicidio doloso,2
+2026-05-01,32,Zacatecas,Homicidio doloso,3
+2026-05-01,32,Zacatecas,Hostigamiento sexual,1
+2026-05-01,32,Zacatecas,Incumplimiento de obligaciones de asistencia familiar,79
+2026-05-01,32,Zacatecas,Lesiones culposas,12
+2026-05-01,32,Zacatecas,Lesiones culposas,30
+2026-05-01,32,Zacatecas,Lesiones culposas,33
+2026-05-01,32,Zacatecas,Lesiones dolosas,2
+2026-05-01,32,Zacatecas,Lesiones dolosas,11
+2026-05-01,32,Zacatecas,Lesiones dolosas,44
+2026-05-01,32,Zacatecas,Lesiones dolosas,120
+2026-05-01,32,Zacatecas,Narcomenudeo con fines de venta,28
+2026-05-01,32,Zacatecas,Narcomenudeo posesión simple,3
+2026-05-01,32,Zacatecas,Otros delitos contra el patrimonio,4
+2026-05-01,32,Zacatecas,Otros delitos del Fuero Común,36
+2026-05-01,32,Zacatecas,Otros delitos que atentan contra la libertad personal,17
+2026-05-01,32,Zacatecas,Otros delitos que atentan contra la vida y la integridad corporal,13
+2026-05-01,32,Zacatecas,Otros robos,43
+2026-05-01,32,Zacatecas,Otros robos,189
+2026-05-01,32,Zacatecas,Privación ilegal de la libertad,19
+2026-05-01,32,Zacatecas,Retención o sustracción de menores e incapaces,5
+2026-05-01,32,Zacatecas,Robo a casa habitación,4
+2026-05-01,32,Zacatecas,Robo a casa habitación,21
+2026-05-01,32,Zacatecas,Robo a negocio,5
+2026-05-01,32,Zacatecas,Robo a negocio,9
+2026-05-01,32,Zacatecas,Robo a transeúnte en vía pública,2
+2026-05-01,32,Zacatecas,Robo de autopartes,1
+2026-05-01,32,Zacatecas,Robo de autopartes,1
+2026-05-01,32,Zacatecas,Robo de ganado,1
+2026-05-01,32,Zacatecas,Robo de ganado,6
+2026-05-01,32,Zacatecas,Robo de vehículo automotor - Coche de 4 ruedas,16
+2026-05-01,32,Zacatecas,Robo de vehículo automotor - Coche de 4 ruedas,38
+2026-05-01,32,Zacatecas,Robo de vehículo automotor - Motocicleta,1
+2026-05-01,32,Zacatecas,Robo de vehículo automotor - Motocicleta,49
+2026-05-01,32,Zacatecas,Suplantación y usurpación de identidad,11
+2026-05-01,32,Zacatecas,Tentativa de extorsión por otros medios,2
+2026-05-01,32,Zacatecas,Tentativa de homicidio doloso,7
+2026-05-01,32,Zacatecas,Tortura,8
+2026-05-01,32,Zacatecas,Trata de personas con fines de explotación sexual,1
+2026-05-01,32,Zacatecas,Trata de personas con fines de trabajo o servicios forzados,3
+2026-05-01,32,Zacatecas,Violación a la intimidad sexual,19
+2026-05-01,32,Zacatecas,Violación equiparada,17
+2026-05-01,32,Zacatecas,Violación simple,17
+2026-05-01,32,Zacatecas,Violencia familiar,369
