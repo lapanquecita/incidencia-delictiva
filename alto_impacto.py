@@ -48,13 +48,13 @@ DELITOS = {
 }
 
 # Esta constante es usada para definir que mes será comparado.
-MES_REFERENCIA = "2026-05-01"
+MES_REFERENCIA = "2026-06-01"
 
 # El mes que se mostrará en el título.
-MES = "mayo"
+MES = "junio"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "junio"
+MES_FUENTE = "julio"
 
 
 # Estas abreviaciones serán usadas para el eje horizontal.
@@ -378,7 +378,7 @@ def main():
         yanchor="top",
         yref="paper",
         font_size=30,
-        text="(Un registro de delito puede tener más de una víctima. Se incluye la tendencia de los últimos 12 periodos.)",
+        text="(Un registro de delito puede tener más de una víctima. Se incluye la tendencia de los últimos 12 meses.)",
     )
 
     fig.add_annotation(

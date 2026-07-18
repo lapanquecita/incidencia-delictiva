@@ -22,7 +22,7 @@ PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "marzo 2026"
+FECHA_FUENTE = "julio 2026"
 
 
 def crear_mapa(año, delito):
@@ -199,7 +199,7 @@ def crear_mapa(año, delito):
                 y=0.985,
                 xanchor="center",
                 yanchor="top",
-                text=f"Tasas de incidencia de <b>{delito.lower()}</b> en México por municipio de ocurrencia durante {año}",
+                text=f"Tasa de incidencia de <b>{delito.lower()}</b> en México por municipio de registro durante {año}",
                 font_size=140,
             ),
             dict(
