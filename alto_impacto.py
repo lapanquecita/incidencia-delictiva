@@ -48,13 +48,13 @@ DELITOS = {
 }
 
 # Esta constante es usada para definir que mes será comparado.
-MES_REFERENCIA = "2026-06-01"
+MES_REFERENCIA = "2026-07-01"
 
 # El mes que se mostrará en el título.
-MES = "junio"
+MES = "julio"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "julio"
+MES_FUENTE = "agosto"
 
 
 # Estas abreviaciones serán usadas para el eje horizontal.

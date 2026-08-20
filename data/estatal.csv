@@ -32045,7 +32045,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,7,Chiapas,Otros bienes jurídicos afectados (del fuero común),Delitos cometidos por servidores públicos,Delitos cometidos por servidores públicos,Delitos cometidos por servidores públicos,10,9,6,2,5,4,6,8,4,2,5,2
 2025,7,Chiapas,Otros bienes jurídicos afectados (del fuero común),Electorales,Electorales,Electorales,5,6,2,2,3,1,1,0,0,2,1,0
 2025,7,Chiapas,Otros bienes jurídicos afectados (del fuero común),Otros delitos del Fuero Común,Otros delitos del Fuero Común,Otros delitos del Fuero Común,154,117,139,163,115,40,60,61,62,73,52,40
-2025,8,Chihuahua,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,90,64,103,70,79,86,105,67,80,70,70,77
+2025,8,Chihuahua,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,90,64,103,70,79,86,106,67,80,70,70,77
 2025,8,Chihuahua,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,12,11,11,14,12,16,16,15,11,9,12,14
 2025,8,Chihuahua,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,28,37,37,33,31,28,39,36,31,31,24,23
 2025,8,Chihuahua,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,0,0,0,0,0,0,0,0,0,0,0,0
@@ -32069,7 +32069,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,8,Chihuahua,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,0,0,0,0,0,0,0,0,0,0,0,0
 2025,8,Chihuahua,La vida y la Integridad corporal,Aborto,Aborto,Aborto,0,0,2,1,0,1,0,0,0,1,0,0
 2025,8,Chihuahua,La vida y la Integridad corporal,Otros delitos que atentan contra la vida y la integridad corporal,Otros delitos que atentan contra la vida y la integridad corporal,Otros delitos que atentan contra la vida y la integridad corporal,38,59,252,96,99,68,53,41,46,43,51,36
-2025,8,Chihuahua,Libertad personal,Secuestro,Secuestro,Secuestro extorsivo,2,7,3,4,10,7,7,2,5,5,6,7
+2025,8,Chihuahua,Libertad personal,Secuestro,Secuestro,Secuestro extorsivo,2,7,3,5,10,7,7,2,5,5,6,7
 2025,8,Chihuahua,Libertad personal,Secuestro,Secuestro,Secuestro con calidad de rehén,0,0,2,0,0,0,0,0,1,1,0,0
 2025,8,Chihuahua,Libertad personal,Secuestro,Secuestro,Secuestro para causar daño,0,0,0,1,0,0,0,0,0,0,0,0
 2025,8,Chihuahua,Libertad personal,Secuestro,Secuestro,Secuestro exprés,0,0,0,0,0,0,0,1,2,0,0,0
@@ -32181,7 +32181,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,9,Ciudad de México,La libertad y la seguridad sexual,Violación simple,Violación simple,Violación simple,61,64,67,61,47,57,57,56,42,59,48,49
 2025,9,Ciudad de México,La libertad y la seguridad sexual,Violación equiparada,Violación equiparada,Violación equiparada,108,113,142,133,140,109,120,116,134,125,100,93
 2025,9,Ciudad de México,La libertad y la seguridad sexual,Incesto,Incesto,Incesto,0,0,0,0,0,0,0,0,0,0,0,0
-2025,9,Ciudad de México,La libertad y la seguridad sexual,Otros delitos que atentan contra la libertad y la seguridad sexual,Otros delitos que atentan contra la libertad y la seguridad sexual,Otros delitos que atentan contra la libertad y la seguridad sexual,114,113,155,158,125,123,131,113,115,111,119,111
+2025,9,Ciudad de México,La libertad y la seguridad sexual,Otros delitos que atentan contra la libertad y la seguridad sexual,Otros delitos que atentan contra la libertad y la seguridad sexual,Otros delitos que atentan contra la libertad y la seguridad sexual,114,113,155,158,125,123,131,113,115,111,119,110
 2025,9,Ciudad de México,El patrimonio,Robo,Robo a casa habitación,Con violencia,17,15,12,19,14,13,15,26,20,20,27,17
 2025,9,Ciudad de México,El patrimonio,Robo,Robo a casa habitación,Sin violencia,222,204,205,196,207,203,175,224,212,182,180,168
 2025,9,Ciudad de México,El patrimonio,Robo,Robo de vehículo automotor,Robo de coche de 4 ruedas Con violencia,68,41,51,52,48,45,59,38,31,40,40,28
@@ -32218,12 +32218,12 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,9,Ciudad de México,El patrimonio,Robo,Robo de maquinaria,"Robo de cables, tubos y otros objetos destinados a servicios públicos Sin violencia",0,0,0,0,0,0,0,0,0,0,0,0
 2025,9,Ciudad de México,El patrimonio,Robo,Otros robos,Con violencia,36,27,19,25,33,25,26,23,35,31,39,46
 2025,9,Ciudad de México,El patrimonio,Robo,Otros robos,Sin violencia,1677,1515,1809,1620,1694,1601,1539,1739,1671,1674,1634,1609
-2025,9,Ciudad de México,El patrimonio,Fraude,Fraude,Fraude,1541,1484,1580,1634,1781,1812,1908,2072,1836,2380,1870,1867
+2025,9,Ciudad de México,El patrimonio,Fraude,Fraude,Fraude,1541,1484,1580,1634,1781,1812,1908,2072,1835,2380,1870,1867
 2025,9,Ciudad de México,El patrimonio,Abuso de confianza,Abuso de confianza,Abuso de confianza,292,269,388,373,329,350,328,329,293,328,309,331
-2025,9,Ciudad de México,El patrimonio,Extorsión,Extorsión,Extorsión,83,98,147,127,144,175,196,167,169,132,160,155
+2025,9,Ciudad de México,El patrimonio,Extorsión,Extorsión,Extorsión,83,98,147,127,144,175,196,167,170,132,161,158
 2025,9,Ciudad de México,El patrimonio,Daño a la propiedad,Daño a la propiedad,Daño a la propiedad,778,786,878,778,1052,826,877,923,930,979,860,823
 2025,9,Ciudad de México,El patrimonio,Despojo,Despojo,Despojo,279,287,321,329,344,341,376,344,275,314,311,276
-2025,9,Ciudad de México,El patrimonio,Otros delitos contra el patrimonio,Otros delitos contra el patrimonio,Otros delitos contra el patrimonio,195,206,220,180,184,160,143,139,124,153,106,99
+2025,9,Ciudad de México,El patrimonio,Otros delitos contra el patrimonio,Otros delitos contra el patrimonio,Otros delitos contra el patrimonio,195,206,220,180,184,160,143,139,124,153,106,97
 2025,9,Ciudad de México,La familia,Violencia familiar,Violencia familiar,Violencia familiar,2629,2606,3075,3071,3169,2646,3062,2876,2700,2897,2655,2326
 2025,9,Ciudad de México,La familia,Violencia de género en todas sus modalidades distinta a la violencia familiar,Violencia de género en todas sus modalidades distinta a la violencia familiar,Violencia de género en todas sus modalidades distinta a la violencia familiar,0,0,0,0,0,0,0,0,0,0,0,0
 2025,9,Ciudad de México,La familia,Incumplimiento de obligaciones de asistencia familiar,Incumplimiento de obligaciones de asistencia familiar,Incumplimiento de obligaciones de asistencia familiar,74,69,74,102,77,78,84,84,88,79,75,69
@@ -32240,7 +32240,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,9,Ciudad de México,Otros bienes jurídicos afectados (del fuero común),Contra el medio ambiente,Contra el medio ambiente,Contra el medio ambiente,80,62,95,68,100,81,94,94,74,96,100,71
 2025,9,Ciudad de México,Otros bienes jurídicos afectados (del fuero común),Delitos cometidos por servidores públicos,Delitos cometidos por servidores públicos,Delitos cometidos por servidores públicos,354,347,385,341,400,345,386,342,376,392,337,347
 2025,9,Ciudad de México,Otros bienes jurídicos afectados (del fuero común),Electorales,Electorales,Electorales,5,2,1,4,13,45,12,46,2,2,7,1
-2025,9,Ciudad de México,Otros bienes jurídicos afectados (del fuero común),Otros delitos del Fuero Común,Otros delitos del Fuero Común,Otros delitos del Fuero Común,698,628,769,738,738,683,666,663,622,745,667,569
+2025,9,Ciudad de México,Otros bienes jurídicos afectados (del fuero común),Otros delitos del Fuero Común,Otros delitos del Fuero Común,Otros delitos del Fuero Común,698,628,769,738,738,683,666,663,622,745,666,569
 2025,10,Durango,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,2,2,0,1,3,4,4,3,4,2,3,2
 2025,10,Durango,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,1,3,2,4,0,1,0,0,1,0,0,0
 2025,10,Durango,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,0,0,1,1,2,0,4,0,1,1,2,1
@@ -32635,7 +32635,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,13,Hidalgo,Otros bienes jurídicos afectados (del fuero común),Otros delitos del Fuero Común,Otros delitos del Fuero Común,Otros delitos del Fuero Común,1461,1157,1304,1213,408,312,300,296,281,287,464,440
 2025,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,57,47,68,56,65,40,50,55,35,51,37,46
 2025,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,9,12,11,16,15,13,16,11,5,6,13,15
-2025,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,12,16,22,11,16,11,14,11,5,13,10,20
+2025,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,12,16,22,12,16,11,14,11,5,13,10,20
 2025,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,9,4,4,11,0,4,5,2,0,0,0,3
 2025,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,0,0,0,0,0,2,0,0,0,0,0,0
 2025,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,0,0,0,0,0,0,0,0,0,0,0,0
@@ -32710,7 +32710,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,14,Jalisco,El patrimonio,Robo,Otros robos,Sin violencia,1025,753,775,791,737,714,776,612,666,658,614,662
 2025,14,Jalisco,El patrimonio,Fraude,Fraude,Fraude,963,866,851,845,902,832,1051,955,839,1005,770,767
 2025,14,Jalisco,El patrimonio,Abuso de confianza,Abuso de confianza,Abuso de confianza,142,111,117,113,83,100,94,91,74,112,78,76
-2025,14,Jalisco,El patrimonio,Extorsión,Extorsión,Extorsión,33,36,36,37,36,37,42,43,39,36,27,37
+2025,14,Jalisco,El patrimonio,Extorsión,Extorsión,Extorsión,33,36,36,37,36,37,42,43,39,36,28,38
 2025,14,Jalisco,El patrimonio,Daño a la propiedad,Daño a la propiedad,Daño a la propiedad,180,152,211,212,179,182,194,193,147,193,171,161
 2025,14,Jalisco,El patrimonio,Despojo,Despojo,Despojo,124,110,97,97,105,79,145,113,96,107,93,91
 2025,14,Jalisco,El patrimonio,Otros delitos contra el patrimonio,Otros delitos contra el patrimonio,Otros delitos contra el patrimonio,0,0,0,0,0,0,0,0,0,0,0,0
@@ -32722,7 +32722,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,14,Jalisco,La sociedad,Trata de personas,Trata de personas,Trata de personas,0,0,0,1,1,2,1,0,3,0,1,0
 2025,14,Jalisco,La sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,0,1,0,0,0,0,0,0,0,1,0,0
 2025,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Narcomenudeo,Narcomenudeo,Narcomenudeo,188,201,201,220,194,206,195,209,207,219,201,202
-2025,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Amenazas,Amenazas,Amenazas,811,762,897,830,834,771,828,820,831,884,755,714
+2025,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Amenazas,Amenazas,Amenazas,811,762,897,830,834,771,828,820,831,884,754,713
 2025,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Allanamiento de morada,Allanamiento de morada,Allanamiento de morada,16,16,19,22,20,18,26,15,24,20,15,15
 2025,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Evasión de presos,Evasión de presos,Evasión de presos,0,1,0,0,0,0,0,0,0,0,1,0
 2025,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Falsedad,Falsedad,Falsedad,17,13,14,10,11,8,14,16,6,18,14,16
@@ -32927,7 +32927,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,16,Michoacán de Ocampo,Otros bienes jurídicos afectados (del fuero común),Delitos cometidos por servidores públicos,Delitos cometidos por servidores públicos,Delitos cometidos por servidores públicos,10,23,14,47,14,14,12,11,30,24,31,14
 2025,16,Michoacán de Ocampo,Otros bienes jurídicos afectados (del fuero común),Electorales,Electorales,Electorales,3,1,1,2,0,8,0,1,1,0,0,0
 2025,16,Michoacán de Ocampo,Otros bienes jurídicos afectados (del fuero común),Otros delitos del Fuero Común,Otros delitos del Fuero Común,Otros delitos del Fuero Común,426,372,373,404,283,267,222,239,256,275,278,249
-2025,17,Morelos,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,70,60,69,62,69,60,75,80,71,64,86,65
+2025,17,Morelos,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,70,60,69,62,69,60,75,81,71,64,86,65
 2025,17,Morelos,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,3,2,1,2,6,1,1,1,0,0,1,2
 2025,17,Morelos,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,20,16,15,16,6,11,17,9,7,8,9,12
 2025,17,Morelos,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,0,0,0,0,0,0,0,0,0,0,0,0
@@ -32945,8 +32945,8 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,17,Morelos,La vida y la Integridad corporal,Lesiones,Lesiones culposas,En accidente de tránsito,0,0,0,0,0,0,0,0,0,0,0,0
 2025,17,Morelos,La vida y la Integridad corporal,Lesiones,Lesiones culposas,Con otro elemento,0,0,0,0,0,0,0,0,0,0,0,0
 2025,17,Morelos,La vida y la Integridad corporal,Lesiones,Lesiones culposas,No especificado,226,258,278,249,302,243,231,258,282,331,288,287
-2025,17,Morelos,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,3,0,0,0,3,0,1,0,0,0,1,0
-2025,17,Morelos,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma blanca,0,0,0,0,0,0,0,0,0,0,0,0
+2025,17,Morelos,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,3,0,0,0,3,0,1,0,1,0,1,0
+2025,17,Morelos,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma blanca,0,0,0,0,0,0,0,1,0,0,0,0
 2025,17,Morelos,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con otro elemento,1,2,1,5,2,1,3,3,2,5,0,2
 2025,17,Morelos,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,0,0,0,0,0,0,0,0,0,0,0,0
 2025,17,Morelos,La vida y la Integridad corporal,Aborto,Aborto,Aborto,1,0,0,1,0,0,1,0,4,0,1,4
@@ -33024,7 +33024,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,17,Morelos,Otros bienes jurídicos afectados (del fuero común),Contra el medio ambiente,Contra el medio ambiente,Contra el medio ambiente,2,1,1,3,1,2,0,1,0,1,2,1
 2025,17,Morelos,Otros bienes jurídicos afectados (del fuero común),Delitos cometidos por servidores públicos,Delitos cometidos por servidores públicos,Delitos cometidos por servidores públicos,2,7,9,4,9,14,6,5,1,4,7,4
 2025,17,Morelos,Otros bienes jurídicos afectados (del fuero común),Electorales,Electorales,Electorales,0,1,0,0,0,0,0,0,1,0,0,0
-2025,17,Morelos,Otros bienes jurídicos afectados (del fuero común),Otros delitos del Fuero Común,Otros delitos del Fuero Común,Otros delitos del Fuero Común,193,193,228,225,260,244,268,229,226,259,263,220
+2025,17,Morelos,Otros bienes jurídicos afectados (del fuero común),Otros delitos del Fuero Común,Otros delitos del Fuero Común,Otros delitos del Fuero Común,193,193,228,225,260,244,268,228,226,259,263,220
 2025,18,Nayarit,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,9,3,7,5,4,10,7,7,9,6,6,10
 2025,18,Nayarit,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,1,1,0,1,2,0,2,0,2,1,1,2
 2025,18,Nayarit,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,5,5,4,1,4,1,2,3,5,4,3,1

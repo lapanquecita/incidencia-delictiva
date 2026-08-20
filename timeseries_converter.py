@@ -39,7 +39,7 @@ def victimas_to_timeseries():
 
     # Cargamos los datasets de la antigua (2015-2025) y nueva (2026) metodología.
     df1 = pd.read_csv("./data/victimas.csv", encoding="latin-1", thousands=",")
-    df2 = pd.read_csv("./data/victimas_n.csv", encoding="latin-1", thousands=",")
+    df2 = pd.read_csv("./data/victimas_n.csv", encoding="utf-8", thousands=",")
     df = pd.concat([df1, df2])
 
     # Iteramos por cada mes.
@@ -119,7 +119,7 @@ def estatal_to_timeseries():
 
     # Cargamos los datasets de la antigua (2015-2025) y nueva (2026) metodología.
     df1 = pd.read_csv("./data/estatal.csv", encoding="latin-1", thousands=",")
-    df2 = pd.read_csv("./data/estatal_n.csv", encoding="latin-1", thousands=",")
+    df2 = pd.read_csv("./data/estatal_n.csv", encoding="utf-8", thousands=",")
     df = pd.concat([df1, df2])
 
     # Iteramos por cada mes.
@@ -181,7 +181,7 @@ def municipios_to_timeseries():
 
     # Cargamos los datasets de la antigua (2015-2025) y nueva (2026) metodología.
     df1 = pd.read_csv("./data/municipal.csv", encoding="latin-1", thousands=",")
-    df2 = pd.read_csv("./data/municipal_n.csv", encoding="latin-1", thousands=",")
+    df2 = pd.read_csv("./data/municipal_n.csv", encoding="utf-8", thousands=",")
     df = pd.concat([df1, df2])
 
     # Arreglamos la clave del municipio.
@@ -232,7 +232,7 @@ def robos_to_timeseries():
 
     # Cargamos los datasets de la antigua (2015-2025) y nueva (2026) metodología.
     df1 = pd.read_csv("./data/municipal.csv", encoding="latin-1", thousands=",")
-    df2 = pd.read_csv("./data/municipal_n.csv", encoding="latin-1", thousands=",")
+    df2 = pd.read_csv("./data/municipal_n.csv", encoding="utf-8", thousands=",")
     df = pd.concat([df1, df2])
 
     # Seleccionamos solo los delitos clasificados como robo.

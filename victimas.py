@@ -20,14 +20,13 @@ from plotly.subplots import make_subplots
 from statsmodels.tsa.seasonal import STL
 
 
+# La fecha en la que los datos fueron recopilados.
+FECHA_FUENTE = "agosto 2026"
+
 # Todas las gráficas de este script
 # van a compartir el mismo esquema de colores.
 PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
-
-# La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "julio 2026"
-
 
 MESES = [
     "Enero",
