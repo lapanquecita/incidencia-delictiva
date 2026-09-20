@@ -48,13 +48,13 @@ DELITOS = {
 }
 
 # Esta constante es usada para definir que mes será comparado.
-MES_REFERENCIA = "2026-07-01"
+MES_REFERENCIA = "2026-08-01"
 
 # El mes que se mostrará en el título.
-MES = "julio"
+MES = "agosto"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "agosto"
+MES_FUENTE = "septiembre"
 
 
 # Estas abreviaciones serán usadas para el eje horizontal.
@@ -179,10 +179,12 @@ def main():
 
             # Ajustamos la posición de la primera etiqueta.
             if primer_valor == valor_maximo:
-                if primer_valor_ratio <= 0.70:
-                    text_pos[0] = "bottom center"
-                else:
+                print(subtipos_delito[index])
+                print(primer_valor_ratio)
+                if primer_valor_ratio <= 0.96:
                     text_pos[0] = "middle right"
+                else:
+                    text_pos[0] = "bottom center"
             elif primer_valor == valor_minimo:
                 if primer_valor_ratio >= 1.5:
                     text_pos[0] = "middle right"
@@ -257,7 +259,7 @@ def main():
                     y=temp_df["tendencia"],
                     mode="lines",
                     line_width=3.5,
-                    line_color="hsla(255, 100, 100, 0.8)",
+                    line_color="hsla(0, 100%, 100%, 0.8)",
                 ),
                 row=fila + 1,
                 col=columna + 1,

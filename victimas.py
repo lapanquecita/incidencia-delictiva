@@ -21,7 +21,7 @@ from statsmodels.tsa.seasonal import STL
 
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "agosto 2026"
+FECHA_FUENTE = "septiembre 2026"
 
 # Todas las gráficas de este script
 # van a compartir el mismo esquema de colores.
@@ -167,7 +167,8 @@ def tendencia_anual(delito, entidad_id, xanchor="left"):
         ticks="outside",
         ticklen=10,
         zeroline=False,
-        tickcolor="#FFFFFF",
+        tickcolor="#EEEEEE",
+        linecolor="#EEEEEE",
         linewidth=2,
         showline=True,
         showgrid=False,
@@ -182,7 +183,8 @@ def tendencia_anual(delito, entidad_id, xanchor="left"):
         separatethousands=True,
         ticklen=10,
         title_standoff=15,
-        tickcolor="#FFFFFF",
+        tickcolor="#EEEEEE",
+        linecolor="#EEEEEE",
         linewidth=2,
         gridwidth=0.5,
         showline=True,
@@ -318,7 +320,8 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
         ticks="outside",
         ticklen=10,
         zeroline=False,
-        tickcolor="#FFFFFF",
+        tickcolor="#EEEEEE",
+        linecolor="#EEEEEE",
         linewidth=2,
         showline=True,
         showgrid=False,
@@ -333,7 +336,8 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
         separatethousands=True,
         ticklen=10,
         title_standoff=15,
-        tickcolor="#FFFFFF",
+        tickcolor="#EEEEEE",
+        linecolor="#EEEEEE",
         linewidth=2,
         gridwidth=0.5,
         showline=True,
@@ -455,8 +459,8 @@ def comparacion_interanual(primer_año, segundo_año, delito):
         axis=1,
     )
 
-    # Ordenamos de mayor a menor usando el cambio porcentual.
-    df.sort_values("cambio", ascending=False, inplace=True)
+    # Ordenamos por cambio porcentual.
+    df.sort_values("cambio", inplace=True)
 
     # Calculamos el valor máximo para ajustar el rango del eje horizontal.
     valor_max = df["cambio"].abs().max()
@@ -491,7 +495,8 @@ def comparacion_interanual(primer_año, segundo_año, delito):
         ticks="outside",
         ticklen=10,
         zeroline=False,
-        tickcolor="#FFFFFF",
+        tickcolor="#EEEEEE",
+        linecolor="#EEEEEE",
         linewidth=2,
         showline=True,
         gridwidth=0.5,
@@ -500,11 +505,10 @@ def comparacion_interanual(primer_año, segundo_año, delito):
     )
 
     fig.update_yaxes(
-        autorange="reversed",
         ticks="outside",
-        separatethousands=True,
         ticklen=10,
-        tickcolor="#FFFFFF",
+        tickcolor="#EEEEEE",
+        linecolor="#EEEEEE",
         linewidth=2,
         gridwidth=0.5,
         showline=True,
@@ -687,18 +691,16 @@ def crear_mapa(año, delito):
     )
 
     # El propósito de este segundo mapa es dibujar la división política.
-    # En casos donde un estado no tiene registros, normalmente no se vería esto.
+    # El propósito es siempre mostrar la división política completa.
     fig.add_traces(
         go.Choropleth(
             geojson=geojson,
-            locations=pop.index.astype(str).str.zfill(2),
-            z=[1 for _ in range(len(pop))],
+            locations=[item["properties"]["CVEGEO"] for item in geojson["features"]],
+            z=[1 for _ in geojson["features"]],
             featureidkey="properties.CVEGEO",
-            colorscale=["hsla(0,0,0,0)", "hsla(0,0,0,0)"],
+            colorscale=["hsla(0, 0%, 0%, 0)", "hsla(0, 0%, 0%, 0)"],
             marker_line_color="#FFFFFF",
-            marker_line_width=1.5,
-            zmin=0,
-            zmax=1,
+            marker_line_width=2,
             showscale=False,
         )
     )
@@ -964,8 +966,8 @@ def comparacion_sexo(año, delito):
             axis=1,
         )
 
-    # Ordenamos de mayor a menor proporción de hombres violentados.
-    df.sort_values(["perc_Hombre", "perc_Mujer"], ascending=False, inplace=True)
+    # Ordenamos por proporción de hombres violentados.
+    df.sort_values(["perc_Hombre", "perc_Mujer"], inplace=True)
 
     # Para crear una gráfica de barras normalizada solo
     # necesitamos que los valores sumen 100.
@@ -994,10 +996,10 @@ def comparacion_sexo(año, delito):
         range=[0, 100],
         ticksuffix="%",
         ticks="outside",
-        separatethousands=True,
         ticklen=10,
         zeroline=False,
-        tickcolor="#FFFFFF",
+        tickcolor="#EEEEEE",
+        linecolor="#EEEEEE",
         linewidth=2,
         showline=True,
         showgrid=False,
@@ -1006,11 +1008,11 @@ def comparacion_sexo(año, delito):
     )
 
     fig.update_yaxes(
-        autorange="reversed",
         ticks="outside",
         separatethousands=True,
         ticklen=10,
-        tickcolor="#FFFFFF",
+        tickcolor="#EEEEEE",
+        linecolor="#EEEEEE",
         linewidth=2,
         showgrid=False,
         showline=True,

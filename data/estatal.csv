@@ -29582,8 +29582,8 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2024,14,Jalisco,La familia,Violencia de género en todas sus modalidades distinta a la violencia familiar,Violencia de género en todas sus modalidades distinta a la violencia familiar,Violencia de género en todas sus modalidades distinta a la violencia familiar,0,0,0,0,0,0,0,0,0,0,0,0
 2024,14,Jalisco,La familia,Incumplimiento de obligaciones de asistencia familiar,Incumplimiento de obligaciones de asistencia familiar,Incumplimiento de obligaciones de asistencia familiar,85,86,64,68,75,69,102,70,72,69,76,64
 2024,14,Jalisco,La familia,Otros delitos contra la familia,Otros delitos contra la familia,Otros delitos contra la familia,34,32,30,32,23,21,33,32,24,26,36,23
-2024,14,Jalisco,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,10,9,14,7,13,10,15,11,8,8,12,9
-2024,14,Jalisco,La sociedad,Trata de personas,Trata de personas,Trata de personas,1,1,0,3,0,1,2,1,0,1,0,0
+2024,14,Jalisco,La sociedad,Corrupción de menores,Corrupción de menores,Corrupción de menores,10,9,14,7,13,10,14,11,8,8,11,9
+2024,14,Jalisco,La sociedad,Trata de personas,Trata de personas,Trata de personas,1,1,0,3,0,1,3,1,0,1,1,0
 2024,14,Jalisco,La sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,0,0,0,0,0,1,0,1,3,0,2,0
 2024,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Narcomenudeo,Narcomenudeo,Narcomenudeo,169,201,201,184,161,135,159,159,158,155,154,147
 2024,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Amenazas,Amenazas,Amenazas,803,824,903,873,883,847,781,764,760,901,724,727
@@ -29594,7 +29594,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2024,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Contra el medio ambiente,Contra el medio ambiente,Contra el medio ambiente,1,1,4,7,7,4,4,9,2,5,1,3
 2024,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Delitos cometidos por servidores públicos,Delitos cometidos por servidores públicos,Delitos cometidos por servidores públicos,27,30,28,33,29,29,98,43,27,34,33,32
 2024,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Electorales,Electorales,Electorales,0,0,0,0,0,8,0,0,0,0,0,0
-2024,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Otros delitos del Fuero Común,Otros delitos del Fuero Común,Otros delitos del Fuero Común,1200,1202,1293,1340,1313,1227,1311,1226,1067,1118,944,909
+2024,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Otros delitos del Fuero Común,Otros delitos del Fuero Común,Otros delitos del Fuero Común,1200,1202,1293,1340,1313,1227,1311,1226,1067,1118,943,909
 2024,15,México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,142,127,134,127,135,132,110,114,125,116,108,112
 2024,15,México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,18,18,14,12,13,15,14,10,4,13,3,9
 2024,15,México,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,31,29,35,27,26,27,29,28,34,30,19,24
@@ -32083,7 +32083,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,8,Chihuahua,La libertad y la seguridad sexual,Violación simple,Violación simple,Violación simple,61,100,159,117,96,86,98,87,78,70,75,74
 2025,8,Chihuahua,La libertad y la seguridad sexual,Violación equiparada,Violación equiparada,Violación equiparada,15,17,51,30,39,22,32,36,22,31,18,26
 2025,8,Chihuahua,La libertad y la seguridad sexual,Incesto,Incesto,Incesto,0,0,0,0,0,0,0,0,0,0,0,0
-2025,8,Chihuahua,La libertad y la seguridad sexual,Otros delitos que atentan contra la libertad y la seguridad sexual,Otros delitos que atentan contra la libertad y la seguridad sexual,Otros delitos que atentan contra la libertad y la seguridad sexual,30,37,49,37,38,45,32,32,41,59,27,38
+2025,8,Chihuahua,La libertad y la seguridad sexual,Otros delitos que atentan contra la libertad y la seguridad sexual,Otros delitos que atentan contra la libertad y la seguridad sexual,Otros delitos que atentan contra la libertad y la seguridad sexual,30,37,49,37,38,45,32,33,41,59,27,38
 2025,8,Chihuahua,El patrimonio,Robo,Robo a casa habitación,Con violencia,5,6,5,3,8,2,4,6,6,2,5,7
 2025,8,Chihuahua,El patrimonio,Robo,Robo a casa habitación,Sin violencia,138,164,172,125,127,123,133,124,138,121,109,96
 2025,8,Chihuahua,El patrimonio,Robo,Robo de vehículo automotor,Robo de coche de 4 ruedas Con violencia,24,41,16,27,32,39,33,37,38,25,27,29
@@ -32633,7 +32633,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,13,Hidalgo,Otros bienes jurídicos afectados (del fuero común),Delitos cometidos por servidores públicos,Delitos cometidos por servidores públicos,Delitos cometidos por servidores públicos,48,32,40,49,65,90,97,82,82,93,67,64
 2025,13,Hidalgo,Otros bienes jurídicos afectados (del fuero común),Electorales,Electorales,Electorales,0,0,5,82,1,2,3,2,1,1,1,4
 2025,13,Hidalgo,Otros bienes jurídicos afectados (del fuero común),Otros delitos del Fuero Común,Otros delitos del Fuero Común,Otros delitos del Fuero Común,1461,1157,1304,1213,408,312,300,296,281,287,464,440
-2025,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,57,47,68,56,65,40,50,55,35,51,37,46
+2025,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,57,47,68,56,64,40,50,55,35,51,37,46
 2025,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,9,12,11,16,15,13,16,11,5,6,13,15
 2025,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,12,16,22,12,16,11,14,11,5,13,10,20
 2025,14,Jalisco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,9,4,4,11,0,4,5,2,0,0,0,3
@@ -32651,7 +32651,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,14,Jalisco,La vida y la Integridad corporal,Lesiones,Lesiones culposas,En accidente de tránsito,393,373,446,407,405,359,426,370,423,438,468,487
 2025,14,Jalisco,La vida y la Integridad corporal,Lesiones,Lesiones culposas,Con otro elemento,10,7,10,15,16,10,17,12,7,6,3,11
 2025,14,Jalisco,La vida y la Integridad corporal,Lesiones,Lesiones culposas,No especificado,0,0,0,0,0,0,0,0,0,0,0,0
-2025,14,Jalisco,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,1,0,0,0,2,2,1,0,3,0,2,0
+2025,14,Jalisco,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,1,0,0,0,3,2,1,0,3,0,2,0
 2025,14,Jalisco,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma blanca,0,1,1,1,1,0,2,0,0,2,1,1
 2025,14,Jalisco,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con otro elemento,1,1,3,0,2,1,1,1,6,1,1,0
 2025,14,Jalisco,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,0,0,0,0,0,0,0,0,0,0,0,0
@@ -32710,7 +32710,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,14,Jalisco,El patrimonio,Robo,Otros robos,Sin violencia,1025,753,775,791,737,714,776,612,666,658,614,662
 2025,14,Jalisco,El patrimonio,Fraude,Fraude,Fraude,963,866,851,845,902,832,1051,955,839,1005,770,767
 2025,14,Jalisco,El patrimonio,Abuso de confianza,Abuso de confianza,Abuso de confianza,142,111,117,113,83,100,94,91,74,112,78,76
-2025,14,Jalisco,El patrimonio,Extorsión,Extorsión,Extorsión,33,36,36,37,36,37,42,43,39,36,28,38
+2025,14,Jalisco,El patrimonio,Extorsión,Extorsión,Extorsión,33,36,36,37,36,37,42,43,39,36,28,39
 2025,14,Jalisco,El patrimonio,Daño a la propiedad,Daño a la propiedad,Daño a la propiedad,180,152,211,212,179,182,194,193,147,193,171,161
 2025,14,Jalisco,El patrimonio,Despojo,Despojo,Despojo,124,110,97,97,105,79,145,113,96,107,93,91
 2025,14,Jalisco,El patrimonio,Otros delitos contra el patrimonio,Otros delitos contra el patrimonio,Otros delitos contra el patrimonio,0,0,0,0,0,0,0,0,0,0,0,0
@@ -32722,7 +32722,7 @@ Año,Clave_Ent,Entidad,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Mo
 2025,14,Jalisco,La sociedad,Trata de personas,Trata de personas,Trata de personas,0,0,0,1,1,2,1,0,3,0,1,0
 2025,14,Jalisco,La sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,Otros delitos contra la sociedad,0,1,0,0,0,0,0,0,0,1,0,0
 2025,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Narcomenudeo,Narcomenudeo,Narcomenudeo,188,201,201,220,194,206,195,209,207,219,201,202
-2025,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Amenazas,Amenazas,Amenazas,811,762,897,830,834,771,828,820,831,884,754,713
+2025,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Amenazas,Amenazas,Amenazas,811,762,897,830,834,771,828,820,831,884,754,712
 2025,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Allanamiento de morada,Allanamiento de morada,Allanamiento de morada,16,16,19,22,20,18,26,15,24,20,15,15
 2025,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Evasión de presos,Evasión de presos,Evasión de presos,0,1,0,0,0,0,0,0,0,0,1,0
 2025,14,Jalisco,Otros bienes jurídicos afectados (del fuero común),Falsedad,Falsedad,Falsedad,17,13,14,10,11,8,14,16,6,18,14,16
