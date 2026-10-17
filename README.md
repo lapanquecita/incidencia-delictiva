@@ -14,9 +14,9 @@ El SESNSP publica tres bases de datos principales sobre incidencia delictiva:
 
 A continuación se describe la función de cada uno de los scripts disponibles en este repositorio.
 
-### `timeseries_converter.py`
+### `etl.py`
 
-Convierte los datasets originales del SESNSP a un formato de series de tiempo. En su forma original, cada mes es una columna, lo que dificulta el análisis. Este script simplifica esa estructura para facilitar el filtrado y el trabajo con fechas.
+Convierte los datasets originales del SESNSP de formato wide (ancho) a formato longitudinal (long), transformando las columnas correspondientes a cada mes en observaciones individuales. Esta estructura facilita el manejo de fechas, el filtrado y el análisis de series de tiempo.
 
 ### `alto_impacto.py`
 
@@ -36,11 +36,13 @@ Dependiendo del modo del script "top|bottom" se muestran las 10 entidades con ma
 
 Este script puede generar un mapa choropleth con la incidencia delictiva por municipio.
 
-![3](./imgs/mapa_municipal_2025.png)
+![3](./imgs/mapa_municipal_2026_victimas.png)
 
 Así mismo, se pueden generar tablas desglosando los 30 municipios con la mayor incidencia o tasa ajustada por población.
 
-![4](./imgs/tabla_tasa_2025.png)
+![4](./imgs/tabla_tasa_2026_victimas.png)
+
+*Nota: Con la metodología 2026 del SESNSP es posible desglosar víctimas por muncipio. Para años anteriores a 2026 solo es posible desglosar por número de casos.*
 
 ## victimas.py
 
@@ -57,17 +59,17 @@ Así mismo, se puede conocer la tendencia mensual por entidad y tipo de delito.
 
 La siguiente gráfica de barras es particulamernte efectiva para conocer cambios relativos para cada entidad.
 
-![7](./imgs/comparacion_entidad_2024_2025.png)
+![7](./imgs/comparacion_entidad_2025_2026.png)
 
 El siguiente mapa y tabla son de especial utilidad para mostrar un panorama completo.
 
 Las víctimas se desglosan por entidad y sexo, así como sus tasas por cada 100,000 habitantes. Esto elimina cualquier posibilidad de cesgo o ambigüedad.
 
-![8](./imgs/mapa_estatal_2025.png)
+![8](./imgs/mapa_estatal_2026.png)
 
 Finalmente, tenemos una opción adicional de explorar los delitos por sexo.
 
-![9](./imgs/comparacion_sexo_2025.png)
+![9](./imgs/comparacion_sexo_2026.png)
 
 Esta gráfica de barras hace un desglose por proporción, facilitando la comparación por entidad.
 

@@ -21,7 +21,7 @@ from statsmodels.tsa.seasonal import STL
 
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "septiembre 2026"
+FECHA_FUENTE = "octubre 2026"
 
 # Todas las gráficas de este script
 # van a compartir el mismo esquema de colores.
@@ -251,7 +251,7 @@ def tendencia_anual(delito, entidad_id, xanchor="left"):
     fig.write_image(f"./tendencia_anual_{entidad_id}.png")
 
 
-def tendencia_mensual(delito, entidad_id, xanchor="left"):
+def tendencia_mensual(delito, entidad_id):
     """
     GEnera una gráfica mostrando la evolución
     de la incidencia mensual del delito y entidad especificados.
@@ -263,10 +263,6 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
 
     entidad_id : int
         La clave numérica de la entidad. 0 para datos a nivel nacional.
-
-    xanchor : str
-        Es la ubicación de la leyenda dentro del gráfico.
-        Los posibles valores pueden ser "left" o "right".
 
     """
 
@@ -288,9 +284,9 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
     # Calculamos la tendencia usando STL.
     df["tendencia"] = STL(df["TOTAL"]).fit().trend
 
-    # Solo vamos a mostrar los últimos 120 meses (10 años).
+    # Solo vamos a mostrar los últimos 60 meses (5 años).
     # Con esto es suficiente para mostrar una tendencia a mediano plazo.
-    df = df.tail(120)
+    df = df.tail(60)
 
     fig = go.Figure()
 
@@ -298,7 +294,7 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
         go.Bar(
             x=df.index,
             y=df["TOTAL"],
-            marker_color="#00897b",
+            marker_color="#f4511e",
             name="Serie original",
             marker_line_width=0,
         )
@@ -309,7 +305,7 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
             x=df.index,
             y=df["tendencia"],
             mode="lines",
-            line_color="#ffd54f",
+            line_color="#FFFFFF",
             name="Tendencia (12 periodos)",
             line_width=6,
         )
@@ -347,12 +343,12 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
     )
 
     fig.update_layout(
+        legend_itemsizing="constant",
+        legend_orientation="h",
         showlegend=True,
-        legend_borderwidth=1,
-        legend_bordercolor="#FFFFFF",
-        legend_x=0.01 if xanchor == "left" else 0.99,
-        legend_y=0.98,
-        legend_xanchor=xanchor,
+        legend_x=0.5,
+        legend_y=1.06,
+        legend_xanchor="center",
         legend_yanchor="top",
         width=1920,
         height=1080,
@@ -362,7 +358,7 @@ def tendencia_mensual(delito, entidad_id, xanchor="left"):
         title_text=f"Evolución de la incidencia mensual de <b>{delito.lower()}</b> en <b>{ENTIDADES[entidad_id]}</b> ({df.index.year.min()}-{df.index.year.max()})",
         title_x=0.5,
         title_y=0.965,
-        margin_t=80,
+        margin_t=120,
         margin_r=40,
         margin_b=160,
         margin_l=130,
@@ -1079,7 +1075,7 @@ def comparacion_sexo(año, delito):
 
 if __name__ == "__main__":
     tendencia_anual("Extorsión", 0)
-    tendencia_mensual("Extorsión", 0)
-    crear_mapa(2025, "Extorsión")
-    comparacion_interanual(2024, 2025, "Extorsión")
-    comparacion_sexo(2025, "Extorsión")
+    tendencia_mensual("Extorsión", 0)    
+    crear_mapa(2026, "Extorsión")
+    comparacion_interanual(2025, 2026, "Extorsión")
+    comparacion_sexo(2026, "Extorsión")

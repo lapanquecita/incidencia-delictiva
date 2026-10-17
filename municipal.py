@@ -17,7 +17,7 @@ import plotly.graph_objects as go
 
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "septiembre 2026"
+FECHA_FUENTE = "octubre 2026"
 
 # Todas las gráficas de este script
 # van a compartir el mismo esquema de colores.
@@ -25,7 +25,7 @@ PLOT_COLOR = "#171010"
 PAPER_COLOR = "#2B2B2B"
 
 
-def crear_mapa(año, delito):
+def crear_mapa(año, delito, tipo):
     """
     Crea un mapa choropleth con la incidencia
     del delito especificado.
@@ -38,6 +38,9 @@ def crear_mapa(año, delito):
     delito : str
         El nombre del delito que se desea graficar.
 
+    tipo : str
+            Puede ser 'casos' o 'victimas'.
+
     """
 
     # Cargamos el dataset de población por municipio.
@@ -46,8 +49,8 @@ def crear_mapa(año, delito):
     # Seleccionamos el año de nuestro interés.
     pop = pop[str(año)]
 
-    # Cargamos el dataset de dengue del año que nos interesa.
-    df = pd.read_csv("./data/timeseries_municipal.csv", dtype={"CVE_MUN": str})
+    # Cargamos el dataset municipal, ya sea por casos o víctimas.
+    df = pd.read_csv(f"./data/timeseries_municipal_{tipo}.csv", dtype={"CVE_MUN": str})
 
     # Seleccionamos el año de nuestro interés.
     df = df[df["AÑO"] == año]
@@ -69,7 +72,7 @@ def crear_mapa(año, delito):
     poblacion_nacional = pop.sum()
 
     # Preparamos los valores para nuestro subtítulo.
-    subtitulo = f"Tasa nacional: <b>{total_nacional / poblacion_nacional * 100000:,.1f}</b> (con <b>{total_nacional:,.0f}</b> casos)"
+    subtitulo = f"Tasa nacional: <b>{total_nacional / poblacion_nacional * 100000:,.1f}</b> (con <b>{total_nacional:,.0f}</b> {tipo.replace('victimas', 'víctimas')})"
 
     # Quitamos los valores NaN para que no interfieran con los siguientes pasos.
     df = df.dropna(axis=0)
@@ -193,7 +196,7 @@ def crear_mapa(año, delito):
                 y=0.985,
                 xanchor="center",
                 yanchor="top",
-                text=f"Tasa de incidencia de <b>{delito.lower()}</b> en México por municipio de registro durante {año}",
+                text=f"Tasa de {'incidencia' if tipo == 'casos' else 'victimización'} de <b>{delito.lower()}</b> en México por municipio de registro durante {año}",
                 font_size=140,
             ),
             dict(
@@ -202,7 +205,7 @@ def crear_mapa(año, delito):
                 textangle=-90,
                 xanchor="center",
                 yanchor="middle",
-                text="Tasa bruta por cada 100,000 habitantes",
+                text=f"{tipo.replace('victimas', 'víctimas').title()} por cada 100,000 habitantes",
                 font_size=100,
             ),
             dict(
@@ -245,10 +248,11 @@ def crear_mapa(año, delito):
         ],
     )
 
-    fig.write_image(f"./mapa_municipal_{año}.png")
+    # Nombramos el archivo a partir de los parámetros de la función.
+    fig.write_image(f"./mapa_municipal_{año}_{tipo}.png")
 
 
-def tasa_municipios(año, delito):
+def tasa_municipios(año, delito, tipo):
     """
     Crea una tabla desglosando los 30 municipios con mayor
     tasa del delito especificado.
@@ -261,6 +265,9 @@ def tasa_municipios(año, delito):
     delito : str
         El nombre del delito que se desea graficar.
 
+    tipo : str
+            Puede ser 'casos' o 'victimas'.
+
     """
 
     # Cargamos el dataset de población por municipio.
@@ -272,8 +279,8 @@ def tasa_municipios(año, delito):
     # Seleccinamos solo las dos columnas que utilizaremos.
     pop = pop[["nombre", str(año)]]
 
-    # Cargamos el dataset municipal con datos anuales.
-    df = pd.read_csv("./data/timeseries_municipal.csv", dtype={"CVE_MUN": str})
+    # Cargamos el dataset municipal, ya sea por casos o víctimas.
+    df = pd.read_csv(f"./data/timeseries_municipal_{tipo}.csv", dtype={"CVE_MUN": str})
 
     # Seleccionamos el año de nuestro interés.
     df = df[df["AÑO"] == año]
@@ -315,7 +322,7 @@ def tasa_municipios(año, delito):
                 values=[
                     "<b>Pos.</b>",
                     "<b>Municipio, Entidad</b>",
-                    "<b>No. Casos</b>",
+                    f"<b>No. {'casos' if tipo == 'casos' else 'víctimas'}</b>",
                     "<b>Tasa 100k habs. ↓</b>",
                 ],
                 font_color="#FFFFFF",
@@ -349,7 +356,7 @@ def tasa_municipios(año, delito):
         title_x=0.5,
         title_y=0.95,
         title_font_size=40,
-        title_text=f"Los 30 municipios de México con la mayor<br><b>tasa bruta</b> de <b>{delito.lower()}</b> durante {año}",
+        title_text=f"Los 30 municipios de México con la mayor<br><b>{'tasa de incidencia' if tipo == 'casos' else 'tasa de victimización'}</b> de <b>{delito.lower()}</b> durante {año}",
         paper_bgcolor=PAPER_COLOR,
         annotations=[
             dict(
@@ -376,10 +383,11 @@ def tasa_municipios(año, delito):
         ],
     )
 
-    fig.write_image(f"./tabla_tasa_{año}.png")
+    # Nombramos el archivo a partir de los parámetros de la función.
+    fig.write_image(f"./tabla_tasa_{año}_{tipo}.png")
 
 
-def absolutos_municipios(año, delito):
+def absolutos_municipios(año, delito, tipo):
     """
     Crea una tabla desglosando los 30 municipios con mayor
     incidencia del delito especificado.
@@ -392,6 +400,9 @@ def absolutos_municipios(año, delito):
     delito : str
         El nombre del delito que se desea graficar.
 
+    tipo : str
+        Puede ser 'casos' o 'victimas'.
+
     """
 
     # Cargamos el dataset de población por municipio.
@@ -403,8 +414,8 @@ def absolutos_municipios(año, delito):
     # Seleccinamos solo las dos columnas que utilizaremos.
     pop = pop[["nombre", str(año)]]
 
-    # Cargamos el dataset municipal con datos anuales.
-    df = pd.read_csv("./data/timeseries_municipal.csv", dtype={"CVE_MUN": str})
+    # Cargamos el dataset municipal, ya sea por casos o víctimas.
+    df = pd.read_csv(f"./data/timeseries_municipal_{tipo}.csv", dtype={"CVE_MUN": str})
 
     # Seleccionamos el año de nuestro interés.
     df = df[df["AÑO"] == año]
@@ -443,7 +454,7 @@ def absolutos_municipios(año, delito):
                 values=[
                     "<b>Pos.</b>",
                     "<b>Municipio, Entidad</b>",
-                    "<b>No. Casos ↓</b>",
+                    f"<b>No. {'casos' if tipo == 'casos' else 'víctimas'} ↓</b>",
                     "<b>Tasa 100k habs.</b>",
                 ],
                 font_color="#FFFFFF",
@@ -477,7 +488,7 @@ def absolutos_municipios(año, delito):
         title_x=0.5,
         title_y=0.95,
         title_font_size=40,
-        title_text=f"Los 30 municipios de México con la mayor<br><b>incidencia</b> de <b>{delito.lower()}</b> durante {año}",
+        title_text=f"Los 30 municipios de México con la mayor<br><b>{'incidencia' if tipo == 'casos' else 'victimización'}</b> de <b>{delito.lower()}</b> durante {año}",
         paper_bgcolor=PAPER_COLOR,
         annotations=[
             dict(
@@ -504,10 +515,16 @@ def absolutos_municipios(año, delito):
         ],
     )
 
-    fig.write_image(f"./tabla_absolutos_{año}.png")
+    # Nombramos el archivo a partir de los parámetros de la función.
+    fig.write_image(f"./tabla_absolutos_{año}_{tipo}.png")
 
 
 if __name__ == "__main__":
-    crear_mapa(2025, "Extorsión")
-    tasa_municipios(2025, "Extorsión")
-    absolutos_municipios(2025, "Extorsión")
+    crear_mapa(2026, "Extorsión", "casos")
+    crear_mapa(2026, "Extorsión", "victimas")
+
+    tasa_municipios(2026, "Extorsión", "casos")
+    tasa_municipios(2026, "Extorsión", "victimas")
+
+    absolutos_municipios(2026, "Extorsión", "casos")
+    absolutos_municipios(2026, "Extorsión", "victimas")
