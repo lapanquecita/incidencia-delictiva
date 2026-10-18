@@ -173,7 +173,7 @@ def tendencia_anual(delito, entidad_id, xanchor="left"):
         showline=True,
         showgrid=False,
         mirror=True,
-        nticks=12,
+        nticks=len(df) + 1,
     )
 
     fig.update_yaxes(
