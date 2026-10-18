@@ -356,7 +356,7 @@ def tasa_municipios(año, delito, tipo):
         title_x=0.5,
         title_y=0.95,
         title_font_size=40,
-        title_text=f"Los 30 municipios de México con la mayor<br><b>{'tasa de incidencia' if tipo == 'casos' else 'tasa de victimización'}</b> de <b>{delito.lower()}</b> durante {año}",
+        title_text=f"Los 30 municipios de México con la mayor<br><b>{'tasa de casos' if tipo == 'casos' else 'tasa de víctimas'}</b> de <b>{delito.lower()}</b> durante {año}",
         paper_bgcolor=PAPER_COLOR,
         annotations=[
             dict(
@@ -488,7 +488,7 @@ def absolutos_municipios(año, delito, tipo):
         title_x=0.5,
         title_y=0.95,
         title_font_size=40,
-        title_text=f"Los 30 municipios de México con la mayor<br><b>{'incidencia' if tipo == 'casos' else 'victimización'}</b> de <b>{delito.lower()}</b> durante {año}",
+        title_text=f"Los 30 municipios de México con el mayor núemro<br>de <b>{tipo.replace('victimas', 'víctimas')}</b> de <b>{delito.lower()}</b> durante {año}",
         paper_bgcolor=PAPER_COLOR,
         annotations=[
             dict(

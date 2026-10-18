@@ -177,7 +177,7 @@ def tendencia_anual(delito, entidad_id, xanchor="left"):
     )
 
     fig.update_yaxes(
-        title="Tasa bruta por cada 100,000 habitantes",
+        title="Víctimas por cada 100,000 habitantes",
         range=[0, df["tasa"].max() * 1.13],
         ticks="outside",
         separatethousands=True,
@@ -206,7 +206,7 @@ def tendencia_anual(delito, entidad_id, xanchor="left"):
         font_family="Inter",
         font_color="#FFFFFF",
         font_size=24,
-        title_text=f"Evolución de la tasa de <b>{delito.lower()}</b> en <b>{ENTIDADES[entidad_id]}</b> ({df.index.min()}-{df.index.max()})",
+        title_text=f"Tasa anual de víctimas registradas de <b>{delito.lower()}</b> en <b>{ENTIDADES[entidad_id]}</b> ({df.index.min()}-{df.index.max()})",
         title_x=0.5,
         title_y=0.965,
         margin_t=80,
@@ -355,7 +355,7 @@ def tendencia_mensual(delito, entidad_id):
         font_family="Inter",
         font_color="#FFFFFF",
         font_size=24,
-        title_text=f"Evolución de la incidencia mensual de <b>{delito.lower()}</b> en <b>{ENTIDADES[entidad_id]}</b> ({df.index.year.min()}-{df.index.year.max()})",
+        title_text=f"Número mensual de víctimas registradas de <b>{delito.lower()}</b> en <b>{ENTIDADES[entidad_id]}</b> ({df.index.year.min()}-{df.index.year.max()})",
         title_x=0.5,
         title_y=0.965,
         margin_t=120,
@@ -518,7 +518,7 @@ def comparacion_interanual(primer_año, segundo_año, delito):
         font_family="Inter",
         font_color="#FFFFFF",
         font_size=24,
-        title_text=f"Comparación del total de víctimas de <b>{delito.lower()}</b> registradas en México ({primer_año} vs. {segundo_año})",
+        title_text=f"Comparación del total de víctimas registradas de <b>{delito.lower()}</b> en México ({primer_año} vs. {segundo_año})",
         title_x=0.5,
         title_y=0.98,
         margin_t=80,
@@ -731,7 +731,7 @@ def crear_mapa(año, delito):
                 y=1.025,
                 xanchor="center",
                 yanchor="top",
-                text=f"Incidencia de víctimas de <b>{delito.lower()}</b> en México durante {año}",
+                text=f"Víctimas registradas de <b>{delito.lower()}</b> en México durante {año}",
                 font_size=42,
             ),
             dict(
@@ -740,7 +740,7 @@ def crear_mapa(año, delito):
                 textangle=-90,
                 xanchor="center",
                 yanchor="middle",
-                text="Tasa bruta por cada 100,000 habitantes",
+                text="Víctimas por cada 100,000 habitantes",
             ),
             dict(
                 x=0.01,
@@ -915,7 +915,7 @@ def comparacion_sexo(año, delito):
     """
 
     # Estos son los colores para cada categoría de sexo.
-    colores = {"Hombre": "#00695c", "Mujer": "#e65100", "No identificado": "#7b1fa2"}
+    colores = {"Hombre": "#1769AA", "Mujer": "#C62828", "No identificado": "#6B7280"}
 
     # Cargamos el dataset de víctimas.
     df = pd.read_csv("./data/timeseries_victimas.csv", parse_dates=["PERIODO"])
@@ -1029,7 +1029,7 @@ def comparacion_sexo(año, delito):
         font_family="Inter",
         font_color="#FFFFFF",
         font_size=24,
-        title_text=f"Víctimas de <b>{delito.lower()}</b> en México durante {año} según sexo y entidad de registro",
+        title_text=f"Víctimas registradas de <b>{delito.lower()}</b> en México según entidad y sexo ({año})",
         title_x=0.5,
         title_y=0.98,
         margin_t=140,
@@ -1075,7 +1075,7 @@ def comparacion_sexo(año, delito):
 
 if __name__ == "__main__":
     tendencia_anual("Extorsión", 0)
-    tendencia_mensual("Extorsión", 0)    
+    tendencia_mensual("Extorsión", 0)
     crear_mapa(2026, "Extorsión")
     comparacion_interanual(2025, 2026, "Extorsión")
     comparacion_sexo(2026, "Extorsión")
