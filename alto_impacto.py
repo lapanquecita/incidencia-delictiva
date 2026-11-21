@@ -48,13 +48,13 @@ DELITOS = {
 }
 
 # Esta constante es usada para definir que mes será comparado.
-MES_REFERENCIA = "2026-09-01"
+MES_REFERENCIA = "2026-10-01"
 
 # El mes que se mostrará en el título.
-MES = "septiembre"
+MES = "octubre"
 
 # El mes que se mostrará en la anotación de la fuente.
-MES_FUENTE = "octubre"
+MES_FUENTE = "noviembre"
 
 
 # Estas abreviaciones serán usadas para el eje horizontal.
@@ -179,7 +179,7 @@ def main():
 
             # Ajustamos la posición de la primera etiqueta.
             if primer_valor == valor_maximo:
-                if primer_valor_ratio <= 0.96:
+                if primer_valor_ratio <= 0.975:
                     text_pos[0] = "middle right"
                 else:
                     text_pos[0] = "bottom center"
@@ -196,7 +196,7 @@ def main():
 
             # Ajustamos la posición de la última etiqueta.
             if ultimo_valor == valor_maximo:
-                if ultimo_valor_ratio >= 0.8:
+                if ultimo_valor_ratio >= 0.75:
                     text_pos[-1] = "middle left"
                 else:
                     text_pos[-1] = "bottom center"

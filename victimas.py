@@ -21,7 +21,7 @@ from statsmodels.tsa.seasonal import STL
 
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "octubre 2026"
+FECHA_FUENTE = "noviembre 2026"
 
 # Todas las gráficas de este script
 # van a compartir el mismo esquema de colores.
@@ -440,38 +440,50 @@ def comparacion_interanual(primer_año, segundo_año, delito):
     df.loc["<b>Nacional</b>"] = df.sum(axis=0)
 
     # Calculamos el cambio porcentual.
-    df["cambio"] = (df[segundo_año] - df[primer_año]) / df[primer_año] * 100
+    df["cambio"] = (df[segundo_año] - df[primer_año]) / df[primer_año]
 
     # Quitamos las filas con cambios inválidos.
     df = df.dropna(axis=0)
 
+    # Para reducir la influencia de valores extremos usaremos logaritmo con signo.
+    df["log"] = np.sign(df["cambio"]) * np.log1p(np.abs(df["cambio"]))
+
     # Preparamos el texto para cada observación.
     df["texto"] = df.apply(
         lambda x: (
-            f" <b>{x['cambio']:,.0f}%</b> ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) "
-            if abs(x["cambio"]) >= 100
-            else f" <b>{x['cambio']:,.1f}%</b> ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) "
+            f" <b>{x['cambio'] * 100:,.0f}%</b> ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) "
+            if abs(x["cambio"]) >= 1
+            else f" <b>{x['cambio'] * 100:,.1f}%</b> ({x[primer_año]:,.0f} → {x[segundo_año]:,.0f}) "
         ),
         axis=1,
     )
 
     # Ordenamos por cambio porcentual.
-    df.sort_values("cambio", inplace=True)
+    df = df.sort_values("cambio")
 
     # Calculamos el valor máximo para ajustar el rango del eje horizontal.
-    valor_max = df["cambio"].abs().max()
-    valor_max = ((valor_max // 5) + 1) * 5
+    valor_max = np.log1p(df["cambio"].abs().max() * 1.05)
 
     # Determinamos la posición de los textos para cada barra.
-    df["ratio"] = df["cambio"].abs() / valor_max
+    df["ratio"] = df["log"].abs() / valor_max
     df["texto_pos"] = df["ratio"].apply(lambda x: "inside" if x >= 0.7 else "outside")
+
+    # Vamos a crear nuestra propia escala con 13 intervalos.
+    ticks = np.linspace(valor_max, -valor_max, 13)
+    etiquetas = np.sign(ticks) * np.expm1(np.abs(ticks)) * 100
+
+    # Abreviamos cambios porcentaules mayore s a 1,000.
+    etiquetas = [
+        f"{item / 1000:,.1f}k%" if abs(item) >= 1000 else f"{item:,.0f}%"
+        for item in etiquetas
+    ]
 
     fig = go.Figure()
 
     fig.add_trace(
         go.Bar(
             y=df.index,
-            x=df["cambio"],
+            x=df["log"],
             text=df["texto"],
             textposition=df["texto_pos"],
             textfont_color="#FFFFFF",
@@ -486,8 +498,9 @@ def comparacion_interanual(primer_año, segundo_año, delito):
     )
 
     fig.update_xaxes(
-        range=[valor_max * -1, valor_max],
-        ticksuffix="%",
+        range=[-valor_max, valor_max],
+        tickvals=ticks,
+        ticktext=etiquetas,
         ticks="outside",
         ticklen=10,
         zeroline=False,
@@ -556,6 +569,20 @@ def comparacion_interanual(primer_año, segundo_año, delito):
                 yanchor="top",
                 text="🧁 @lapanquecita",
             ),
+            dict(
+                x=0.98,
+                y=0,
+                xref="paper",
+                yref="paper",
+                xanchor="right",
+                yanchor="bottom",
+                align="left",
+                bgcolor=PLOT_COLOR,
+                bordercolor="#EEEEEE",
+                borderwidth=1,
+                borderpad=7,
+                text="<b>Nota:</b><br>Variación porcentual transformada mediante logaritmo con<br>signo para reducir la influencia de valores extremos.",
+            ),
         ],
     )
 
@@ -621,7 +648,7 @@ def crear_mapa(año, delito):
     df["tasa"] = df["total"] / df["pop"] * 100000
 
     # Ordenamos la tasa de manera descendente.
-    df.sort_values("tasa", ascending=False, inplace=True)
+    df = df.sort_values("tasa", ascending=False)
 
     # Calculamos los totales nacionales.
     total_nacional = df["total"].sum()
@@ -963,7 +990,7 @@ def comparacion_sexo(año, delito):
         )
 
     # Ordenamos por proporción de hombres violentados.
-    df.sort_values(["perc_Hombre", "perc_Mujer"], inplace=True)
+    df = df.sort_values(["perc_Hombre", "perc_Mujer"])
 
     # Para crear una gráfica de barras normalizada solo
     # necesitamos que los valores sumen 100.

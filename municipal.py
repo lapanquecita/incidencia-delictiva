@@ -17,7 +17,7 @@ import plotly.graph_objects as go
 
 
 # La fecha en la que los datos fueron recopilados.
-FECHA_FUENTE = "octubre 2026"
+FECHA_FUENTE = "noviembre 2026"
 
 # Todas las gráficas de este script
 # van a compartir el mismo esquema de colores.
@@ -84,9 +84,9 @@ def crear_mapa(año, delito, tipo):
         f"Media: <b>{df['tasa'].mean():,.1f}</b>",
         f"Mediana: <b>{df['tasa'].median():,.1f}</b>",
         f"DE: <b>{df['tasa'].std():,.1f}</b>",
-        f"25%: <b>{df['tasa'].quantile(0.25):,.1f}</b>",
-        f"75%: <b>{df['tasa'].quantile(0.75):,.1f}</b>",
-        f"95%: <b>{df['tasa'].quantile(0.95):,.1f}</b>",
+        f"P25: <b>{df['tasa'].quantile(0.25):,.1f}</b>",
+        f"P75: <b>{df['tasa'].quantile(0.75):,.1f}</b>",
+        f"P95: <b>{df['tasa'].quantile(0.95):,.1f}</b>",
         f"Máximo: <b>{df['tasa'].max():,.1f}</b>",
     ]
 
@@ -292,7 +292,7 @@ def tasa_municipios(año, delito, tipo):
     df = df.groupby("CVE_MUN").sum(numeric_only=True)
 
     # Unimos los DataFrames.
-    df = df.join(pop)
+    df = df.join(pop).dropna()
 
     # Calculamos la tasa por cada 100k habitantes.
     df["tasa"] = df["TOTAL"] / df[str(año)] * 100000
@@ -303,10 +303,10 @@ def tasa_municipios(año, delito, tipo):
     df = df[df[str(año)] >= 50000]
 
     # Ordenamos los resultados por la tasa de mayor a menor.
-    df.sort_values("tasa", ascending=False, inplace=True)
+    df = df.sort_values("tasa", ascending=False)
 
     # Reseteamos el índice y solo escogemos el top 30.
-    df.reset_index(inplace=True)
+    df = df.reset_index(drop=True)
     df.index += 1
     df = df.head(30)
 
@@ -427,16 +427,16 @@ def absolutos_municipios(año, delito, tipo):
     df = df.groupby("CVE_MUN").sum(numeric_only=True)
 
     # Unimos los DataFrames.
-    df = df.join(pop)
+    df = df.join(pop).dropna()
 
     # Calculamos la tasa por cada 100k habitantes.
     df["tasa"] = df["TOTAL"] / df[str(año)] * 100000
 
     # Ordenamos los resultados por la tasa de mayor a menor.
-    df.sort_values("TOTAL", ascending=False, inplace=True)
+    df = df.sort_values("TOTAL", ascending=False)
 
     # Reseteamos el índice y solo escogemos el top 30.
-    df.reset_index(inplace=True)
+    df = df.reset_index(drop=True)
     df.index += 1
     df = df.head(30)
 
